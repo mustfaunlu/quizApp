@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entryFragment">
+
+    <fragment
+        android:id="@+id/expertQuestionFragment"
+        android:name="com.unludev.quizforteachers.ExpertQuestionsFragment"
+        android:label="fragment_question"
+        tools:layout="@layout/fragment_expert_questions" >
+        <action
+            android:id="@+id/action_expertQuestionFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.unludev.quizforteachers.EntryFragment"
+        android:label="fragment_entry"
+        tools:layout="@layout/fragment_entry" >
+        <action
+            android:id="@+id/action_entryFragment_to_expertQuestionFragment"
+            app:destination="@id/expertQuestionFragment" />
+        <action
+            android:id="@+id/action_entryFragment_to_headMasterFragment"
+            app:destination="@id/headMasterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/headMasterFragment"
+        android:name="com.unludev.quizforteachers.HeadMasterFragment"
+        android:label="fragment_head_master"
+        tools:layout="@layout/fragment_head_master" >
+        <action
+            android:id="@+id/action_headMasterFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.unludev.quizforteachers.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="correct"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="correct default value" />
+        <argument
+            android:name="wrong"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="wrong default data" />
+        <action
+            android:id="@+id/action_resultFragment_to_entryFragment"
+            app:destination="@id/entryFragment" />
+    </fragment>
+</navigation>
