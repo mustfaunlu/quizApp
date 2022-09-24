@@ -305,13 +305,11 @@ class ExpertQuestionsFragment : Fragment() {
 
             if (currentQuestions < questionsItems.size - 1) {
                 val handler = Handler(Looper.myLooper()!!)
-                val runnable = object : Runnable {
-                    override fun run() {
-                        currentQuestions++
-                        setQuestionScreen(currentQuestions)
-                        binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.white))
-                        binding.tvAnswerE.setTextColor(resources.getColor(R.color.text_secondery_color))
-                    }
+                val runnable = Runnable {
+                    currentQuestions++
+                    setQuestionScreen(currentQuestions)
+                    binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.white))
+                    binding.tvAnswerE.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
                 handler.postDelayed(runnable, 1000)
             } else {
