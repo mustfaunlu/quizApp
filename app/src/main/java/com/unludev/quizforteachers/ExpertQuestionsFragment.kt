@@ -117,8 +117,7 @@ class ExpertQuestionsFragment : Fragment() {
             binding.tvAnswerA.setEnabled(false)
 
             //do actual work
-            if (questionsItems[currentQuestions].answerD.equals(questionsItems[currentQuestions].correctAnswer)) {
-                correct++
+            if (questionsItems[currentQuestions].answerA.equals(questionsItems[currentQuestions].correctAnswer)) {
                 correct++
                 binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
@@ -160,8 +159,7 @@ class ExpertQuestionsFragment : Fragment() {
             binding.tvAnswerB.setEnabled(false)
 
             //do actual work
-            if (questionsItems[currentQuestions].answerD.equals(questionsItems[currentQuestions].correctAnswer)) {
-                correct++
+            if (questionsItems[currentQuestions].answerB.equals(questionsItems[currentQuestions].correctAnswer)) {
                 correct++
                 binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
@@ -204,8 +202,7 @@ class ExpertQuestionsFragment : Fragment() {
             binding.tvAnswerC.setEnabled(false)
 
             //do actual work
-            if (questionsItems[currentQuestions].answerD.equals(questionsItems[currentQuestions].correctAnswer)) {
-                correct++
+            if (questionsItems[currentQuestions].answerC.equals(questionsItems[currentQuestions].correctAnswer)) {
                 correct++
                 binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
@@ -250,7 +247,6 @@ class ExpertQuestionsFragment : Fragment() {
             //do actual work
             if (questionsItems[currentQuestions].answerD.equals(questionsItems[currentQuestions].correctAnswer)) {
                 correct++
-                correct++
                 binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
             } else {
@@ -291,7 +287,7 @@ class ExpertQuestionsFragment : Fragment() {
             binding.tvAnswerE.setEnabled(false)
 
             //do actual work
-            if (questionsItems[currentQuestions].answerD.equals(questionsItems[currentQuestions].correctAnswer)) {
+            if (questionsItems[currentQuestions].answerE.equals(questionsItems[currentQuestions].correctAnswer)) {
                 correct++
                 correct++
                 binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.green))

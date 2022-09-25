@@ -23,12 +23,12 @@
     {
       "question": "Proje tabanlı öğretim yaklaşımına göre öğretim sürecindeki proje tasarıları; günlük yaşamla ilişkili, üst düzey zihinsel becerileri destekleyen, farklı  kaynakları kullanmaya imkân sağlayan ve bilimsel  yönteme dayanan yapıda olmalıdır. Öğrenciler  proje tasarılarına uygun bir dizi etkinlik sonunda  ortaya bir ürün koymalıdır.",
       "questionHead": "Buna göre, aşağıdaki ürünlerden hangisinin  oluşturulma sürecinin, proje tabanlı öğretim  yaklaşımının öğretim hedeflerine katkısının  daha az olması beklenir?",
-      "answerA": "A) Proje tabanlı öğretim yaklaşımına göre öğretim",
-      "answerB": "B) sürecindeki proje tasarıları; günlük yaşamla ilişkili, üst düzey zihinsel becerileri destekleyen, farklı",
-      "answerC": "C) kaynakları kullanmaya imkân sağlayan ve bilimsel",
-      "answerD": "D) yönteme dayanan yapıda olmalıdır. Öğrenciler",
-      "answerE": "E) proje tasarılarına uygun bir dizi etkinlik sonunda",
-      "correctAnswer": "E) proje tasarılarına uygun bir dizi etkinlik sonunda"
+      "answerA": "A) Çöp kokusunu engelleyen çöp kutusu",
+      "answerB": "B) Bozulmuş yumurtayı ayrıştırabilen bir araç",
+      "answerC": "C) Dil gelişimine katkı sağlayan oyuncak",
+      "answerD": "D) Daha az su tüketen bir sulama sistemi",
+      "answerE": "E) Uzaya gönderilen astronotların biyografileri",
+      "correctAnswer": "E) Uzaya gönderilen astronotların biyografileri"
     },
     {
       "question": "Bir okuldaki matematik öğretmenleri dönem sonu  sınavını ortak sınav olarak uygulamaya karar  vermişlerdir. Sınavda yer alacak açık uçlu soruları  birlikte hazırlayarak öğrencilerin yanıtlarını birlikte  değerlendirmişlerdir. Ancak öğrencilerin sorulara  verdikleri yanıtları değerlendirirken aynı öğrenciye, aynı soru için tüm öğretmenlerin birbirinden  farklı puanlar verdiği görülmüştür.",
@@ -379,7 +379,106 @@
       "answerD":       "D) Öğretmenlerin kıdemi",
       "answerE":       "E) Öğretmenlerin görev yaptığı okul türü",
       "correctAnswer": "B) Öğretmenlerin çalışma motivasyonları"
+    },
+    {
+      "question":      "Dijital beceriler ve yeterlilikler ile ilgili verilen bilgilerden hangisi yanlıştır?",
+      "questionHead":  "",
+      "answerA":       "A) Dijital beceriler günlük hayatta sorunları çözüme kavuşturmaya yardımcı olur.",
+      "answerB":       "B) Dijital beceriler temel yazılım bilgisi gerektirir.",
+      "answerC":       "C) Dijital beceriler örgün eğitim veya hizmet içi eğitimlerle geliştirilebilir.",
+      "answerD":       "D) Dijital beceriler üst düzey yazılım bilgisi gerektirir.",
+      "answerE":       "E) İçerik oluşturma sürecinde dijital becerilere ihtiyaç duyarız.",
+      "correctAnswer": "D) Dijital beceriler üst düzey yazılım bilgisi gerektirir."
+    },
+    {
+      "question":      "Dijital okuryazarlık kavramı Paul Gilster’in 1997 yılında yazdığı hangi kitap ile ortaya çıkmıştır?",
+      "questionHead":  "",
+      "answerA":       "A) Dijital Yetkinlikler",
+      "answerB":       "B) Dijital Beceriler",
+      "answerC":       "C) Dijital Okul",
+      "answerD":       "D) Dijital Okuyucu",
+      "answerE":       "E) Dijital Okuryazarlık",
+      "correctAnswer": "E) Dijital Okuryazarlık "
+    },
+    {
+      "question":      "Kamu yönetimi kapsamında MEB uzun bir dijital dönüşüm sürecinden geçmiştir ve dönüşüm hala da devam etmektedir. Bu kapsamda MEB de İl Sicil Sistemi’ni önce MEB merkez ve taşra teşkilatında il müdürlüklerinin intranetinde kullanıma açmıştır.",
+      "questionHead":  "İl Sicil Sistemi (İLSİS) hangi yıl kullanıma açılmıştır?",
+      "answerA":       "A) 1981",
+      "answerB":       "B) 1993",
+      "answerC":       "C) 1997",
+      "answerD":       "D) 2005",
+      "answerE":       "E) 2007",
+      "correctAnswer": "C) 1997"
+    },
+    {
+      "question":      "Dijital yeterlilikler ile ilgili verilen bilgilerden hangisi doğrudur?",
+      "questionHead":  "",
+      "answerA":       "A) Günümüzde bu yeterlilikler olmasa da birçok işte yetkin hale gelebiliriz.",
+      "answerB":       "B) Dijital beceriler için bilgi ve iletişim teknolojilerini kullanmak gerekmez.",
+      "answerC":       "C) Bilgi ve iletişim teknolojilerinde güvenlik önemlidir.",
+      "answerD":       "D) Bilgi ve iletişim teknolojileri ile ilgili bilgiler durağandır.",
+      "answerE":       "E) Bilgi ve iletişim teknolojileri sadece örgün eğitimle geliştirilebilir.",
+      "correctAnswer": "C) Bilgi ve iletişim teknolojilerinde güvenlik önemlidir."
+    },
+    {
+      "question":      "ISTE, dijital vatandaşlığı, öğretmenlerin öğrencilerine öğretmekten sorumlu tutulduğu eğitim teknolojisinin temel bir yönü olarak ifade etmiş ve bunun için standartlar belirlemiştir.",
+      "questionHead":  "Aşağıdakilerden hangisi ISTE (The International Society for Technology in Education) standartları arasında yer almaz?",
+      "answerA":       "A) Öğrenci Standartları",
+      "answerB":       "B) Öğretmen Standartları",
+      "answerC":       "C) Kurum Standartları",
+      "answerD":       "D) Koç Standartları",
+      "answerE":       "E) Yönetici Standartları",
+      "correctAnswer": "C) Kurum Standartları"
+    },
+    {
+      "question":      "Dijital teknolojiler ile ilgili aşağıdaki kavram ve açıklama eşleştirmelerinden hangisi yanlıştır?",
+      "questionHead":  "",
+      "answerA":       "A) Bilişim etiği: Bilgisayar, iletişim ve ağ/internet ortamlarında uyulması gereken kuralları tanımlayan normlardır.",
+      "answerB":       "B) Telif hakkı: Kişinin her türlü fikri emeği ile meydana getirdiği ürünler üzerinde hukuken sağlanan haklardır.",
+      "answerC":       "C) Telif hakkı: Kişisel amaç, özgün ve yaratıcı eserleri belirli bir süre geçtikten sonra toplumdaki herkesin yararlanmasına sunmaktır.",
+      "answerD":       "D) Bilişim hukuku: Etik ve telif haklarına paralel olarak doğmuş olan bir kavramdır.",
+      "answerE":       "E) Bilişim suçu: Bilgileri otomatik işleme tabi tutan veya verilerin nakline yarayan bir sistemle gayrı kanuni, gayrı ahlaki veya yetki dışı gerçekleştirilen her türlü davranış olarak tanımlanmaktadır.",
+      "correctAnswer": "C) Telif hakkı: Kişisel amaç, özgün ve yaratıcı eserleri belirli bir süre geçtikten sonra toplumdaki herkesin yararlanmasına sunmaktır."
+    },
+    {
+      "question":      "Telif hakları bilişim suçları arasında önemli bir yer tutmaktadır. Telif hakları konusunda birçok bilişim teknolojisi kullanıcısı yeterli bilgiye sahip değildir.",
+      "questionHead":  "Telif hakları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+      "answerA":       "A) Telif hakkı, kişinin her türlü fikri emeği ile meydana getirdiği ürünler üzerinde hukuken sağlanan haklardır.",
+      "answerB":       "B) Telif hakkı, eser sahiplerinin ve kullanıcıların haklarını düzenler ve eser sahibi ile kullanıcı arasında bir denge kurar.",
+      "answerC":       "C) Telif hakkı yasaları hangi eserlerin korunup hangilerinin korunmadığını tanımlar.",
+      "answerD":       "D) Telif haklarının temelde kişisel ve toplumsal olmak üzere iki amacı vardır.",
+      "answerE":       "E) Telif hakları fikirleri korumaktadır.",
+      "correctAnswer": "E) Telif hakları fikirleri korumaktadır."
+    },
+    {
+      "question":      "I- Kişisel verilerin toplanmasında hukuka ve dürüstlük ilkelerine uyulması\nII- Kişisel verilerin elde edildiği kaynakların açık ve net olması\nIII- Kişisel verilerin doğru ve güncel olması\nIV- Verilerin meşru ve gerekli amaçlar için toplanıyor ve işleniyor olması",
+      "questionHead":  "Kişisel verilerin kullanımında yukarıda verilen kurallardan hangilerine dikkat edilmesi gerekmektedir?",
+      "answerA":       "A) I – II – III",
+      "answerB":       "B) I – II",
+      "answerC":       "C) I – IV",
+      "answerD":       "D) I – II – IV",
+      "answerE":       "E) I – II – III – IV",
+      "correctAnswer": "E) I – II – III – IV"
+    },
+    {
+      "question":      "6698 Sayılı Kişisel Verilerin Kullanılması Kanunu .... yılında Resmi Gazete’de yayınlanarak yürürlüğe girmiştir.",
+      "questionHead":  "Yukarıda bırakılan boşluğa aşağıdakilerden hangisi gelmelidir?",
+      "answerA":       "A) 2011",
+      "answerB":       "B) 2013",
+      "answerC":       "C) 2015",
+      "answerD":       "D) 2016",
+      "answerE":       "E) 2018",
+      "correctAnswer": "D) 2016"
+    },
+    {
+      "question":      "Sanayi ve Teknoloji Bakanlığı tarafından “2023 Sanayi ve Teknoloji Stratejisi” hazırlanmıştır. Bu belgede, Türkiye’nin “Millî Teknoloji Güçlü Sanayi” vizyonunu gerçekleştirmede yol haritası çizilmektedir. Bu yol haritasında 5 ana bileşene de yer verilmiştir.",
+      "questionHead":  "Aşağıdakilerden hangisinde beş ana bileşene yer verilmiştir?",
+      "answerA":       "A) İleri teknoloji ve inovasyon, dijital dönüşüm ve sanayi hamlesi, girişimcilik, beşeri sermaye, altyapı.",
+      "answerB":       "B) İleri teknoloji ve inovasyon, dijital dönüşüm ve sanayi hamlesi, global işbirliği, beşeri sermaye, altyapı.",
+      "answerC":       "C) İleri teknoloji ve inovasyon, dijital dönüşüm ve sanayi hamlesi, ar-ge, beşeri sermaye, altyapı.",
+      "answerD":       "D) İleri teknoloji ve inovasyon, dijital dönüşüm ve sanayi hamlesi, ar-ge, girişimcilik, altyapı.",
+      "answerE":       "E) İleri teknoloji ve inovasyon, dijital dönüşüm ve sanayi hamlesi, ar-ge, girişimcilik, global işbirliği.",
+      "correctAnswer": "A) İleri teknoloji ve inovasyon, dijital dönüşüm ve sanayi hamlesi, girişimcilik, beşeri sermaye, altyapı."
     }
-
   ]
 }
