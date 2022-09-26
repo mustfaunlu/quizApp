@@ -17,8 +17,13 @@ import org.json.JSONObject
 import java.io.IOException
 import java.io.InputStream
 
+//subject fragmenttaki konu butonundan(tv) sorulari gosterecegin fragmenta deger gonder
+// fragment açıldığında o değeri kontrol edip ona göre soruları çağırıp kullanıcıya gösterebilirsin
 
 class ExpertQuestionsFragment : Fragment() {
+
+    val s1json = "expertquestions.json"
+    val s2json = "headmasterquestions.json"
     lateinit var binding: FragmentExpertQuestionsBinding
     var correct = 0
     var wrong = 0
@@ -33,22 +38,39 @@ class ExpertQuestionsFragment : Fragment() {
         binding = FragmentExpertQuestionsBinding.inflate(layoutInflater, container, false)
         val view = binding.root
 
-        getAllQuestions()
+        return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        arguments?.let {
+            val que = ExpertQuestionsFragmentArgs.fromBundle(it).que
+            when(que) {
+                "s1" -> getAllQuestions(s1json)
+                "s2" -> getAllQuestions(s2json)
+//                "s3" -> getAllQuestions(s2json)
+//                "s4" -> getAllQuestions(s2json)
+//                "s5" -> getAllQuestions(s2json)
+//                "s6" -> getAllQuestions(s2json)
+//                "s7" -> getAllQuestions(s2json)
+            }
+        }
+
         setQuestionScreen(currentQuestions)
         clickA()
         clickB()
         clickC()
         clickD()
         clickE()
-        return view
     }
 
-    fun getAllQuestions() {
-        questionsItems = ArrayList<QuestionsItems>()
-        val jsonquiz: String = loadJsonFromAsset("expertquestions.json")
+    fun getAllQuestions(json: String) {
+        questionsItems = ArrayList()
+        val jsonquiz: String = loadJsonFromAsset(json)
         try {
             val jsonObject = JSONObject(jsonquiz)
-            val questions = jsonObject.getJSONArray("expertquestions")
+            val questions = jsonObject.getJSONArray(json.removeSuffix(".json"))
             for (i in 0..questions.length()) {
                 var question: JSONObject = questions.getJSONObject(i)
 
@@ -189,7 +211,6 @@ class ExpertQuestionsFragment : Fragment() {
             binding.tvAnswerB.setEnabled(true)
         })
     }
-
     fun clickC() {
         binding.tvAnswerC.setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second

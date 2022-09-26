@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_expertQuestionFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
+        <argument
+            android:name="que"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/entryFragment"
@@ -20,21 +23,14 @@
         android:label="fragment_entry"
         tools:layout="@layout/fragment_entry" >
         <action
-            android:id="@+id/action_entryFragment_to_expertQuestionFragment"
-            app:destination="@id/expertQuestionFragment" />
-        <action
-            android:id="@+id/action_entryFragment_to_headMasterFragment"
-            app:destination="@id/headMasterFragment" />
+            android:id="@+id/action_entryFragment_to_subjectFragment"
+            app:destination="@id/subjectFragment" />
     </fragment>
     <fragment
         android:id="@+id/headMasterFragment"
         android:name="com.unludev.quizforteachers.HeadMasterFragment"
         android:label="fragment_head_master"
-        tools:layout="@layout/fragment_head_master" >
-        <action
-            android:id="@+id/action_headMasterFragment_to_resultFragment"
-            app:destination="@id/resultFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_head_master" />
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.unludev.quizforteachers.ResultFragment"
@@ -52,6 +48,17 @@
             android:defaultValue="wrong default data" />
         <action
             android:id="@+id/action_resultFragment_to_entryFragment"
-            app:destination="@id/entryFragment" />
+            app:destination="@id/entryFragment"
+            app:popUpTo="@id/entryFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/subjectFragment"
+        android:name="com.unludev.quizforteachers.SubjectFragment"
+        android:label="fragment_subject"
+        tools:layout="@layout/fragment_subject" >
+        <action
+            android:id="@+id/action_subjectFragment_to_expertQuestionFragment"
+            app:destination="@id/expertQuestionFragment" />
     </fragment>
 </navigation>

@@ -28,16 +28,16 @@ lateinit var binding: FragmentEntryBinding
         binding.btnExpert.setOnClickListener{
             val action =
                 EntryFragmentDirections
-                    .actionEntryFragmentToExpertQuestionFragment()
+                    .actionEntryFragmentToSubjectFragment()
             view.findNavController().navigate(action)
         }
 
-        binding.btnHeadmaster.setOnClickListener{
-            val action =
-                EntryFragmentDirections
-                    .actionEntryFragmentToHeadMasterFragment()
-            view.findNavController().navigate(action)
-        }
+//        binding.btnHeadmaster.setOnClickListener{
+//            val action =
+//                EntryFragmentDirections
+//                    .actionEntryFragmentToHeadMasterFragment()
+//            view.findNavController().navigate(action)
+//        }
 
 
     }
