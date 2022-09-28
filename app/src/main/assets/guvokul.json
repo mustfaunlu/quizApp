@@ -1,0 +1,237 @@
+{
+  "expertquestions": [
+    {
+      "question": "Aşağıdaki şıklardan hangisi krizin temel özelliklerinden biri değildir?",
+      "questionHead": "",
+      "answerA": "A) Mevcut insan kaynakları da dahil olmak üzere maddi kaynaklara tehdit yöneltmesi",
+      "answerB": "B) Krizin şiddeti arttıkça örgütün kriz durumuna vereceği tepkinin belirsizliğinin de artması",
+      "answerC": "C) Fırsat ve korkunun önemi arttıkça kriz durumunun şiddetinin azalması",
+      "answerD": "D) Örgütün tahmin ve önleme mekanizmalarının yetersiz kalması",
+      "answerE": "E) Örgütün amaç ve varlığını tehdit etmesi",
+      "correctAnswer": "C) Fırsat ve korkunun önemi arttıkça kriz durumunun şiddetinin azalması"
+    },
+    {
+      "question": "Ali Bey bir ilkokulda 4. Sınıf öğrencilerinin sınıf öğretmenidir. Okul sağlığı ve güvenliğine çok önem vermektedir. Öğrencilere yaparak yaşayarak öğrenmelerini sağlamak için gayret göstermekte ve başarılı da olmaktadır.",
+      "questionHead": "Aşağıdaki şıklardan hangisini Ali öğretmenin yapması beklenemez?",
+      "answerA": "A) Dersinde öğrencilere acil durumlar hakkında hikaye yazmalarını istemesi ",
+      "answerB": "B) Okul Müdürü risk değerlendirme ekibinde vermiş olduğu görevleri yapması ",
+      "answerC": "C) Okul nöbeti esnasında kırılan camı temizletmesi",
+      "answerD": "D) Öğrencilerle teneffüste okul kantininde kahve içmesi",
+      "answerE": "E) Öğrenci velilerine okulda çocuklarının uyması gereken okul kuralları hakkında bilgi notu göndermesi ",
+      "correctAnswer": "D) Öğrencilerle teneffüste okul kantininde kahve içmesi"
+    },
+    {
+      "question": "Okul sağlığı ve güvenliği kapsamında bilgisayar öğretmeni Alper Bey öğrencilerine bilgisayarda uymaları gereken kurallar hakkında bilgi vermektedir.",
+      "questionHead": "Alper Bey aşağıdaki şıklardan hangisini söylemiş olamaz?",
+      "answerA": "A) Bilgisayar kullanırken öğrencilerin elektrik kablolarına dikkat etmeleri gerektiğini",
+      "answerB": "B) Bilgisayarın tamiratlarını yapmalarını",
+      "answerC": "C) Bilgisayarda çıktı alırken yazıcı bağlantılarını kontrol etmelerini",
+      "answerD": "D) Bilgisayar laboratuvarına yiyecek ve içecek getirmemelerini",
+      "answerE": "E) Öğretmen izni olmadan bilgisayarları açmamaları gerektiğini",
+      "correctAnswer": "B) Bilgisayarın tamiratlarını yapmalarını"
+    },
+    {
+      "question": "Okul Müdürü Kadir Bey, okul bahçesinde bulunan elektrik trafosunda bir problem olduğunu fark etmiştir. Bu durumda okul müdürü Kadir Bey’in öncelikli olarak yapması gereken aşağıdaki şıklardan hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Tamirci çağırarak trafonun tamiratını yaptırır.",
+      "answerB": "B) Trafo etrafında bulunan öğrenci ve insanların uzaklaştırılmasını sağlar.",
+      "answerC": "C) Elektrik dağıtım şirketine haber vererek tamiratını yaptırır.",
+      "answerD": "D) Kadir bey trafoyu inceleyerek kontrolünü yapar.",
+      "answerE": "E) Kadir bey okuldaki elektrikli bütün cihazların kapatılmasını sağlar.",
+      "correctAnswer": "B) Trafo etrafında bulunan öğrenci ve insanların uzaklaştırılmasını sağlar."
+    },
+    {
+      "question": "I. Okul toplumsal kontrolü sağlamaya yönelik en önemli araçtır.\nII. Öğrencinin başarısızlığı okula karşı yabancılaşmasına neden olur.\nIII. Okullarda öğrencilerin yeteneklerini ortaya çıkaracak etkinliklere önem verilmelidir.",
+      "questionHead": "Yukarıda verilen ilkeler aşağıdaki hangi kuramın görüşlerini yansıtmaktadır?",
+      "answerA": "A) Okul iklimi kuramı",
+      "answerB": "B) Toplumsal çözülme kuramı",
+      "answerC": "C) Sosyal çözülme kuramı",
+      "answerD": "D) Kontrol kuramı",
+      "answerE": "E) Eleştirel kuram",
+      "correctAnswer": "D) Kontrol kuramı"
+    },
+    {
+      "question": "İşletmeler kriz sürecinin hangi aşamasında, dış çevrelerinde ortaya çıkan değişmeleri izleme konusunda yeteneklerini kaybetmeye başlarlar?",
+      "questionHead": "",
+      "answerA": "A) Gizli kriz aşaması",
+      "answerB": "B) Örgütün çökme aşaması",
+      "answerC": "C) Kriz aşaması",
+      "answerD": "D) Hatalı tedbir aşaması",
+      "answerE": "E) Krizi yalanlama aşaması",
+      "correctAnswer": "A) Gizli kriz aşaması"
+    },
+    {
+      "question": "Kriz sürecinin ters çevrilmesinin genellikle mümkün olmadığı aşama aşağıdaki şıklardan hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Kriz aşaması",
+      "answerB": "B) Örgütün bölümlere ayrılma aşaması",
+      "answerC": "C) Hatalı tedbir aşaması",
+      "answerD": "D) Örgütün çökme aşaması",
+      "answerE": "E) Krizi yalanlama aşaması",
+      "correctAnswer": "D) Örgütün çökme aşaması"
+    },
+    {
+      "question": "Bireyde bağımsız olma çabası en yoğun olarak aşağıdaki dönemlerden hangisinde görülür?",
+      "questionHead": "",
+      "answerA": "A) 18 yaş sonrası",
+      "answerB": "B) 3-6 yaş",
+      "answerC": "C) 6-9 yaş",
+      "answerD": "D) 9-12 yaş",
+      "answerE": "E) 12-18 yaş",
+      "correctAnswer": "E) 12-18 yaş"
+    },
+    {
+      "question": "Çocuğun beslenme, barınma, korunma, sevilme gibi temel fiziksel ve duygusal ihtiyaçlarının karşılanmaması durumu, aşağıdaki istismar türlerinden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Duygusal istismar",
+      "answerB": "B) Fiziksel istismar",
+      "answerC": "C) İhmal",
+      "answerD": "D) Baskı",
+      "answerE": "E) Cinsel istismar",
+      "correctAnswer": "C) İhmal"
+    },
+    {
+      "question": "Çocuğun gelişimini bozan, reddetme, aşağılama, tehdit etme, suçlama, dışlama gibi söz ve davranışlara kronik olarak maruz kalma durumu, aşağıdaki istismar türlerinden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Duygusal istismar",
+      "answerB": "B) Fiziksel istismar",
+      "answerC": "C) İhmal",
+      "answerD": "D) Cinsel istismar",
+      "answerE": "E) Teşhir",
+      "correctAnswer": "A) Duygusal istismar"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi krizden etkilenen birine karşı gösterilecek genel davranış ilkelerinden biri değildir?",
+      "questionHead": "",
+      "answerA": "A) Konuşurken sakin ve anlayışlı olun.",
+      "answerB": "B) Aynı şeyi anlayana kadar anlatın.",
+      "answerC": "C) İyi bir dinleyici olun.",
+      "answerD": "D) Çocuğun duygularını ifade etmesini destekleyin.",
+      "answerE": "E) Yargılamayın, yorumlamayın, öğüt vermeyin.",
+      "correctAnswer": "B) Aynı şeyi anlayana kadar anlatın."
+    },
+    {
+      "question": "Güvenli okulla ilgili aşağıdaki şıklardan hangisi yanlıştır?",
+      "questionHead": "",
+      "answerA": "A) Güvenli okul ortamı öğrencilerin okulda öğrenmesi, kendilerini iyi hissetmesi ve kişilik gelişimlerini sağlıklı bir şekilde sürdürebilmesi açısından gereklidir. ",
+      "answerB": "B) Çünkü öğretme ve öğrenme güvensiz bir ortamda yer alamaz.",
+      "answerC": "C) Güvenli okul olmadan, öğretmenler öğretemez ve öğrenciler öğrenemez.",
+      "answerD": "D) Okul şiddeti, yalnızca faili ve mağduru etkiler.",
+      "answerE": "E) Okullar, öğrencilere akademik bilgi ve becerilerin yanı sıra sorumlu ve güvenli davranışları kazandırmakla da görevlidir.",
+      "correctAnswer": "D) Okul şiddeti, yalnızca faili ve mağduru etkiler."
+    },
+    {
+      "question": "Okul sağlığı, güvenliği kapsamında; okul müdiresi Ceren Hanım’ın okulunda kantin ve yemekhane bulunmaktadır. Satış fiyatları piyasa şartlarından çok düşüktür. Öğrencilere uyarı ve bilgilendirme yapmasına rağmen, bazı öğrenciler dışarıdan sağlıksız gıdalar almaktadır.",
+      "questionHead": "Ceren Hanım’ın bu konuda ne yapması gerekmektedir?",
+      "answerA": "A) Öğrencilerin dışarı çıkmasını engellemek",
+      "answerB": "B) Sınıfta yemek yiyen öğrencilere disiplin işlemlerini bağlatmak",
+      "answerC": "C) Öğrenci velilerini bilgilendirerek çocukların bu gıdaları almamalarını önermek",
+      "answerD": "D) Emniyet güçleri zabıta yetkilileriyle irtibata geçerek dışarda satış yapanları denetlemek",
+      "answerE": "E) Öğrencilerin dışarıdan aldığı gıdaları kantinde satılmasına izin vermek",
+      "correctAnswer": "C) Öğrenci velilerini bilgilendirerek çocukların bu gıdaları almamalarını önermek"
+    },
+    {
+      "question": "\"Okullardaki şiddet olaylarının temeli toplum ve kültürün etkisizliğidir.\" görüşü aşağıdaki hangisine aittir?",
+      "questionHead": "",
+      "answerA": "A) Okul iklimi teorisi",
+      "answerB": "B) Kontrol teorisi",
+      "answerC": "C) Toplumsal çözülme teorisi",
+      "answerD": "D) Sosyal çözülme teorisi",
+      "answerE": "E) Psiko-sosyal gelişim kuramı",
+      "correctAnswer": "B) Kontrol teorisi"
+    },
+    {
+      "question": "I. Sorumluluk alma\nII. Kuralları uygulama da tutarlık\nIII. Örgütsel açıklık\nIV. Yabancılaşma",
+      "questionHead": "Okul iklimi teorisine göre, yukarıda verilenlerden hangisi veya hangileri okul iklimi göstergelerinden değildir?",
+      "answerA": "A) I ve II",
+      "answerB": "B) I ve III",
+      "answerC": "C) Yalnız III",
+      "answerD": "D) Yalnız IV",
+      "answerE": "E) II ve III",
+      "correctAnswer": "D) Yalnız IV"
+    },
+    {
+      "question": "…………… kamunun kullanımına açık bazı eşyaların kırılması, parçalanması, kesilmesi ya da yakılması, okul sıra ve masalarının çizilmesi, duvarlara yazı yazılması, lambaların ve camların kırılması gibi davranışlara denir.",
+      "questionHead": "Yukarıdaki boş bırakılan yere aşağıdaki şıklardan hangisi getirilirse doğru bir tanım olur?",
+      "answerA": "A) Zorbalık",
+      "answerB": "B) Vandalizm",
+      "answerC": "C) Çete",
+      "answerD": "D) Kast",
+      "answerE": "E) Güvensizlik",
+      "correctAnswer": "B) Vandalizm"
+    },{
+      "question": "Aşağıdaki şıklardan hangisi örgütün krize karşı dayanıklılığını belirleyen faktörlerden değildir?",
+      "questionHead": "",
+      "answerA": "A) Semboller",
+      "answerB": "B) Düzenleme",
+      "answerC": "C) Kültür",
+      "answerD": "D) Kontrol",
+      "answerE": "E) Maliyet",
+      "correctAnswer": "A) Semboller"
+    },
+    {
+      "question": "Kriz yönetimi sürecinin hangi aşamasında erken uyarı sistemlerinin kurulmasına çalışılır?",
+      "questionHead": "",
+      "answerA": "A) Krize hazırlık ve önleme",
+      "answerB": "B) Krizle ilgili sinyallerin tespiti",
+      "answerC": "C) Öğrenme ve değerlendirme",
+      "answerD": "D) Normal duruma dönüş",
+      "answerE": "E) Yeniden yapılanma",
+      "correctAnswer": "B) Krizle ilgili sinyallerin tespiti"
+    },{
+      "question": "Aşağıdaki şıklardan hangisi kriz dönemine yönelik planların özelliklerindendir?",
+      "questionHead": "",
+      "answerA": "A) Somut olması",
+      "answerB": "B) Erişilebilir olmaması",
+      "answerC": "C) Katılımın sınırlı tutulması",
+      "answerD": "D) Personel görevlerinin belirlenmemiş olması",
+      "answerE": "E) Yapılandırmaya yönelik olmaması",
+      "correctAnswer": "A) Somut olması"
+    },{
+      "question": "Aşağıdaki şıklardan hangisi çocuk istismarı kuşkusu durumunda yapılması gerekenler arasında değildir?",
+      "questionHead": "",
+      "answerA": "A) Konuyla ilgili sınıf arkadaşlarının bilgilendirilmesi",
+      "answerB": "B) Olayın resmi olarak bildirilmesi gereken kurumlara bildirilmesi",
+      "answerC": "C) Çocuğun ailesiyle işbirliği içinde olunması",
+      "answerD": "D) Çocuğun psikolojik olarak destek alabileceği bir kuruma yönlendirilmesi",
+      "answerE": "E) Konunun yargılayıcı bir yaklaşımla ele alınmasından kaçınılması",
+      "correctAnswer": "A) Konuyla ilgili sınıf arkadaşlarının bilgilendirilmesi"
+    },{
+      "question": "21. Yüzyılın eğitim hedefleri aşağıdakilerden hangisini kapsamamaktadır?",
+      "questionHead": "",
+      "answerA": "A) Risk, stres ve değişim ile ilgili olarak nasıl hissettiğini ve bu konularda kendi kapasitesini fark edebilir.",
+      "answerB": "B) Kendi güçlü ve zayıf yönlerini tespit edebilir.",
+      "answerC": "C) Kendi ülkesinde rekabet edebilecek gençleri topluma kazandırmalıyız.",
+      "answerD": "D) Çok kültürlülük, işle ilgili belirsizlikler ve örgütsel değişim ile baş etme konusunda sağlam biçimde odaklanabilir.",
+      "answerE": "E) Kontrol etme yerine iş birliği yapmaya daha meyilli olabilir.",
+      "correctAnswer": "C) Kendi ülkesinde rekabet edebilecek gençleri topluma kazandırmalıyız."
+    },{
+      "question": "Scheffer’in 2000 yılında yazdığı makaleden sonra göçmenlerin entegrasyonu ulusal bir sorun olarak Hollanda Parlamentosunda görüşülmüş, üçüncü ve dördüncü kuşak göçmen çocuklarının çoğunun yeterli düzeyde Hollandacaya sahip olamadıkları ve orantılı olarak Hollandalılar kadar yükseköğretim için başarılı olamadıkları kabul edilmiştir.",
+      "questionHead": "Aşağıdakilerden hangisi Scheffer’in 2000 yılında yazdığı makaledir?",
+      "answerA": "A) Çok Kültürlü Toplumun Dramı",
+      "answerB": "B) Çok Kültürlülük Gerçeği ve Hollanda",
+      "answerC": "C) Çok Kültürlü Toplumlarda İletişim",
+      "answerD": "D) Çok Kültürlü Eğitim ve Yansımaları",
+      "answerE": "E) Çok Kültürlülük ve Sosyal Uyum",
+      "correctAnswer": "A) Çok Kültürlü Toplumun Dramı"
+    },{
+      "question": "İnsanlar dâhil bütün yaratıklarda olduğu gibi, yaşam alanını kalıcı veya geçici bir şekilde değiştirmek anlamına gelen kavram aşağıdakilerden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Gezi",
+      "answerB": "B) Göç",
+      "answerC": "C) Kentleşme",
+      "answerD": "D) Savaş",
+      "answerE": "E) Doğal afet",
+      "correctAnswer": "B) Göç"
+    },{
+      "question": "Amerika Psikoloji Derneği (APA) bir bireye oyun bağımlısı teşhisi konulması için dokuz ölçütten en az beşinin kaç yıl içinde görülmesi gerekmektedir?",
+      "questionHead": "",
+      "answerA": "A) 5",
+      "answerB": "B) 4",
+      "answerC": "C) 3",
+      "answerD": "D) 2",
+      "answerE": "E) 1",
+      "correctAnswer": "E) 1"
+    }
+  ]
+}

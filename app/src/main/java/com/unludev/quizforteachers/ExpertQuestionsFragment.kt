@@ -17,19 +17,25 @@ import org.json.JSONObject
 import java.io.IOException
 import java.io.InputStream
 
-//subject fragmenttaki konu butonundan(tv) sorulari gosterecegin fragmenta deger gonder
-// fragment açıldığında o değeri kontrol edip ona göre soruları çağırıp kullanıcıya gösterebilirsin
+
 
 class ExpertQuestionsFragment : Fragment() {
 
     private val s1json = "expertquestions.json"
-    private val s2json = "headmasterquestions.json"
+    private val s2json = "dijyet.json"
+    private val s3json = "guvokul.json"
+    private val s4json = "guvokul2.json"
+    private val s5json = "sosyaletki.json"
+    private val s6json = "sosyaletki2.json"
+    private val s7json = "egtkapsam.json"
+    private val s8json = "egtkapsam2.json"
     private lateinit var binding: FragmentExpertQuestionsBinding
     private var correct = 0
     private var wrong = 0
     private var currentQuestions = 0
     private lateinit var questionsItems: ArrayList<QuestionsItems>
     private var  mLastClickTime = 0L
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -47,11 +53,12 @@ class ExpertQuestionsFragment : Fragment() {
             when(ExpertQuestionsFragmentArgs.fromBundle(it).que) {
                 "s1" -> getAllQuestions(s1json)
                 "s2" -> getAllQuestions(s2json)
-//                "s3" -> getAllQuestions(s2json)
-//                "s4" -> getAllQuestions(s2json)
-//                "s5" -> getAllQuestions(s2json)
-//                "s6" -> getAllQuestions(s2json)
-//                "s7" -> getAllQuestions(s2json)
+                "s3" -> getAllQuestions(s3json)
+                "s4" -> getAllQuestions(s4json)
+                "s5" -> getAllQuestions(s5json)
+                "s6" -> getAllQuestions(s6json)
+                "s7" -> getAllQuestions(s7json)
+                "s8" -> getAllQuestions(s8json)
             }
         }
 
@@ -153,13 +160,11 @@ class ExpertQuestionsFragment : Fragment() {
 
             if (currentQuestions < questionsItems.size - 1) {
                 val handler = Handler(Looper.myLooper()!!)
-                val runnable = object : Runnable {
-                    override fun run() {
-                        currentQuestions++
-                        setQuestionScreen(currentQuestions)
-                        this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                        this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
-                    }
+                val runnable = Runnable {
+                    currentQuestions++
+                    setQuestionScreen(currentQuestions)
+                    this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                    this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
                 handler.postDelayed(runnable, 1000)
             } else {
@@ -237,13 +242,11 @@ class ExpertQuestionsFragment : Fragment() {
 
             if (currentQuestions < questionsItems.size - 1) {
                 val handler = Handler(Looper.myLooper()!!)
-                val runnable = object : Runnable {
-                    override fun run() {
-                        currentQuestions++
-                        setQuestionScreen(currentQuestions)
-                       this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                       this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
-                    }
+                val runnable = Runnable {
+                    currentQuestions++
+                    setQuestionScreen(currentQuestions)
+                    this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                    this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
                 handler.postDelayed(runnable, 1000)
             } else {

@@ -1,0 +1,234 @@
+{
+  "expertquestions": [
+    {
+      "question": "Sağlıklı okulda okulun eğitsel standartlarını sürdürebilmesi için çevresiyle etkili şekilde başa çıkabilme becerisine sahip olması, sağlıklı okulun hangi boyutunu ifade etmektedir?",
+      "questionHead": "",
+      "answerA": "A) Yapıyı kurma",
+      "answerB": "B) Kurumsal bütünlük",
+      "answerC": "C) Kaynak desteği",
+      "answerD": "D) Akademik önem",
+      "answerE": "E) Müdürün etkililiği",
+      "correctAnswer": "B) Kurumsal bütünlük"
+    },
+    {
+      "question": "Ali Bey bir ilkokulda 4. Sınıf öğrencilerinin sınıf öğretmenidir. Okul sağlığı ve güvenliğine çok önem vermektedir. Öğrencilere yaparak yaşayarak öğrenmelerini sağlamak için gayret göstermekte ve başarılı da olmaktadır.",
+      "questionHead": "Aşağıdaki şıklardan hangisini Ali öğretmenin yapması beklenemez?",
+      "answerA": "A) Dersinde öğrencilere acil durumlar hakkında hikaye yazmalarını istemesi",
+      "answerB": "B) Okul Müdürü risk değerlendirme ekibinde vermiş olduğu görevleri yapması",
+      "answerC": "C) Okul nöbeti esnasında kırılan camı temizletmesi",
+      "answerD": "D) Öğrencilerle teneffüste okul kantininde kahve içmesi",
+      "answerE": "E) Öğrenci velilerine okulda çocuklarının uyması gereken okul kuralları hakkında bilgi notu göndermesi",
+      "correctAnswer": "D) Öğrencilerle teneffüste okul kantininde kahve içmesi"
+    },
+    {
+      "question": "Okul sağlığı ve güvenliği kapsamında bilgisayar öğretmeni Alper Bey öğrencilerine bilgisayarda uymaları gereken kurallar hakkında bilgi vermektedir.",
+      "questionHead": "Alper Bey aşağıdaki şıklardan hangisini söylemiş olamaz?",
+      "answerA": "A) Bilgisayar kullanırken öğrencilerin elektrik kablolarına dikkat etmeleri gerektiğini",
+      "answerB": "B) Bilgisayarın tamiratlarını yapmalarını",
+      "answerC": "C) Bilgisayarda çıktı alırken yazıcı bağlantılarını kontrol etmelerini",
+      "answerD": "D) Bilgisayar laboratuvarına yiyecek ve içecek getirmemelerini",
+      "answerE": "E) Öğretmen izni olmadan bilgisayarları açmamaları gerektiğini",
+      "correctAnswer": "B) Bilgisayarın tamiratlarını yapmalarını"
+    },
+    {
+      "question": "\"Okullardaki şiddet olaylarının temeli toplum ve kültürün etkisizliğidir.\" görüşü aşağıdaki hangisine aittir?",
+      "questionHead": "",
+      "answerA": "A) Okul iklimi teorisi",
+      "answerB": "B) Kontrol teorisi",
+      "answerC": "C) Toplumsal çözülme teorisi",
+      "answerD": "D) Sosyal çözülme teorisi",
+      "answerE": "E) Psiko-sosyal gelişim kuramı",
+      "correctAnswer": "B) Kontrol teorisi"
+    },
+    {
+      "question": "I. Okul toplumsal kontrolü sağlamaya yönelik en önemli araçtır.\nII. Öğrencinin başarısızlığı okula karşı yabancılaşmasına neden olur.\nIII. Okullarda öğrencilerin yeteneklerini ortaya çıkaracak etkinliklere önem verilmelidir.",
+      "questionHead": "Yukarıda verilen ilkeler aşağıdaki hangi kuramın görüşlerini yansıtmaktadır?",
+      "answerA": "A) Okul iklimi kuramı",
+      "answerB": "B) Toplumsal çözülme kuramı",
+      "answerC": "C) Sosyal çözülme kuramı",
+      "answerD": "D) Kontrol kuramı",
+      "answerE": "E) Eleştirel kuram",
+      "correctAnswer": "D) Kontrol kuramı"
+    },
+    {
+      "question": "Okulların daha güvenli olması için toplumun ve ailenin güvenli olması gerektiğini savunan görüş aşağıdaki şıklardan hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Okul iklimi kuramı",
+      "answerB": "B) Psiko-sosyal kuram",
+      "answerC": "C) Sosyal çözülme kuramı",
+      "answerD": "D) Kontrol kuramı",
+      "answerE": "E) Ahlak gelişimi kuramı",
+      "correctAnswer": "C) Sosyal çözülme kuramı"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi örgütlerin şiddetli kriz durumlarıyla karşı karşıya kalmalarında etkileşim yaratan faktörlerden biri değildir?",
+      "questionHead": "",
+      "answerA": "A) Kriz durumunun pozitif algılanması",
+      "answerB": "B) Yüksek endişeli karar vericiler",
+      "answerC": "C) Stratejik kararların örgütle uyum sağlamaması",
+      "answerD": "D) Dış çevreyi kontrol etme derecesinin düşüklüğü",
+      "answerE": "E) Eski görüşleri sürdüren üst yöneticiler",
+      "correctAnswer": "A) Kriz durumunun pozitif algılanması"
+    },
+    {
+      "question": "Güvenlik politikaları, bakım işlemleri, acil planlama gibi çalışmalar kriz yönetim sürecinin hangi aşamasında gerçekleştirilir?",
+      "questionHead": "",
+      "answerA": "A) Krizle ilgili sinyallerin saptanması",
+      "answerB": "B) Öğrenme ve değerlendirme",
+      "answerC": "C) Krize hazırlık ve önleme",
+      "answerD": "D) Yeniden yapılanma",
+      "answerE": "E) Normal duruma geçiş",
+      "correctAnswer": "C) Krize hazırlık ve önleme"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi örgütün krize karşı dayanıklılığını belirleyen faktörlerden değildir?",
+      "questionHead": "",
+      "answerA": "A) Semboller",
+      "answerB": "B) Düzenleme",
+      "answerC": "C) Kültür",
+      "answerD": "D) Kontrol",
+      "answerE": "E) Maliyet",
+      "correctAnswer": "A) Semboller"
+    },
+    {
+      "question": "Eğitimci, eğitim sürecinin önemli bir parçasıdır. 21. yy. eğitim konseptindeki eğitimcinin birçok rolü vardır. ",
+      "questionHead": "Hangisi bu rollerden biri değildir?",
+      "answerA": "A) Sorumluluk taşıma, değer verme, sevgi ve şefkat",
+      "answerB": "B) Yenilikçi-araştırmacı, sınırları zorlayan",
+      "answerC": "C) Herkese aynı ilgiyi göstermemeli",
+      "answerD": "D) Cazip-ilginç yapmalı, beğeni kazanılması",
+      "answerE": "E) Konunun anlaşıldığından emin olmalı kontrol edip ‘‘geri dönüş’’sağlamak ‘‘feedback’’ vermeli, yardım ve düzeltme",
+      "correctAnswer": "C) Herkese aynı ilgiyi göstermemeli"
+    },
+    {
+      "question": "Okul Müdürü Kadir Bey, okul bahçesinde bulunan elektrik trafosunda bir problem olduğunu fark etmiştir.",
+      "questionHead": "Bu durumda okul müdürü Kadir Bey’in öncelikli olarak yapması gereken aşağıdaki şıklardan hangisidir?",
+      "answerA": "A) Tamirci çağırarak trafonun tamiratını yaptırır.",
+      "answerB": "B) Trafo etrafında bulunan öğrenci ve insanların uzaklaştırılmasını sağlar.",
+      "answerC": "C) Elektrik dağıtım şirketine haber vererek tamiratını yaptırır.",
+      "answerD": "D) Kadir bey trafoyu inceleyerek kontrolünü yapar.",
+      "answerE": "E) Kadir bey okuldaki elektrikli bütün cihazların kapatılmasını sağlar.",
+      "correctAnswer": "B) Trafo etrafında bulunan öğrenci ve insanların uzaklaştırılmasını sağlar."
+    },
+    {
+      "question": "Aynı dili konuşan insanların yoğun olarak yaşadıkları mahalleler gettolar olarak adlandırılmaktadır.",
+      "questionHead": "Aşağıdakilerden hangisi Küçük Türkiye ve Küçük Fas olarak adlandırılan iki Hollanda kentidir?",
+      "answerA": "A) Lahey - Ultrcht",
+      "answerB": "B) Leiden - Arnhem",
+      "answerC": "C) Feyenord - Ultecht",
+      "answerD": "D) Eindhoven - Feyenord",
+      "answerE": "E) Feyenord – Groningen",
+      "correctAnswer": "C) Feyenord - Ultecht"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi okul güvenliğini tehdit eden zorbalıkla ilgili değildir?",
+      "questionHead": "",
+      "answerA": "A) Kasıtlı olarak zarar verme amacı taşır",
+      "answerB": "B) Süreklilik özelliği gösterir",
+      "answerC": "C) Taraflar arasında eşit olmayan güç dengesi söz konusudur",
+      "answerD": "D) Fiziksel güç kullanımı zorbaların başvurduğu yollardan biridir",
+      "answerE": "E) Okul sıra ve masalarının çizilmesi zorbalığa örnek olarak verilebilir",
+      "correctAnswer": "E) Okul sıra ve masalarının çizilmesi zorbalığa örnek olarak verilebilir"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi okul yöneticisinin okul güvenliğine ilişkin rol ve görevleri arasında değildir?",
+      "questionHead": "",
+      "answerA": "A) Okulun yıllık güvenlik değerlendirmesini yapmak",
+      "answerB": "B) Sosyal destek ekibi oluşturmak",
+      "answerC": "C) Öğretmenlere sınıfta çıkan çatışmaların çözümü ve çatışma yönetimi konusunda yardım etmek",
+      "answerD": "D) Krizi yönetmek",
+      "answerE": "E) Okul güvenliğini planlamak",
+      "correctAnswer": "C) Öğretmenlere sınıfta çıkan çatışmaların çözümü ve çatışma yönetimi konusunda yardım etmek"
+    },
+    {
+      "question": "Krizle ilgili önemli ipuçlarının ortaya çıkmaya başladığı kriz aşaması aağıdakilerden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Krizin ortaya çıkma aşaması",
+      "answerB": "B) Yeniden yapılanma aşaması",
+      "answerC": "C) Krizin çözülme aşaması",
+      "answerD": "D) Krizin süreğen hale gelme aşaması",
+      "answerE": "E) Krizin oluşum aşaması",
+      "correctAnswer": "E) Krizin oluşum aşaması"
+    },
+    {
+      "question": "Kriz sürecinin hangi aşamasında çabuk tedbire ihtiyaç duyulur?",
+      "questionHead": "",
+      "answerA": "A) Kriz aşaması",
+      "answerB": "B) Dağılma aşaması",
+      "answerC": "C) Gizli kriz aşaması",
+      "answerD": "D) Hatalı tedbir aşaması",
+      "answerE": "E) Hareketsizlik aşaması",
+      "correctAnswer": "E) Hareketsizlik aşaması"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi risk altındaki çocuklar kapsamında değerlendirilemez?",
+      "questionHead": "",
+      "answerA": "A) Okuldan kaçan",
+      "answerB": "B) Alkol, madde kullanan",
+      "answerC": "C) İletişim becerisi yüksek olan",
+      "answerD": "D) Evden kaçan",
+      "answerE": "E) Kendine zarar veren",
+      "correctAnswer": "C) İletişim becerisi yüksek olan"
+    },
+    {
+      "question": "Ali Bey bir ilkokulda 4. Sınıf öğrencilerinin sınıf öğretmenidir. Okul sağlığı ve güvenliğine çok önem vermektedir. Öğrencilere yaparak yaşayarak öğrenmelerini sağlamak için gayret göstermekte ve başarılı da olmaktadır.",
+      "questionHead": "Aşağıdaki şıklardan hangisini Ali öğretmenin yapması beklenemez?",
+      "answerA": "A) Dersinde öğrencilere acil durumlar hakkında hikaye yazmalarını istemesi",
+      "answerB": "B) Okul Müdürü risk değerlendirme ekibinde vermiş olduğu görevleri yapması",
+      "answerC": "C) Okul nöbeti esnasında kırılan camı temizletmesi",
+      "answerD": "D) Öğrencilerle teneffüste okul kantininde kahve içmesi",
+      "answerE": "E) Öğrenci velilerine okulda çocuklarının uyması gereken okul kuralları hakkında bilgi notu göndermesi",
+      "correctAnswer": "D) Öğrencilerle teneffüste okul kantininde kahve içmesi"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi kriz yönetiminde, krizin varlığı, şiddeti ve yoğunluğunu tespit etmeye yarayan bir unsurdur?",
+      "questionHead": "",
+      "answerA": "A) Toplantı sayısını artırma",
+      "answerB": "B) Göze alınacak risk miktarını belirleme",
+      "answerC": "C) Erken uyarı sistemleri oluşturma",
+      "answerD": "D) Harcamaların maksimum düzeye çıkartma",
+      "answerE": "E) Fedakarlık miktarının belirlenmesi",
+      "correctAnswer": "C) Erken uyarı sistemleri oluşturma"
+    },
+    {
+      "question": "Yabancı öğrencilerin uyum ve entegrasyonuna engel olan önemli sebepler vardır.",
+      "questionHead": "Aşağıdakilerden hangisi bu sebepler arasında değildir?",
+      "answerA": "A) Dil sorunu",
+      "answerB": "B) Kültürel ayrımcılık",
+      "answerC": "C) Sosyal bilgilerin eksikliği",
+      "answerD": "D) Çocuk işçiliği",
+      "answerE": "E) Okula devam",
+      "correctAnswer": "E) Okula devam"
+    },
+    {
+      "question": "Amerika Psikoloji Derneği (APA) bir bireye oyun bağımlısı teşhisi konulması için dokuz ölçütten en az beşinin bir yıl içinde göstermesi gerektiğini belirtmiştir.",
+      "questionHead": "Aşağıdakilerden hangisi bu ölçütlerden biri değildir?",
+      "answerA": "A) Oyun oynamayı, kaygı, suçluluk gibi olumsuz duygulardan kaçış olarak görmesi",
+      "answerB": "B) Oyun oynama sıklığını, zamanını ve süresini kontrol edememesi",
+      "answerC": "C) Psikolojik problemler yaşamaya başlamasına rağmen oyun oynamayı azaltma",
+      "answerD": "D) Oyun oynamadığı dönemlerde sakin bir görünümde olması",
+      "answerE": "E) Daha önce sevdiği ve katıldığı aktivitelerle ilgilenmemeye başlaması ve aktivitelerden uzaklaşması",
+      "correctAnswer": "D) Oyun oynamadığı dönemlerde sakin bir görünümde olması"
+    },
+    {
+      "question": "I. Kavganın sonlanması ve tarafların sakinleşmesi \nII. Müzakere basamaklarının kolaylaştırılması\nIII. Anlaşmanın imzalanması.",
+      "questionHead": "Barışyapıcılık 4 aşamadan oluşan bir süreçtir. Yukarıda verilenlerden hangileri barışyapıcılığın aşamalarındandır?",
+      "answerA": "A) Yalnız I",
+      "answerB": "B) Yalnız II",
+      "answerC": "C) Yalnız III",
+      "answerD": "D) I ve II",
+      "answerE": "E) I – II - III",
+      "correctAnswer": "E) I – II - III"
+    },
+    {
+      "question": "Barışyapıcı öğrenciler, tarafların yaşadığı anlaşmazlığı ele alırken aşağıdaki işlem basamaklarını takip ederler:\n\n1. Taraflar yaşadıkları sorunu nedenleriyle birlikte açıklarlar\n2. Taraflar yaşadıkları duyguları nedenleriyle birlikte açıklarlar\n3. Taraflar ürettikleri çözüm seçenekleri arasından en adil, yapıcı ve barışçıl çözüm seçeneği üzerinde anlaşırlar\n4. Taraflar isteklerini nedenleriyle birlikte açıklarlar\n5. Taraflar çözüm seçenekleri üretirler\n6.Taraflar birbirlerinin bakış açısını anladıklarını gösterirler",
+      "questionHead": "Hangi iki basamak değiştirilirse sıralama doğru olur?",
+      "answerA": "A) I ve III",
+      "answerB": "B) III ve VI",
+      "answerC": "C) II ve III",
+      "answerD": "D) I ve IV",
+      "answerE": "E) IV ve VI",
+      "correctAnswer": "B) III ve VI"
+    }
+  ]
+}

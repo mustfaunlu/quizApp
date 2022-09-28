@@ -1,0 +1,186 @@
+{
+  "headmasterquestions": [
+    {
+      "question": "Kişiler arası iletişimde duygu ve düşüncelerini başkalarına açmaktan çekinen, içe kapanık ve özgüveni eksik olan bireylerin Johari Penceresi Modeline göre hangi alanının daha geniş olduğu söylenebilir?",
+      "questionHead": "",
+      "answerA": "A) Kör Alan",
+      "answerB": "B) Karanlık Alan",
+      "answerC": "C) Genel Alan",
+      "answerD": "D) Gizli Alan",
+      "answerE": "E) Açık Alan",
+      "correctAnswer": "D) Gizli Alan"
+    },
+    {
+      "question": "Eğitim ve İletişim ilişkisi düşünüldüğünde aşağıdaki ifadelerden hangisi doğru değildir?",
+      "questionHead": "",
+      "answerA": "A) Eğitim bir etkileşimdir ve etkileşimin aracı ise iletişimdir.",
+      "answerB": "B) Öğretmenin iletişim konusunda donanımlı olması sınıf ortamındaki eğitim atmosferini olumlu olarak etkiler.",
+      "answerC": "C) Okul ortamlarında formal ve informal olmak üzere iki tip iletişim türü kullanılır.",
+      "answerD": "D) Okul ortamında informal iletişimden çok formal iletişim daha yaygındır.",
+      "answerE": "E) Çevrim içi araçlarla kurulan ve yüz yüze olmayan eğitim ortamları bazen iletişim kazalarına ve iletişim engellerine neden olabilir.",
+      "correctAnswer": "D) Okul ortamında informal iletişimden çok formal iletişim daha yaygındır."
+    },  {
+      "question": "Salgın sürecinde öğretmen-öğrenci-veli ilişkileri göz önüne alındığında aşağıdaki ifadelerden hangisi söylenemez?",
+      "questionHead": "",
+      "answerA": "A) Çevrim içi araçların kullanımı bu süreçte zorunlu hale gelmiştir.",
+      "answerB": "B) Çevrim içi yapılan derslerde öğretmen-öğrenci şeklinde kurulan iki yönlü iletişim zaman zaman bazı engellerle karşılaşmıştır.",
+      "answerC": "C) Sınıfta söz almaktan çekinen ve içe kapanık öğrenciler bu süreçte daha aktif olarak derslere katılmıştır.",
+      "answerD": "D) Ailenin çocuk ile iletişimi ne kadar güçlü ise uzaktan eğitime katılma konusunda aynı oranda başarı sağlanmıştır.",
+      "answerE": "E) Gece geç vakitlerde veli ve öğrencilerden gelen mesaj ve aramalarla zaman zaman kişisel sınırların ihlal edilmesine neden olmuştur.",
+      "correctAnswer": "C) Sınıfta söz almaktan çekinen ve içe kapanık öğrenciler bu süreçte daha aktif olarak derslere katılmıştır."
+    },  {
+      "question": "“Kişinin kendisini karşısındaki kişinin yerine koyarak, olayları onun bakış açısından görerek, duygularını ve düşüncelerini doğru olarak anlayabilmesi ve aktarabilmesi” şeklinde ifade edilen iletişim becerisi aşağıdakilerden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Saygı",
+      "answerB": "B) Saydamlık",
+      "answerC": "C) Etkin dinleme",
+      "answerD": "D) Empati",
+      "answerE": "E) Somutlaştırma",
+      "correctAnswer": "D) Empati"
+    },  {
+      "question": "Aşağıdakilerden hangisi iyi bir dinleyicinin özelliklerinden değildir?",
+      "questionHead": "",
+      "answerA": "A) Konuşmacının amacını belirler.",
+      "answerB": "B) Konuşmayı dinlerken vermesi gereken cevapları düşünür.",
+      "answerC": "C) Propaganda, abartı ve ön yargıları belirler.",
+      "answerD": "D) Bir olay ve düşünce arasındaki farkı belirler.",
+      "answerE": "E) Dinlemenin amacını ve yöntemini belirler.",
+      "correctAnswer": "B) Konuşmayı dinlerken vermesi gereken cevapları düşünür."
+    },  {
+      "question": "“Din, dil, ırk, sosyoekonomik durum, cinsiyet, yaş ve eğitim düzeyi gibi farklılıkları göz önüne almadan bireyi insan olarak değerlendirmek” şeklinde ifade edilebilecek iletişim becerisi aşağıdakilerden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Saygı",
+      "answerB": "B) Saydamlık",
+      "answerC": "C) Söz ve davranışların uyumu",
+      "answerD": "D) Empati",
+      "answerE": "E) Somutlaştırma",
+      "correctAnswer": "A) Saygı"
+    },  {
+      "question": "Aşağıdakilerin hangisi empati becerisi yüksek olan bireylerin özelliklerinden değildir?",
+      "questionHead": "",
+      "answerA": "A) Önyargılardan arınmıştır.",
+      "answerB": "B) İnsancıl bir anlayışa sahiptir.",
+      "answerC": "C) Yardıma ihtiyacı olan insanlara karşı duyarlıdır.",
+      "answerD": "D) Empati becerisine doğuştan sahiptirler.",
+      "answerE": "E) Duyguları ifade etme becerileri yüksektir.",
+      "correctAnswer": "D) Empati becerisine doğuştan sahiptirler."
+    },  {
+      "question": "Etkili iletişimde etkin dinleme önemli bir yere sahiptir. Dinleme alanları işlem, etkileşim ve sözlü anlama olmak üzere üç boyutta incelenmektedir.",
+      "questionHead": "Aşağıdakilerden hangisi Etkili dinlemenin sözlü anlama boyutunda yer almaktadır?",
+      "answerA": "A) Anlama",
+      "answerB": "B) Zihinsel etkileşim",
+      "answerC": "C) Fiziksel etkileşim",
+      "answerD": "D) Süreçsel anlama",
+      "answerE": "E) Zihinde yapılandırma",
+      "correctAnswer": "D) Süreçsel anlama"
+    },  {
+      "question": "“Dinleyen kişinin sözel geri bildirimde bulunmadığı, konuşan kişinin duygularının anlaşılmaya çalışıldığı, vereceği karara güvenildiği, kişinin sorunundan kendisinin sorumlu olduğu gibi mesajlar veren destekleyici bir süreçtir.”",
+      "questionHead": "Şeklinde ifade edilen dinleme türü aşağıdakilerden hangisidir?",
+      "answerA": "A) Kapsamlı dinleme",
+      "answerB": "B) Katılımcı dinleme",
+      "answerC": "C) Edilgin dinleme",
+      "answerD": "D) Çözümlemeci dinleme",
+      "answerE": "E) Dikkatle dinleme",
+      "correctAnswer": "C) Edilgin dinleme"
+    },  {
+      "question": "“Yüzeydeki mesajları da önemsemeyi, konuşmacının sözlü ve sözsüz mesajlarına ve bunlar arasındaki tutarlılığa dikkat etmeyi, hem içerik hem de duygu mesajlarını anlamayı, konuşmacının dile getirmediği duygu ve düşüncelerini anlamaya çalışmayı ve anlaşılanları dile getirmeyi, konuşmacının mesajlarına yanıt vermeyi içerir.”",
+      "questionHead": "Şeklinde ifade edilen dinleme türü aşağıdakilerden hangisidir?",
+      "answerA": "A) Vurgulu dinleme",
+      "answerB": "B) Katılımcı dinleme",
+      "answerC": "C) Edilgin dinleme",
+      "answerD": "D) Kapsamlı dinleme",
+      "answerE": "E) Derinlemesine dinleme",
+      "correctAnswer": "E) Derinlemesine dinleme"
+    },  {
+      "question": "“Kişinin kelimelerini aynen tekrarlamak değildir. Kişinin duygularının ve mesajlarının anlaşılmaya çalışıldığını gösterir.” Şeklinde ifade edilen dinleme türü aşağıdakilerden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Çözümleyici dinleme",
+      "answerB": "B) Empatik dinleme",
+      "answerC": "C) Kritik değerlendiren dinleme",
+      "answerD": "D) Vurgulu dinleme",
+      "answerE": "E) Yargısız ve eleştirel dinleme",
+      "correctAnswer": "A) Çözümleyici dinleme"
+    },  {
+      "question": "Aşağıdakilerden hangisi ilişki sistemlerine göre iletişim türlerinden biri değildir?",
+      "questionHead": "",
+      "answerA": "A) Kişilerarası iletişim",
+      "answerB": "B) Yüz yüze iletişim",
+      "answerC": "C) Kişi içi iletişim",
+      "answerD": "D) Grup içi iletişim",
+      "answerE": "E) Kitle iletişimi",
+      "correctAnswer": "B) Yüz yüze iletişim"
+    },  {
+      "question": "Aşağıdakilerden hangisi zaman ve mekan boyutuna göre iletişim türlerinden biridir?",
+      "questionHead": "",
+      "answerA": "A) Olumlu iletişim",
+      "answerB": "B) Olumsuz iletişim",
+      "answerC": "C) Sözlü iletişim",
+      "answerD": "D) Uzaktan iletişim",
+      "answerE": "E) Çift yönlü iletişim",
+      "correctAnswer": "D) Uzaktan iletişim"
+    },  {
+      "question": "Kişiler arası ilişkilerde benliği olumlu yönde etkileyen bir ifade türü olarak tanımlanan etkili iletişim becerisi ögesi aşağıdakilerden hangisidir?",
+      "questionHead": "",
+      "answerA": "A) Ben dili",
+      "answerB": "B) Empati",
+      "answerC": "C) Ego geliştirici dil",
+      "answerD": "D) Etkin katılımlı dinleme",
+      "answerE": "E) Somutlaştırma",
+      "correctAnswer": "C) Ego geliştirici dil"
+    },  {
+      "question": "Aşağıda empati ile ilgili veriler bilgilerden hangisi yanlıştır?",
+      "questionHead": "",
+      "answerA": "A) Empati becerisi sonradan kazanılabilen ve geliştirilebilen bir beceridir.",
+      "answerB": "B) Empati kuran kişi kendisini karşısındaki kişinin yerine koyar.",
+      "answerC": "C) Kişi empati kurduğu kişinin rolüne girip onun bakış açısını anlamaya çalışır.",
+      "answerD": "D) Empati kuran kişi karşısındaki kişinin duygularını aynen kendisi de yaşar. Karşısındaki kişiyle birlikte ağlayarak duygularına ortak olabilir.",
+      "answerE": "E) Empati kuran bireyin karşısındaki kişinin duygularını temel ya da ileri düzeyde tepkilerle iletmesi beklenir.",
+      "correctAnswer": "D) Empati kuran kişi karşısındaki kişinin duygularını aynen kendisi de yaşar. Karşısındaki kişiyle birlikte ağlayarak duygularına ortak olabilir."
+    },  {
+      "question": "“Kișinin karșılaștığı durum veya davranış karşısında kișisel tepkisini duygu ve düşüncelerle açıklayan bir ifade tarzıdır.”",
+      "questionHead": "Şeklinde tanımlanan etkili iletişim becerisi ögesi aşağıdakilerden hangisidir?",
+      "answerA": "A) Ego geliştirici dil",
+      "answerB": "B) Etkin katılımlı dinleme",
+      "answerC": "C) Kendini açma",
+      "answerD": "D) Somutlaştırma",
+      "answerE": "E) Ben dili",
+      "correctAnswer": "E) Ben dili"
+    },  {
+      "question": "Danışanı ile görüşme yaparken “Ben de küçükken buna benzer bir olay yaşamıştım” şeklinde başından geçen bir olayı anlatan Psikolojik Danışman Büşra hanım aşağıdaki iletişim becerilerinden hangisini kullanmış olur?",
+      "questionHead": "",
+      "answerA": "A) Ego geliştirici dil",
+      "answerB": "B) Kendini açma",
+      "answerC": "C) Somutlaştırma",
+      "answerD": "D) Ben dili",
+      "answerE": "E) Etkin katılımlı dinleme",
+      "correctAnswer": "B) Kendini açma"
+    },  {
+      "question": "Sen dili ve Ben dili kavramları hakkında aşağıda ifade edilen bilgilerden hangisi doğru değildir?",
+      "questionHead": "",
+      "answerA": "A) Sen dili kişiyi savunmaya iterken Ben dili kişiyi savunmaya geçirmez.",
+      "answerB": "B) Sen dilinin hakim olduğu iletişim sağlıksız bir iletişim şeklidir.",
+      "answerC": "C) Ben dili ile iletişime geçmek iletişimi sürdürmeye yardımcı olur.",
+      "answerD": "D) Sen dili ifadeleri kişiliğe yönelik değil davranışlara yöneliktir.",
+      "answerE": "E) Ben dili yorum içermez, yaşanan olay ve hissedilen duygular olduğu gibi aktarılır.",
+      "correctAnswer": "D) Sen dili ifadeleri kişiliğe yönelik değil davranışlara yöneliktir."
+    },  {
+      "question": "Aşağıdaki ifadelerden hangisi \"Ben dili\" içerir?",
+      "questionHead": "",
+      "answerA": "A) Son zamanlarda çok tembelleştin.",
+      "answerB": "B) Sanki çalışsan bir faydası olacak.",
+      "answerC": "C) Herkesin içinde bağırmanı doğru bulmadım.",
+      "answerD": "D) Sakarlık yapma da biraz dikkat et bence.",
+      "answerE": "E) Verdiğim projeyi çabucak bitirin.",
+      "correctAnswer": "C) Herkesin içinde bağırmanı doğru bulmadım."
+    },  {
+      "question": "Aşağıdaki ifadelerden hangisi Sen dili içerir?",
+      "questionHead": "",
+      "answerA": "A) Bana vakit ayırmanı isterdim.",
+      "answerB": "B) Ders çalışmaman beni üzüyor.",
+      "answerC": "C) Okula zamanında gelmelisin.",
+      "answerD": "D) Çok dalgınsın.",
+      "answerE": "E) Beni dinlemen mutlu etti.",
+      "correctAnswer": "D) Çok dalgınsın."
+    }
+  ]
+}

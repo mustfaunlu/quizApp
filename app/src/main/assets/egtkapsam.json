@@ -1,0 +1,274 @@
+{
+  "headmasterquestions": [
+    {
+      "question": "Dezavantajlı öğrencilerin genel okulların standart gereksinimlerini karşılayabildikleri sürece bu okullara dahil edilmeleri durumu aşağıdaki kavramlardan hangisi ile ifade edilir?\n",
+      "questionHead": "",
+      "answerA": "A) Dışlanma",
+      "answerB": "B) Oryantasyon",
+      "answerC": "C) Konsültasyon",
+      "answerD": "D) Entegrasyon",
+      "answerE": "E) Ayrımcılık",
+      "correctAnswer": "D) Entegrasyon"
+    },
+    {
+      "question": "Özel gereksinimi olan bir çocuğun normal gelişim gösteren çocuklarla aynı ortamda eğitim alması ve aynı zamanda aktif katılım göstermesi hangi kavramla ifade edilir?",
+      "questionHead": "",
+      "answerA": "A) Kapsayıcılık ",
+      "answerB": "B) Akran Eğitimi ",
+      "answerC": "C) Konsültasyon ",
+      "answerD": "D) Entegrasyon (Kaynaştırma)",
+      "answerE": "E) Ayrımcılık",
+      "correctAnswer": "D) Entegrasyon (Kaynaştırma)"
+    },
+    {
+      "question": "Kapsayıcı bir öğrenme ortamı oluşturabilmek için yapılması gerekenler arasında aşağıdaki şıklardan hangisi gösterilemez? \n",
+      "questionHead": "",
+      "answerA": "A) Öğrencilerin içsel motivasyonu artırılmalı ",
+      "answerB": "B) İlgi çekici bir sınıf ortamı oluşturulmalı ",
+      "answerC": "C) Her bireyi kabul eden bir sınıf atmosferi oluşturulmalı ",
+      "answerD": "D) Öğrencileri her konuda ortak karar almaları sağlanmalı",
+      "answerE": "E) İşbirlikçi öğrenme ortamı oluşturulmalı",
+      "correctAnswer": "D) Öğrencileri her konuda ortak karar almaları sağlanmalı"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi kapsayıcı bir eğitmenin öğrencileri ile ilişkilerinde dikkat etmesi gerekenlerden değildir? ",
+      "questionHead": "",
+      "answerA": "A) Yapıcı geri bildirim vermek ",
+      "answerB": "B) Bağ kurmak ",
+      "answerC": "C) Sevgi ve saygı çerçevesinde iletişim kurmak ",
+      "answerD": "D) Süreç değerlendirmesine ağırlık vermek",
+      "answerE": "E) Akademik başarıyı ön planda tutmak",
+      "correctAnswer": "E) Akademik başarıyı ön planda tutmak"
+    },
+    {
+      "question": "Birleşmiş Milletler Çocuk Hakları Sözleşmesi, kapsayıcı eğitimin hangi gerekçesiyle doğrudan ilişkilidir? ",
+      "questionHead": "",
+      "answerA": "A) Sosyal Gerekçe ",
+      "answerB": "B) Hukuki Gerekçe",
+      "answerC": "C) Politik Gerekçe ",
+      "answerD": "D) Ekonomik Gerekçe ",
+      "answerE": "E) Eğitimsel Gerekçe",
+      "correctAnswer": "B) Hukuki Gerekçe"
+    },
+    {
+      "question": "Salamanca Bildirisi ve Eylem Çerçevesi, \"Herkesin eğitim alma hakkına erişebilmesini\" önemser.",
+      "questionHead": "Buna göre Salamanca Bildirisi kapsayıcı eğitimin hangi gerekçesi ile ilişkilidir? ",
+      "answerA": "A) Sosyal Gerekçe",
+      "answerB": "B) Hukuki Gerekçe",
+      "answerC": "C) Kültürel Gerekçe",
+      "answerD": "D) Ekonomik Gerekçe",
+      "answerE": "E) Eğitimsel Gerekç",
+      "correctAnswer": "A) Sosyal Gerekçe"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi kapsayıcı eğitimin gerekçelerinden değildir? ",
+      "questionHead": "",
+      "answerA": "A) Sosyal Gerekçe ",
+      "answerB": "B) Hukuki Gerekçe ",
+      "answerC": "C) Kültürel Gerekçe ",
+      "answerD": "D) Ekonomik Gerekçe ",
+      "answerE": "E) Eğitimsel Gerekçe",
+      "correctAnswer": "C) Kültürel Gerekçe "
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Eğitimde Kapsayıcılık için yanlış bir ifadedir? ",
+      "questionHead": "",
+      "answerA": "A) Ayrımcılığa karşı çıkar. ",
+      "answerB": "B) Eğitimin okulda yapılmasını destekler. ",
+      "answerC": "C) Dışlanmaya karşı çıkar. ",
+      "answerD": "D) Aynılaştırmayı destekler. ",
+      "answerE": "E) Birlikte eğitimi destekler.",
+      "correctAnswer": "D) Aynılaştırmayı destekler. "
+    },
+    {
+      "question": "I-Eşitlik\nII-Adalet\nIII-Dışlanma\n",
+      "questionHead": "Yukarıdakilerden hangisi veya hangileri kapsayıcı eğitimin karşısında durduğu kavramlardandır?",
+      "answerA": "A) Yalnız I",
+      "answerB": "B) Yalnız II",
+      "answerC": "C) Yalnız III",
+      "answerD": "D) II-III",
+      "answerE": "E) I-II-II",
+      "correctAnswer": "C) Yalnız III"
+    },
+    {
+      "question": "Erhan Öğretmen eğitimi, öğrencilerin ihtiyaçlarına ayrımcılığı en aza indirerek cevap verme süreci olarak tanımlamıştır.",
+      "questionHead": "Buna göre Erhan Öğretmen aşağıdaki kuruluşlardan hangisinin Eğitimde Kapsayıcılık tanımı ile paralel bir görüş ortaya koymuştur? ",
+      "answerA": "A) OCHA",
+      "answerB": "B) UNESCO",
+      "answerC": "C) FAO",
+      "answerD": "D) OHCHR",
+      "answerE": "E) UNICEF",
+      "correctAnswer": "E) UNICEF"
+    },
+    {
+      "question": "Kapsayıcı eğitim, tüm çocukların aynı okulda birlikte öğrenmeleridir.",
+      "questionHead": "Bu görüşün savunucu olan kuruluş aşağıdaki şıklardan hangisidir? ",
+      "answerA": "A) OCHA ",
+      "answerB": "B) UNESCO ",
+      "answerC": "C) FAO ",
+      "answerD": "D) OHCHR ",
+      "answerE": "E) UNICEF",
+      "correctAnswer": "E) UNICEF"
+    },
+    {
+      "question": "Beş parmağın beşi de bir olmaz.",
+      "questionHead": "Yukarıdaki atasözü ile Eğitimde Kapsayıcılığın benzer olan görüşü hangi seçenekte verilmiştir? ",
+      "answerA": "A) Eğitim, her bireyin hakkıdır. ",
+      "answerB": "B) Eşitlik, eğitimin ayrışmaz parçasıdır. ",
+      "answerC": "C) Eğitim, adil olmak zorundadır. ",
+      "answerD": "D) Bireysel farklılıklar değerlidir. ",
+      "answerE": "E) Nitelikli eğitim dışlanmayı reddeder.",
+      "correctAnswer": "D) Bireysel farklılıklar değerlidir. "
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi kapsayıcı eğitimin özellikle üzerinde durduğu gruplardan biri değildir?",
+      "questionHead": "",
+      "answerA": "A) Gelir düzeyi yüksek aile çocukları ",
+      "answerB": "B) Kırsal bölgede yaşayan çocuklar ",
+      "answerC": "C) Mülteci çocukları ",
+      "answerD": "D) Kız çocukları ",
+      "answerE": "E) Göçmen çocuklar",
+      "correctAnswer": "A) Gelir düzeyi yüksek aile çocukları "
+    },
+    {
+      "question": "Eğitimde Kapsayıcılığı savunan okullar için verilen ifadelerden hangisi doğrudur? ",
+      "questionHead": "",
+      "answerA": "A) Aynılaşmayı destekler.",
+      "answerB": "B) Eğitim planını değiştirmez.",
+      "answerC": "C) Öğrenciyi koşulsuz kabul eder.",
+      "answerD": "D) Eğitim ihtiyacını okul dışında karşılar.",
+      "answerE": "E) Yalnızca ayrımcılığa uğramış öğrencilere eğitim verir",
+      "correctAnswer": "C) Öğrenciyi koşulsuz kabul eder."
+    },
+    {
+      "question": "Öğrencilerin;\nI-İhtiyaçları\nII-Hayat görüşleri\nIII-Kişisel özellikleri",
+      "questionHead": "Yukarıdakilerden hangisi veya hangileri Kapsayıcı Eğitim Planı hazırlarken dikkat edilecek hususlardan değildir? ",
+      "answerA": "A) Yalnız I ",
+      "answerB": "B) Yalnız II ",
+      "answerC": "C) Yalnız III",
+      "answerD": "D) II-III ",
+      "answerE": "E) I-II-III",
+      "correctAnswer": "B) Yalnız II "
+    },
+    {
+      "question": "Aşağıdaki eşleştirmelerden hangisinde Kapsayıcı eğitimin gerekçeleri ile ilgili yapılan açıklama yanlıştır?",
+      "questionHead": "",
+      "answerA": "A) Ekonomik Gerekçe: Kapsayıcı eğitim tüm öğrencilere daha az maliyetle nitelikli eğitim sağlamanın yolu olarak görülmektedir.",
+      "answerB": "B) Eğitimsel Gerekçe: Eşit eğitim/öğrenme ortamlarından faydalanma imkanı sağlar.",
+      "answerC": "C) Politik Gerekçe: Öğrencilerin farklılıklara karşı daha olumlu tutumlar geliştirmesine yardımcı olarak daha adil ve ayrımcı olmayan bir toplum oluşumuna katkıda bulunacağı genel kabul görmektedir.",
+      "answerD": "D) Hukuki Gerekçe: Kapsayıcı Eğitim Engelli çocukların eğitime erişimlerinin sağlanması bakımından önemlidir.",
+      "answerE": "E) Sosyal Gerekçe: Kapsayıcı eğitim ayrımcılıkla mücadele edilmesi ve herkesin eğitim alma hakkına erişebilmesi bakımından en etkili araçtır.",
+      "correctAnswer": "C) Politik Gerekçe: Öğrencilerin farklılıklara karşı daha olumlu tutumlar geliştirmesine yardımcı olarak daha adil ve ayrımcı olmayan bir toplum oluşumuna katkıda bulunacağı genel kabul görmektedir."
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi Kapsayıcı eğitimin gerekçelerinden değildir?",
+      "questionHead": "",
+      "answerA": "A) Politik Gerekçe",
+      "answerB": "B) Eğitimsel Gerekçe",
+      "answerC": "C) Sosyal Gerekçe",
+      "answerD": "D) Hukuki Gerekçe",
+      "answerE": "E) Ekonomik Gerekçe",
+      "correctAnswer": "A) Politik Gerekçe"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Kapsayıcılık ile ilgili bir kavram değildir?",
+      "questionHead": "",
+      "answerA": "A) Entegrasyon",
+      "answerB": "B) Kapsayıcılık",
+      "answerC": "C) Ayrımcılık",
+      "answerD": "D) Dışlama",
+      "answerE": "E) Okul İklimi",
+      "correctAnswer": "E) Okul İklimi"
+    },
+    {
+      "question": "Aşağıdaki şıklardan hangisi Kapsayıcı Eğitimi çeşitliliğe değer vererek cinsiyet, etnik yapı, sosyal sınıf, sağlık, sosyal katılım ve başarı gibi nedenlerle kimsenin eğitim süreçlerinden dışlanmaması ve herkesin sistem tarafından kucaklanmasını isteyen kuruluştur? ",
+      "questionHead": "",
+      "answerA": "A) UNICEF",
+      "answerB": "B) WHO",
+      "answerC": "C) OECD",
+      "answerD": "D) UNESCO",
+      "answerE": "E) BM",
+      "correctAnswer": "A) UNICEF"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Kapsayıcı Eğitimi, öğrenmenin gerçekleşebilmesi için özel desteğe ihtiyaç duyan tüm öğrencileri de içerecek bir sistem olarak tanımlamaktadır? ",
+      "questionHead": "",
+      "answerA": "A) WHO",
+      "answerB": "B) UNICEF",
+      "answerC": "C) OECD",
+      "answerD": "D) UNESCO",
+      "answerE": "E) BM",
+      "correctAnswer": "B) UNICEF"
+    },
+    {
+      "question": "Hangisi kapsayıcılık ilkesine uyumlu bir sınıf ortamıdır?",
+      "questionHead": "",
+      "answerA": "A) Sadece varlıklı ailenin çocukları olan sınıf",
+      "answerB": "B) Yüksek not ortalamasına sahip sınıf",
+      "answerC": "C) Farklı özellik ve yeteneklere sahip sınıf",
+      "answerD": "D) Sadece erkek öğrencilerin olan sınıf",
+      "answerE": "E) Sadece mültecilerin olduğu sınıf",
+      "correctAnswer": "C) Farklı özellik ve yeteneklere sahip sınıf"
+    },
+    {
+      "question": "Hangisi kapsayıcı eğitimi savunan okullar için uygundur?",
+      "questionHead": "",
+      "answerA": "A) Eğitim planını değiştirmez.",
+      "answerB": "B) Aynılaşmayı destekler.",
+      "answerC": "C) Sadece ayrımcılığa maruz kalan öğrencileri hedefler.",
+      "answerD": "D) Eğitim ihtiyacını okul dışında karşılar.",
+      "answerE": "E) Öğrenciyi şartsız kabul eder.",
+      "correctAnswer": "E) Öğrenciyi şartsız kabul eder."
+    },
+    {
+      "question": "\"Bir elin beş parmağı bir olmaz.\"",
+      "questionHead": "Atasözü ile eğitimde kapsayıcılığın benzer görüşü hangi seçenekte verilmiştir?",
+      "answerA": "A) Eğitim adaletli olmalıdır",
+      "answerB": "B) Eşitlik önemli bir eğitim terimdir.",
+      "answerC": "C) Nicelikli eğitim dışlanmayı amaçlamaz.",
+      "answerD": "D) Kişisel farklılıklar önemlidir",
+      "answerE": "E) Eğitim her kişinin hakkıdır.",
+      "correctAnswer": "D) Kişisel farklılıklar önemlidir"
+    },
+    {
+      "question": "Hangisi kapsayıcı eğitimin üzerinde durduğu gruplardan değildir?",
+      "questionHead": "",
+      "answerA": "A) Zengin aile çocukları",
+      "answerB": "B) Mülteci ailelerin çocukları",
+      "answerC": "C) Göçmen çocukları",
+      "answerD": "D) Kız çocukları",
+      "answerE": "E) Kırsal bölge çocukları",
+      "correctAnswer": "A) Zengin aile çocukları"
+    },
+    {
+      "question": "6. sınıf öğrencisi olan Selçuk fiziksel engelinden dolayı tekerlekli sandalye kullanmaktadır. Ortaokul yılları boyunca Selçuk’un derslerine giren üç farklı beden eğitimi öğretmeni aşağıdaki yöntemleri izlemişlerdir.\n\n Birinci öğretmen beden eğitimi dersinde tüm sınıfı bahçeye çıkarmakta, Selçuk'u ise sınıf içerisinde pencereye yaklaştırarak arkadaşlarını izlemesini sağlamaktadır.\nİkinci öğretmen dersler sırasında Selçuk’u da bahçeye çıkarmakta ve her hafta başka bir arkadaşını görevlendirerek Selçuk'la ayrı bir yerde oyun oynamalarını sağlamaktadır.\nÜçüncü öğretmen ise beden eğitimi dersindeki etkinlikler sırasında Selçuk’a kendi bireysel özelliklerine uygun roller vererek grup ile birlikte bulunmasını desteklemektedir. Örneğin, hentbol oynanırken kaleci olmasını istemekte, voleybol etkinliğinde ise bir masanın üzerine tekerlekli sandalyesi ile birlikte koyarak hakemlik yapmasını sağlamaktadır.",
+      "questionHead": "Üçüncü öğretmen eğitimde kapsayıcılığın hangi terimiyle ilgilidir?",
+      "answerA": "A) Ayrımcılık",
+      "answerB": "B) Farklılaştırma",
+      "answerC": "C) Entegrasyon",
+      "answerD": "D) Aynılaştırma",
+      "answerE": "E) Dışlama",
+      "correctAnswer": "C) Entegrasyon"
+    },
+    {
+      "question": "I- Eşitlik\nII- Dışlanma\nIII- Adalet",
+      "questionHead": "Kapsayıcı eğitimin karşısında durduğu kavramlardandır?",
+      "answerA": "A) Yalnız I",
+      "answerB": "B) Yalnız II",
+      "answerC": "C) Yalnız III",
+      "answerD": "D) I, II",
+      "answerE": "E) I, II, III",
+      "correctAnswer": "B) Yalnız II"
+    },
+    {
+      "question": "",
+      "questionHead": "Dışlama nedir?",
+      "answerA": "A) Öğrencilerin doğrudan ya da dolaylı olarak eğitim almalarının engellenmesi ya da eğitime erişim haklarının yok sayılması durumudur.",
+      "answerB": "B) Dezavantajlı öğrencilerin genel okulların standart gereksinimlerini karşılayabildikleri sürece bu okullara dâhil edilmeleri durumudur.",
+      "answerC": "C) Okullarda dezavantajlı öğrencilerin önündeki engelleri kaldırmak için içeriğin, öğretim yöntem ve tekniklerinin, stratejilerin vb. sistematik bir reform anlayışı çerçevesinde geliştirilmesi durumudur.",
+      "answerD": "D) Dezavantajlı öğrencilerin akranları ile birlikte genel okullar yerine kendilerine yönelik olarak hazırlanmış mekânlarda eğitim görmeleri durumudur.",
+      "answerE": "E) Bir kişi veya bir grubun farklılıkları nedeniyle, açık bir biçimde eşit olmayan bir muamele görmesidir.",
+      "correctAnswer": "A) Öğrencilerin doğrudan ya da dolaylı olarak eğitim almalarının engellenmesi ya da eğitime erişim haklarının yok sayılması durumudur."
+    }
+  ]
+}

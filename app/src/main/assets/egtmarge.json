@@ -1,0 +1,492 @@
+
+{
+  "questions":[
+    {
+      "question":"Türkiye'de kamu kurum ve kuruluşlarında AR-GE istatistiklerinin toplanmasını hangi kurum yapmaktadır?",
+      "questionHead":"",
+      "answerA":"A) Stratejik Geliştirme Başkanlığı",
+      "answerB":"B) Türkiye İstatistik Kurumu",
+      "answerC":"C) Tübitak",
+      "answerD":"D) Tüsiad",
+      "answerE":"E) TSE",
+      "correctAnswer": "C) Tübitak"
+    },
+    {
+      "question":"Ülkelerin bilim ve teknoloji politikalarının oluşturulmasında esas teşkil eden araştırma ve deneysel geliştirme göstergelerine standart oluşturulmasını amaçlayan kaynak hangisidir?",
+      "questionHead":"",
+      "answerA":"A) OECD",
+      "answerB":"B) FRASCATİ KLAVUZU",
+      "answerC":"C) BM",
+      "answerD":"D) ILO",
+      "answerE":"E) WHO",
+      "correctAnswer": "B) FRASCATİ KLAVUZU"
+    },
+    {
+      "question":"AR-GE araştırma türleri ve bu araştırma türüne örnek hangi seçenekte yanlış verilmiştir?",
+      "questionHead":"",
+      "answerA":"A) TEMEL ARAŞTIRMA: Ekonomik koşullar ile sosyal gelişme arasındaki nedensel ilişkinin incelenmesi.",
+      "answerB":"B) UYGULAMALI ARAŞTIRMA: Tarımı desteklemek amacıyla göçün ekonomik ve sosyal nedenlerinin incelenmesi.",
+      "answerC":"C) DENEYSEL GELİŞTİRME: Büyük şehirlere olan kırsal göçü engellemek için bir mali yardım programının geliştirilmesi ve test edilmesi",
+      "answerD":"D) TEMEL ARAŞTIRMA: Ailenin geçmişte ve günümüzde farklı uygarlıklardaki rolünün incelenmesi",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi"
+    },
+    {
+      "question":"AR-GE merkezlerinin eğitimsel olarak en büyük rolü nedir?",
+      "questionHead":"",
+      "answerA":"A) Nitelikli meslek geliştirilmesine katkı sağlamaktır.",
+      "answerB":"B) Nitelikli ürün geliştirilmesine katkı sağlamaktır.",
+      "answerC":"C) Nitelikli materyal geliştirilmesine katkı sağlamaktır.",
+      "answerD":"D) Nitelikli insan geliştirilmesine katkı sağlamaktır.",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "D) Nitelikli insan geliştirilmesine katkı sağlamaktır."
+    },
+    {
+      "question":"Aşağıda yer alan görevler AR-GE ekiplerinin ortak görevlerinden değildir?",
+      "questionHead":"",
+      "answerA":"A) Çalışmalarını mevzuata uygun yürütmek",
+      "answerB":"B) Hazırlayacakları rehberlik planı doğrultusunda okullara rehberlik amaçlı hizmet vermek.",
+      "answerC":"C) Görev alanına giren konularda düzenlenen hizmetiçi eğitimde eğitim görevlisi olarak yer almak",
+      "answerD":"D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak.",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak."
+    },
+    {
+      "question":"Aşagıdakilerden hangisi Araştırma, stratejik planlama ve kalite geliştirme ekibinin görevlerinden değildir?",
+      "questionHead":"",
+      "answerA":"A) İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasında ve uygulanması sürecini koordine etmek.",
+      "answerB":"B)  İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasını izlemek, değerlendirmek ve güncellemek",
+      "answerC":"C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek",
+      "answerD":"D) İlde eğitimin kalitesinin artırılmasına yönelik projeler hazırlamak, yürütmek ve kamuoyuyla paylaşmak",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek"
+    },
+    {
+      "question":"Aşağıdaki şıklardan hangisi AR-GE biriminde görev alacak personelin nitelikleri arasında sayılmaz?",
+      "questionHead":"",
+      "answerA":"A)  İyi seviyede Office Programlarını kullanabilmek.",
+      "answerB":"B) En az 2 yıllık yükseköğretim mezunu olmak.",
+      "answerC":"C)  Seyahat etmesine il içi ve il dışı görevlendirmesine engel bir rahatsızlığı bulunmamak.",
+      "answerD":"D)  İyi seviyede bilgisayar programlarını kullanabilmek.",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "B) En az 2 yıllık yükseköğretim mezunu olmak."
+    },
+    {
+      "question":"AR-GE faaliyetleri geniş bir çalışma anlayışını kapsar. AR-GE çalışmalarını hangi bölüme ayırarak inceleyemeyiz?",
+      "questionHead":"",
+      "answerA":"A) Temel Araştırma",
+      "answerB":"B) Bilimsel Araştırma",
+      "answerC":"C) Uygulamalı Araştırma",
+      "answerD":"D)  Deneysel Araştırma",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "B) Bilimsel Araştırma"
+    },
+    {
+      "question":"OECD tarafından oluşturulan ve Tübitak tarafından desteklenen Bilim ve Teknoloji alanındaki yöntembilimsel kılavuz hangisidir?",
+      "questionHead":"",
+      "answerA":"A) Frascati Kılavuzu",
+      "answerB":"B) TDK Etik Kılavuzu",
+      "answerC":"C) Tübitak Kılavuzu",
+      "answerD":"D) ESC Kılavuzları",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "A) Frascati Kılavuzu"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi AR-GE çalışması olabilir?",
+      "questionHead":"",
+      "answerA":"A) Bilgisayar dillerinin dönüştürülmesi",
+      "answerB":"B) Sistemlerin hatalardan arındırılması",
+      "answerC":"C) Mevcut yazılımın uyarlanması",
+      "answerD":"D) Akıllı sayaç fayda maliyet analiz projesi",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "D) Akıllı sayaç fayda maliyet analiz projesi"
+    },{
+      "question":"Türkiye'de kamu kurum ve kuruluşlarında AR-GE istatistiklerinin toplanmasını hangi kurum yapmaktadır?",
+      "questionHead":"",
+      "answerA":"A) Stratejik Geliştirme Başkanlığı",
+      "answerB":"B) Türkiye İstatistik Kurumu",
+      "answerC":"C) Tübitak",
+      "answerD":"D) Tüsiad",
+      "answerE":"E) TSE",
+      "correctAnswer": "C) Tübitak"
+    },
+    {
+      "question":"Bilim ve Teknoloji alanındaki yöntem bilimsel kılavuzlardan biri olan Frascati Klavuzu hangi kuruluş tarafından oluşturulmuştur?",
+      "questionHead":"",
+      "answerA":"A) OECD",
+      "answerB":"B) UNESCO",
+      "answerC":"C) BM",
+      "answerD":"D) ILO",
+      "answerE":"E) WHO",
+      "correctAnswer": "A) OECD"
+    },
+    {
+      "question":"AR-GE araştırma türleri ve bu araştırma türüne örnek hangi seçenekte yanlış verilmiştir?",
+      "questionHead":"",
+      "answerA":"A) TEMEL ARAŞTIRMA: Ekonomik koşullar ile sosyal gelişme arasındaki nedensel ilişkinin incelenmesi.",
+      "answerB":"B) UYGULAMALI ARAŞTIRMA: Tarımı desteklemek amacıyla göçün ekonomik ve sosyal nedenlerinin incelenmesi.",
+      "answerC":"C) DENEYSEL GELİŞTİRME: Büyük şehirlere olan kırsal göçü engellemek için bir mali yardım programının geliştirilmesi ve test edilmesi",
+      "answerD":"D) TEMEL ARAŞTIRMA: Ailenin geçmişte ve günümüzde farklı uygarlıklardaki rolünün incelenmesi",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi"
+    },
+    {
+      "question":"Küresel ekonomide ülkelerin rekabet edebilirlikleri ile yeni hizmetler ve ürünlerin geliştirilmesine ne denir?",
+      "questionHead":"",
+      "answerA":"A) Arge Çalışmaları",
+      "answerB":"B) Ekonomik Gelişme",
+      "answerC":"C) Küresel Rekabet",
+      "answerD":"D) Küresel Pazar",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "A) Arge Çalışmaları"
+    },
+    {
+      "question":"Aşağıda yer alan görevler AR-GE ekiplerinin ortak görevlerinden değildir?",
+      "questionHead":"",
+      "answerA":"A) Çalışmalarını mevzuata uygun yürütmek",
+      "answerB":"B) Hazırlayacakları rehberlik planı doğrultusunda okullara rehberlik amaçlı hizmet vermek.",
+      "answerC":"C) Görev alanına giren konularda düzenlenen hizmetiçi eğitimde eğitim görevlisi olarak yer almak",
+      "answerD":"D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak.",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak."
+    },
+    {
+      "question":"Aşagıdakilerden hangisi Araştırma, stratejik planlama ve kalite geliştirme ekibinin görevlerinden değildir?",
+      "questionHead":"",
+      "answerA":"A) İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasında ve uygulanması sürecini koordine etmek.",
+      "answerB":"B)  İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasını izlemek, değerlendirmek ve güncellemek",
+      "answerC":"C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek",
+      "answerD":"D) İlde eğitimin kalitesinin artırılmasına yönelik projeler hazırlamak, yürütmek ve kamuoyuyla paylaşmak",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek"
+    },
+    {
+      "question":"Aşağıdaki şıklardan hangisi AR-GE biriminde görev alacak personelin nitelikleri arasında sayılmaz?",
+      "questionHead":"",
+      "answerA":"A)  İyi seviyede Office Programlarını kullanabilmek.",
+      "answerB":"B) En az 2 yıllık yükseköğretim mezunu olmak.",
+      "answerC":"C)  Seyahat etmesine il içi ve il dışı görevlendirmesine engel bir rahatsızlığı bulunmamak.",
+      "answerD":"D)  İyi seviyede bilgisayar programlarını kullanabilmek.",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "B) En az 2 yıllık yükseköğretim mezunu olmak"
+    },
+    {
+      "question":"Ar-Ge Ekiplerinde görev alacak personelin aşağıdaki niteliklerden hangisi tercih nedeni değildir?",
+      "questionHead":"",
+      "answerA":"A) Yüksek lisans/doktora yapmış olmak.",
+      "answerB":"B) En az (C) düzeyinde bir yabancı dil (YDS dillerinden biri) bilgisine sahip olmak.",
+      "answerC":"C) Bakanlıkta hizmet süresi olarak en az 5 yılı tamamlamış olmak.",
+      "answerD":"D) Mühendislik bölümlerinden mezun olmak.",
+      "answerE":"E) İkinci bir lisans mezunu olmak.",
+      "correctAnswer": "D) Mühendislik bölümlerinden mezun olmak."
+    },
+    {
+      "question":"AR-GE faaliyetleri geniş bir çalışma anlayışını kapsar. AR-GE çalışmalarını hangi bölüme ayırarak inceleyemeyiz?",
+      "questionHead":"",
+      "answerA":"A) Temel Araştırma",
+      "answerB":"B) Bilimsel Araştırma",
+      "answerC":"C) Uygulamalı Araştırma",
+      "answerD":"D)  Deneysel Araştırma",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "B) Bilimsel Araştırma"
+    },
+    {
+      "question":"OECD tarafından oluşturulan ve Tübitak tarafından desteklenen Bilim ve Teknoloji alanındaki yöntembilimsel kılavuz hangisidir?",
+      "questionHead":"",
+      "answerA":"A) Frascati Kılavuzu",
+      "answerB":"B) TDK Etik Kılavuzu",
+      "answerC":"C) Tübitak Kılavuzu",
+      "answerD":"D) ESC Kılavuzları",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "A) Frascati Kılavuzu"
+    },{
+      "question":"AR-GE biriminde görev alacak personelin niteliklerinden olamaz?",
+      "questionHead":"",
+      "answerA":"A) 2 yıllık üniversite mezunu olmak",
+      "answerB":"B) Doktora mezunu olmak",
+      "answerC":"C) 4 yıllık üniversite mezunu olmak",
+      "answerD":"D) Yüksek Lisans mezunu olmak",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "A) 2 yıllık üniversite mezunu olmak"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi Nicel Araştırma yaklaşımlarından değildir?",
+      "questionHead":"",
+      "answerA":"A) Tarama Araştırması",
+      "answerB":"B) Korelasyon Araştırması",
+      "answerC":"C) Örnek olay",
+      "answerD":"D) Deneysel Olay",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "C) Örnek olay"
+    },
+    {
+      "question":"Gözlemlenebilir gerçekler hakkında bilgi edinmek için yürütülen AR-GE çalışmaları hangi başlık altından incelenir?",
+      "questionHead":"",
+      "answerA":"A) Temel Araştırma",
+      "answerB":"B) Gözlemsel Araştırma",
+      "answerC":"C) Uygulamalı Araştırma",
+      "answerD":"D) Deneysel Araştırma",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "A) Temel Araştırma"
+    },
+    {
+      "question":"TIMSS Nedir?",
+      "questionHead":"",
+      "answerA":"A) Öğrencilerin matematik ve fen alanlarında kazandıkları bilgi ve becerilerin değerlendirilmesine yönelik bir tarama araştırmasıdır.",
+      "answerB":"B) Liselerde her yıl yapılan yetenek sınavıdır.",
+      "answerC":"C) Ortaokullarda 3 yılda bir yapılan Türkçe sınavıdır.",
+      "answerD":"D) Lise düzeyinde bilimsel olimpiyatlardandır.",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "A) Öğrencilerin matematik ve fen alanlarında kazandıkları bilgi ve becerilerin değerlendirilmesine yönelik bir tarama araştırmasıdır."
+    },
+    {
+      "question":"Timss sınavı kaç yılda bir yapılır?",
+      "questionHead":"",
+      "answerA":"A) 1",
+      "answerB":"B) 2",
+      "answerC":"C) 3",
+      "answerD":"D) 4",
+      "answerE":"E) 5",
+      "correctAnswer": "D) 4"
+    },
+    {
+      "question":"Timss sınavı hangi sınıf düzeylerinde yapılır?",
+      "questionHead":"",
+      "answerA":"A) 4. ve 5. sınıfta",
+      "answerB":"B) 5. ve 6. sınıfta",
+      "answerC":"C) 4. ve 10. sınıfta",
+      "answerD":"D) 4. ve 8. sınıfta",
+      "answerE":"E) 1. ve 5. sınıfta",
+      "correctAnswer": "D) 4. ve 8. sınıfta"
+    },
+    {
+      "question":"Uluslararası sınavlardan biri olan PİSA sınavı hangi yaş grubu öğrencileri içindir?",
+      "questionHead":"",
+      "answerA":"A) 13",
+      "answerB":"B) 14",
+      "answerC":"C) 15",
+      "answerD":"D) 16",
+      "answerE":"E) 17",
+      "correctAnswer": "C) 15"
+    },
+    {
+      "question":"Uluslararası sınavlardan biri olan PİSA sınavı hangi öğrencilerden seçilir?",
+      "questionHead":"",
+      "answerA":"A) Sadece İstanbul'da okuyan öğrencilerden seçilir.",
+      "answerB":"B) Sadece meslek liseleri arasından tesadüfi seçilir.",
+      "answerC":"C) Meb okulları arasından tesadüfi seçilir.",
+      "answerD":"D) Tüm ülkedeki okullardan tesadüfi seçilir.",
+      "answerE":"E) Sadece Anadolu Liseleri arasından tesadüfi seçilir.",
+      "correctAnswer": "C) Meb okulları arasından tesadüfi seçilir."
+    },
+    {
+      "question":"Hangisi Arge birimi tarafından yürütülen bir proje olamaz?",
+      "questionHead":"",
+      "answerA":"A) Erasmus +KA122",
+      "answerB":"B) Tübitak 4006",
+      "answerC":"C) Tübitak 4007",
+      "answerD":"D) Erasmus +KA220",
+      "answerE":"E) Tübitak 4007-2022",
+      "correctAnswer": "B) Tübitak 4006"
+    },
+    {
+      "question":"Bir işletmenin mal ve hizmetlerini diğer işletmelerin mal ve hizmetlerinden ayırt etmeye yarayan her türlü işarete ne denir?",
+      "questionHead":"",
+      "answerA":"A) Marka",
+      "answerB":"B) Buluş",
+      "answerC":"C) Patent",
+      "answerD":"D) Model",
+      "answerE":"E) Telif",
+      "correctAnswer": "A) Marka"
+    },{
+      "question":"Hangisi e-twinning projeleri ile ilgili değildir?",
+      "questionHead":"",
+      "answerA":"A) Avrupa kalite etiketi",
+      "answerB":"B) Ulusal kalite etiketi",
+      "answerC":"C) E-twinning lisesi",
+      "answerD":"D) E-twinning okul levhası",
+      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "C) E-twinning lisesi"
+    },
+    {
+      "question":"Tübitak 4004 proje yürütücüsü olmanın eğitimle ilgili şartı nedir?",
+      "questionHead":"",
+      "answerA":"A) En az 2 yıllık üniversite mezunu olmak",
+      "answerB":"B) En az Yüksek Lisans mezunu olmak",
+      "answerC":"C) En az 4 yıllık üniversite mezunu olmak",
+      "answerD":"D) En az Doktora mezunu olmak",
+      "answerE":"E) En az teknik lise mezunu olmak",
+      "correctAnswer": "B) En az Yüksek Lisans mezunu olmak"
+    },
+    {
+      "question":"Ar-ge birimleri stratejik planları kaç yıllığına yapılır?",
+      "questionHead":"",
+      "answerA":"A) 3",
+      "answerB":"B) 4",
+      "answerC":"C) 5",
+      "answerD":"D) 6",
+      "answerE":"E) 7",
+      "correctAnswer": "B) 4"
+    },
+    {
+      "question":"İl Milli Eitim Ar-ge birimi yılda kaç kez bülten çıkarmak zorundadır?",
+      "questionHead":"",
+      "answerA":"A) 1",
+      "answerB":"B) 2",
+      "answerC":"C) 3",
+      "answerD":"D) 4",
+      "answerE":"E) 5",
+      "correctAnswer": "B) 2"
+    },
+    {
+      "question":"Erasmus+ programı hangi dönemi kapsar?",
+      "questionHead":"",
+      "answerA":"A) 2020-2028",
+      "answerB":"B) 2021-2027",
+      "answerC":"C) 2022-2023",
+      "answerD":"D) 2012-2022",
+      "answerE":"E) 2020-2031",
+      "correctAnswer": "B) 2021-2027"
+    },
+    {
+      "question":"Erasmus+ programı içerisinde hangi proje türü okul eğitimi ile ilgilidir?",
+      "questionHead":"",
+      "answerA":"A) KA211-VSD",
+      "answerB":"B) KA122-ADU",
+      "answerC":"C) KA210-VET",
+      "answerD":"D) KA122-SCH",
+      "answerE":"E) KA210-ENG",
+      "correctAnswer": "D) KA122-SCH"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi Nicel Araştırma yaklaşımlarından değildir?",
+      "questionHead":"",
+      "answerA":"A) Tarama Araştırması",
+      "answerB":"B) Korelasyon Araştırması",
+      "answerC":"C) Örnek olay",
+      "answerD":"D) Deneysel Olay",
+      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "correctAnswer": "C) Örnek olay"
+    },
+    {
+      "question":"Erasmus+ programı içerisinde hangi proje türü yer almaz?",
+      "questionHead":"",
+      "answerA":"A) KA122-SCH",
+      "answerB":"B) KA122-ADU",
+      "answerC":"C) KA210-VET",
+      "answerD":"D) KA211-EDU",
+      "answerE":"E) HEPSI",
+      "correctAnswer": "B) KA122-ADU"
+
+    },
+    {
+      "question":"Gözlemlenebilir gerçekler hakkında bilgi edinmek için yürütülen AR-GE çalışmaları hangi başlık altından incelenir?",
+      "questionHead":"",
+      "answerA":"A) Temel Araştırma",
+      "answerB":"B) Gözlemsel Araştırma",
+      "answerC":"C) Uygulamalı Araştırma",
+      "answerD":"D) Deneysel Araştırma",
+      "answerE":"E) Bilimsel Araştırma",
+      "correctAnswer": "A) Temel Araştırma"
+    },{
+      "question":"STEM: Bilim (science), teknoloji (Technology), ......, Matematik (Mathematic) olmak üzere dört disiplini bütünleştiren bir öğrenme, uygulama ve geliştirme yaklaşımıdır.",
+      "questionHead":"",
+      "answerA":"A) Fizik",
+      "answerB":"B) Kimya",
+      "answerC":"C) Biyoloji",
+      "answerD":"D) Mühendislik",
+      "answerE":"E) Eğitim",
+      "correctAnswer": "D) Mühendislik"
+    },
+    {
+      "question":"Hangi ülke ile e-twinning projesi yapılmaz?",
+      "questionHead":"",
+      "answerA":"A) Almanya",
+      "answerB":"B) Rusya",
+      "answerC":"C) Ukrayna",
+      "answerD":"D) Gürcistan",
+      "answerE":"E) Danimarka",
+      "correctAnswer": "B) Rusya"
+    },
+    {
+      "question":"Hangisi AB programları içerisinde eğitim, gençlik spor alanında tasarlanmış Erasmus+ programı için kaynak sunmaktadır?",
+      "questionHead":"",
+      "answerA":"A) Saltı",
+      "answerB":"B) E-twinning",
+      "answerC":"C) Esep",
+      "answerD":"D) Epale",
+      "answerE":"E) Farabi",
+      "correctAnswer": "B) E-twinning"
+    },
+    {
+      "question":"Hangisi eski bir Avrupa Birliği proje isimlerinden değildir?",
+      "questionHead":"",
+      "answerA":"A) Lenaorda da vinci",
+      "answerB":"B) Socrates",
+      "answerC":"C) Platon",
+      "answerD":"D) Comenius",
+      "answerE":"E) Farabi",
+      "correctAnswer": "C) Platon"
+    },
+    {
+      "question":"Erasmus +KA122VET projesi hangi okul türünü hedefler?",
+      "questionHead":"",
+      "answerA":"A) Mesleki eğitim",
+      "answerB":"B) Anaokulu eğitimi",
+      "answerC":"C) Yüksek Öğretim",
+      "answerD":"D) Yetişkin eğitimi",
+      "answerE":"E) İlköğretim",
+      "correctAnswer": "A) Mesleki eğitim"
+    },
+    {
+      "question":"Hangi proje türü ile bilimsel araştırmalar yapılır?",
+      "questionHead":"",
+      "answerA":"A) 2204",
+      "answerB":"B) 4006",
+      "answerC":"C) 4005",
+      "answerD":"D) 4004",
+      "answerE":"E) 4007",
+      "correctAnswer": "A) 2204"
+    },
+    {
+      "question":"İl Milli Eitim Ar-ge birimi hangi dönemlerde bülten çıkarır?",
+      "questionHead":"",
+      "answerA":"A) Mart - Eylül",
+      "answerB":"B) Ocak - Temmuz",
+      "answerC":"C) Kasım - Nisan",
+      "answerD":"D) Eylül - Haziran",
+      "answerE":"E) Aralık - Haziran",
+      "correctAnswer": "B) Ocak - Temmuz"
+    },
+    {
+      "question":"Hangisi Erasmus+ projelerini yürüten kamu kurumudur?",
+      "questionHead":"",
+      "answerA":"A) Ulusal Ajans",
+      "answerB":"B) Yeğitek",
+      "answerC":"C) Tübitak",
+      "answerD":"D) Kalkınma Ajansı",
+      "answerE":"E) YÖK",
+      "correctAnswer": "A) Ulusal Ajans"
+    },
+    {
+      "question":"Hangisi e-twinning projelerini yürüten kamu kurumudur?",
+      "questionHead":"",
+      "answerA":"A) Ulusal Ajans",
+      "answerB":"B) Yeğitek",
+      "answerC":"C) Tübitak",
+      "answerD":"D) Kalkınma Ajansı",
+      "answerE":"E) YÖK",
+      "correctAnswer": "B) Yeğitek"
+    },
+    {
+      "question":"Hangi proje türü ile okullarda bilim fuarları yapılır?",
+      "questionHead":"",
+      "answerA":"A) 2204",
+      "answerB":"B) 4004",
+      "answerC":"C) 4005",
+      "answerD":"D) 4006",
+      "answerE":"E) 4008",
+      "correctAnswer": "D) 4006"
+    }
+  ]
+}

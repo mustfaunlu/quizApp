@@ -1,0 +1,304 @@
+{
+  "questions":[
+    {
+      "question":"Tweety’nin Silvester’ı gördüğünde verdiği bu iki tepki sırasıyla bilimsel yöntem basamaklarından hangileri ile ifade edilir?",
+      "answerA":"A) a- Problemin fark edilmesib- Verilerin toplanması ve Analizi",
+      "answerB":"B) a- Problemin fark edilmesib- Problemin tanımlanması",
+      "answerC":"C) a- Araştırma yönteminin geliştirilmesib- Verilerin toplanması ve analizi",
+      "answerD":"D) a- Karar verme ve yorumlamab- Problemin tanımlanması",
+      "answerE":"E) a- Problemin farkedilmesib- Karar verme ve yorumlama",
+      "questionHead":"Tweety’nin Silvester’ı gördüğünde verdiği bu iki tepki sırasıyla bilimsel yöntem basamaklarından hangileri ile ifade edilir?",
+      "correctAnswer": "B) a- Problemin fark edilmesib- Problemin tanımlanması"
+    },
+    {
+      "question":"Bilimsel yöntem, bilimlerin ortaklaşa kullandıkları betimleme ve açıklama yollarını kapsayan bir yanı ile eylemsel diğer yanı ile düşünsel bir süreçtir.",
+      "answerA":"A) Akla uygundur.",
+      "answerB":"B) Duyarlığı yüksektir, duyarlığı yüksek ölçme araçları kullanılır.",
+      "answerC":"C) Seçici değildir, gelişigüzeldir.",
+      "answerD":"D) Problem çözmenin en güvenilir yoludur.",
+      "answerE":"E) Denetlenebilir.",
+      "questionHead":"Aşağıdakilerden hangisi bilimsel yöntem ile ilgili doğru bir bilgi değildir?",
+      "correctAnswer": "C) Seçici değildir, gelişigüzeldir."
+    },
+    {
+      "question":"“Birey, problem yaratan çevrede bazı gözlemler yapmış, olaylar ve kanıtlar toplamış, kendisini rahatsız eden şeyin yani problemin ne olduğunu keşfetmiştir.”",
+      "answerA":"A) Problemin tanımlanması",
+      "answerB":"B) Problemin fark edilmesi",
+      "answerC":"C) Çözüm önerilerinin tahmini",
+      "answerD":"D) Verilerin toplanması ve analizi",
+      "answerE":"E) Araştırma yönteminin geliştirilmesi",
+      "questionHead":"Şeklide ifade edilen bilimsel yöntem basamağı aşağıdakilerden hangisidir?",
+      "correctAnswer": "A) Problemin tanımlanması"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi araştırılabilir nitelikte iyi bir problemin ve soruların özelliklerinden değildir?",
+      "questionHead":"",
+      "answerA":"A) Orijinal ve özgün olmalıdır.",
+      "answerB":"B) Anlamlı olmalıdır.",
+      "answerC":"C) Sınanabilir, test edilebilir, ölçülebilir olmalıdır.",
+      "answerD":"D) Çok geniş veya çok dar kapsamlı olmalıdır.",
+      "answerE":"E) Akla yatkın olmalıdır.",
+      "correctAnswer": "D) Çok geniş veya çok dar kapsamlı olmalıdır."
+    },
+    {
+      "question":"Bilimsel araştırma bir problem ile başlar. Araştırma problemi 4 başlık altında tanımlanmaktadır. “Sınırlandırılan konuya ilişkin çalışmaların sonuçları özlüce sunulur.”",
+      "answerA":"A) Giriş bilgisi",
+      "answerB":"B) Bilgileri özetleme",
+      "answerC":"C) Gelişme (Detaylandırma)",
+      "answerD":"D) Problem durumuna işaret etme",
+      "answerE":"E) Sonuç bilgisi",
+      "questionHead":"Şeklinde tanımlanan araştırma problemi başlığı aşağıdakilerden hangisidir?",
+      "correctAnswer": "B) Bilgileri özetleme"
+    },
+    {
+      "question":"Alanyazın taraması ile verilen bilgilerden hangisi yanlıştır?",
+      "questionHead":"",
+      "answerA":"A) Araştırma problemini sınırlandırmaya yardımcı olur.",
+      "answerB":"B) Araştırmanın önemini belirlemeye katkı sağlar.",
+      "answerC":"C) Yöntemin geliştirilmesine katkı sağlar.",
+      "answerD":"D) Yapılacak araştırmanın sonuçlarının yorumlanmasına yardımcı olur.",
+      "answerE":"E) Alanyazın taraması sürecinde temel amaç mümkün olduğunca ikincil kaynaklara ulaşmaktır.",
+      "correctAnswer": "E) Alanyazın taraması sürecinde temel amaç mümkün olduğunca ikincil kaynaklara ulaşmaktır."
+    },
+    {
+      "question":"Aşağıdakilerden hangisi alanyazın taramasında kullanılan birincil kaynaklardandır?",
+      "questionHead":"",
+      "answerA":"A) Araştırma makalelerinin yayınlandığı dergiler",
+      "answerB":"B) Ansiklopediler",
+      "answerC":"C) Çeşitli kaynaklardan üretilen kitaplar",
+      "answerD":"D) Derleme makaleleri",
+      "answerE":"E) Ders kitapları",
+      "correctAnswer": "A) Araştırma makalelerinin yayınlandığı dergiler"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi araştırma probleminin tanımlanmasında kullanılan değişken türlerinden biri değildir?",
+      "questionHead":"",
+      "answerA":"A) Nitel değişken",
+      "answerB":"B) Nicel değişken",
+      "answerC":"C) Hipotezli değişken",
+      "answerD":"D) Bağımlı değişken",
+      "answerE":"E) Sürekli değişken",
+      "correctAnswer": "C) Hipotezli değişken"
+    },
+    {
+      "question":"Bağımsız değişkenler dört başlıkta sınıflandırılmaktadır. Aşağıdakilerden hangisi bu sınıflandırmaya dahil değildir?",
+      "questionHead":"",
+      "answerA":"A) Değiştirilebilen",
+      "answerB":"B) Seçilmiş",
+      "answerC":"C) Düzenleyici",
+      "answerD":"D) İçsel",
+      "answerE":"E) Dışsal",
+      "correctAnswer": "D) İçsel"
+    },
+    {
+      "question":"“Araştırmacının müdahale etmediği, ortamda var olan değişkendir. Nitel veya nicel olabilir.”",
+      "answerA":"A) Değiştirilebilen",
+      "answerB":"B) Seçilmiş",
+      "answerC":"C) Düzenleyici",
+      "answerD":"D) Kontrol",
+      "answerE":"E) Dışsal",
+      "questionHead":"Şeklinde tanımlanan bağımsız değişken türü aşağıdakilerden hangisidir?",
+      "correctAnswer": "B) Seçilmiş"
+    },
+   {
+      "question":"Aşağıdakilerden hangisinde nitel – nicel araştırmalar arasındaki farklar yanlıştır?",
+      "questionHead":"",
+      "answerA":"A) İzlenen yol : Tümevarımsaldır - Kuramsal bilgilerden yararlanır.",
+      "answerB":"B) Amacı : Başkalarınca anlamlandırılmadır - İlişkileri tanımlamak, tahmin etmektir.",
+      "answerC":"C) Sonuç : Alternatif görüşler üretir - Kesin ifadelerle sonuçlanır.",
+      "answerD":"D) Örneklem : Alan uzmanları belirler - Seçkisiz seçim yöntemleri tercih edilir.",
+      "answerE":"E) Genellenebilirliği : Vardır - Yoktur.",
+      "correctAnswer": "E) Genellenebilirliği : Vardır - Yoktur."
+    },
+    {
+      "question":"Hangisi bir Korelasyonel araştırma konusu olabilir?",
+      "questionHead":"",
+      "answerA":"A) Okul müdürünün liderlik özellikleri ile öğretmenlerin stres düzeyleri arasındaki ilişki",
+      "answerB":"B) Diş ağrısında diş hekimine gitmek.",
+      "answerC":"C) Fizik dersinde kuvvet konusunu işlemek.",
+      "answerD":"D) Dersi tekdüzelikten çıkarmak için drama yöntemi kullanmak.",
+      "answerE":"E) Sınavı geçebilmek için sürekli ders çalışmak.",
+      "correctAnswer": "A) Okul müdürünün liderlik özellikleri ile öğretmenlerin stres düzeyleri arasındaki ilişki"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi Nitel Araştırmadır?",
+      "questionHead":"",
+      "answerA":"A) Tarama Araştırmaları",
+      "answerB":"B) Korelasyonel Araştırmaları",
+      "answerC":"C) Nedensel Karşılaştırma Araştırmaları",
+      "answerD":"D) Deneysel Araştırmalar",
+      "answerE":"E) Fenomenolojik Araştırmalar",
+      "correctAnswer": "E) Fenomenolojik Araştırmalar"
+    },
+    {
+      "question":"Aşağıdakilerden hangisi Nicel Araştırma çeşitlerindendir?",
+      "questionHead":"",
+      "answerA":"A) Fenomenolojik Araştırmalar",
+      "answerB":"B) Etnografi Araştırmaları",
+      "answerC":"C) Anlatı Araştırmaları",
+      "answerD":"D) Eylem araştırması",
+      "answerE":"E) Deneysel Araştırmalar",
+      "correctAnswer": "E) Deneysel Araştırmalar"
+    },
+    {
+      "question":"Buket öğretmen, iki sınıfın kimya dersine girmektedir. Yaptığı sınav sonunda bir sınıfın sonuçlarının diğer sınıftan daha yüksek olduğunu görmüştür. Bu durumun nedenlerini araştırmak istemektedir.",
+      "answerA":"A) Nedensel Karşılaştırma",
+      "answerB":"B) Korelasyonel Araştırmalar",
+      "answerC":"C) Tarama Araştırmaları",
+      "answerD":"D) Deneysel Araştırmalar",
+      "answerE":"E) Tek Denekli Araştırmalar",
+      "questionHead":"Bu nicel araştırmalardan hangisinin türüne girer?",
+      "correctAnswer": "A) Nedensel Karşılaştırma"
+    },
+    {
+      "question":"Deniz Öğretmen, kapsayıcı harmanlaştırılmış öğrenme ortamını oyunlaştırma ile desteklemenin, öğrenim gören öğrencilerin ilgi, tutum ve motivasyon üzerinde ne kadar etkili olup olmayacağını belirlemek istemektedir.",
+      "answerA":"A) Tarama Araştırmaları",
+      "answerB":"B) Korelasyonel Araştırmalar",
+      "answerC":"C) Nedensel Karşılaştırma Araştırmalar",
+      "answerD":"D) Deneysel Araştırmalar",
+      "answerE":"E) Tek Denekli Araştırmalar",
+      "questionHead":"Buna en uygun araştırma türü hangisidir?",
+      "correctAnswer": "D) Deneysel Araştırmalar"
+    },
+    {
+      "question":"1. Çalışılacak olan konunun saptanması,\n2. Çalışmadaki katılımcıların belirlenmesi,\n3. Verilerin toplanması,\n4. Hipotezlerin üretilmesi\n5. Verilerin analizi ve yorumlanması",
+      "answerA":"A) 1-2",
+      "answerB":"B) 2-3",
+      "answerC":"C) 3-4",
+      "answerD":"D) 4-5",
+      "answerE":"E) 1-5",
+      "questionHead":"Nitel araştırmaların aşamalarında hangi ikisi yer değiştirmelidir?",
+      "correctAnswer": "C) 3-4"
+    },
+    {
+      "question":"Eğitimle ilgili yapılan araştırma öğretim süreci içerisinde kullanılan bir yöntem olması nedeniyle öğretmenlerin rolünü “araştırmacı öğretmen” olarak değiştirmektedir.",
+      "answerA":"A) Durum Çalışması",
+      "answerB":"B) Anlatı araştırması",
+      "answerC":"C) Etnografi araştırması",
+      "answerD":"D) Eylem Araştırması",
+      "answerE":"E) Fenomenolojik Araştırmalar",
+      "questionHead":"Nitel araştırmaların türlerinden hangi araştırma alanındadır?",
+      "correctAnswer": "D) Eylem Araştırması"
+    },
+    {
+      "question":"Nitel Araştırma Türlerinde kullanılan kavramlar hangisinde yanlış verilmiştir?",
+      "questionHead":"",
+      "answerA":"A) Fenomenolojik (Görüngü, Fenomen, “Neyin” “nasıl” deneyimlendiğini bütünleştiren “öz” betimlenir)",
+      "answerB":"B) Etnografi (kültür betimlemesi, emik)",
+      "answerC":"C) Anlatı Araştırmaları (deneyim, anlamlandırma, hayat hikâyesi, mektup yazma)",
+      "answerD":"D) Durum Çalışması(örnek olay çalışmaları, amaçlı örnekleme, bütüncül analiz, doğal genelleme)",
+      "answerE":"E) Deneysel Araştırma(seçkisiz, Denekleri eşleştirme)",
+      "correctAnswer": "E) Deneysel Araştırma(seçkisiz, Denekleri eşleştirme)"
+    },
+    {
+      "question":"Kızılderililerin kültürünü yerinde incelemek isteyen Habib, yaz tatilinde Peru’daki Andlar kabilesinin içinde yaşamaya başlar ve ''Doğunun Kanatsız Kartalı'' ismini alır. Ata biner, yüzünü boyar.",
+      "answerA":"A) Fenomenolojik araştırmaları",
+      "answerB":"B) Etnografi araştırmaları",
+      "answerC":"C) Eylem Araştırması",
+      "answerD":"D) Durum Çalışmaları",
+      "answerE":"E) Anlatı Araştırmaları",
+      "questionHead":"Bu hangi araştırmalardan bir örneklemedir?",
+      "correctAnswer": "B) Etnografi araştırmaları"
+    },{
+      "question":"“Önemli olan, konunun yaklaşımı belirlemesidir; yaklaşımın konuyu belirlemesi değil. Unutulmaması gereken en önemli konu; hiçbir yaklaşımın tek başına güçlü bir şekilde her türlü konuyu inceleyebileceğinin olanak dışı olduğudur.”",
+      "answerA":"A) Eylem araştırmaları",
+      "answerB":"B) Karma Araştırmalar",
+      "answerC":"C) Nitel Araştırmalar",
+      "answerD":"D) Nicel Araştırmalar",
+      "answerE":"E) Tek Denekli Araştırmalar",
+      "questionHead":"Bu araştırmalardan hangisini belirtir?",
+      "correctAnswer": "B) Karma Araştırmalar"
+    },
+    {
+      "question":"Charles Babbage hangisi ile ilişkilendirilemez?",
+      "questionHead":"",
+      "answerA":"A) “Bilimsel Araştırmalarda Sahtekârlık” çalışması vardır.",
+      "answerB":"B) Bilimsel Araştırma Etiği çıkaran kişidir.",
+      "answerC":"C) Bilgisayarın çalışma mantığını ortaya koyan kişidir.",
+      "answerD":"D) Fark Motoru” isimli hesap makinesi bilgisayarın atasıdır.",
+      "answerE":"E) Esasicilik ilkesinin kurmacısıdır.",
+      "correctAnswer": "E) Esasicilik ilkesinin kurmacısıdır."
+    },
+    {
+      "question":"Genel bilimsel araştırma sürecinde Veri Analizinde Temel Etik İlkelerini beş başlıkta sıralamaktadır. Hangisi doğrudur?",
+      "questionHead":"",
+      "answerA":"A) Kişiye Saygı (Özerklik): Araştırmaya katılımcının kendi hür iradesi ile katılması",
+      "answerB":"B) Yararlılık: Maliyet, risk ve faydanın dengesi",
+      "answerC":"C) Zarar Vermeme: Katılımcıların fiziksel, ruhsal bir zarara uğramaması",
+      "answerD":"D) Adalet İlkesi: Topluma yararda herkese eşit davranılması, ayrıca mahremiyete saygı duyulması",
+      "answerE":"E) Hepsi",
+      "correctAnswer": "E) Hepsi"
+    },
+    {
+      "question":"Yayın etiği başlığı altında TÜBİTAK’ın (2006) etik ihlallerine ilişkin listelerinden hangisi yanlıştır?",
+      "questionHead":"",
+      "answerA":"A) Sonuçları, materyalleri değiştirmek (çarpıtma)",
+      "answerB":"B) Başkasının ürünlerini atıf yapmadan kullanmak (aşırma)",
+      "answerC":"C) Yazarın ismini göstermek",
+      "answerD":"D) Aynı çalışmaya başka başka yerlerde yayımlamak (dublikasyon)",
+      "answerE":"E) Bütününü parça parça yayın hâline getirmek (dilimleme)",
+      "correctAnswer": "C) Yazarın ismini göstermek"
+    },
+    {
+      "question":"Test, ölçek geliştirmenin aşamalarından Yapı Geçerliği ve Madde Analizi hangi sırada yapılır?",
+      "questionHead":"",
+      "answerA":"A) Önce testin amacının, sonra ölçülecek özelliğin belirlenmesi",
+      "answerB":"B) Madde yazımı ve havuzunun oluşturulması",
+      "answerC":"C) Alan uzmanı ve Dilsel eş değerliği",
+      "answerD":"D) Uygulama ve analiz",
+      "answerE":"E) Ölçeğin geçerlik ve güvenirlik çalışması",
+      "correctAnswer": "D) Uygulama ve analiz"
+    },
+    {
+      "question":"Bilgi yoğunluğu açısından yeterli olmalı bununla birlikte okunaklı, eksiksiz ve iyi düzenlenmiş olmalıdır. Araştırmanın amacını, içeriğini ve yöntemini yansıtmalıdır. 120 kelimeyi geçmemelidir.",
+      "answerA":"A) 1.Özet bölümünde",
+      "answerB":"B) 2.Giriş bölümünde",
+      "answerC":"C) 3.Yöntem bölümünde",
+      "answerD":"D) 4.Bulgular bölümünde",
+      "answerE":"E) 5.Tartışma bölümünde",
+      "questionHead":"Anlatılanlar \"Bilimsel Raporlama Bölümünün\" hangi kısmındadır?",
+      "correctAnswer": "A) 1.Özet bölümünde"
+    },
+    {
+      "question":"APA (Amerikan Psikoloji Derneği) Bilimsel raporlar için belirtilen yazım kuralları ile ilgili hangisi yanlıştır?",
+      "questionHead":"",
+      "answerA":"A) Her bir sayfanın üst, alt, sağ ve solundan 2.54 cm boşluk bırakılmalıdır.",
+      "answerB":"B) Rakam olarak kullanılan “0” ile harf olan “o” birbirinin yerine kullanılabilir.",
+      "answerC":"C) Kelimeler satır sonunda kesinlikle bölünmemelidir.",
+      "answerD":"D) Kelime İşlemci İngilizce ise ondalığı. (nokta), Türkçe ise , (virgül) ile yazmamız gerekir.",
+      "answerE":"E) Sayfa numarası, sayfanın sağ üst köşesine yerleştirilmelidir.",
+      "correctAnswer": "B) Rakam olarak kullanılan “0” ile harf olan “o” birbirinin yerine kullanılabilir."
+    },
+    {
+      "question":"Kaynaklar listesinin düzenlenmesi ile ilgili olarak hangisi yanlıştır?",
+      "questionHead":"",
+      "answerA":"A) Kaynaklar ilk yazarın soyadına göre alfabetik sıraya konulur.",
+      "answerB":"B) Aynı yazarın farklı yıllarda tek başına yaptığı çalışmalar, yıl sırasına göre düzenlenir.",
+      "answerC":"C) Kaynaklar ilk yazarın adına göre alfabetik sıraya konulur.",
+      "answerD":"D) Aynı yazarın/yazarların aynı tarihli çalışmaları listelenirken çalışmanın adı alfabetik olarak sıralanır. Yayın yılından sonra a, b, c … şeklinde alfabetik olarak küçük harfler yerleştirilir.",
+      "answerE":"E) Aynı soyadlı farklı yazarların çalışmaları, yazarların isimleri dikkate alınarak alfabetik olarak sıralanır.",
+      "correctAnswer": "C) Kaynaklar ilk yazarın adına göre alfabetik sıraya konulur."
+    },
+    {
+
+      "question":"Şeyma öğretmen öğrencilerini girişimci olarak yetiştirmek istiyor. Şeyma öğretmenin aşağıdakilerden hangisini yapması doğru olmaz?",
+      "questionHead":"",
+      "answerA":"A) Öncelikle öğrencilerine rol model olması gerekir.",
+      "answerB":"B) Yaratıcı problem çözümü, probleme dayalı ve proje temelli öğrenme stratejilerine yer vermelidir.",
+      "answerC":"C) Resim dersinde disiplinlerarası yaklaşımla matematiksel geometrik şekilleri çizdirebilir.",
+      "answerD":"D) Sunuş yoluyla anlatıma ağırlık vermelidir.",
+      "answerE":"E) Çocuklara yapabilecekleri sorumluluklar vererek onları sürece dahil etmelidir.",
+      "correctAnswer": "D) Sunuş yoluyla anlatıma ağırlık vermelidir."
+    },
+    {
+      "question":"Her icat yenilik içermeyebilir, her yenilik inovasyon içermeyebilir ama her inovasyon yenilik içerir.",
+      "answerA":"A) Bir süreç olabilir; kısa süre içinde algılanır.",
+      "answerB":"B) Tek başına buluş veya Ar-Ge değildir, farklı ve orijinaldir.",
+      "answerC":"C) Kullanıldıkça yaşamda değişiklik yaratır, çevreye uyum sağlamadır.",
+      "answerD":"D) Rekabet aracıdır, kültürle doğrudan ilintilidir.",
+      "answerE":"E) Problem çözme süreci değildir.",
+      "questionHead":"Aşagıdakilerden hangisi Yenilik ile ilgili önemli bakış açılarından biri değildir?",
+      "correctAnswer": "E) Problem çözme süreci değildir."
+    }
+  ]
+}
