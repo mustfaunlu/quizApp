@@ -1,0 +1,205 @@
+{
+  "headmasterquestions": [
+  {
+    "question": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "questionHead": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "answerA": "AÖlçme",
+    "answerB": "BÖlçüm",
+    "answerC": "CDeğerlendirme",
+    "answerD": "DÖlçme ve değerlendirme",
+    "Field7": "EÖlçüt",
+    "Field8": "AÖlçme"
+  },
+  {
+    "question": "Eğitim ve öğretimde, ölçme ve değerlendirme hangi basamakta gerçekleştirilir?",
+    "questionHead": "Eğitim ve öğretimde, ölçme ve değerlendirme hangi basamakta gerçekleştirilir?",
+    "answerA": "AÖğretimin başında düzey belirlemede",
+    "answerB": "BÖğretim sürecinde ara değerlendirmelerde",
+    "answerC": "CÖğretim süreci sonunda değerlendirmede",
+    "answerD": "DÖğrencinin gelişimini takip etmede",
+    "Field7": "EHepsi",
+    "Field8": "EHepsi"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir ölçme işlemidir?",
+    "questionHead": "Aşağıdakilerden hangisi bir ölçme işlemidir?",
+    "answerA": "ABir kumaşın boyunun cetvelle ölçülmesi",
+    "answerB": "BBir kova suyun sıcaklığının termometre ile ölçülmesi",
+    "answerC": "CÖğrencinin sınava alınarak başarısının ölçülmesi",
+    "answerD": "DBir çocuğun zekasının ölçülmesi",
+    "Field7": "EHepsi",
+    "Field8": "EHepsi"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçmenin fonksiyonlarından değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçmenin fonksiyonlarından değildir?",
+    "answerA": "ADaha duyarlı olmayı sağlar",
+    "answerB": "BDaha kesin veriler oluşturur",
+    "answerC": "CDeğerlendirmeye olanak sağlar",
+    "answerD": "DÖlçme aracını deneme",
+    "Field7": "EPerformansı sayısallaştırır",
+    "Field8": "DÖlçme aracını deneme"
+  },
+  {
+    "question": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi doğrudur?",
+    "questionHead": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi doğrudur?",
+    "answerA": "ADolaylı ölçmelere, hata karışma ihtimali daha azdır.",
+    "answerB": "BDolaylı ölçmelerden elde edilen veriler daha tutarlıdır.",
+    "answerC": "CDoğrudan ölçmelerde elde edilen ölçümler daha objektiftir.",
+    "answerD": "DCetvel, boy ölçümünde dolaylı bir ölçme aracıdır.",
+    "Field7": "EDoğrudan ölçmelerde sıfır izafidir.",
+    "Field8": "CDoğrudan ölçmelerde elde edilen ölçümler daha objektiftir."
+  },
+  {
+    "question": "Eğitimde ölçme aşağıdaki sorulardan hangisine öncelikle cevap verir?",
+    "questionHead": "Eğitimde ölçme aşağıdaki sorulardan hangisine öncelikle cevap verir?",
+    "answerA": "ANiçin eğiteceğimizi",
+    "answerB": "BNasıl eğiteceğimizi",
+    "answerC": "CNe kadar eğiteceğimizi",
+    "answerD": "DHangi kaynakları kullanacağımızı",
+    "Field7": "ENerede eğiteceğimizi",
+    "Field8": "CNe kadar eğiteceğimizi"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme ile ilgili değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme ile ilgili değildir?",
+    "answerA": "ABütün bilimler, veri elde etmek için ölçmeden yararlanabilir",
+    "answerB": "BÖlçme, değerlendirmenin ön şartıdır",
+    "answerC": "CÖlçme, eğitim bilimlerinin alt alanı olarak diğer bilimlere katkıda bulunur",
+    "answerD": "DÖlçme nicelikleri belirleme, değerlendirme nitelik verme sürecidir",
+    "Field7": "EÖlçme objektif olmak zorundadır",
+    "Field8": "CÖlçme, eğitim bilimlerinin alt alanı olarak diğer bilimlere katkıda bulunur"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme değildir?",
+    "answerA": "ASınıftaki öğrencileri tek ve çift numaralılar şeklinde gruplandırmak",
+    "answerB": "BBasketbol takımının ligden düşmesi",
+    "answerC": "COlimpiyatlarda 4 altın madalya aldık",
+    "answerD": "DTaksileri duraktan çıkış sırasına göre sıralandırmak",
+    "Field7": "EÖğrencilere, boy uzunluklarına göre not vermek",
+    "Field8": "BBasketbol takımının ligden düşmesi"
+  },
+  {
+    "question": "Aşağıda verilen ölçümlerden hangisi diğerlerinden farklıdır?",
+    "questionHead": "Aşağıda verilen ölçümlerden hangisi diğerlerinden farklıdır?",
+    "answerA": "ABoy ve ağırlığın ölçülmesi",
+    "answerB": "BSıcaklığın ölçülmesi",
+    "answerC": "CZekanın ölçülmesi",
+    "answerD": "DBaşarının ölçülmesi",
+    "Field7": "ETutumların ölçülmesi",
+    "Field8": "ABoy ve ağırlığın ölçülmesi"
+  },
+  {
+    "question": "Ölçme işleminde, cevaplandırması gereken ilk soru aşağıdakilerden hangisidir?",
+    "questionHead": "Ölçme işleminde, cevaplandırması gereken ilk soru aşağıdakilerden hangisidir?",
+    "answerA": "ANe ile ölçeceğiz?",
+    "answerB": "BNeyi ölçeceğiz?",
+    "answerC": "CKriter nedir?",
+    "answerD": "DVeriler nasıl sembolleştirilecek?",
+    "Field7": "EHangi aralıklarla ölçeceğiz?",
+    "Field8": "BNeyi ölçeceğiz?"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temel (mutlak) ölçmeye örnektir?",
+    "questionHead": "Aşağıdakilerden hangisi temel (mutlak) ölçmeye örnektir?",
+    "answerA": "AÖğrencilere zeka testi uygulamak",
+    "answerB": "BBir sınıfta öğrencilerin sayısını belirlemek",
+    "answerC": "CÖğrencilerin eğitim bilgisini standart bir testle ölçmek",
+    "answerD": "DÖğrencilerin matematik başarısını ölçmek",
+    "Field7": "EÖğrencilerin üniversitede başarılarını tahmin etmek",
+    "Field8": "BBir sınıfta öğrencilerin sayısını belirlemek"
+  },
+  {
+    "question": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi yanlıştır?",
+    "questionHead": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi yanlıştır?",
+    "answerA": "ADolaylı ölçmelerde sıfır izafidir.",
+    "answerB": "BDoğrudan ölçmede elde edilen veriler daha tutarlıdır.",
+    "answerC": "CDoğrudan ölçme yönteminde oranlı ölçekler kullanılır.",
+    "answerD": "DDolaylı ölçme, mutlak ölçmedir.",
+    "Field7": "EDoğrudan ölçmelere, hata karışma ihtimali daha azdır.",
+    "Field8": "DDolaylı ölçme, mutlak ölçmedir."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi doğrudan ölçmeyi, dolaylı ölçmeden ayıran fark değildir?",
+    "questionHead": "Aşağıdakilerden hangisi doğrudan ölçmeyi, dolaylı ölçmeden ayıran fark değildir?",
+    "answerA": "ADaha kesin sonuçlar verir.",
+    "answerB": "BHata karışma olasılığı yüksektir.",
+    "answerC": "CSıfır, gerçek anlamdadır.",
+    "answerD": "DSıfır, başlangıç ve yokluk anlamındadır.",
+    "Field7": "EDaha objektiftir.",
+    "Field8": "BHata karışma olasılığı yüksektir."
+  },
+  {
+    "question": "Bir öğretmenin matematik dersine ait sınav kağıtlarını okuyup öğrencilerin her bir sorudan aldığı puanları toplayarak öğrencilere verdiği puanlara ne ad verilir?",
+    "questionHead": "Bir öğretmenin matematik dersine ait sınav kağıtlarını okuyup öğrencilerin her bir sorudan aldığı puanları toplayarak öğrencilere verdiği puanlara ne ad verilir?",
+    "answerA": "AÖlçme",
+    "answerB": "BDeğerlendirme",
+    "answerC": "CÖlçüt",
+    "answerD": "DÖlçek",
+    "Field7": "EÖlçüm",
+    "Field8": "EÖlçüm"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme ile ilgili değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme ile ilgili değildir?",
+    "answerA": "ABütün bilimler ölçmeden yararlanabilir.",
+    "answerB": "BÖlçme eğitim bilimlerinin alt alanıdır.",
+    "answerC": "CÖlçme, değerlendirmenin ön şartıdır.",
+    "answerD": "DÖlçme nicelikleri belirleme, değerlendirme yargı sürecidir.",
+    "Field7": "EÖlçme objektif olmak zorundadır.",
+    "Field8": "BÖlçme eğitim bilimlerinin alt alanıdır."
+  },
+  {
+    "question": "Eğitimde öğrenci başarısını ölçmenin en önemli gerekçesi nedir?",
+    "questionHead": "Eğitimde öğrenci başarısını ölçmenin en önemli gerekçesi nedir?",
+    "answerA": "AÖğrencileri çalışmaya zorlamak",
+    "answerB": "BBaşarısız öğrencileri durumlarından haberdaretmek",
+    "answerC": "CÖğrenme düzeyi ile ilgili bilgi toplamak",
+    "answerD": "DBaşarılı öğrencileri ödüllendirmek",
+    "Field7": "EÖğrenciler hakkında öğretmen kanısını pekiştirmek",
+    "Field8": "CÖğrenme düzeyi ile ilgili bilgi toplamak"
+  },
+  {
+    "question": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir.",
+    "questionHead": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir.",
+    "answerA": "AÖğretim yöntemleri",
+    "answerB": "BÖğretim süreci",
+    "answerC": "CAkademik başarı düzeyleri",
+    "answerD": "DÖğrencilerin hazır bulunuşluk düzeyleri",
+    "Field7": "EFarklı gruptaki öğrenciler",
+    "Field8": "CAkademik başarı düzeyleri"
+  },
+  {
+    "question": "Araştırmanın bağımlı değişkeni aşağıdakilerden hangisidir?",
+    "questionHead": "Araştırmanın bağımlı değişkeni aşağıdakilerden hangisidir?",
+    "answerA": "AÖntest ve sontestler",
+    "answerB": "BAkademik başarı düzeyi",
+    "answerC": "CFen bilgisi dersi",
+    "answerD": "DYöntemlerin kullanıldığı sınıflar",
+    "Field7": "EÖğretim yöntemleri",
+    "Field8": "EÖğretim yöntemleri"
+  },
+  {
+    "question": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir.",
+    "questionHead": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir.",
+    "answerA": "AMutlak",
+    "answerB": "BBağıl",
+    "answerC": "CDönem başı",
+    "answerD": "DDönem içi",
+    "Field7": "EPortfolyo",
+    "Field8": "BBağıl"
+  },
+  {
+    "question": "Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "questionHead": "Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "answerA": "AÖğrencilerin ilgileri farklı değişkenlerden etkilenmektedir.",
+    "answerB": "BGürültü öğrencilerin derse yönelik ilgisini etkileyen değişkenlerden değildir.",
+    "answerC": "CAraştırmanın bağımlı değişkeni gürültü miktarıdır.",
+    "answerD": "DGürültü ile ilgi arasında negatif bir ilişki vardır.",
+    "Field7": "EGürültü miktarı, eğitim ortamındaki içsel faktör durumundadır.",
+    "Field8": "DGürültü ile ilgi arasında negatif bir ilişki vardır."
+  }
+]
+
+  }
