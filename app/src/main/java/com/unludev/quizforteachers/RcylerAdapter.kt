@@ -1,32 +1,28 @@
 package com.unludev.quizforteachers
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.TextView
 
+
+import android.view.LayoutInflater
+import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.unludev.quizforteachers.databinding.FragmentSubjectBinding
 import com.unludev.quizforteachers.databinding.RvRowBinding
 
-class RcyclerAdapter(private val subjectList: ArrayList<String>): RecyclerView.Adapter<RcyclerAdapter.SubjectVH>() {
 
-    class SubjectVH(itemView: View) : ViewHolder(itemView) {
-
-    }
+class SubjectAdapter(private val subjectList: ArrayList<String>): RecyclerView.Adapter<SubjectAdapter.SubjectVH>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SubjectVH {
-
-     val itemview = LayoutInflater.from(parent.context).inflate(R.layout.rv_row,parent,false)
-        return SubjectVH(itemview)
+     val binding = RvRowBinding.inflate(LayoutInflater.from(parent.context), parent,false)
+        return SubjectVH(binding)
     }
 
-    override fun onBindViewHolder(holder: SubjectVH, position: Int) {
-       val textview = holder.itemView.findViewById<TextView>(R.id.rv_tv)
-        textview.text = subjectList[position]
-    }
+    override fun onBindViewHolder(holder: SubjectVH, position: Int) = holder.bind(subjectList[position])
 
     override fun getItemCount(): Int {
         return subjectList.size
+    }
+
+    class SubjectVH(private val binding: RvRowBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(item: String) {
+            binding.rvTv.text = item
+        }
     }
 }

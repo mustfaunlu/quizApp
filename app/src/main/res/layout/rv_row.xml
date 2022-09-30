@@ -2,27 +2,25 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <com.google.android.material.card.MaterialCardView
-        style="@style/TestCard"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp">
-
-
-        <TextView
-            android:id="@+id/rv_tv"
-            android:text="Test Subject"
+    android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView
+            style="@style/TestCard"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:padding="15dp"
-            android:textColor="@color/text_secondery_color"
-            android:textSize="15sp" />
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/rv_tv"
+                    android:text="Test Subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textColor="@color/text_secondery_color"
+                    android:textSize="15sp" />
 
 
-    </com.google.android.material.card.MaterialCardView>
+        </com.google.android.material.card.MaterialCardView>
+
+
 
 </LinearLayout>
