@@ -35,7 +35,7 @@ class ExpertQuestionsFragment : Fragment() {
     private val s11json = "ceviklim.json"
     private val s12json = "ozelegtm.json"
     private val s13json = "ozelegtm2.json"
-    private val s14json = "ogrsur1.json"
+    private val s14json = "ogrsur.json"
     private val s15json = "ogrsur2.json"
 
     private lateinit var binding: FragmentExpertQuestionsBinding
@@ -70,7 +70,7 @@ class ExpertQuestionsFragment : Fragment() {
                 "Sosyal Etkileşim ve İletişim - 2" -> getAllQuestions(s6json)
                 "Sosyal Etkileşim ve İletişim - 3" -> getAllQuestions(s7json)
                 "Dijital Yetkinlik" -> getAllQuestions(s8json)
-                "Çevre Eğitimi ve İklim Değişikliği", -> getAllQuestions(s11json)
+                "Çevre Eğitimi ve İklim Değişikliği" -> getAllQuestions(s11json)
                 "Özel Eğitim ve Rehberlik - 1" -> getAllQuestions(s12json)
                 "Özel Eğitim ve Rehberlik - 2" -> getAllQuestions(s13json)
                 "Öğrenme ve Öğretme Süreçleri - 1" -> getAllQuestions(s14json)
