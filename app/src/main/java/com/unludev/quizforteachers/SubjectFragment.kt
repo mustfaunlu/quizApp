@@ -24,15 +24,20 @@ class SubjectFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 //TODO("hardcoded stringleri xml e bagla")
-        subjectList = arrayListOf("Öğrenme ve Öğretme Süreçleri",
+        subjectList = arrayListOf("Eğitimde Kapsayıcılık - 1",
+            "Eğitimde Kapsayıcılık - 2",
+            "Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 1",
+            "Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 2",
+            "Güvenli Okul ve Okul Güvenliği - 1",
+            "Güvenli Okul ve Okul Güvenliği - 2",
+            "Sosyal Etkileşim ve İletişim - 1",
+            "Sosyal Etkileşim ve İletişim - 2",
+            "Sosyal Etkileşim ve İletişim - 3",
+            "Dijital Yetkinlik",
+            "Çevre Eğitimi ve İklim Değişikliği",
             "Ölçme ve Değerlendirme",
             "Özel Eğitim ve Rehberlik",
-            "Eğitim Araştırmaları ve Ar-Ge Çalışmaları",
-            "Eğitimde Kapsayıcılık",
-            "Çevre Eğitimi ve İklim Değişikliği",
-            "Sosyal Etkileşim ve İletişim",
-            "Dijital Yetkinlik",
-            "Güvenli Okul ve Okul Güvenliği",
+            "Öğrenme ve Öğretme Süreçleri",
             "Okul Geliştirme ve Liderlik",
             "Sosyal Duygusal Öğrenme Becerilerin Geliştirilmesi",
             "Bilişsel Düşünme Becerileri"

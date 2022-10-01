@@ -21,14 +21,19 @@ import java.io.InputStream
 
 class ExpertQuestionsFragment : Fragment() {
 
-    private val s1json = "expertquestions.json"
-    private val s2json = "dijyet.json"
+
+    private val s8json = "dijyet.json"
     private val s3json = "guvokul.json"
     private val s4json = "guvokul2.json"
     private val s5json = "sosyaletki.json"
     private val s6json = "sosyaletki2.json"
-    private val s7json = "egtkapsam.json"
-    private val s8json = "egtkapsam2.json"
+    private val s7json = "sosyaletkilesimveiletsm78.json"
+    private val s1json = "egtkapsam.json"
+    private val s2json = "egtkapsam2.json"
+    private val s9json = "egtmarge.json"
+    private val s10json = "egtmarge2.json"
+    private val s11json = "ceviklim.json"
+
     private lateinit var binding: FragmentExpertQuestionsBinding
     private var correct = 0
     private var wrong = 0
@@ -51,14 +56,17 @@ class ExpertQuestionsFragment : Fragment() {
 
         arguments?.let {
             when(ExpertQuestionsFragmentArgs.fromBundle(it).que) {
-                "s1" -> getAllQuestions(s1json)
-                "s2" -> getAllQuestions(s2json)
-                "s3" -> getAllQuestions(s3json)
-                "s4" -> getAllQuestions(s4json)
-                "s5" -> getAllQuestions(s5json)
-                "s6" -> getAllQuestions(s6json)
-                "s7" -> getAllQuestions(s7json)
-                "s8" -> getAllQuestions(s8json)
+                "Eğitimde Kapsayıcılık - 1" -> getAllQuestions(s1json)
+                "Eğitimde Kapsayıcılık - 2" -> getAllQuestions(s2json)
+                "Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 1" -> getAllQuestions(s9json)
+                "Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 2" -> getAllQuestions(s10json)
+                "Güvenli Okul ve Okul Güvenliği - 1" -> getAllQuestions(s3json)
+                "Güvenli Okul ve Okul Güvenliği - 2" -> getAllQuestions(s4json)
+                "Sosyal Etkileşim ve İletişim - 1" -> getAllQuestions(s5json)
+                "Sosyal Etkileşim ve İletişim - 2" -> getAllQuestions(s6json)
+                "Sosyal Etkileşim ve İletişim - 3" -> getAllQuestions(s7json)
+                "Dijital Yetkinlik" -> getAllQuestions(s8json)
+                "Çevre Eğitimi ve İklim Değişikliği", -> getAllQuestions(s11json)
             }
         }
 
