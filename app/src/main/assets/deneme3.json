@@ -1,0 +1,204 @@
+{
+  "deneme3": [
+  {
+    "question": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "questionHead": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "answerA": "AÖlçme",
+    "answerB": "BÖlçüm",
+    "answerC": "CDeğerlendirme",
+    "answerD": "DÖlçme ve değerlendirme",
+    "answerE": "EÖlçüt",
+    "correctAnswer": "AÖlçme"
+  },
+  {
+    "question": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi doğrudur?",
+    "questionHead": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi doğrudur?",
+    "answerA": "ADolaylı ölçmelere, hata karışma ihtimali daha azdır.",
+    "answerB": "BDolaylı ölçmelerden elde edilen veriler daha tutarlıdır.",
+    "answerC": "CDoğrudan ölçmelerde elde edilen ölçümler daha objektiftir.",
+    "answerD": "DCetvel, boy ölçümünde dolaylı bir ölçme aracıdır.",
+    "answerE": "EDoğrudan ölçmelerde sıfır izafidir.",
+    "correctAnswer": "CDoğrudan ölçmelerde elde edilen ölçümler daha objektiftir."
+  },
+  {
+    "question": "Eğitimde ölçme aşağıdaki sorulardan hangisine öncelikle cevap verir?",
+    "questionHead": "Eğitimde ölçme aşağıdaki sorulardan hangisine öncelikle cevap verir?",
+    "answerA": "ANiçin eğiteceğimizi",
+    "answerB": "BNasıl eğiteceğimizi",
+    "answerC": "CNe kadar eğiteceğimizi",
+    "answerD": "DHangi kaynakları kullanacağımızı",
+    "answerE": "ENerede eğiteceğimizi",
+    "correctAnswer": "CNe kadar eğiteceğimizi"
+  },
+  {
+    "question": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi yanlıştır?",
+    "questionHead": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi yanlıştır?",
+    "answerA": "ADolaylı ölçmelerde sıfır izafidir.",
+    "answerB": "BDoğrudan ölçmede elde edilen veriler daha tutarlıdır.",
+    "answerC": "CDoğrudan ölçme yönteminde oranlı ölçekler kullanılır.",
+    "answerD": "DDolaylı ölçme, mutlak ölçmedir.",
+    "answerE": "EDoğrudan ölçmelere, hata karışma ihtimali daha azdır.",
+    "correctAnswer": "DDolaylı ölçme, mutlak ölçmedir."
+  },
+  {
+    "question": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "questionHead": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "answerA": "AÖntest ve sontestler",
+    "answerB": "BAkademik başarı düzeyi",
+    "answerC": "CFen bilgisi dersi",
+    "answerD": "DYöntemlerin kullanıldığı sınıflar",
+    "answerE": "EÖğretim yöntemleri",
+    "correctAnswer": "EÖğretim yöntemleri"
+  },
+  {
+    "question": "Bir araştırmada ortamda gürültü arttıkça öğrencilerin derse yönelik ilgilerinin azaldığı belirlenmiştir. Aşağıdaki seçeneklerin hangisinde bu araştırmanın sonucu doğru yorumlanmıştır?",
+    "questionHead": "Bir araştırmada ortamda gürültü arttıkça öğrencilerin derse yönelik ilgilerinin azaldığı belirlenmiştir. Aşağıdaki seçeneklerin hangisinde bu araştırmanın sonucu doğru yorumlanmıştır?",
+    "answerA": "AÖğrencilerin ilgileri farklı değişkenlerden etkilenmektedir.",
+    "answerB": "BGürültü öğrencilerin derse yönelik ilgisini etkileyen değişkenlerden değildir.",
+    "answerC": "CAraştırmanın bağımlı değişkeni gürültü miktarıdır.",
+    "answerD": "DGürültü ile ilgi arasında negatif bir ilişki vardır.",
+    "answerE": "EGürültü miktarı, eğitim ortamındaki içsel faktör durumundadır.",
+    "correctAnswer": "DGürültü ile ilgi arasında negatif bir ilişki vardır."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sınavın geçerliğini artırmada en az etkiye sahiptir?",
+    "questionHead": "Aşağıdakilerden hangisi sınavın geçerliğini artırmada en az etkiye sahiptir?",
+    "answerA": "ASoruların çok zor olması",
+    "answerB": "Bİyi bir sınav planı hazırlanması",
+    "answerC": "CAçık, anlaşılır sorular yazılması",
+    "answerD": "DSınavda her hedef-davranışla ilgili soru sorulması",
+    "answerE": "EHer sınavda farklı sorular sorulması",
+    "correctAnswer": "ASoruların çok zor olması"
+  },
+  {
+    "question": "I. 3 seçenekli 20 soruluk çoktan seçmeli test II. 5 soruluk yazılı yoklama III. 15 soruluk kısa cevaplı test IV. 5 seçenekli 20 soruluk çoktan seçmeli test Verilenleri hazırlanması bakımından en kullanışlıdan en kullanışsıza doğru sıralayan seçenek hangisinde verilmiştir?",
+    "questionHead": "I. 3 seçenekli 20 soruluk çoktan seçmeli test II. 5 soruluk yazılı yoklama III. 15 soruluk kısa cevaplı test IV. 5 seçenekli 20 soruluk çoktan seçmeli test Verilenleri hazırlanması bakımından en kullanışlıdan en kullanışsıza doğru sıralayan seçenek hangisinde verilmiştir?",
+    "answerA": "AI, ll, lll, IV",
+    "answerB": "Bll, I, lll, IV",
+    "answerC": "Clll, IV, ll, I",
+    "answerD": "Dlll, ll, I, IV",
+    "answerE": "EII, III, I, IV",
+    "correctAnswer": "EII, III, I, IV"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi doğrudan güvenirlik olarak yorumlanamaz?",
+    "questionHead": "Aşağıdakilerden hangisi doğrudan güvenirlik olarak yorumlanamaz?",
+    "answerA": "AKararlılık",
+    "answerB": "BDuyarlık",
+    "answerC": "CAmaca uygunluk",
+    "answerD": "DHatalardan arınıklık",
+    "answerE": "EGerçek puanı yansıtma gücü",
+    "correctAnswer": "CAmaca uygunluk"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yanlıştır?",
+    "questionHead": "Aşağıdakilerden hangisi yanlıştır?",
+    "answerA": "ASoruların bilinen bir kaynaktan alınması geçerliği düşürür.",
+    "answerB": "BSoru sayısını arttırmak güvenirliği etkiler.",
+    "answerC": "CÖğrencilerin sınavla ilgili önyargıları güvenirliği etkiler.",
+    "answerD": "DGeçerlik güvenirlik için bir önkoşuldur.",
+    "answerE": "EEşdeğer yarılar tekniğinde bir test aynı gruba bir kez uygulanır.",
+    "correctAnswer": "DGeçerlik güvenirlik için bir önkoşuldur."
+  },
+  {
+    "question": "Bir özel okula yeni başlayan öğrencilere sayısal ve sözel yetenekten oluşan bir test her dönem başında uygulanmaktadır. Okul yöneticilerinin bildirdiğine göre test sonuçları ile öğrencilerin dönem içinde gördüğü sayısal ve sözel derslerdeki başarı puanları arasında yüksek korelasyonlar elde edilmiştir. Söz konusu korelasyonlara dayanarak yetenek testi için aşağıdaki ifadelerin hangisi doğru olur?",
+    "questionHead": "Bir özel okula yeni başlayan öğrencilere sayısal ve sözel yetenekten oluşan bir test her dönem başında uygulanmaktadır. Okul yöneticilerinin bildirdiğine göre test sonuçları ile öğrencilerin dönem içinde gördüğü sayısal ve sözel derslerdeki başarı puanları arasında yüksek korelasyonlar elde edilmiştir. Söz konusu korelasyonlara dayanarak yetenek testi için aşağıdaki ifadelerin hangisi doğru olur?",
+    "answerA": "AYordama geçerliği vardır.",
+    "answerB": "BKapsam geçerliği vardır.",
+    "answerC": "Cİç tutarlığa sahiptir.",
+    "answerD": "DGörünüş geçerliği yetersizdir.",
+    "answerE": "EKararlı sonuçlar vermektedir.",
+    "correctAnswer": "AYordama geçerliği vardır."
+  },
+  {
+    "question": "Teknoloji ve Tasarım dersinde öğretmen 25 soruluk bir test uygulamış ve sondan 5 sorunun seçeneklerindeki hatayı sınavdan sonra fark etmiştir. Bu nedenle bu sorular sınıftaki tüm öğrenciler tarafından yanlış cevaplandırılmıştır. Öğretmen bu hatasını telafi edebileceği düşüncesiyle tüm öğrencilere son 5 sorudan puan vermiştir. Bu öğretmenin ölçme sonuçlarına karıştırdığı hata türü hangisidir?",
+    "questionHead": "Teknoloji ve Tasarım dersinde öğretmen 25 soruluk bir test uygulamış ve sondan 5 sorunun seçeneklerindeki hatayı sınavdan sonra fark etmiştir. Bu nedenle bu sorular sınıftaki tüm öğrenciler tarafından yanlış cevaplandırılmıştır. Öğretmen bu hatasını telafi edebileceği düşüncesiyle tüm öğrencilere son 5 sorudan puan vermiştir. Bu öğretmenin ölçme sonuçlarına karıştırdığı hata türü hangisidir?",
+    "answerA": "ASabit",
+    "answerB": "BSistematik",
+    "answerC": "CTesadüfi",
+    "answerD": "DRandom",
+    "answerE": "EBelirsiz",
+    "correctAnswer": "ASabit"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mutlak ölçüt değildir?",
+    "questionHead": "Aşağıdakilerden hangisi mutlak ölçüt değildir?",
+    "answerA": "AEn az 1.70 cm boya sahip olma",
+    "answerB": "Bİşin tamamını en çok 50 dakikada bitirme",
+    "answerC": "C300 metreyi 50 saniyenin altında koşma",
+    "answerD": "DSınıfta ilk 3 öğrenci arasına girme",
+    "answerE": "E10 üzerinden en az 7 almış olma",
+    "correctAnswer": "DSınıfta ilk 3 öğrenci arasına girme"
+  },
+  {
+    "question": "Oğuzhan sınıfın en uzun boylu öğrencisidir.Yukarıdaki ölçme sonucu hangi türden bir ölçekte ifade edilmiştir?",
+    "questionHead": "Oğuzhan sınıfın en uzun boylu öğrencisidir.Yukarıdaki ölçme sonucu hangi türden bir ölçekte ifade edilmiştir?",
+    "answerA": "AOranlı",
+    "answerB": "BEşit aralıklı",
+    "answerC": "CSınıflama",
+    "answerD": "DSıralama",
+    "answerE": "EAdlandırma",
+    "correctAnswer": "DSıralama"
+  },
+  {
+    "question": "Ölçme araçlarında \"eşit birimlilik\" kavramını açıklamak için aşağıdakilerden hangisi örnek olarak verilemez?",
+    "questionHead": "Ölçme araçlarında \"eşit birimlilik\" kavramını açıklamak için aşağıdakilerden hangisi örnek olarak verilemez?",
+    "answerA": "AElmaların ağırlığını kilogramla ölçme",
+    "answerB": "BMine'nin boyunu metre ile ölçme",
+    "answerC": "COdanın genişliğini adımla ölçme",
+    "answerD": "DOfisin sıcaklığını termometre ile ölçme",
+    "answerE": "ETüketilen su miktarını litreyle ölçme",
+    "correctAnswer": "COdanın genişliğini adımla ölçme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme ve değerlendirmenin işlevleri arasında değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme ve değerlendirmenin işlevleri arasında değildir?",
+    "answerA": "AÖğretmenlerin başarısı hakkında bilgi verir.",
+    "answerB": "BOkul başarısı hakkında bilgi verir.",
+    "answerC": "CÖğrencilerin düzeyi hakkında bilgi verir.",
+    "answerD": "DAileler hakkında bilgi verir.",
+    "answerE": "EÖğretimin etkililiği hakkında bilgi verir.",
+    "correctAnswer": "DAileler hakkında bilgi verir."
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde doğrudan ölçme yoktur?",
+    "questionHead": "Aşağıdakilerden hangisinde doğrudan ölçme yoktur?",
+    "answerA": "AMetre ile uzunluk ölçmek",
+    "answerB": "BSınıftaki sıraları saymak",
+    "answerC": "CKoridorun kaç adım geldiğini belirlemek",
+    "answerD": "DSayfadaki kelime sayısını belirlemek",
+    "answerE": "EYaptığı resimlerden çocuğun yeteneğini saptamak",
+    "correctAnswer": "EYaptığı resimlerden çocuğun yeteneğini saptamak"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi rehberlik tanımları içinde sayılamaz?",
+    "questionHead": "Aşağıdakilerden hangisi rehberlik tanımları içinde sayılamaz?",
+    "answerA": "AToplumdan çok bireye dönük bir yardımdır .",
+    "answerB": "BBireyin gerçekçi kararlar almasını sağlar.",
+    "answerC": "CBireyin kendini gerçekleştirmesini amaçlar.",
+    "answerD": "DSistemli ve profesyonel bir süreçtir.",
+    "answerE": "ESadece sorunlara odaklı bir yardımdır.",
+    "correctAnswer": "ESadece sorunlara odaklı bir yardımdır."
+  },
+  {
+    "question": "I. Eğitsel rehberlik II. Önleyici rehberlik III. Mesleki rehberlik IV. Kapsamlı gelişimsel rehberlik V. Kişisel rehberlik Rehberlik çalışmalarının tarihi gelişimi, sırasıyla hangisinde bir arada verilmiştir?",
+    "questionHead": "I. Eğitsel rehberlik II. Önleyici rehberlik III. Mesleki rehberlik IV. Kapsamlı gelişimsel rehberlik V. Kişisel rehberlik Rehberlik çalışmalarının tarihi gelişimi, sırasıyla hangisinde bir arada verilmiştir?",
+    "answerA": "AI, II, III, IV, V",
+    "answerB": "BII, III, I, IV, V",
+    "answerC": "CIII, I, V, II, IV",
+    "answerD": "DIV, II, III, I, V",
+    "answerE": "EV, I, II, III, IV",
+    "correctAnswer": "CIII, I, V, II, IV"
+  },
+  {
+    "question": "Ülkemizde rehberlik çalışmaları ilk önce hangi \"eğitim kademisinde\" başlamıştır?",
+    "questionHead": "Ülkemizde rehberlik çalışmaları ilk önce hangi \"eğitim kademisinde\" başlamıştır?",
+    "answerA": "AYüksek öğretim",
+    "answerB": "BOkul Öncesi",
+    "answerC": "Cİlkokul",
+    "answerD": "DOrtaöğretim",
+    "answerE": "ELisansüstü",
+    "correctAnswer": "Cİlkokul"
+  }
+]
+}

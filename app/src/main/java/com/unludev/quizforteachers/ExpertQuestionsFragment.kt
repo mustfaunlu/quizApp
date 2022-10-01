@@ -33,6 +33,10 @@ class ExpertQuestionsFragment : Fragment() {
     private val s9json = "egtmarge.json"
     private val s10json = "egtmarge2.json"
     private val s11json = "ceviklim.json"
+    private val s12json = "ozelegtm.json"
+    private val s13json = "ozelegtm2.json"
+    private val s14json = "ogrsur1.json"
+    private val s15json = "ogrsur2.json"
 
     private lateinit var binding: FragmentExpertQuestionsBinding
     private var correct = 0
@@ -53,7 +57,7 @@ class ExpertQuestionsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+//TODO("subject stringlerine enum yaz")
         arguments?.let {
             when(ExpertQuestionsFragmentArgs.fromBundle(it).que) {
                 "Eğitimde Kapsayıcılık - 1" -> getAllQuestions(s1json)
@@ -67,6 +71,10 @@ class ExpertQuestionsFragment : Fragment() {
                 "Sosyal Etkileşim ve İletişim - 3" -> getAllQuestions(s7json)
                 "Dijital Yetkinlik" -> getAllQuestions(s8json)
                 "Çevre Eğitimi ve İklim Değişikliği", -> getAllQuestions(s11json)
+                "Özel Eğitim ve Rehberlik - 1" -> getAllQuestions(s12json)
+                "Özel Eğitim ve Rehberlik - 2" -> getAllQuestions(s13json)
+                "Öğrenme ve Öğretme Süreçleri - 1" -> getAllQuestions(s14json)
+                "Öğrenme ve Öğretme Süreçleri - 2" -> getAllQuestions(s15json)
             }
         }
 

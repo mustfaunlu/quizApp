@@ -1,0 +1,204 @@
+{
+  "ogrsur2": [
+  {
+    "question": "\"Bir öğretmen dersini işlerken önce bilgi düzeyindeki kavramları sınıfa anlatıyor ve her bir kavram ile ilgili yaşamdan en az iki örnek veriyor\" bu öğretmenin izlemeye çalıştığı strateji hangisidir?",
+    "questionHead": "\"Bir öğretmen dersini işlerken önce bilgi düzeyindeki kavramları sınıfa anlatıyor ve her bir kavram ile ilgili yaşamdan en az iki örnek veriyor\" bu öğretmenin izlemeye çalıştığı strateji hangisidir?",
+    "answerA": "ASunuş",
+    "answerB": "BBuluş",
+    "answerC": "CAraştırma - inceleme",
+    "answerD": "DTam öğrenme",
+    "answerE": "EProgramlı öğretim",
+    "correctAnswer": "ASunuş"
+  },
+  {
+    "question": "Araştırma inceleme yoluyla öğretim stratejisine ilişkin olarak aşağıdaki bilgilerden hangisi yanlıştır?",
+    "questionHead": "Araştırma inceleme yoluyla öğretim stratejisine ilişkin olarak aşağıdaki bilgilerden hangisi yanlıştır?",
+    "answerA": "ABu stratejide örnek olay, problem çözme, rol oynama, gösteri, gezi - gözlem yaratıcı drama, gibi teknikler kullanılır.",
+    "answerB": "BÖrneklerle ilgili değişik durumları denenceleri öğrenciler tartışarak kendileri kurar.",
+    "answerC": "Cİstenilen öğrenme standardına (%70) ulaşmayan öğrenciler için tamamlayıcı ek öğretim etkinlikleri yürütülür.",
+    "answerD": "DÖğrenciler yaparak yaşarak öğrenme etkinliğini kullanır.",
+    "answerE": "EBu stratejide sözlü ifade becerilerini geliştirici teknikler kullanılır.",
+    "correctAnswer": "Cİstenilen öğrenme standardına (%70) ulaşmayan öğrenciler için tamamlayıcı ek öğretim etkinlikleri yürütülür."
+  },
+  {
+    "question": "Öğretim etkinliklerini iyi bir şekilde planlayan, zamanın tamamını eğitsel değeri olan etkinliklerle geçirmeyi hedefleyen bir öğretmen, öğretim ilkelerinden hangisinin gereklerini getirmeye çalışmaktadır?",
+    "questionHead": "Öğretim etkinliklerini iyi bir şekilde planlayan, zamanın tamamını eğitsel değeri olan etkinliklerle geçirmeyi hedefleyen bir öğretmen, öğretim ilkelerinden hangisinin gereklerini getirmeye çalışmaktadır?",
+    "answerA": "AEkonomiklik",
+    "answerB": "BÖğrenciye görelik",
+    "answerC": "CAçıklık",
+    "answerD": "DGüncellik",
+    "answerE": "EBütünlük",
+    "correctAnswer": "AEkonomiklik"
+  },
+  {
+    "question": "Öğretim sürecinde önemli olan bireyin gereksinimlerine cevap verebilen ilgi ve ihtiyaçlarına uygun bilgilerin öğretilmesidir. Bu görüş aşağıdaki öğretim ilkelerinden hangisini ifade etmektedir?",
+    "questionHead": "Öğretim sürecinde önemli olan bireyin gereksinimlerine cevap verebilen ilgi ve ihtiyaçlarına uygun bilgilerin öğretilmesidir. Bu görüş aşağıdaki öğretim ilkelerinden hangisini ifade etmektedir?",
+    "answerA": "ABütünlük",
+    "answerB": "BEkonomiklik",
+    "answerC": "CAçıklık",
+    "answerD": "DÖğrenciye Görelik",
+    "answerE": "EAktivite",
+    "correctAnswer": "DÖğrenciye Görelik"
+  },
+  {
+    "question": "Eğitim ve öğretim adına bütün yapılacaklar, çocuğun gelişim dönemlerine göre yapılmalıdır. Yapılacak öğretim etkinliğini, öğrencinin gelişim, özellikleri ilgi ve ihtiyaçları belirler. Bu görüş ile vurgulanan öğretim ilkesi aşağıdaki şıklardan hangisidir?",
+    "questionHead": "Eğitim ve öğretim adına bütün yapılacaklar, çocuğun gelişim dönemlerine göre yapılmalıdır. Yapılacak öğretim etkinliğini, öğrencinin gelişim, özellikleri ilgi ve ihtiyaçları belirler. Bu görüş ile vurgulanan öğretim ilkesi aşağıdaki şıklardan hangisidir?",
+    "answerA": "ASomuttan - soyuta",
+    "answerB": "BGüncellik",
+    "answerC": "CHedefe görelik",
+    "answerD": "DÖğrenciye görelik",
+    "answerE": "EYaşama dönüklük",
+    "correctAnswer": "DÖğrenciye görelik"
+  },
+  {
+    "question": "Aşağıdaki yöntem ve tekniklerden hangi ikisi öğrencide bağımsız çalışabilme becerisini geliştirir?",
+    "questionHead": "Aşağıdaki yöntem ve tekniklerden hangi ikisi öğrencide bağımsız çalışabilme becerisini geliştirir?",
+    "answerA": "ASergi - Benzetim",
+    "answerB": "BÖdev - Proje",
+    "answerC": "CÖdev - Oyun",
+    "answerD": "DProje - Benzetim",
+    "answerE": "EÖdev - Rol yapma",
+    "correctAnswer": "BÖdev - Proje"
+  },
+  {
+    "question": "Aşağıdaki yöntem ve tekniklerden hangisi öğrencilere sosyal beceriler kazandırmada diğerlerine oranla daha az etkilidir?",
+    "questionHead": "Aşağıdaki yöntem ve tekniklerden hangisi öğrencilere sosyal beceriler kazandırmada diğerlerine oranla daha az etkilidir?",
+    "answerA": "ARol yapma",
+    "answerB": "BSoru - cevap",
+    "answerC": "CYaratıcı drama",
+    "answerD": "DEğitsel oyunlar",
+    "answerE": "EAltı şapkalı düşünme",
+    "correctAnswer": "BSoru - cevap"
+  },
+  {
+    "question": "Aşağıdaki yöntem ve tekniklerin hangisi kullanıldığında öğrencinin öğretim sürecine katılımı en aza inmiş olur?",
+    "questionHead": "Aşağıdaki yöntem ve tekniklerin hangisi kullanıldığında öğrencinin öğretim sürecine katılımı en aza inmiş olur?",
+    "answerA": "ATartışma",
+    "answerB": "BÖrnek olay",
+    "answerC": "CAnlatım",
+    "answerD": "DProje",
+    "answerE": "EProblem çözme",
+    "correctAnswer": "CAnlatım"
+  },
+  {
+    "question": "Soru cevap tekniği uygulayan bir öğretmen bu tekniği amacına uygun olarak kullanabilmek için aşağıdaki şıklardan hangisini yapmamalıdır?",
+    "questionHead": "Soru cevap tekniği uygulayan bir öğretmen bu tekniği amacına uygun olarak kullanabilmek için aşağıdaki şıklardan hangisini yapmamalıdır?",
+    "answerA": "ASoruyu cevaplamakta güçlük çeken öğrenciler için ipuçları kullanmalıdır.",
+    "answerB": "BSoruyu sorduktan sonra öğrencilere düşünmeleri için süre verilmelidir.",
+    "answerC": "CCevaplama işlemine akademik başarısı yüksek öğrencilerden başlamalıdır.",
+    "answerD": "DAkademik başarısı düşük öğrencilere cevaplayabilecekleri özellikte soru sormalıdır.",
+    "answerE": "EBazen doğrudan öğrencinin ismini söyleyerek soruyu yöneltmelidir.",
+    "correctAnswer": "CCevaplama işlemine akademik başarısı yüksek öğrencilerden başlamalıdır."
+  },
+  {
+    "question": "Öğrencilerine sistematik ve empatik düşünebilme becerisi kazandırmak isteyen bir öğretmenin hangi tekniği kullanması daha uygun olur?",
+    "questionHead": "Öğrencilerine sistematik ve empatik düşünebilme becerisi kazandırmak isteyen bir öğretmenin hangi tekniği kullanması daha uygun olur?",
+    "answerA": "ARol yapma",
+    "answerB": "BAltı şapka",
+    "answerC": "CBeyin fırtınası",
+    "answerD": "DBenzetim",
+    "answerE": "EYaratıcı drama",
+    "correctAnswer": "BAltı şapka"
+  },
+  {
+    "question": "\"Bir öğretmen dersini işlerken önce bilgi düzeyindeki kavramları sınıfa anlatıyor ve her bir kavram ile ilgili yaşamdan en az iki örnek veriyor\" bu öğretmenin izlemeye çalıştığı strateji hangisidir?",
+    "questionHead": "\"Bir öğretmen dersini işlerken önce bilgi düzeyindeki kavramları sınıfa anlatıyor ve her bir kavram ile ilgili yaşamdan en az iki örnek veriyor\" bu öğretmenin izlemeye çalıştığı strateji hangisidir?",
+    "answerA": "ASunuş",
+    "answerB": "BBuluş",
+    "answerC": "CAraştırma - inceleme",
+    "answerD": "DTam öğrenme",
+    "answerE": "EProgramlı öğretim",
+    "correctAnswer": "ASunuş"
+  },
+  {
+    "question": "Buluş yoluyla öğretim stratejisini kullanan bir öğretmenin öğrencileri, en az bilişsel alanın hangi aşamasına sahip olması gerekir?",
+    "questionHead": "Buluş yoluyla öğretim stratejisini kullanan bir öğretmenin öğrencileri, en az bilişsel alanın hangi aşamasına sahip olması gerekir?",
+    "answerA": "ABilgi",
+    "answerB": "BKavrama",
+    "answerC": "CUygulama",
+    "answerD": "DAnaliz",
+    "answerE": "ESentez",
+    "correctAnswer": "BKavrama"
+  },
+  {
+    "question": "Türkçe dersinde cümlenin öğeleri kavramını sunuş yoluyla öğretim stratejisini kullanarak veren bir öğretmenin bu stratejide gerçekleştirmesi gereken en son aşama hangisidir?",
+    "questionHead": "Türkçe dersinde cümlenin öğeleri kavramını sunuş yoluyla öğretim stratejisini kullanarak veren bir öğretmenin bu stratejide gerçekleştirmesi gereken en son aşama hangisidir?",
+    "answerA": "AÖğeler kavramına ilişkin bilgilerin verilmesi",
+    "answerB": "BÖğeler kavramına ilişkin özelliklerin belirlenmesi",
+    "answerC": "CÖğrencilerden olumlu örnekler istenmesi",
+    "answerD": "DÖğeler kavramına ilişkin olumlu örnekler vermesi",
+    "answerE": "EÖğeler kavramına ilişkin öğrencilerden olumsuz örnekler istemesi",
+    "correctAnswer": "BÖğeler kavramına ilişkin özelliklerin belirlenmesi"
+  },
+  {
+    "question": "Öğrencinin öğrenmesini engelleyen durumların gözlenmesi ve giderilmeye çalışılması, öğrenci ilgi ve ihtiyaçlarının, gelişim dönemlerinin dikkate alınması, kişisel özelliklerin belirlenerek uygulamaların buna göre gerçekleştirilmesi hangi öğretim ilkesini kapsamaktadır?",
+    "questionHead": "Öğrencinin öğrenmesini engelleyen durumların gözlenmesi ve giderilmeye çalışılması, öğrenci ilgi ve ihtiyaçlarının, gelişim dönemlerinin dikkate alınması, kişisel özelliklerin belirlenerek uygulamaların buna göre gerçekleştirilmesi hangi öğretim ilkesini kapsamaktadır?",
+    "answerA": "AHedefe görelik",
+    "answerB": "BÖğrenciye görelik",
+    "answerC": "CHayatilik",
+    "answerD": "DAçıklık",
+    "answerE": "EGüncellik",
+    "correctAnswer": "BÖğrenciye görelik"
+  },
+  {
+    "question": "Öğretimde en kısa zamanda, en az emekle ve en yüksek verimi elde etmek esas olmalıdır. Bu düşünce hangi öğretim ilkesini açıklamaktadır?",
+    "questionHead": "Öğretimde en kısa zamanda, en az emekle ve en yüksek verimi elde etmek esas olmalıdır. Bu düşünce hangi öğretim ilkesini açıklamaktadır?",
+    "answerA": "AHedefe görelik",
+    "answerB": "BAçıklık",
+    "answerC": "CÖğrenciye görelik",
+    "answerD": "DEkonomiklik",
+    "answerE": "EBütünlük",
+    "correctAnswer": "DEkonomiklik"
+  },
+  {
+    "question": "Öğrencinin bir konuyu öğrenebilmesi için o alanla ilgili bilişsel ve duyuşsal giriş özelliklerine sahip olması gerekir. Bu tanım aşağıdaki şıklardan hangisini ifade etmektedir?",
+    "questionHead": "Öğrencinin bir konuyu öğrenebilmesi için o alanla ilgili bilişsel ve duyuşsal giriş özelliklerine sahip olması gerekir. Bu tanım aşağıdaki şıklardan hangisini ifade etmektedir?",
+    "answerA": "ADikkat çekme",
+    "answerB": "BGüdüleme",
+    "answerC": "CTransfer",
+    "answerD": "DHazır bulunuşluk",
+    "answerE": "EKatılım",
+    "correctAnswer": "DHazır bulunuşluk"
+  },
+  {
+    "question": "Aşağıdaki yöntem ve tekniklerden hangisi öğrencilere sosyal beceriler kazandırmada diğerlerine oranla daha az etkilidir?",
+    "questionHead": "Aşağıdaki yöntem ve tekniklerden hangisi öğrencilere sosyal beceriler kazandırmada diğerlerine oranla daha az etkilidir?",
+    "answerA": "ARol yapma",
+    "answerB": "BSoru - cevap",
+    "answerC": "CYaratıcı drama",
+    "answerD": "DEğitsel oyunlar",
+    "answerE": "EAltı şapkalı düşünme",
+    "correctAnswer": "BSoru - cevap"
+  },
+  {
+    "question": "Öğretim sürecinde öğrencileri bir konu üzerinde düşünmeye yöneltmek, düşüncelerini ifade etmelerine olanak tanımak, iyi anlaşılmayan noktaların ortaya çıkarılması ve düzeltilmesi için fırsatlar yaratmak ve pekiştirmek amacıyla kullanılır. Yukarıda özellikleri sıralanan yöntem ya da teknik aşağıdaki şıklardan hangisidir?",
+    "questionHead": "Öğretim sürecinde öğrencileri bir konu üzerinde düşünmeye yöneltmek, düşüncelerini ifade etmelerine olanak tanımak, iyi anlaşılmayan noktaların ortaya çıkarılması ve düzeltilmesi için fırsatlar yaratmak ve pekiştirmek amacıyla kullanılır. Yukarıda özellikleri sıralanan yöntem ya da teknik aşağıdaki şıklardan hangisidir?",
+    "answerA": "AÖrnek olay",
+    "answerB": "BProblem çözme",
+    "answerC": "CBenzetim",
+    "answerD": "DTartışma",
+    "answerE": "EEğitsel oyunlar",
+    "correctAnswer": "DTartışma"
+  },
+  {
+    "question": "Soru cevap tekniği uygulayan bir öğretmen bu tekniği amacına uygun olarak kullanabilmek için aşağıdaki şıklardan hangisini yapmamalıdır?",
+    "questionHead": "Soru cevap tekniği uygulayan bir öğretmen bu tekniği amacına uygun olarak kullanabilmek için aşağıdaki şıklardan hangisini yapmamalıdır?",
+    "answerA": "ASoruyu cevaplamakta güçlük çeken öğrenciler için ipuçları kullanmalıdır.",
+    "answerB": "BSoruyu sorduktan sonra öğrencilere düşünmeleri için süre verilmelidir.",
+    "answerC": "CCevaplama işlemine akademik başarısı yüksek öğrencilerden başlamalıdır.",
+    "answerD": "DAkademik başarısı düşük öğrencilere cevaplayabilecekleri özellikte soru sormalıdır.",
+    "answerE": "EBazen doğrudan öğrencinin ismini söyleyerek soruyu yöneltmelidir.",
+    "correctAnswer": "CCevaplama işlemine akademik başarısı yüksek öğrencilerden başlamalıdır."
+  },
+  {
+    "question": "Vatandaşlık ve insan haklan dersinde \"Başkalarının haklarına saygı duyabilme\" hedef davranışını öğrenciye kazandırmak isteyen bir öğretmenin kullanabileceği en uygun yöntem aşağıdaki şıklardan hangisidir?",
+    "questionHead": "Vatandaşlık ve insan haklan dersinde \"Başkalarının haklarına saygı duyabilme\" hedef davranışını öğrenciye kazandırmak isteyen bir öğretmenin kullanabileceği en uygun yöntem aşağıdaki şıklardan hangisidir?",
+    "answerA": "AProblem çözme",
+    "answerB": "BGösterip yaptırma",
+    "answerC": "CDeney",
+    "answerD": "DAnlatım",
+    "answerE": "EÖrnek olay",
+    "correctAnswer": "EÖrnek olay"
+  }
+]
+}

@@ -1,0 +1,305 @@
+{
+  "deneme5": [
+  {
+    "question": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "questionHead": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "answerA": "AÖlçme",
+    "answerB": "BÖlçüm",
+    "answerC": "CDeğerlendirme",
+    "answerD": "DÖlçme ve değerlendirme",
+    "answerE": "EÖlçüt",
+    "correctAnswer": "AÖlçme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir ölçme işlemidir?",
+    "questionHead": "Aşağıdakilerden hangisi bir ölçme işlemidir?",
+    "answerA": "ABir kumaşın boyunun cetvelle ölçülmesi",
+    "answerB": "BBir kova suyun sıcaklığının termometre ile ölçülmesi",
+    "answerC": "CÖğrencinin sınava alınarak başarısının ölçülmesi",
+    "answerD": "DBir çocuğun zekasının ölçülmesi",
+    "answerE": "EHepsi",
+    "correctAnswer": "EHepsi"
+  },
+  {
+    "question": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi doğrudur?",
+    "questionHead": "Aşağıda ölçme ile ilgili olarak verilen bilgilerden hangisi doğrudur?",
+    "answerA": "ADolaylı ölçmelere, hata karışma ihtimali daha azdır.",
+    "answerB": "BDolaylı ölçmelerden elde edilen veriler daha tutarlıdır.",
+    "answerC": "CDoğrudan ölçmelerde elde edilen ölçümler daha objektiftir.",
+    "answerD": "DCetvel, boy ölçümünde dolaylı bir ölçme aracıdır.",
+    "answerE": "EDoğrudan ölçmelerde sıfır izafidir.",
+    "correctAnswer": "CDoğrudan ölçmelerde elde edilen ölçümler daha objektiftir."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme ile ilgili değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme ile ilgili değildir?",
+    "answerA": "ABütün bilimler, veri elde etmek için ölçmeden yararlanabilir",
+    "answerB": "BÖlçme, değerlendirmenin ön şartıdır",
+    "answerC": "CÖlçme, eğitim bilimlerinin alt alanı olarak diğer bilimlere katkıda bulunur",
+    "answerD": "DÖlçme nicelikleri belirleme, değerlendirme nitelik verme sürecidir",
+    "answerE": "EÖlçme objektif olmak zorundadır",
+    "correctAnswer": "CÖlçme, eğitim bilimlerinin alt alanı olarak diğer bilimlere katkıda bulunur"
+  },
+  {
+    "question": "Ölçme işleminde, cevaplandırması gereken ilk soru aşağıdakilerden hangisidir?",
+    "questionHead": "Ölçme işleminde, cevaplandırması gereken ilk soru aşağıdakilerden hangisidir?",
+    "answerA": "ANe ile ölçeceğiz?",
+    "answerB": "BNeyi ölçeceğiz?",
+    "answerC": "CKriter nedir?",
+    "answerD": "DVeriler nasıl sembolleştirilecek?",
+    "answerE": "EHangi aralıklarla ölçeceğiz?",
+    "correctAnswer": "BNeyi ölçeceğiz?"
+  },
+  {
+    "question": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "questionHead": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "answerA": "AÖntest ve sontestler",
+    "answerB": "BAkademik başarı düzeyi",
+    "answerC": "CFen bilgisi dersi",
+    "answerD": "DYöntemlerin kullanıldığı sınıflar",
+    "answerE": "EÖğretim yöntemleri",
+    "correctAnswer": "EÖğretim yöntemleri"
+  },
+  {
+    "question": "Bir testin güvenirliğini artırmak için aşağıdakilerden hangisinin yapılması yanlış olur?",
+    "questionHead": "Bir testin güvenirliğini artırmak için aşağıdakilerden hangisinin yapılması yanlış olur?",
+    "answerA": "ASeçenek sayısının artırılması",
+    "answerB": "BMadde sayısının artırılması",
+    "answerC": "CMaddelerin açık ve anlaşılır olması",
+    "answerD": "DGüçlük değeri 0,80'in üzerinde sorular sorulması",
+    "answerE": "ESınav süresinin iyi belirlenmesi",
+    "correctAnswer": "DGüçlük değeri 0,80'in üzerinde sorular sorulması"
+  },
+  {
+    "question": "Testteki sorulardan davranışa sahip olan öğrenciler puan kazanıyor davranışa sahip olmayan öğrenciler puan kazanamıyorsa o testin en çok hangi niteliği artmış olur?",
+    "questionHead": "Testteki sorulardan davranışa sahip olan öğrenciler puan kazanıyor davranışa sahip olmayan öğrenciler puan kazanamıyorsa o testin en çok hangi niteliği artmış olur?",
+    "answerA": "AGüvenirlik",
+    "answerB": "BGeçerlik",
+    "answerC": "CDuyarlık",
+    "answerD": "DTutarlık",
+    "answerE": "EKullanışlık",
+    "correctAnswer": "BGeçerlik"
+  },
+  {
+    "question": "Fen ve teknoloji dersinde öğrencilerin deney yapma becerilerinin ölçüldüğü bir performans görevi puanlanırken deneyi verilen süreden erken tamamlayanlara ek olarak 5 puan verilmiştir. Yapılan bu işlem sonucunda aşağıdakilerden hangisi gerçekleşmiş olur?",
+    "questionHead": "Fen ve teknoloji dersinde öğrencilerin deney yapma becerilerinin ölçüldüğü bir performans görevi puanlanırken deneyi verilen süreden erken tamamlayanlara ek olarak 5 puan verilmiştir. Yapılan bu işlem sonucunda aşağıdakilerden hangisi gerçekleşmiş olur?",
+    "answerA": "AGüvenirlik artar.",
+    "answerB": "BTutarlık sağlanır.",
+    "answerC": "CGeçerlilik düşer.",
+    "answerD": "DKullanışlılık artar.",
+    "answerE": "EDuyarlık azalır.",
+    "correctAnswer": "CGeçerlilik düşer."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir testin yordama geçerliliğini belirlemede kullanılacak ölçüt puanların özelliklerinden biri değildir?",
+    "questionHead": "Aşağıdakilerden hangisi bir testin yordama geçerliliğini belirlemede kullanılacak ölçüt puanların özelliklerinden biri değildir?",
+    "answerA": "AYordamaya çalışılan değişkenle ilişkili olmalı.",
+    "answerB": "BDuruma göre değişme esnekliği göstermeli.",
+    "answerC": "CGüvenilir olmalı.",
+    "answerD": "DGeçerli olmalı.",
+    "answerE": "EPratik olmalı.",
+    "correctAnswer": "BDuruma göre değişme esnekliği göstermeli."
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde bağıl ölçüt kullanılmamıştır?",
+    "questionHead": "Aşağıdakilerden hangisinde bağıl ölçüt kullanılmamıştır?",
+    "answerA": "AYılın en çok puan alan oyuncusu olma",
+    "answerB": "BKoşuyu birinci olarak bitirme",
+    "answerC": "C100 üzerinden 80 puan almış olma",
+    "answerD": "DYarışmada ilk 5 içine girme",
+    "answerE": "ESınıfında ilk üç içinde olma",
+    "correctAnswer": "C100 üzerinden 80 puan almış olma"
+  },
+  {
+    "question": "Ölçme araçlarında \"eşit birimlilik\" kavramını açıklamak için aşağıdakilerden hangisi örnek olarak verilemez?",
+    "questionHead": "Ölçme araçlarında \"eşit birimlilik\" kavramını açıklamak için aşağıdakilerden hangisi örnek olarak verilemez?",
+    "answerA": "AElmaların ağırlığını kilogramla ölçme",
+    "answerB": "BMine'nin boyunu metre ile ölçme",
+    "answerC": "COdanın genişliğini adımla ölçme",
+    "answerD": "DOfisin sıcaklığını termometre ile ölçme",
+    "answerE": "ETüketilen su miktarını litreyle ölçme",
+    "correctAnswer": "COdanın genişliğini adımla ölçme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi değerlendirme türlerinden değildir?",
+    "questionHead": "Aşağıdakilerden hangisi değerlendirme türlerinden değildir?",
+    "answerA": "AGirdilerin değerlendirilmesi",
+    "answerB": "BOrtamın değerlendirilmesi",
+    "answerC": "CSürecin değerlendirilmesi",
+    "answerD": "DTümel değerlendirme",
+    "answerE": "EÇıktıların değerlendirilmesi",
+    "correctAnswer": "BOrtamın değerlendirilmesi"
+  },
+  {
+    "question": "Bir Coğrafya öğretmeni derste Türkiye'de görülen iklim çeşitlerini işlemiştir ancak yaptığı sınavda Türkiye'de gümüş madeninin çıkarıldığı illeri sormuştur. Öğretmen burada bir ölçme aracında bulunması gereken hangi özelliği göz ardı etmiştir?",
+    "questionHead": "Bir Coğrafya öğretmeni derste Türkiye'de görülen iklim çeşitlerini işlemiştir ancak yaptığı sınavda Türkiye'de gümüş madeninin çıkarıldığı illeri sormuştur. Öğretmen burada bir ölçme aracında bulunması gereken hangi özelliği göz ardı etmiştir?",
+    "answerA": "AYordama geçerliği",
+    "answerB": "Bİç tutarlık",
+    "answerC": "CGüvenirlik",
+    "answerD": "DKapsam geçerliği",
+    "answerE": "EUygunluk geçerliği",
+    "correctAnswer": "DKapsam geçerliği"
+  },
+  {
+    "question": "Bir müzik öğretmeni öğrettiği bir müzik parçasını flütle doğru çalan öğrencilere artı, eksik ya da yanlış çalan öğrencilere de eksi vermektedir. Öğretmenin yaptığı işlem aşağıdakilerden hangisidir?",
+    "questionHead": "Bir müzik öğretmeni öğrettiği bir müzik parçasını flütle doğru çalan öğrencilere artı, eksik ya da yanlış çalan öğrencilere de eksi vermektedir. Öğretmenin yaptığı işlem aşağıdakilerden hangisidir?",
+    "answerA": "AÖlçüt",
+    "answerB": "BÖlçüm",
+    "answerC": "CÖlçme kuralı",
+    "answerD": "DÖlçme",
+    "answerE": "EÖlçek",
+    "correctAnswer": "DÖlçme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir değerlendirme işlemidir?",
+    "questionHead": "Aşağıdakilerden hangisi bir değerlendirme işlemidir?",
+    "answerA": "AÖğrencileri kilosuna göre sıralamak",
+    "answerB": "BBaşarılı öğrencileri özel sınıfa seçmek",
+    "answerC": "CÖğrencilerin ilgi alanlarını saptamak",
+    "answerD": "DSınav sonucuna itiraz etmek",
+    "answerE": "EYapılan ödevlerdeki eksikleri bulmak",
+    "correctAnswer": "BBaşarılı öğrencileri özel sınıfa seçmek"
+  },
+  {
+    "question": "Futbol maçında kaleye atılan gol sayısına göre puanlama yapılır. Yapılan puanlama işlemi aşağıdakilerden hangisiyle açıklanabilir.",
+    "questionHead": "Futbol maçında kaleye atılan gol sayısına göre puanlama yapılır. Yapılan puanlama işlemi aşağıdakilerden hangisiyle açıklanabilir.",
+    "answerA": "ATüretilmiş ölçme",
+    "answerB": "BTemel ölçme",
+    "answerC": "CBağıl ölçme",
+    "answerD": "DDolaylı ölçme",
+    "answerE": "EBağıl değerlendirme",
+    "correctAnswer": "BTemel ölçme"
+  },
+  {
+    "question": "I. Sınıf üçüncüsünden en çok on puan eksik alanlar dersten geçer. II. İlk beş konuya hakim olanlar dersin devamı olan dersi alabilirler. III. Dersin içeriğinin % 60 'ınnden fazlasını tamamlayan en başarılı üç kişi kursa alınacaktır. IV. Sınıfın ortalamasının üstünde not alanlar geçer. Yukarıdakilerden hangileri bağıl ölçüte uygundur?",
+    "questionHead": "I. Sınıf üçüncüsünden en çok on puan eksik alanlar dersten geçer. II. İlk beş konuya hakim olanlar dersin devamı olan dersi alabilirler. III. Dersin içeriğinin % 60 'ınnden fazlasını tamamlayan en başarılı üç kişi kursa alınacaktır. IV. Sınıfın ortalamasının üstünde not alanlar geçer. Yukarıdakilerden hangileri bağıl ölçüte uygundur?",
+    "answerA": "AYalnız I",
+    "answerB": "BII ve III",
+    "answerC": "CI, II ve III",
+    "answerD": "DI, III ve IV",
+    "answerE": "EII, III ve IV",
+    "correctAnswer": "DI, III ve IV"
+  },
+  {
+    "question": "2005’te uygulamaya konulan ilköğretim programlarının dayandığı belirtilen yapılandırmacı (oluşturmacı) öğrenme yaklaşımı için aşağıdakilerden hangisi doğrudur?",
+    "questionHead": "2005’te uygulamaya konulan ilköğretim programlarının dayandığı belirtilen yapılandırmacı (oluşturmacı) öğrenme yaklaşımı için aşağıdakilerden hangisi doğrudur?",
+    "answerA": "AÖğretmen, bilgileri yapılandırarak sistematik bir biçimde öğrenciye sunmalıdır.",
+    "answerB": "BBilginin nasıl yapılandırılacağını ve nasıl kulanılacağını, ders kitapları ve öğretmen kılavuzları ayrıntılı olarak anlatmalıdır.",
+    "answerC": "CÖğrencilerin, önceden öğrendikleri bilgileri zaman zaman tekrar edip hatırlamaları önemlidir.",
+    "answerD": "DÖğrenciler, öğretmenden, öğretim araçlarından ve kitaplardan öğrendikleri bilgileri gerektiği zaman ve kendilerinden istendiğinde bir düzen içinde sunmalıdır.",
+    "answerE": "EBilişsel etkinlikler içinde öğrenilen yeni bilgiler eski öğrenilenlerle birlikte yorumlanır, geliştirilir ve sentezlenir.",
+    "correctAnswer": "EBilişsel etkinlikler içinde öğrenilen yeni bilgiler eski öğrenilenlerle birlikte yorumlanır, geliştirilir ve sentezlenir."
+  },
+  {
+    "question": "I. Eğitsel rehberlik II. Önleyici rehberlik III. Mesleki rehberlik IV. Kapsamlı gelişimsel rehberlik V. Kişisel rehberlik Rehberlik çalışmalarının tarihi gelişimi, sırasıyla hangisinde bir arada verilmiştir?",
+    "questionHead": "I. Eğitsel rehberlik II. Önleyici rehberlik III. Mesleki rehberlik IV. Kapsamlı gelişimsel rehberlik V. Kişisel rehberlik Rehberlik çalışmalarının tarihi gelişimi, sırasıyla hangisinde bir arada verilmiştir?",
+    "answerA": "AI, II, III, IV, V",
+    "answerB": "BII, III, I, IV, V",
+    "answerC": "CIII, I, V, II, IV",
+    "answerD": "DIV, II, III, I, V",
+    "answerE": "EV, I, II, III, IV",
+    "correctAnswer": "CIII, I, V, II, IV"
+  },
+  {
+      "question": "Aşağıdakilerden hangisi rehberliğin ilkelerinden biri değildir?",
+      "questionHead": "Aşağıdakilerden hangisi rehberliğin ilkelerinden biri değildir?",
+      "answerA": "ATemelinde demokratik ve insancıl bir anlayış vardır.",
+      "answerB": "BÖğrenciyi merkeze alan bir anlayışa sahiptir.",
+      "answerC": "CRehberlik hizmetlerini profesyonel bir düzeyde sunmayı amaçlar.",
+      "answerD": "DRehberlik uygulamaları her okulun amaç ve ihtiyaçlarına göre farklılaştırılmalıdır.",
+      "answerE": "ERehberlik ve psikolojik danışmanlık hizmetlerinde açıklık ve şeffaflık esastır.",
+      "correctAnswer": "ERehberlik ve psikolojik danışmanlık hizmetlerinde açıklık ve şeffaflık esastır."
+    },
+    {
+      "question": "“Öğretmenler, önce çocuğu tanımakla işe başlayınız!” diyerek eğitim anlayışından devinimi dile getirerek rehberlik ve psikolojik danışmanın temelini atan düşür kimdir?",
+      "questionHead": "“Öğretmenler, önce çocuğu tanımakla işe başlayınız!” diyerek eğitim anlayışından devinimi dile getirerek rehberlik ve psikolojik danışmanın temelini atan düşür kimdir?",
+      "answerA": "AJean Jacques Rousseasu",
+      "answerB": "BVoltaire",
+      "answerC": "CAugeste Comte",
+      "answerD": "DEmile Durkheim",
+      "answerE": "EErnest Renan",
+      "correctAnswer": "AJean Jacques Rousseasu"
+    },
+    {
+      "question": "I. Bireysel farklılıkları dikkate alır. II. Kazanım sıralamaları esnektir. III. Uygulamada bilimsellik esastır. IV. Öğretmen merkezli bir anlayışına sahiptir. V. Öğrenci, öğretmen, yönetici ve veli işbirliğiyle yürütülür. Yukarıda verilenlerden hangisi Sınıf Rehberlik Programı’nın uygulanmasındaki ilkelerden biri değildir?",
+      "questionHead": "I. Bireysel farklılıkları dikkate alır. II. Kazanım sıralamaları esnektir. III. Uygulamada bilimsellik esastır. IV. Öğretmen merkezli bir anlayışına sahiptir. V. Öğrenci, öğretmen, yönetici ve veli işbirliğiyle yürütülür. Yukarıda verilenlerden hangisi Sınıf Rehberlik Programı’nın uygulanmasındaki ilkelerden biri değildir?",
+      "answerA": "AV",
+      "answerB": "BIV",
+      "answerC": "CIII",
+      "answerD": "DII",
+      "answerE": "EI",
+      "correctAnswer": "BIV"
+    },
+    {
+      "question": "Türkiye’de ------ yılından bu yana “özel yetenek” kavramının kullanılmasına karar verilmiştir. Metindeki boşluğa hangisi yazılmalıdır?",
+      "questionHead": "Türkiye’de ------ yılından bu yana “özel yetenek” kavramının kullanılmasına karar verilmiştir. Metindeki boşluğa hangisi yazılmalıdır?",
+      "answerA": "A2000",
+      "answerB": "B2005",
+      "answerC": "C2007",
+      "answerD": "D2013",
+      "answerE": "E2015",
+      "correctAnswer": "D2013"
+    },
+    {
+      "question": "Rehberlik ve Psikolojik Danışma Hizmetleri Yönetmeliğine göre; Rehberlik ve Psikolojik Danışma İl Yürütme Komisyonu her yıl; I. Ocak II. Eylül III. Haziran Aylarının hangilerinde toplanır?",
+      "questionHead": "Rehberlik ve Psikolojik Danışma Hizmetleri Yönetmeliğine göre; Rehberlik ve Psikolojik Danışma İl Yürütme Komisyonu her yıl; I. Ocak II. Eylül III. Haziran Aylarının hangilerinde toplanır?",
+      "answerA": "AYalnız I",
+      "answerB": "BYalnız II",
+      "answerC": "CII ve III",
+      "answerD": "DI ve III",
+      "answerE": "EI, II ve III",
+      "correctAnswer": "CII ve III"
+    },
+    {
+      "question": "Türkiye’de “Rehberlik” ve “Rehberlik hizmetleri” ilk kez hangi eğitim-öğretim yılı itibariyle üniversitelerde programa konulmuş ve okutulmaya başlanmıştır?",
+      "questionHead": "Türkiye’de “Rehberlik” ve “Rehberlik hizmetleri” ilk kez hangi eğitim-öğretim yılı itibariyle üniversitelerde programa konulmuş ve okutulmaya başlanmıştır?",
+      "answerA": "A1947-1948",
+      "answerB": "B1953-1954",
+      "answerC": "C1962-1963",
+      "answerD": "D1977-1978",
+      "answerE": "E1987-1987",
+      "correctAnswer": "B1953-1954"
+    },
+    {
+      "question": "Farklı ebeveyn tavırları vardır ve bu tavırların belirlenmesi rehberlik hizmetlerinin sağlıklı yürütülmesi ve öğrencinin tanınması açısından önemlidir. Aşağıdakilerden hangisi “İzin Verici Anne ve Baba”nın tavrıdır?",
+      "questionHead": "Farklı ebeveyn tavırları vardır ve bu tavırların belirlenmesi rehberlik hizmetlerinin sağlıklı yürütülmesi ve öğrencinin tanınması açısından önemlidir. Aşağıdakilerden hangisi “İzin Verici Anne ve Baba”nın tavrıdır?",
+      "answerA": "ASevgilerini hissettirirler ve çocukla iletişim kurarlar.",
+      "answerB": "BBazen soğuk bazen ise katı tutum takınırlar.",
+      "answerC": "CGenellikle tutarsız ve güvensiz tavır sergilerler.",
+      "answerD": "DÇocuklarının yaşamlarıyla son derece ilgisizdirler.",
+      "answerE": "EÇocuklarına olabildiğince sınırsız özgürlük alanı oluştururlar.",
+      "correctAnswer": "CGenellikle tutarsız ve güvensiz tavır sergilerler."
+    },
+    {
+      "question": "Rehberlikte kullanılan farklı düzeyde ve özellikte testler vardır. Aşağıdakilerden hangisi bu alandaki “Kendini Anlatma” tekniklerinden biri değildir?",
+      "questionHead": "Rehberlikte kullanılan farklı düzeyde ve özellikte testler vardır. Aşağıdakilerden hangisi bu alandaki “Kendini Anlatma” tekniklerinden biri değildir?",
+      "answerA": "AOtobiyografi",
+      "answerB": "BArzu listesi",
+      "answerC": "CZaman cetveli",
+      "answerD": "DSoru listesi/anket",
+      "answerE": "ESosyometri",
+      "correctAnswer": "ESosyometri"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi “otizm spektrumu bozukluğu” olan bir öğrencinin özelliği değildir?",
+      "questionHead": "Aşağıdakilerden hangisi “otizm spektrumu bozukluğu” olan bir öğrencinin özelliği değildir?",
+      "answerA": "Aİsimlerine tepki vermeyebilir.",
+      "answerB": "BBeden dili konusunda sorun yaşayabilir.",
+      "answerC": "COyun becerileri sınırlıdır.",
+      "answerD": "DSık sık göz kontağı kurar.",
+      "answerE": "ESoyut kavramları anlamakta zorlanır.",
+      "correctAnswer": "DSık sık göz kontağı kurar."
+    },
+    {
+      "question": "Aşağıdaki işitme kayıplarından hangisinin iletişim üzerinde bir etkisi yoktur?",
+      "questionHead": "Aşağıdaki işitme kayıplarından hangisinin iletişim üzerinde bir etkisi yoktur?",
+      "answerA": "A0-15 dB",
+      "answerB": "B16-25 dB",
+      "answerC": "C26-40 dB",
+      "answerD": "D41-55 dB",
+      "answerE": "E56-70 dB",
+      "correctAnswer": "A0-15 dB"
+    }
+
+]
+}

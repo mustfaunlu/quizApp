@@ -17,7 +17,7 @@ class SubjectAdapter(private val subjectList: ArrayList<String>): RecyclerView.A
 
     override fun onBindViewHolder(holder: SubjectVH, position: Int) {
         holder.bind(subjectList[position])
-
+//TODO(" when icindekileri bir enum yaz hem sayilara hem que lere")
         holder.binding.root.setOnClickListener{
             when(position) {
                 0  -> {val action =
@@ -62,7 +62,23 @@ class SubjectAdapter(private val subjectList: ArrayList<String>): RecyclerView.A
                     holder.binding.rvTv.findNavController().navigate(action)}
                 10  -> {val action =
                     SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Çevre Eğitimi ve İklim Değişikliği",)
+                        .actionSubjectFragmentToExpertQuestionFragment("Çevre Eğitimi ve İklim Değişikliği")
+                    holder.binding.rvTv.findNavController().navigate(action)}
+                11  -> {val action =
+                    SubjectFragmentDirections
+                        .actionSubjectFragmentToExpertQuestionFragment("Özel Eğitim ve Rehberlik - 1")
+                    holder.binding.rvTv.findNavController().navigate(action)}
+                12  -> {val action =
+                    SubjectFragmentDirections
+                        .actionSubjectFragmentToExpertQuestionFragment("Özel Eğitim ve Rehberlik - 2")
+                    holder.binding.rvTv.findNavController().navigate(action)}
+                13  -> {val action =
+                    SubjectFragmentDirections
+                        .actionSubjectFragmentToExpertQuestionFragment("Öğrenme ve Öğretme Süreçleri - 1")
+                    holder.binding.rvTv.findNavController().navigate(action)}
+                14  -> {val action =
+                    SubjectFragmentDirections
+                        .actionSubjectFragmentToExpertQuestionFragment("Öğrenme ve Öğretme Süreçleri - 2")
                     holder.binding.rvTv.findNavController().navigate(action)}
             }
 

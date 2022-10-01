@@ -1,0 +1,204 @@
+{
+  "deneme4": [
+  {
+    "question": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "questionHead": "“Objelere ya da bireylere herhangi bir özelliğe sahip oluş miktarlarını belirtmek amacıyla sayı veya sembolle değer verme işlemidir” şeklinde tanımlanan kavram, aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "answerA": "AÖlçme",
+    "answerB": "BÖlçüm",
+    "answerC": "CDeğerlendirme",
+    "answerD": "DÖlçme ve değerlendirme",
+    "answerE": "EÖlçüt",
+    "correctAnswer": "AÖlçme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçmenin fonksiyonlarından değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçmenin fonksiyonlarından değildir?",
+    "answerA": "ADaha duyarlı olmayı sağlar",
+    "answerB": "BDaha kesin veriler oluşturur",
+    "answerC": "CDeğerlendirmeye olanak sağlar",
+    "answerD": "DÖlçme aracını deneme",
+    "answerE": "EPerformansı sayısallaştırır",
+    "correctAnswer": "DÖlçme aracını deneme"
+  },
+  {
+    "question": "Aşağıda verilen ölçümlerden hangisi diğerlerinden farklıdır?",
+    "questionHead": "Aşağıda verilen ölçümlerden hangisi diğerlerinden farklıdır?",
+    "answerA": "ABoy ve ağırlığın ölçülmesi",
+    "answerB": "BSıcaklığın ölçülmesi",
+    "answerC": "CZekanın ölçülmesi",
+    "answerD": "DBaşarının ölçülmesi",
+    "answerE": "ETutumların ölçülmesi",
+    "correctAnswer": "ABoy ve ağırlığın ölçülmesi"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temel (mutlak) ölçmeye örnektir?",
+    "questionHead": "Aşağıdakilerden hangisi temel (mutlak) ölçmeye örnektir?",
+    "answerA": "AÖğrencilere zeka testi uygulamak",
+    "answerB": "BBir sınıfta öğrencilerin sayısını belirlemek",
+    "answerC": "CÖğrencilerin eğitim bilgisini standart bir testle ölçmek",
+    "answerD": "DÖğrencilerin matematik başarısını ölçmek",
+    "answerE": "EÖğrencilerin üniversitede başarılarını tahmin etmek",
+    "correctAnswer": "BBir sınıfta öğrencilerin sayısını belirlemek"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi doğrudan ölçmeyi, dolaylı ölçmeden ayıran fark değildir?",
+    "questionHead": "Aşağıdakilerden hangisi doğrudan ölçmeyi, dolaylı ölçmeden ayıran fark değildir?",
+    "answerA": "ADaha kesin sonuçlar verir.",
+    "answerB": "BHata karışma olasılığı yüksektir.",
+    "answerC": "CSıfır, gerçek anlamdadır.",
+    "answerD": "DSıfır, başlangıç ve yokluk anlamındadır.",
+    "answerE": "EDaha objektiftir.",
+    "correctAnswer": "BHata karışma olasılığı yüksektir."
+  },
+  {
+    "question": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "questionHead": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin uygulamasında kullandığı bağımsız değişken aşağıdakilerden hangisidir?",
+    "answerA": "AÖntest ve sontestler",
+    "answerB": "BAkademik başarı düzeyi",
+    "answerC": "CFen bilgisi dersi",
+    "answerD": "DYöntemlerin kullanıldığı sınıflar",
+    "answerE": "EÖğretim yöntemleri",
+    "correctAnswer": "EÖğretim yöntemleri"
+  },
+  {
+    "question": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuvar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin bu araştırmasında kullandığı \"değerlendirme türü\" aşağıdakilerden hangisidir?",
+    "questionHead": "Fen Bilgisi dersinde öğrencilerin akademik başarı düzeylerinin düz anlatım ve laboratuvar yöntemlerine göre farklılık gösterip göstermediğini inceleyen bir öğretmen, uygulama öncesinde ön test yapmış ve bir dönem süresince iki sınıfta bu yöntemleri uygulamıştır. Uygulama bittikten sonra ön testte kullandığı soruları kullanmış ve her bir öğrencinin ön test – son test puan farkına bakarak başarı düzeylerini belirlemiştir. Öğretmenin bu araştırmasında kullandığı \"değerlendirme türü\" aşağıdakilerden hangisidir?",
+    "answerA": "AMutlak",
+    "answerB": "BBağıl",
+    "answerC": "CDönem başı",
+    "answerD": "DDönem içi",
+    "answerE": "EPortfolyo",
+    "correctAnswer": "BBağıl"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sınavın geçerliğini artırmada en az etkiye sahiptir?",
+    "questionHead": "Aşağıdakilerden hangisi sınavın geçerliğini artırmada en az etkiye sahiptir?",
+    "answerA": "ASoruların çok zor olması",
+    "answerB": "Bİyi bir sınav planı hazırlanması",
+    "answerC": "CAçık, anlaşılır sorular yazılması",
+    "answerD": "DSınavda her hedef-davranışla ilgili soru sorulması",
+    "answerE": "EHer sınavda farklı sorular sorulması",
+    "correctAnswer": "ASoruların çok zor olması"
+  },
+  {
+    "question": "Bir testin güvenirliğini artırmak için aşağıdakilerden hangisinin yapılması yanlış olur?",
+    "questionHead": "Bir testin güvenirliğini artırmak için aşağıdakilerden hangisinin yapılması yanlış olur?",
+    "answerA": "ASeçenek sayısının artırılması",
+    "answerB": "BMadde sayısının artırılması",
+    "answerC": "CMaddelerin açık ve anlaşılır olması",
+    "answerD": "DGüçlük değeri 0,80'in üzerinde sorular sorulması",
+    "answerE": "ESınav süresinin iyi belirlenmesi",
+    "correctAnswer": "DGüçlük değeri 0,80'in üzerinde sorular sorulması"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yanlıştır?",
+    "questionHead": "Aşağıdakilerden hangisi yanlıştır?",
+    "answerA": "ASoruların bilinen bir kaynaktan alınması geçerliği düşürür.",
+    "answerB": "BSoru sayısını arttırmak güvenirliği etkiler.",
+    "answerC": "CÖğrencilerin sınavla ilgili önyargıları güvenirliği etkiler.",
+    "answerD": "DGeçerlik güvenirlik için bir önkoşuldur.",
+    "answerE": "EEşdeğer yarılar tekniğinde bir test aynı gruba bir kez uygulanır.",
+    "correctAnswer": "DGeçerlik güvenirlik için bir önkoşuldur."
+  },
+  {
+    "question": "Fen ve teknoloji dersinde öğrencilerin deney yapma becerilerinin ölçüldüğü bir performans görevi puanlanırken deneyi verilen süreden erken tamamlayanlara ek olarak 5 puan verilmiştir. Yapılan bu işlem sonucunda aşağıdakilerden hangisi gerçekleşmiş olur?",
+    "questionHead": "Fen ve teknoloji dersinde öğrencilerin deney yapma becerilerinin ölçüldüğü bir performans görevi puanlanırken deneyi verilen süreden erken tamamlayanlara ek olarak 5 puan verilmiştir. Yapılan bu işlem sonucunda aşağıdakilerden hangisi gerçekleşmiş olur?",
+    "answerA": "AGüvenirlik artar.",
+    "answerB": "BTutarlık sağlanır.",
+    "answerC": "CGeçerlilik düşer.",
+    "answerD": "DKullanışlılık artar.",
+    "answerE": "EDuyarlık azalır.",
+    "correctAnswer": "CGeçerlilik düşer."
+  },
+  {
+    "question": "Oğuzhan sınıfın en uzun boylu öğrencisidir.Yukarıdaki ölçme sonucu hangi türden bir ölçekte ifade edilmiştir?",
+    "questionHead": "Oğuzhan sınıfın en uzun boylu öğrencisidir.Yukarıdaki ölçme sonucu hangi türden bir ölçekte ifade edilmiştir?",
+    "answerA": "AOranlı",
+    "answerB": "BEşit aralıklı",
+    "answerC": "CSınıflama",
+    "answerD": "DSıralama",
+    "answerE": "EAdlandırma",
+    "correctAnswer": "DSıralama"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme ve değerlendirmenin işlevleri arasında değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme ve değerlendirmenin işlevleri arasında değildir?",
+    "answerA": "AÖğretmenlerin başarısı hakkında bilgi verir.",
+    "answerB": "BOkul başarısı hakkında bilgi verir.",
+    "answerC": "CÖğrencilerin düzeyi hakkında bilgi verir.",
+    "answerD": "DAileler hakkında bilgi verir.",
+    "answerE": "EÖğretimin etkililiği hakkında bilgi verir.",
+    "correctAnswer": "DAileler hakkında bilgi verir."
+  },
+  {
+    "question": "Bir Coğrafya öğretmeni derste Türkiye'de görülen iklim çeşitlerini işlemiştir ancak yaptığı sınavda Türkiye'de gümüş madeninin çıkarıldığı illeri sormuştur. Öğretmen burada bir ölçme aracında bulunması gereken hangi özelliği göz ardı etmiştir?",
+    "questionHead": "Bir Coğrafya öğretmeni derste Türkiye'de görülen iklim çeşitlerini işlemiştir ancak yaptığı sınavda Türkiye'de gümüş madeninin çıkarıldığı illeri sormuştur. Öğretmen burada bir ölçme aracında bulunması gereken hangi özelliği göz ardı etmiştir?",
+    "answerA": "AYordama geçerliği",
+    "answerB": "Bİç tutarlık",
+    "answerC": "CGüvenirlik",
+    "answerD": "DKapsam geçerliği",
+    "answerE": "EUygunluk geçerliği",
+    "correctAnswer": "DKapsam geçerliği"
+  },
+  {
+    "question": "Türkçe öğretmeni sınıfla sorduğu sorulara doğru cevap veren her öğrenciye bir artı vermektedir.\" 5 öğrenci sorusuna doğru cevap verdiğinde soru sormayı bırakmakta ve konunun yeterince öğrenildiğini varsaymaktadır. Paragrafta geçen 5 öğrenci aşağıdaki kavramların hangisiyle açıklanır?",
+    "questionHead": "Türkçe öğretmeni sınıfla sorduğu sorulara doğru cevap veren her öğrenciye bir artı vermektedir.\" 5 öğrenci sorusuna doğru cevap verdiğinde soru sormayı bırakmakta ve konunun yeterince öğrenildiğini varsaymaktadır. Paragrafta geçen 5 öğrenci aşağıdaki kavramların hangisiyle açıklanır?",
+    "answerA": "AÖlçüt",
+    "answerB": "BBirim",
+    "answerC": "CÖlçme",
+    "answerD": "DDeğerlendirme",
+    "answerE": "EÖlçekleme",
+    "correctAnswer": "AÖlçüt"
+  },
+  {
+    "question": "Sınıftaki öğrenciler boyları karşılaştırılarak uzundan kısaya sıralanmıştır. Burada yapılan işlemi tanımlamak için aşağıdakilerden hangisi kullanılırsa daha uygun olur?",
+    "questionHead": "Sınıftaki öğrenciler boyları karşılaştırılarak uzundan kısaya sıralanmıştır. Burada yapılan işlemi tanımlamak için aşağıdakilerden hangisi kullanılırsa daha uygun olur?",
+    "answerA": "ATüretilmiş ölçme",
+    "answerB": "BÖlçek geliştirme",
+    "answerC": "CDoğrudan ölçme",
+    "answerD": "DDeğerlendirme",
+    "answerE": "EMutlak ölçme",
+    "correctAnswer": "CDoğrudan ölçme"
+  },
+  {
+    "question": "Bir müzik öğretmeni öğrettiği bir müzik parçasını flütle doğru çalan öğrencilere artı, eksik ya da yanlış çalan öğrencilere de eksi vermektedir. Öğretmenin yaptığı işlem aşağıdakilerden hangisidir?",
+    "questionHead": "Bir müzik öğretmeni öğrettiği bir müzik parçasını flütle doğru çalan öğrencilere artı, eksik ya da yanlış çalan öğrencilere de eksi vermektedir. Öğretmenin yaptığı işlem aşağıdakilerden hangisidir?",
+    "answerA": "AÖlçüt",
+    "answerB": "BÖlçüm",
+    "answerC": "CÖlçme kuralı",
+    "answerD": "DÖlçme",
+    "answerE": "EÖlçek",
+    "correctAnswer": "DÖlçme"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme değildir?",
+    "answerA": "ACem'in iki çocuğu vardır.",
+    "answerB": "BAli evli değildir.",
+    "answerC": "CÖzlem 65 kilodur.",
+    "answerD": "DVeli'nin boyu 1.75 cm'dir.",
+    "answerE": "EDersten geçme notu 60'tır.",
+    "correctAnswer": "EDersten geçme notu 60'tır."
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ölçme araçlarında kullanışlı birim kullanımının yararlarından birisi değildir?",
+    "questionHead": "Aşağıdakilerden hangisi ölçme araçlarında kullanışlı birim kullanımının yararlarından birisi değildir?",
+    "answerA": "AÖlçme sonuçlarına göre verilen kararın isabetli olmasını sağlar.",
+    "answerB": "BÖlçmenin süresini kısaltır.",
+    "answerC": "CÖlçmecinin işini kolaylaştırır.",
+    "answerD": "DYapılan ölçmenin geçerliği artar.",
+    "answerE": "EDeğerlendirmede uygun bir ölçüt bulunmayı kolaylaştırır.",
+    "correctAnswer": "EDeğerlendirmede uygun bir ölçüt bulunmayı kolaylaştırır."
+  },
+  {
+    "question": "Aşağıda verilen ölçmelerden hangisi dolaylı ölçmeye örnek olamaz?",
+    "questionHead": "Aşağıda verilen ölçmelerden hangisi dolaylı ölçmeye örnek olamaz?",
+    "answerA": "AZeka ölçme",
+    "answerB": "BTermometreyle sıcaklık ölçme",
+    "answerC": "CAkademik başarının ölçülmesi",
+    "answerD": "DÖğrencinin güvenlik düzeyinin belirlenmesi",
+    "answerE": "EMetre ile öğrencinin boyunu ölçme",
+    "correctAnswer": "EMetre ile öğrencinin boyunu ölçme"
+  }
+]
+}

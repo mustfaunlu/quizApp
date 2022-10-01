@@ -1,0 +1,205 @@
+{
+  "ozelegtm2": [
+  {
+    "question":"Bir rehber öğretmen önceki yıllara kıyasla öğrencilerin özelliklerinin ve sorunlarının farklılaştığını gözlemlemiştir. Buna dayanarak rehberlik programında bazı güncellemeler yapmıştır. Bu rehber öğretmen, hangi rehberlik ilkesi doğrultusunda hareket etmiştir?",
+    "questionHead":"Bir rehber öğretmen önceki yıllara kıyasla öğrencilerin özelliklerinin ve sorunlarının farklılaştığını gözlemlemiştir. Buna dayanarak rehberlik programında bazı güncellemeler yapmıştır. Bu rehber öğretmen, hangi rehberlik ilkesi doğrultusunda hareket etmiştir?",
+    "answerA":"ARehberlik programı, öğrenci nitelikleri, ihtiyaçları ve çevresel koşullar dikkate alınarak düzenlenmelidir.",
+    "answerB":"BRehberlik hizmetleri süreklilik arz eder.",
+    "answerC":"CRehberlik uygulamalarında öğrenci ile ilgili herkes ortak bir anlayış içinde çalışmalıdır.",
+    "answerD":"DRehberlikte gönüllülük esastır.",
+    "answerE":"ARehberlik programı, öğrenci nitelikleri, ihtiyaçları ve çevresel koşullar dikkate alınarak düzenlenmelidir.",
+    "correctAnswer":"ARehberlik programı, öğrenci nitelikleri, ihtiyaçları ve çevresel koşullar dikkate alınarak düzenlenmelidir."
+  },
+  {
+    "question":"\"Birey bir bütündür. Sosyal ve psikolojik bakımdan sağlıklı olmayan birey, zihinsel kapasitesini kullanamaz.\" düşüncesi rehberliğin hangi ilkesini yansıtır?",
+    "questionHead":"\"Birey bir bütündür. Sosyal ve psikolojik bakımdan sağlıklı olmayan birey, zihinsel kapasitesini kullanamaz.\" düşüncesi rehberliğin hangi ilkesini yansıtır?",
+    "answerA":"ARehberliğin temelinde demokratik ve insancıl bir anlayış vardır.",
+    "answerB":"BRehberlikte gönülülük esastır.",
+    "answerC":"CRehberlik uygulamalarında öğrenci ile ilgili herkes ortak bir anlayış içinde olmalıdır.",
+    "answerD":"DRehberlik uygulamaları okulun amaç ve ihtiyaçlarına uygun alanlarda yoğunlaşmalıdır.",
+    "answerE":"EÖğretim ve rehberlik hizmetleri karşılıklı olarak birbirine bağımlıdır.",
+    "correctAnswer":"EÖğretim ve rehberlik hizmetleri karşılıklı olarak birbirine bağımlıdır."
+  },
+  {
+    "question":"Bir okuldaki rehberlik servisi sadece sorun çıktığı zamanlarda işe koyulmaktadır. Sorunun ortaya çıkma sürecine seyirci kalmaktadır. Bu rehberlik servisi hangi rehberlik ilkesine uygun davranmamaktadır?",
+    "questionHead":"Bir okuldaki rehberlik servisi sadece sorun çıktığı zamanlarda işe koyulmaktadır. Sorunun ortaya çıkma sürecine seyirci kalmaktadır. Bu rehberlik servisi hangi rehberlik ilkesine uygun davranmamaktadır?",
+    "answerA":"ARehberlik uygulamaları her okulun amaç ve ihtiyaçlarına uygun olmalıdır.",
+    "answerB":"BRehberlik hizmetleri süreklilik arz eder.",
+    "answerC":"CÖğretim ve rehberlik hizmetleri birbirini tamamlar.",
+    "answerD":"DRehberlik programı, öğrenci nitelikleri, ihtiyaçları ve çevresel koşullar dikkate alınarak düzenlenmelidir.",
+    "answerE":"BRehberlik hizmetleri süreklilik arz eder.",
+    "correctAnswer":"BRehberlik hizmetleri süreklilik arz eder."
+  },
+  {
+    "question":"Bir okulun rehber öğretmeni olan Kadir Bey, Sude isimli bir öğrenci ile yaptığı psikolojik danışma hizmetinden sonra öğrencinin okuldan bir arkadaşına duygusal olarak bir şeyler hissettiğini öğrenmiş ve bunu idareye bildirmiştir. Bunun üzerine Müdür, Sude'yi çağırıp bu tür yakınlaşmaların okul ortamında doğru olmadığını söyleyerek onu uyarmıştır. Sude'nin rehber öğretmenine olan bütün güveni sarsılmış ve bir daha psikolojik danışma hizmeti almak istememiştir. Sude'nin rehber öğretmeni hangi rehberlik ilkesini ihlal etmiştir?",
+    "questionHead":"Bir okulun rehber öğretmeni olan Kadir Bey, Sude isimli bir öğrenci ile yaptığı psikolojik danışma hizmetinden sonra öğrencinin okuldan bir arkadaşına duygusal olarak bir şeyler hissettiğini öğrenmiş ve bunu idareye bildirmiştir. Bunun üzerine Müdür, Sude'yi çağırıp bu tür yakınlaşmaların okul ortamında doğru olmadığını söyleyerek onu uyarmıştır. Sude'nin rehber öğretmenine olan bütün güveni sarsılmış ve bir daha psikolojik danışma hizmeti almak istememiştir. Sude'nin rehber öğretmeni hangi rehberlik ilkesini ihlal etmiştir?",
+    "answerA":"ARehberliğin temelinde demokratik ve insancıl bir anlayış vardır.",
+    "answerB":"BRehberlikte gönüllülük esastır.",
+    "answerC":"CRehberlik hizmetlerinde bireysel farklılıklara saygı esastır.",
+    "answerD":"DRehberlik hizmetlerinde gizlilik esastır.",
+    "answerE":"DRehberlik hizmetlerinde gizlilik esastır.",
+    "correctAnswer":"DRehberlik hizmetlerinde gizlilik esastır."
+  },
+  {
+    "question":"Aşağıdaki şıklardan hangisi rehberlik hizmetlerine katkı getirebilecek kişi ve kuruluşlardan biri değildir?",
+    "questionHead":"Aşağıdaki şıklardan hangisi rehberlik hizmetlerine katkı getirebilecek kişi ve kuruluşlardan biri değildir?",
+    "answerA":"ANüfus Müdürlükleri",
+    "answerB":"BRehberlik araştırma merkezleri",
+    "answerC":"CYardım hizmeti veren kurumlar",
+    "answerD":"Dİş ve işçi bulma kurumu",
+    "answerE":"ANüfus Müdürlükleri",
+    "correctAnswer":"ANüfus Müdürlükleri"
+  },
+  {
+    "question":"Aşağıdaki şıklardan hangisi rehberliğin gelişmesini etkileyen felsefi ve psikolojik etkenlerden değildir?",
+    "questionHead":"Aşağıdaki şıklardan hangisi rehberliğin gelişmesini etkileyen felsefi ve psikolojik etkenlerden değildir?",
+    "answerA":"ABireye tanınan seçme özgürlüğü",
+    "answerB":"BÖğrenci merkezli eğitim anlayışının gelişmesi",
+    "answerC":"CBireyin kişilik özelliklerinin ölçülmesi",
+    "answerD":"DToplu öğretime geçiş",
+    "answerE":"EKadının çalışma hayatına katılması",
+    "correctAnswer":"EKadının çalışma hayatına katılması"
+  },
+  {
+    "question":"Aşağıdaki şıklardan hangisi rehberlik tanımlarının ortak noktalarından biri değildir?",
+    "questionHead":"Aşağıdaki şıklardan hangisi rehberlik tanımlarının ortak noktalarından biri değildir?",
+    "answerA":"ASüreç işi olması",
+    "answerB":"BProfesyonel yardım olması",
+    "answerC":"CBireyin uyumunu sağlaması",
+    "answerD":"DSistemli yardım olması",
+    "answerE":"ESorun anında verilmesi",
+    "correctAnswer":"ESorun anında verilmesi"
+  },
+  {
+    "question":"Aşağıdaki hizmetlerden hangisi, bireyin kendini gerçekleştirmesi ne yöneliktir?",
+    "questionHead":"Aşağıdaki hizmetlerden hangisi, bireyin kendini gerçekleştirmesi ne yöneliktir?",
+    "answerA":"AKültürel hizmetler",
+    "answerB":"BYöneltme",
+    "answerC":"CPsikolojik danışmanlık",
+    "answerD":"DÖzel yetiştirme",
+    "answerE":"CPsikolojik danışmanlık",
+    "correctAnswer":"CPsikolojik danışmanlık"
+  },
+  {
+    "question":"Öğretim kademelerindeki rehberlik uygulamalarında değişmeyen öge aşağıdaki şıklardan hangisidir?",
+    "questionHead":"Öğretim kademelerindeki rehberlik uygulamalarında değişmeyen öge aşağıdaki şıklardan hangisidir?",
+    "answerA":"AGenel amaç ve ilkeler",
+    "answerB":"BUygulanacak teknikler",
+    "answerC":"CUygulanacak yöntemler",
+    "answerD":"DUygulanacak etkinlikler",
+    "answerE":"AGenel amaç ve ilkeler",
+    "correctAnswer":"AGenel amaç ve ilkeler"
+  },
+  {
+    "question":"I. Bireysel farkların eğitimde dikkate alınması ll. Çekirdek aile yapısının korunmak istenmesi lll. Demokrasinin eğitime katkısı IV. Bilim ve teknolojideki gelişmeler V. Kadının ev yaşamında olması Yukarıdakilerden hangisi veya hangileri rehberliği gerekli kılan gelişmelerden değildir?",
+    "questionHead":"I. Bireysel farkların eğitimde dikkate alınması ll. Çekirdek aile yapısının korunmak istenmesi lll. Demokrasinin eğitime katkısı IV. Bilim ve teknolojideki gelişmeler V. Kadının ev yaşamında olması Yukarıdakilerden hangisi veya hangileri rehberliği gerekli kılan gelişmelerden değildir?",
+    "answerA":"AI, lll",
+    "answerB":"BYalnız I",
+    "answerC":"CII, III, V",
+    "answerD":"DYalnız V",
+    "answerE":"EII, V",
+    "correctAnswer":"EII, V"
+  },
+    {
+      "question":"Bir lisede rehber öğretmen olan Zeki Bey, okuldaki sınıf rehber öğretmenlerinin rehberlik dersine yeterli önemi vermediğinden ve verdiği önerileri eleştirmelerinden şikayetçidir. Ayrıca velilerden de beklediği ilgiyi görememektedir.  Bu durum, aşağıdaki rehberlik ilkelerinden hangisinin uygulanmasını zorlaştırır?",
+      "questionHead":"Bir lisede rehber öğretmen olan Zeki Bey, okuldaki sınıf rehber öğretmenlerinin rehberlik dersine yeterli önemi vermediğinden ve verdiği önerileri eleştirmelerinden şikayetçidir. Ayrıca velilerden de beklediği ilgiyi görememektedir.  Bu durum, aşağıdaki rehberlik ilkelerinden hangisinin uygulanmasını zorlaştırır?",
+      "answerA":"Arehberlik hizmetlerinde bireysel farklara saygı esastır.",
+      "answerB":"BRehberlik uygulamaları her okulun amaç ve ihtiyaçlarına uygun olmalıdır.",
+      "answerC":"CRehberlik uygulamalarında öğrenci ile ilgili herkesin ortak bir anlayışla ve işbirliği içinde çalışma gerekir.",
+      "answerD":"DRehberlik hizmetleri planlı bir biçimde ve profesyonel bir düzeyde sunulmalıdır.",
+      "answerE":"EÖğretim ve rehberlik hizmetleri birbirini tamamlar.",
+      "correctAnswer":"CRehberlik uygulamalarında öğrenci ile ilgili herkesin ortak bir anlayışla ve işbirliği içinde çalışma gerekir."
+    },
+    {
+      "question":"Bir okulun rehber öğretmeni olan Kadir Bey, Sude isimli bir öğrenci ile yaptığı psikolojik danışma hizmetinden sonra öğrencinin okuldan bir arkadaşına duygusal olarak bir şeyler hissettiğini öğrenmiş ve bunu idareye bildirmiştir. Bunun üzerine Müdür, Sude'yi çağırıp bu tür yakınlaşmaların okul ortamında doğru olmadığını söyleyerek onu uyarmıştır. Sude'nin rehber öğretmenine olan bütün güveni sarsılmış ve bir daha psikolojik danışma hizmeti almak istememiştir. Sude'nin rehber öğretmeni hangi rehberlik ilkesini ihlal etmiştir?",
+      "questionHead":"Bir okulun rehber öğretmeni olan Kadir Bey, Sude isimli bir öğrenci ile yaptığı psikolojik danışma hizmetinden sonra öğrencinin okuldan bir arkadaşına duygusal olarak bir şeyler hissettiğini öğrenmiş ve bunu idareye bildirmiştir. Bunun üzerine Müdür, Sude'yi çağırıp bu tür yakınlaşmaların okul ortamında doğru olmadığını söyleyerek onu uyarmıştır. Sude'nin rehber öğretmenine olan bütün güveni sarsılmış ve bir daha psikolojik danışma hizmeti almak istememiştir. Sude'nin rehber öğretmeni hangi rehberlik ilkesini ihlal etmiştir?",
+      "answerA":"ARehberliğin temelinde demokratik ve insancıl bir anlayış vardır.",
+      "answerB":"BRehberlikte gönüllülük esastır.",
+      "answerC":"CRehberlik hizmetlerinde bireysel farklılıklara saygı esastır.",
+      "answerD":"DRehberlik hizmetlerinde gizlilik esastır.",
+      "answerE":"ERehberlik uygulamalarında öğrenci ile ilgili herkes ortak bir anlayış içinde çalışmalıdır.",
+      "correctAnswer":"DRehberlik hizmetlerinde gizlilik esastır."
+    },
+    {
+      "question":"Mevcut eğitim sisteminde yeterli sayıda rehber öğretmen oladığı için öğrencilere bireysel ve yüz yüze ilişki yoluyla sunulan \"Uzman merkezli rehberlik programı\" uygulanmasında zorluklar yaşanmaktadır. Bu durum aşağıdaki şıklardan hangisi ile aşılabilir?",
+      "questionHead":"Mevcut eğitim sisteminde yeterli sayıda rehber öğretmen oladığı için öğrencilere bireysel ve yüz yüze ilişki yoluyla sunulan \"Uzman merkezli rehberlik programı\" uygulanmasında zorluklar yaşanmaktadır. Bu durum aşağıdaki şıklardan hangisi ile aşılabilir?",
+      "answerA":"ARehberlik uzmanının diğer öğretmenleri eğitmesi ve rehberlik hizmetlerinin işbirliği içinde yürütülmesi",
+      "answerB":"BRehber öğretmenin rehberlik derslerine kendisinin girmesi",
+      "answerC":"CRehber öğretmenin çalışma saatlerinin uzatılması",
+      "answerD":"DRehber öğretmenin velilerden yardım alması",
+      "answerE":"EBireysel uygulamalardan çok toplu uygulamaların yapılması",
+      "correctAnswer":"ARehberlik uzmanının diğer öğretmenleri eğitmesi ve rehberlik hizmetlerinin işbirliği içinde yürütülmesi"
+    },
+    {
+      "question":"Aşağıdaki şıklardan hangisi geleneksel eğitime yapılan eleştirilerden değildir?",
+      "questionHead":"Aşağıdaki şıklardan hangisi geleneksel eğitime yapılan eleştirilerden değildir?",
+      "answerA":"AYalnızca akademik başarıya önem verme",
+      "answerB":"BYüzeysel, duygulardan soyutlanmış yaşantılarla yetindiği için kalıcı davranış değişikliği sağlayamama",
+      "answerC":"CYarışmaya dayalı bir yaklaşım sergileyerek öğrencilerin dayanışma duygularını yok etme",
+      "answerD":"DBireysel farkları dikkate almama",
+      "answerE":"EYeni gelişmelere açık olma",
+      "correctAnswer":"EYeni gelişmelere açık olma"
+    },
+    {
+      "question":"Aşağıdaki şıklardan hangisi rehberliğin gelişmesini etkileyen felsefi ve psikolojik etkenlerden değildir?",
+      "questionHead":"Aşağıdaki şıklardan hangisi rehberliğin gelişmesini etkileyen felsefi ve psikolojik etkenlerden değildir?",
+      "answerA":"ABireye tanınan seçme özgürlüğü",
+      "answerB":"BÖğrenci merkezli eğitim anlayışının gelişmesi",
+      "answerC":"CBireyin kişilik özelliklerinin ölçülmesi",
+      "answerD":"DToplu öğretime geçiş",
+      "answerE":"EKadının çalışma hayatına katılması",
+      "correctAnswer":"EKadının çalışma hayatına katılması"
+    },
+    {
+      "question":"Aşağıdaki ifadelerden hangisi doğrudur?",
+      "questionHead":"Aşağıdaki ifadelerden hangisi doğrudur?",
+      "answerA":"ARehberlikte, topluma dönük bilgi verme vardır.",
+      "answerB":"BRehberlikte. öğrenciye nesnel olguları tanımasına yönelik bilgi verilir.",
+      "answerC":"CRehberlikte, öğrencinin öz disiplin geliştirmesi önemlidir.",
+      "answerD":"DRehberlikte, bilgi aklarımı önemlidir.",
+      "answerE":"ERehberlik etkinliklerine katılmak zorunluluğu vardır.",
+      "correctAnswer":"CRehberlikte, öğrencinin öz disiplin geliştirmesi önemlidir."
+    },
+    {
+      "question":"Iğdır'da bir ilçeye atanan rehber öğretmen Sevim Hanım, okulda rehberlik servisinin oluşturulmadığını görmüştür. Sevim Hanım, rehberlik uygulamalarına başlamadan önce aşağıdaki şıklardan hangisini önce yapması gerekir?",
+      "questionHead":"Iğdır'da bir ilçeye atanan rehber öğretmen Sevim Hanım, okulda rehberlik servisinin oluşturulmadığını görmüştür. Sevim Hanım, rehberlik uygulamalarına başlamadan önce aşağıdaki şıklardan hangisini önce yapması gerekir?",
+      "answerA":"AÖğrencilerin ne tür problemleri olduğunu belirlemek",
+      "answerB":"BRehberliğe ihtiyaç duyan öğrencileri tespit etmek",
+      "answerC":"COkulda ortak rehberlik anlayışı geliştirmek",
+      "answerD":"DÖğrencilere rehberliğin faydalarından bahsetmek",
+      "answerE":"EOkula başka bir rehberlik öğretmeni daha istemek",
+      "correctAnswer":"COkulda ortak rehberlik anlayışı geliştirmek"
+    },
+    {
+      "question":"Aşağıdaki şıklardan hangisi rehberlik ile ilgili olarak söylenilen doğru bir ifadedir?",
+      "questionHead":"Aşağıdaki şıklardan hangisi rehberlik ile ilgili olarak söylenilen doğru bir ifadedir?",
+      "answerA":"ARehberlik sorunu olan bireylerin sorunlarını çözer.",
+      "answerB":"BRehberlik kişi ihtiyaç duyduğu her an yararlanabileceği bir hizmettir.",
+      "answerC":"CRehberlik sadece ergenlik dönemi boyunca sunulan bir hizmettir.",
+      "answerD":"DBireyler rehberlik yardımını zorlada olsa almak durumundadırlar.",
+      "answerE":"ERehberlik hizmetleri eğitim öğretim hizmetlerinin dışında kalmaktadır.",
+      "correctAnswer":"BRehberlik kişi ihtiyaç duyduğu her an yararlanabileceği bir hizmettir."
+    },
+    {
+      "question":"Öğrencilerin barınma, beslenme, burs, sosyal etkinlikler gibi ihtiyaçlarını karşılayan birimin adı nedir?",
+      "questionHead":"Öğrencilerin barınma, beslenme, burs, sosyal etkinlikler gibi ihtiyaçlarını karşılayan birimin adı nedir?",
+      "answerA":"AOkul yönetimi",
+      "answerB":"BOkul Aile birliği",
+      "answerC":"CÖğrenci kişilik hizmetleri",
+      "answerD":"DRehberlik hizmetleri",
+      "answerE":"ESosyal kulüpler",
+      "correctAnswer":"CÖğrenci kişilik hizmetleri"
+    },
+    {
+      "question":"Aşağıdaki özelliklerden hangisi kendini gerçekleştiren insanın özelliklerinden biri değildir?",
+      "questionHead":"Aşağıdaki özelliklerden hangisi kendini gerçekleştiren insanın özelliklerinden biri değildir?",
+      "answerA":"AKim olduğunu gerçekçi bir gözle algılamak.",
+      "answerB":"BYaratıcı olmak.",
+      "answerC":"CDemokratik davranmak.",
+      "answerD":"DÇevresini umursamazca davranmak.",
+      "answerE":"EOlduğu gibi davranmak.",
+      "correctAnswer":"DÇevresini umursamazca davranmak."
+    }
+
+]
+}

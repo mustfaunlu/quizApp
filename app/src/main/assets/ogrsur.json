@@ -1,0 +1,204 @@
+{
+  "ogrsur": [
+  {
+    "question": "\"Karadeniz Bölgesi ile ilgili temel bilgileri öğrendikten sonra öğrenciye eski bir harita gösterilebilir ve öğrencinin Karadeniz’deki bu limanlardan hangisinin en önemli liman hâline gelmiş olabileceği konusundaki tahminleri alınır. Daha sonra da öğrenci bu tahminlerinin doğru olup olmadığını bilimsel olarak araştırabilir.\" Öğretmenin burada kullandığı öğretim stratejisi aşağıdakilerden hangisidir?",
+    "questionHead": "\"Karadeniz Bölgesi ile ilgili temel bilgileri öğrendikten sonra öğrenciye eski bir harita gösterilebilir ve öğrencinin Karadeniz’deki bu limanlardan hangisinin en önemli liman hâline gelmiş olabileceği konusundaki tahminleri alınır. Daha sonra da öğrenci bu tahminlerinin doğru olup olmadığını bilimsel olarak araştırabilir.\" Öğretmenin burada kullandığı öğretim stratejisi aşağıdakilerden hangisidir?",
+    "answerA": "ASunuş",
+    "answerB": "BBuluş",
+    "answerC": "CAraştırma - inceleme",
+    "answerD": "DTam öğrenme",
+    "answerE": "EProgramlı öğretim",
+    "correctAnswer": "BBuluş"
+  },
+  {
+    "question": "Araştırma inceleme yoluyla öğretim stratejisine ilişkin olarak aşağıdaki bilgilerden hangisi yanlıştır?",
+    "questionHead": "Araştırma inceleme yoluyla öğretim stratejisine ilişkin olarak aşağıdaki bilgilerden hangisi yanlıştır?",
+    "answerA": "ABu stratejide örnek olay, problem çözme, rol oynama, gösteri, gezi - gözlem yaratıcı drama, gibi teknikler kullanılır.",
+    "answerB": "BÖrneklerle ilgili değişik durumları denenceleri öğrenciler tartışarak kendileri kurar.",
+    "answerC": "Cİstenilen öğrenme standardına (%70) ulaşmayan öğrenciler için tamamlayıcı ek öğretim etkinlikleri yürütülür.",
+    "answerD": "DÖğrenciler yaparak yaşarak öğrenme etkinliğini kullanır.",
+    "answerE": "EBu stratejide sözlü ifade becerilerini geliştirici teknikler kullanılır.",
+    "correctAnswer": "Cİstenilen öğrenme standardına (%70) ulaşmayan öğrenciler için tamamlayıcı ek öğretim etkinlikleri yürütülür."
+  },
+  {
+    "question": "Öğretim etkinliklerini iyi bir şekilde planlayan, zamanın tamamını eğitsel değeri olan etkinliklerle geçirmeyi hedefleyen bir öğretmen, öğretim ilkelerinden hangisinin gereklerini getirmeye çalışmaktadır?",
+    "questionHead": "Öğretim etkinliklerini iyi bir şekilde planlayan, zamanın tamamını eğitsel değeri olan etkinliklerle geçirmeyi hedefleyen bir öğretmen, öğretim ilkelerinden hangisinin gereklerini getirmeye çalışmaktadır?",
+    "answerA": "AEkonomiklik",
+    "answerB": "BÖğrenciye görelik",
+    "answerC": "CAçıklık",
+    "answerD": "DGüncellik",
+    "answerE": "EBütünlük",
+    "correctAnswer": "AEkonomiklik"
+  },
+  {
+    "question": "Öğretim sürecinde önemli olan bireyin gereksinimlerine cevap verebilen ilgi ve ihtiyaçlarına uygun bilgilerin öğretilmesidir. Bu görüş aşağıdaki öğretim ilkelerinden hangisini ifade etmektedir?",
+    "questionHead": "Öğretim sürecinde önemli olan bireyin gereksinimlerine cevap verebilen ilgi ve ihtiyaçlarına uygun bilgilerin öğretilmesidir. Bu görüş aşağıdaki öğretim ilkelerinden hangisini ifade etmektedir?",
+    "answerA": "ABütünlük",
+    "answerB": "BEkonomiklik",
+    "answerC": "CAçıklık",
+    "answerD": "DÖğrenciye Görelik",
+    "answerE": "EAktivite",
+    "correctAnswer": "DÖğrenciye Görelik"
+  },
+  {
+    "question": "Buluş yoluyla öğretim stratejisinde aşağıdaki şıklardan hangisine yer verilmez?",
+    "questionHead": "Buluş yoluyla öğretim stratejisinde aşağıdaki şıklardan hangisine yer verilmez?",
+    "answerA": "AÖğrencilerden örnek durumlar isteme",
+    "answerB": "BDönüt - düzeltme kullanma",
+    "answerC": "CKonuyla ilgili zıt örnekler verme",
+    "answerD": "DÖğrencinin derse etkin katılımını sağlama",
+    "answerE": "EBilgi birimini doğrudan açıklama",
+    "correctAnswer": "EBilgi birimini doğrudan açıklama"
+  },
+  {
+    "question": "Eğitim ve öğretim adına bütün yapılacaklar, çocuğun gelişim dönemlerine göre yapılmalıdır. Yapılacak öğretim etkinliğini, öğrencinin gelişim, özellikleri ilgi ve ihtiyaçları belirler. Bu görüş ile vurgulanan öğretim ilkesi aşağıdaki şıklardan hangisidir?",
+    "questionHead": "Eğitim ve öğretim adına bütün yapılacaklar, çocuğun gelişim dönemlerine göre yapılmalıdır. Yapılacak öğretim etkinliğini, öğrencinin gelişim, özellikleri ilgi ve ihtiyaçları belirler. Bu görüş ile vurgulanan öğretim ilkesi aşağıdaki şıklardan hangisidir?",
+    "answerA": "ASomuttan - soyuta",
+    "answerB": "BGüncellik",
+    "answerC": "CHedefe görelik",
+    "answerD": "DÖğrenciye görelik",
+    "answerE": "EYaşama dönüklük",
+    "correctAnswer": "DÖğrenciye görelik"
+  },
+  {
+    "question": "Aşağıdaki yöntem ve tekniklerden hangisi öğrencilere sosyal beceriler kazandırmada diğerlerine oranla daha az etkilidir?",
+    "questionHead": "Aşağıdaki yöntem ve tekniklerden hangisi öğrencilere sosyal beceriler kazandırmada diğerlerine oranla daha az etkilidir?",
+    "answerA": "ARol yapma",
+    "answerB": "BSoru - cevap",
+    "answerC": "CYaratıcı drama",
+    "answerD": "DEğitsel oyunlar",
+    "answerE": "EAltı şapkalı düşünme",
+    "correctAnswer": "BSoru - cevap"
+  },
+  {
+    "question": "Öğretim sürecinde öğrencileri bir konu üzerinde düşünmeye yöneltmek, düşüncelerini ifade etmelerine olanak tanımak, iyi anlaşılmayan noktaların ortaya çıkarılması ve düzeltilmesi için fırsatlar yaratmak ve pekiştirmek amacıyla kullanılır. Yukarıda özellikleri sıralanan yöntem ya da teknik aşağıdaki şıklardan hangisidir?",
+    "questionHead": "Öğretim sürecinde öğrencileri bir konu üzerinde düşünmeye yöneltmek, düşüncelerini ifade etmelerine olanak tanımak, iyi anlaşılmayan noktaların ortaya çıkarılması ve düzeltilmesi için fırsatlar yaratmak ve pekiştirmek amacıyla kullanılır. Yukarıda özellikleri sıralanan yöntem ya da teknik aşağıdaki şıklardan hangisidir?",
+    "answerA": "AÖrnek olay",
+    "answerB": "BProblem çözme",
+    "answerC": "CBenzetim",
+    "answerD": "DTartışma",
+    "answerE": "EEğitsel oyunlar",
+    "correctAnswer": "DTartışma"
+  },
+  {
+    "question": "Beyin fırtınası tekniğinden istenen sonucun alınabilmesi için bir takım özelliklere dikkat etmek gerekir. Aşağıdaki durumların hangisinde beyin fırtınası tekniğinden istenen sonuç alınmaz?",
+    "questionHead": "Beyin fırtınası tekniğinden istenen sonucun alınabilmesi için bir takım özelliklere dikkat etmek gerekir. Aşağıdaki durumların hangisinde beyin fırtınası tekniğinden istenen sonuç alınmaz?",
+    "answerA": "AHerkesin katılımı sağlanırsa",
+    "answerB": "BDeğerlendirme en sona bırakılırsa",
+    "answerC": "CGeçerliliği olmayan fikirler süreç içerisinde elenirse",
+    "answerD": "DSınırlayıcı olmayan bir yaklaşım kullanılırsa",
+    "answerE": "EÖğrencilerin kendilerini güvende hissettikleri bir ortam oluşturulursa",
+    "correctAnswer": "CGeçerliliği olmayan fikirler süreç içerisinde elenirse"
+  },
+  {
+    "question": "Tartışma yönteminin kullanıldığı durumlara ilişkin olarak aşağıda verilenlerden hangisi yanlıştır?",
+    "questionHead": "Tartışma yönteminin kullanıldığı durumlara ilişkin olarak aşağıda verilenlerden hangisi yanlıştır?",
+    "answerA": "ABir konu ile ilgili karşılıklı görüşler ortaya konulurken kullanılır.",
+    "answerB": "BDemokratik yaşam alışkanlığı becerilerini kazandırmada kullanılır.",
+    "answerC": "CTekrar ve pekiştirme çalışmalarında kullanılır.",
+    "answerD": "DÖğrencilerin belirlenen konuda kendi duygu ve düşüncelerini ifade etmesinde kullanılır.",
+    "answerE": "Eİlk düzey öğrenmelerin gerçekleştirilmesinde kullanılır.",
+    "correctAnswer": "Eİlk düzey öğrenmelerin gerçekleştirilmesinde kullanılır."
+  },
+  {
+    "question": "Buluş yoluyla öğretim stratejisini kullanan bir öğretmenin öğrencileri, en az bilişsel alanın hangi aşamasına sahip olması gerekir?",
+    "questionHead": "Buluş yoluyla öğretim stratejisini kullanan bir öğretmenin öğrencileri, en az bilişsel alanın hangi aşamasına sahip olması gerekir?",
+    "answerA": "ABilgi",
+    "answerB": "BKavrama",
+    "answerC": "CUygulama",
+    "answerD": "DAnaliz",
+    "answerE": "ESentez",
+    "correctAnswer": "BKavrama"
+  },
+  {
+    "question": "Öğretim etkinliklerini iyi bir şekilde planlayan, zamanın tamamını eğitsel değeri olan etkinliklerle geçirmeyi hedefleyen bir öğretmen, öğretim ilkelerinden hangisinin gereklerini getirmeye çalışmaktadır?",
+    "questionHead": "Öğretim etkinliklerini iyi bir şekilde planlayan, zamanın tamamını eğitsel değeri olan etkinliklerle geçirmeyi hedefleyen bir öğretmen, öğretim ilkelerinden hangisinin gereklerini getirmeye çalışmaktadır?",
+    "answerA": "AEkonomiklik",
+    "answerB": "BÖğrenciye görelik",
+    "answerC": "CAçıklık",
+    "answerD": "DGüncellik",
+    "answerE": "EBütünlük",
+    "correctAnswer": "AEkonomiklik"
+  },
+  {
+    "question": "Öğretimde ne kadar çok eşya ve maddeden yararlanılırsa, konuların öğrenilmesi de o kadar kolaylaşır. Öğretim etkinlikleri öğrencilerin birden fazla duyu organını öğretim sürecinde aktif kılabilmeli. (Örneğin anlatım yöntemini kullanan bir öğretmen tepegöz, projeksiyon cihazlarını da kullanarak dersini anlatmaktadır.) Bu görüş ile ifade edilen öğretim ilkesi hangisidir?",
+    "questionHead": "Öğretimde ne kadar çok eşya ve maddeden yararlanılırsa, konuların öğrenilmesi de o kadar kolaylaşır. Öğretim etkinlikleri öğrencilerin birden fazla duyu organını öğretim sürecinde aktif kılabilmeli. (Örneğin anlatım yöntemini kullanan bir öğretmen tepegöz, projeksiyon cihazlarını da kullanarak dersini anlatmaktadır.) Bu görüş ile ifade edilen öğretim ilkesi hangisidir?",
+    "answerA": "ABilinenden - bilinmeyene",
+    "answerB": "BSomuttan - soyuta",
+    "answerC": "CYaşama dönüklük",
+    "answerD": "DÖğrenciye görelik",
+    "answerE": "EAçıklık / Ayanilik",
+    "correctAnswer": "EAçıklık / Ayanilik"
+  },
+  {
+    "question": "Aşağıdaki yöntem ve tekniklerden hangi ikisi öğrencide bağımsız çalışabilme becerisini geliştirir?",
+    "questionHead": "Aşağıdaki yöntem ve tekniklerden hangi ikisi öğrencide bağımsız çalışabilme becerisini geliştirir?",
+    "answerA": "ASergi - Benzetim",
+    "answerB": "BÖdev - Proje",
+    "answerC": "CÖdev - Oyun",
+    "answerD": "DProje - Benzetim",
+    "answerE": "EÖdev - Rol yapma",
+    "correctAnswer": "BÖdev - Proje"
+  },
+  {
+    "question": "Aşağıdaki şıklardan hangisi probleme dayalı öğrenme senaryolarında bulunması gereken özelliklerden biri değildir?",
+    "questionHead": "Aşağıdaki şıklardan hangisi probleme dayalı öğrenme senaryolarında bulunması gereken özelliklerden biri değildir?",
+    "answerA": "Aİlgi çekici ve merak uyandırıcı olması",
+    "answerB": "BÖğretmenin tercihlerine uygun olması",
+    "answerC": "CAraştırmayı gerektirmesi",
+    "answerD": "DÇok yönlü düşünmeyi gerektirmesi",
+    "answerE": "EDeğişik çözüm yollarını içermesi",
+    "correctAnswer": "BÖğretmenin tercihlerine uygun olması"
+  },
+  {
+    "question": "Proje temelli öğretim sürecinde kullanılacak projelerde aşağıdaki özelliklerden hangisinin bulunması zorunlu değildir?",
+    "questionHead": "Proje temelli öğretim sürecinde kullanılacak projelerde aşağıdaki özelliklerden hangisinin bulunması zorunlu değildir?",
+    "answerA": "ABirden fazla disiplin alanının bulgularından yararlanma",
+    "answerB": "BGünlük hayata ve ihtiyaçlara uygun olması",
+    "answerC": "CÖğrencileri farklı kaynaklardan araştırmaya sevk etmesi",
+    "answerD": "DÖğrencilerin sadece bireysel olarak yapabilecekleri özellikte olması",
+    "answerE": "EÜst düzey zihinsel becerileri kullanmayı gerektirmesi",
+    "correctAnswer": "DÖğrencilerin sadece bireysel olarak yapabilecekleri özellikte olması"
+  },
+  {
+    "question": "Örnek olay yönteminin uygulanmasında öğrencilerin aşağıdaki etkinliklerden hangisini gerçekleştirmeleri diğerleri kadar önemli değildir?",
+    "questionHead": "Örnek olay yönteminin uygulanmasında öğrencilerin aşağıdaki etkinliklerden hangisini gerçekleştirmeleri diğerleri kadar önemli değildir?",
+    "answerA": "ANeden-sonuç ilişkilerini belirleme",
+    "answerB": "BBilgileri transfer etme",
+    "answerC": "CBilgiyi yeniden üretme ve düzenleme",
+    "answerD": "DProblem çözme",
+    "answerE": "EKonunun ana hatlarını çıkarma",
+    "correctAnswer": "EKonunun ana hatlarını çıkarma"
+  },
+  {
+    "question": "Aşağıdaki şıklardan hangisi öğretmenin yöntem seçimini etkileyen faktörlerden birisi değildir?",
+    "questionHead": "Aşağıdaki şıklardan hangisi öğretmenin yöntem seçimini etkileyen faktörlerden birisi değildir?",
+    "answerA": "AMaddi imkanlar",
+    "answerB": "BDersin hedefleri",
+    "answerC": "CÖğrenci sayısı",
+    "answerD": "DOkul yönetiminin beklentileri",
+    "answerE": "EOkulun olanakları",
+    "correctAnswer": "DOkul yönetiminin beklentileri"
+  },
+  {
+    "question": "Sınırlı bir süre içerisinde yoğun bir içeriği kalabalık bir gruba aktarmak zorunda olan bir öğretmenin kullanması gereken öğretim yöntemi aşağıdaki şıklardan hangisidir?",
+    "questionHead": "Sınırlı bir süre içerisinde yoğun bir içeriği kalabalık bir gruba aktarmak zorunda olan bir öğretmenin kullanması gereken öğretim yöntemi aşağıdaki şıklardan hangisidir?",
+    "answerA": "ATartışma",
+    "answerB": "BAnlatım",
+    "answerC": "CÖrnek olay",
+    "answerD": "DProblem çözme",
+    "answerE": "EGösterip yaptırma",
+    "correctAnswer": "BAnlatım"
+  },
+  {
+    "question": "I) Üst düzey düşünme becerileri kazandırır. II) Öğrenciler öğrendiklerini kavradıklarını gerçek bir duruma uygulama şansı bulurlar. III) Yaratıcı ve eleştirel düşünebilme becerilerini geliştirir. IV) Bilimsel yöntemi kullanmayı ve bilimsel tutum kazandırır. V) Sunum kamera ile kaydedilir. Sıralanan özelliklerden hangisi ya da hangileri problem çözme yönteminin özelliklerindendir?",
+    "questionHead": "I) Üst düzey düşünme becerileri kazandırır. II) Öğrenciler öğrendiklerini kavradıklarını gerçek bir duruma uygulama şansı bulurlar. III) Yaratıcı ve eleştirel düşünebilme becerilerini geliştirir. IV) Bilimsel yöntemi kullanmayı ve bilimsel tutum kazandırır. V) Sunum kamera ile kaydedilir. Sıralanan özelliklerden hangisi ya da hangileri problem çözme yönteminin özelliklerindendir?",
+    "answerA": "AYalnız III",
+    "answerB": "BII, III ve V",
+    "answerC": "CYalnız IV",
+    "answerD": "DI, III, IV ve V",
+    "answerE": "EI, III ve IV",
+    "correctAnswer": "EI, III ve IV"
+  }
+]
+}

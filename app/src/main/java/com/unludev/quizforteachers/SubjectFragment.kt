@@ -23,7 +23,7 @@ class SubjectFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//TODO("hardcoded stringleri xml e bagla")
+//TODO("hardcoded stringleri xml e bagla enum yaz")
         subjectList = arrayListOf("Eğitimde Kapsayıcılık - 1",
             "Eğitimde Kapsayıcılık - 2",
             "Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 1",
@@ -35,12 +35,14 @@ class SubjectFragment : Fragment() {
             "Sosyal Etkileşim ve İletişim - 3",
             "Dijital Yetkinlik",
             "Çevre Eğitimi ve İklim Değişikliği",
-            "Ölçme ve Değerlendirme",
-            "Özel Eğitim ve Rehberlik",
-            "Öğrenme ve Öğretme Süreçleri",
+            "Özel Eğitim ve Rehberlik - 1",
+            "Özel Eğitim ve Rehberlik - 2",
+            "Öğrenme ve Öğretme Süreçleri - 1",
+            "Öğrenme ve Öğretme Süreçleri - 2",
             "Okul Geliştirme ve Liderlik",
             "Sosyal Duygusal Öğrenme Becerilerin Geliştirilmesi",
-            "Bilişsel Düşünme Becerileri"
+            "Bilişsel Düşünme Becerileri",
+            "Ölçme ve Değerlendirme",
         )
 
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
