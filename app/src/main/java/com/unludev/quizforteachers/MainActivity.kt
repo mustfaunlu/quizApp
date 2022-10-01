@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-TODO("hardcoded stringleri xml e bagla")
+//TODO("hardcoded stringleri xml e bagla")
         subjectList = arrayListOf("Öğrenme ve Öğretme Süreçleri",
             "Ölçme ve Değerlendirme",
             "Özel Eğitim ve Rehberlik",
@@ -41,7 +41,7 @@ TODO("hardcoded stringleri xml e bagla")
         )
 
 
-        TODO("RecyclerView mainactiviy uzerinde konuyu ogrenince bir fragmenta bagla")
+        //TODO("RecyclerView mainactiviy uzerinde duruyor, konuyu ogrenince subjectfragmenta bagla")
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         val adapter = SubjectAdapter(subjectList)
         binding.recyclerView.adapter = adapter
