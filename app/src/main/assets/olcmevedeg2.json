@@ -1,0 +1,207 @@
+{
+  "olcmevedeg2": [
+      {
+        "question": "Aşağıdaki şıklardan hangisi bir ölçme kuralı olabilir?",
+        "questionHead": "",
+        "answerA": "A) Sınavdan 50 alan dersten geçer.",
+        "answerB": "B) Eda ikinci sorudan 5 puan aldı.",
+        "answerC": "C) Seda bu yıl sınıfla kaldı.",
+        "answerD": "D) Seda testteki ilk beş soruyu yanlış cevapladı.",
+        "answerE": "E) İlk beş soruyu tam cevaplayanlar 50 puan alacaktır.",
+        "correctAnswer": "E) İlk beş soruyu tam cevaplayanlar 50 puan alacaktır."
+      },
+      {
+        "question": "Aşağıdaki şıklardan hangisinde bağıl ölçüt kullanılmamıştır?",
+        "questionHead": "",
+        "answerA": "A) Yılın en çok puan alan oyuncusu olma",
+        "answerB": "B) Koşuyu birinci olarak bitirme",
+        "answerC": "C) 100 üzerinden 80 puan almış olma",
+        "answerD": "D) Yarışmada ilk 5 içine girme",
+        "answerE": "E) Sınıfında ilk üç içinde olma",
+        "correctAnswer": "C) 100 üzerinden 80 puan almış olma"
+      },
+      {
+        "question": "Değerlendirme sonucunda ulaşılan kararın doğruluğu aşağıdakilerin hangisinden en az etkilenir?",
+        "questionHead": "",
+        "answerA": "A) Ölçme sonucunun güvenirliğinden",
+        "answerB": "B) Ölçme sonucunun geçerliğinden",
+        "answerC": "C) Ölçütün amaca uygunluğundan",
+        "answerD": "D) Karşılaştırmanın doğru yapılmasından",
+        "answerE": "E) Ölçmenin birkaç kez yapılmasından",
+        "correctAnswer": "E) Ölçmenin birkaç kez yapılmasından"
+      },
+      {
+        "question": "Aşağıdaki şıklardan hangisi değerlendirme türlerinden değildir?",
+        "questionHead": "",
+        "answerA": "A) Girdilerin değerlendirilmesi",
+        "answerB": "B) Ortamın değerlendirilmesi",
+        "answerC": "C) Sürecin değerlendirilmesi",
+        "answerD": "D) Tümel değerlendirme",
+        "answerE": "E) Çıktıların değerlendirilmesi",
+        "correctAnswer": "B) Ortamın değerlendirilmesi"
+      },
+      {
+        "question": "Aşağıdaki şıklardan hangisinde doğrudan ölçme yoktur?",
+        "questionHead": "",
+        "answerA": "A) Metre ile uzunluk ölçmek",
+        "answerB": "B) Sınıftaki sıraları saymak",
+        "answerC": "C) Koridorun kaç adım geldiğini belirlemek",
+        "answerD": "D) Sayfadaki kelime sayısını belirlemek",
+        "answerE": "E) Yaptığı resimlerden çocuğun yeteneğini saptamak",
+        "correctAnswer": "E) Yaptığı resimlerden çocuğun yeteneğini saptamak"
+      },
+      {
+        "question": "Öğrenme psikolojisi öğretmeni dersteki davranışları kazanabilmek için gelişim psikolojisi dersindeki öğrenmelerin önemli olduğunu düşünmektedir. Bu nedenle derse başlamadan önce öğrencilerin bir yıl önce gördükleri gelişim psikolojisi dersiyle ilgili davranışlardan hangilerini unutmadıklarını belirlemeye çalışmıştır. ",
+        "questionHead": "Öğretmenin testten elde ettiği sonuçları değerlendirirken aşağıdaki değerlendirme türlerinden hangisini kullanması daha uygun olacaktır?",
+        "answerA": "A) Bağıl değerlendirme",
+        "answerB": "B) Mutlak değerlendirme",
+        "answerC": "C) Grup değerlendirme",
+        "answerD": "D) Öz değerlendirme",
+        "answerE": "E) Akran değerlendirme",
+        "correctAnswer": "B) Mutlak değerlendirme"
+      },
+      {
+        "question": "Aşağıdaki özelliklerden hangisi türetilmiş ölçmeye örnektir?",
+        "questionHead": "",
+        "answerA": "A) Hava sıcaklığının belirlenmesi",
+        "answerB": "B) Bir şişedeki suyun miktarını litreyle belirleme",
+        "answerC": "C) Aracın hızının kilometre saatine bakarak belirlenmesi",
+        "answerD": "D) İki mıknatısın, kütleleri kaldırma özelliğinden faydalanarak çekim kuvvetlerinin karşılaştırılması",
+        "answerE": "E) Sözlü yoklama sonucunda sınıfın aritmetik ortalamasının belirlenmesi",
+        "correctAnswer": "E) Sözlü yoklama sonucunda sınıfın aritmetik ortalamasının belirlenmesi"
+      },
+      {
+        "question": "Aşağıda verilen ölçmelerden hangisi dolaylı ölçmeye örnek olamaz?",
+        "questionHead": "",
+        "answerA": "A) Zeka ölçme",
+        "answerB": "B) Termometreyle sıcaklık ölçme",
+        "answerC": "C) Akademik başarının ölçülmesi",
+        "answerD": "D) Öğrencinin güvenlik düzeyinin belirlenmesi",
+        "answerE": "E) Metre ile öğrencinin boyunu ölçme",
+        "correctAnswer": "E) Metre ile öğrencinin boyunu ölçme"
+      },
+      {
+        "question": "YKS sınavında öğrencilerin programlara yerleştirilmesi yüzdelik dilimlere göre yapılmaktadır.",
+        "questionHead": "Yapılan yerleştirme işlemi için aşağıdaki şıklardan hangisi doğrudur?",
+        "answerA": "A) Mutlak ölçme",
+        "answerB": "B) Mutlak değerlendirme",
+        "answerC": "C) Bağıl değerlendirme",
+        "answerD": "D) Bağıl ölçme",
+        "answerE": "E) Doğrudan ölçme",
+        "correctAnswer": "C) Bağıl değerlendirme"
+      },
+      {
+        "question": "İş mülakat sınavına giren Melisa'nın sınav formuna \"özgüven becerisinin yüksek\" olduğu yazılmıştır.",
+        "questionHead": "Tırnak içinde ifade ve kullanılan ölçeğin özelliği hangi seçenekte doğru olarak verilmiştir?",
+        "answerA": "A) Değerlendirme - Eşit Aralıklı Ölçek",
+        "answerB": "B) Değerlendirme - Sınıflama Ölçeği",
+        "answerC": "C) Ölçme - Eşit Aralıklı Ölçek",
+        "answerD": "D) Ölçme - Sıralama Ölçeği",
+        "answerE": "E) Ölçüt - Adlandırma Ölçeği",
+        "correctAnswer": "D) Ölçme - Sıralama Ölçeği"
+      },
+      {
+        "question": "Aşağıdaki şıklardan hangisi bir ölçme kuralı olabilir?",
+        "questionHead": "",
+        "answerA": "A) Sınavdan 50 alan dersten geçer.",
+        "answerB": "B) Eda ikinci sorudan 5 puan aldı.",
+        "answerC": "C) Seda bu yıl sınıfla kaldı.",
+        "answerD": "D) Seda testteki ilk beş soruyu yanlış cevapladı.",
+        "answerE": "E) İlk beş soruyu tam cevaplayanlar 50 puan alacaktır.",
+        "correctAnswer": "E) İlk beş soruyu tam cevaplayanlar 50 puan alacaktır."
+      },
+      {
+        "question": "Aşağıdaki durumların hangisinde yapılan işlemin ölçme sonuçlarına hata karıştırdığına ilişkin kanıt daha zayıftır?",
+        "questionHead": "",
+        "answerA": "A) Türkçe kompozisyon sınavında öğretmenin yazma becerisine puan vermesi",
+        "answerB": "B) Öğretmenin sınav sonuçlarına her öğrenci için 10 puan eklemesi",
+        "answerC": "C) Ağırlıkları farklı olan final ve vize puanlarına eşit ağırlık verilerek ortalama hesaplanması",
+        "answerD": "D) Okulun futbol takımında oynayan öğrencilere 20 puan fazla verilmesi",
+        "answerE": "E) Cevaplayıcının 15. sorudan itibaren cevaplarını yanlış kodlaması",
+        "correctAnswer": "A) Türkçe kompozisyon sınavında öğretmenin yazma becerisine puan vermesi"
+      },
+      {
+        "question": "Aşağıdaki şıklardan hangisinde bağıl ölçüt kullanılmamıştır?",
+        "questionHead": "",
+        "answerA": "A) Yılın en çok puan alan oyuncusu olma",
+        "answerB": "B) Koşuyu birinci olarak bitirme",
+        "answerC": "C) 100 üzerinden 80 puan almış olma",
+        "answerD": "D) Yarışmada ilk 5 içine girme",
+        "answerE": "E) Sınıfında ilk üç içinde olma",
+        "correctAnswer": "C) 100 üzerinden 80 puan almış olma"
+      },
+      {
+        "question": "Değerlendirme sonucunda ulaşılan kararın doğruluğu aşağıdakilerin hangisinden en az etkilenir?",
+        "questionHead": "",
+        "answerA": "A) Ölçme sonucunun güvenirliğinden",
+        "answerB": "B) Ölçme sonucunun geçerliğinden",
+        "answerC": "C) Ölçütün amaca uygunluğundan",
+        "answerD": "D) Karşılaştırmanın doğru yapılmasından",
+        "answerE": "E) Ölçmenin birkaç kez yapılmasından",
+        "correctAnswer": "E) Ölçmenin birkaç kez yapılmasından"
+      },
+      {
+        "question": "Futbol maçında kaleye atılan gol sayısına göre puanlama yapılır.",
+        "questionHead": "Yapılan puanlama işlemi aşağıdaki şıklardan hangisiyle açıklanabilir.",
+        "answerA": "A) Türetilmiş ölçme",
+        "answerB": "B) Temel ölçme",
+        "answerC": "C) Bağıl ölçme",
+        "answerD": "D) Dolaylı ölçme",
+        "answerE": "E) Bağıl değerlendirme",
+        "correctAnswer": "B) Temel ölçme"
+      },
+      {
+        "question": "İş mülakat sınavına giren Melisa'nın sınav formuna \"özgüven becerisinin yüksek\" olduğu yazılmıştır. Tırnak içinde ifade ve kullanılan ölçeğin özelliği hangi seçenekte doğru olarak verilmiştir?",
+        "questionHead": "",
+        "answerA": "A) Değerlendirme - Eşit Aralıklı Ölçek",
+        "answerB": "B) Değerlendirme - Sınıflama Ölçeği",
+        "answerC": "C) Ölçme - Eşit Aralıklı Ölçek",
+        "answerD": "D) Ölçme - Sıralama Ölçeği",
+        "answerE": "E) Ölçüt - Adlandırma Ölçeği",
+        "correctAnswer": "D) Ölçme - Sıralama Ölçeği"
+      },
+      {
+        "question": "I. Sınıf üçüncüsünden en çok on puan eksik alanlar dersten geçer. II. İlk beş konuya hakim olanlar dersin devamı olan dersi alabilirler. III. Dersin içeriğinin % 60 'ınnden fazlasını tamamlayan en başarılı üç kişi kursa alınacaktır. IV. Sınıfın ortalamasının üstünde not alanlar geçer.",
+        "questionHead": "Yukarıdakilerden hangileri bağıl ölçüte uygundur?",
+        "answerA": "A) Yalnız I",
+        "answerB": "B) II ve III",
+        "answerC": "C) I, II ve III",
+        "answerD": "D) I, III ve IV",
+        "answerE": "E) II, III ve IV",
+        "correctAnswer": "D) I, III ve IV"
+      },
+      {
+        "question": "Bir İngilizce öğretmeninin yaptığı kur sınavına 100 kişi katılmış ve sınav sonuçlarına göre en iyi 40 öğrenci bir üst kura geçmiştir. Ancak üst kura geçen öğrencilerin öğrenme güçlüğü yaşadığı gözlenmiştir.",
+        "questionHead": "Öğretmenin karşılaştığı bu sorunun kaynağı aşağıdaki şıklardan hangisidir?",
+        "answerA": "A) Üst kura alınan öğrenci sayısının fazla olmas",
+        "answerB": "B) Mutlak ölçüt kullanmak yerine bağıl ölçüt kullanması",
+        "answerC": "C) Dolaylı ölçme yapması",
+        "answerD": "D) Önceki kurda öğretimin niteliğinin iyi olmaması",
+        "answerE": "E) Kullanılan ölçme aracının geçerli olmaması",
+        "correctAnswer": "B) Mutlak ölçüt kullanmak yerine bağıl ölçüt kullanması"
+      },
+      {
+        "question": "Bir terzinin kullandığı mezuranın esnek olması nedeniyle yapılan ölçmelerde mezura uzamış ve ölçme sonuçları beklenenin altında çıkmıştır.",
+        "questionHead": "Yapılan ölçme işleminde birimde bulunması gereken hangi ilkeye aykırılık vardır?",
+        "answerA": "A) Eşitlik",
+        "answerB": "B) Genellik",
+        "answerC": "C) Kullanışlılık",
+        "answerD": "D) Güvenirlik",
+        "answerE": "E) Geçerlik",
+        "correctAnswer": "A) Eşitlik"
+      },
+      {
+        "question": "Lise I. sınıfta eğitim gören öğrencilerin Fizik dersindeki başarı düzeyini belirlemek için 10 soruluk bir çoktan seçmeli test uygulanmıştır. Fizik dersini geçmek için öğrencilerin en az 5 soruyu doğru cevaplaması gerektiği öğretmen tarafından öğrencilere önceden söylenmiştir. Ancak sınav sonuçlarının çok düşük olduğunu gören öğretmen en az 3 soruyu doğru cevaplayan öğrencileri dersten geçirmiştir. Bu sınavdan 2 soruya doğru yanıt veren Eda Fizik dersinden kalmıştır. ",
+        "questionHead": "Yukarıdaki bilgilere göre Eda’nın 2 soruya doğru yanıt verdiğinin belirlenmesi hangi kavramla ifade edilir?",
+        "answerA": "A) Ölçme",
+        "answerB": "B) Ölçüt",
+        "answerC": "C) Değerlendirme",
+        "answerD": "D) Ölçme kuralı",
+        "answerE": "E) Bağıl ölçüt",
+        "correctAnswer": "A) Ölçme"
+      }
+
+
+
+  ]
+}

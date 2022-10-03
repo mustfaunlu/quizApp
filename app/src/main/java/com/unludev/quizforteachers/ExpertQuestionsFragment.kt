@@ -9,6 +9,7 @@ import android.os.SystemClock
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.unludev.quizforteachers.databinding.FragmentExpertQuestionsBinding
@@ -37,6 +38,8 @@ class ExpertQuestionsFragment : Fragment() {
     private val s13json = "ozelegtm2.json"
     private val s14json = "ogrsur.json"
     private val s15json = "ogrsur2.json"
+    private val s16json = "olcmevedeg.json"
+    private val s17json = "olcmevedeg2.json"
 
     private lateinit var binding: FragmentExpertQuestionsBinding
     private var correct = 0
@@ -75,6 +78,8 @@ class ExpertQuestionsFragment : Fragment() {
                 "Özel Eğitim ve Rehberlik - 2" -> getAllQuestions(s13json)
                 "Öğrenme ve Öğretme Süreçleri - 1" -> getAllQuestions(s14json)
                 "Öğrenme ve Öğretme Süreçleri - 2" -> getAllQuestions(s15json)
+                "Ölçme ve Değerlendirme - 1" -> getAllQuestions(s16json)
+                "Ölçme ve Değerlendirme - 2" -> getAllQuestions(s17json)
             }
         }
 
@@ -154,7 +159,7 @@ class ExpertQuestionsFragment : Fragment() {
 
         binding.tvAnswerA.apply { this.setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
+            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
                 return@OnClickListener
             }
 
@@ -163,15 +168,15 @@ class ExpertQuestionsFragment : Fragment() {
             this.isEnabled = false
 
             //do actual work
-            if (questionsItems[currentQuestions].answerA.equals(questionsItems[currentQuestions].correctAnswer)) {
-                correct++
-                this.setBackgroundColor(resources.getColor(R.color.green))
-                this.setTextColor(resources.getColor(R.color.white))
-            } else {
+            if (!questionsItems[currentQuestions].answerA.equals(questionsItems[currentQuestions].correctAnswer)) {
                 wrong++
                 this.setBackgroundColor(resources.getColor(R.color.red))
                 this.setTextColor(resources.getColor(R.color.white))
-
+                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
+            } else {
+                correct++
+                this.setBackgroundColor(resources.getColor(R.color.green))
+                this.setTextColor(resources.getColor(R.color.white))
             }
 
             if (currentQuestions < questionsItems.size - 1) {
@@ -182,7 +187,7 @@ class ExpertQuestionsFragment : Fragment() {
                     this@apply.setBackgroundColor(resources.getColor(R.color.white))
                     this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
-                handler.postDelayed(runnable, 1000)
+                handler.postDelayed(runnable, 5000)
             } else {
                 val action= ExpertQuestionsFragmentDirections
                     .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
@@ -195,7 +200,7 @@ class ExpertQuestionsFragment : Fragment() {
         binding.tvAnswerB.apply {
             this.setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
+            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
                 return@OnClickListener
             }
 
@@ -212,6 +217,7 @@ class ExpertQuestionsFragment : Fragment() {
                 wrong++
                 this.setBackgroundColor(resources.getColor(R.color.red))
                 this.setTextColor(resources.getColor(R.color.white))
+                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
 
             }
 
@@ -223,7 +229,7 @@ class ExpertQuestionsFragment : Fragment() {
                     this@apply.setBackgroundColor(resources.getColor(R.color.white))
                     this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
-                handler.postDelayed(runnable, 1000)
+                handler.postDelayed(runnable, 5000)
             } else {
                 val action = ExpertQuestionsFragmentDirections
                     .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
@@ -236,7 +242,7 @@ class ExpertQuestionsFragment : Fragment() {
         binding.tvAnswerC.apply {
         this.setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
+            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
                 return@OnClickListener
             }
 
@@ -253,6 +259,7 @@ class ExpertQuestionsFragment : Fragment() {
                 wrong++
                 this.setBackgroundColor(resources.getColor(R.color.red))
                 this.setTextColor(resources.getColor(R.color.white))
+                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
 
             }
 
@@ -264,7 +271,7 @@ class ExpertQuestionsFragment : Fragment() {
                     this@apply.setBackgroundColor(resources.getColor(R.color.white))
                     this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
-                handler.postDelayed(runnable, 1000)
+                handler.postDelayed(runnable, 5000)
             } else {
                 val action = ExpertQuestionsFragmentDirections
                     .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
@@ -280,7 +287,7 @@ class ExpertQuestionsFragment : Fragment() {
         binding.tvAnswerD.apply{
             this.setOnClickListener(View.OnClickListener {
                 // mis-clicking prevention, using threshold of 1 second
-                if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
+                if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
                     return@OnClickListener
                 }
 
@@ -297,6 +304,7 @@ class ExpertQuestionsFragment : Fragment() {
                     wrong++
                     this.setBackgroundColor(resources.getColor(R.color.red))
                    this.setTextColor(resources.getColor(R.color.white))
+                    Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
 
                 }
 
@@ -308,7 +316,7 @@ class ExpertQuestionsFragment : Fragment() {
                         this@apply.setBackgroundColor(resources.getColor(R.color.white))
                         this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                     }
-                    handler.postDelayed(runnable, 1000)
+                    handler.postDelayed(runnable, 5000)
                 } else {
                     val action = ExpertQuestionsFragmentDirections
                         .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
@@ -322,7 +330,7 @@ class ExpertQuestionsFragment : Fragment() {
 
         binding.tvAnswerE.apply { setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
+            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
                 return@OnClickListener
             }
 
@@ -340,6 +348,7 @@ class ExpertQuestionsFragment : Fragment() {
                 wrong++
                 this.setBackgroundColor(resources.getColor(R.color.red))
                 this.setTextColor(resources.getColor(R.color.white))
+                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
 
             }
 
@@ -351,7 +360,7 @@ class ExpertQuestionsFragment : Fragment() {
                     this@apply.setBackgroundColor(resources.getColor(R.color.white))
                     this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
-                handler.postDelayed(runnable, 1000)
+                handler.postDelayed(runnable, 5000)
             } else {
                 val action = ExpertQuestionsFragmentDirections
                     .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())

@@ -80,6 +80,14 @@ class SubjectAdapter(private val subjectList: ArrayList<String>): RecyclerView.A
                     SubjectFragmentDirections
                         .actionSubjectFragmentToExpertQuestionFragment("Öğrenme ve Öğretme Süreçleri - 2")
                     holder.binding.rvTv.findNavController().navigate(action)}
+                15  -> {val action =
+                    SubjectFragmentDirections
+                        .actionSubjectFragmentToExpertQuestionFragment("Ölçme ve Değerlendirme - 1")
+                    holder.binding.rvTv.findNavController().navigate(action)}
+                16  -> {val action =
+                    SubjectFragmentDirections
+                        .actionSubjectFragmentToExpertQuestionFragment("Ölçme ve Değerlendirme - 2")
+                    holder.binding.rvTv.findNavController().navigate(action)}
             }
 
 

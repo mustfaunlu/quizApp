@@ -39,10 +39,8 @@ class SubjectFragment : Fragment() {
             "Özel Eğitim ve Rehberlik - 2",
             "Öğrenme ve Öğretme Süreçleri - 1",
             "Öğrenme ve Öğretme Süreçleri - 2",
-            "Okul Geliştirme ve Liderlik",
-            "Sosyal Duygusal Öğrenme Becerilerin Geliştirilmesi",
-            "Bilişsel Düşünme Becerileri",
-            "Ölçme ve Değerlendirme",
+            "Ölçme ve Değerlendirme - 1",
+            "Ölçme ve Değerlendirme - 2",
         )
 
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
