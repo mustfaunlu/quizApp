@@ -3,8 +3,7 @@ package com.unludev.quizforteachers
 
 
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
+import android.os.CountDownTimer
 import android.os.SystemClock
 import android.view.LayoutInflater
 import android.view.View
@@ -38,8 +37,6 @@ class ExpertQuestionsFragment : Fragment() {
     private val s13json = "ozelegtm2.json"
     private val s14json = "ogrsur.json"
     private val s15json = "ogrsur2.json"
-    private val s16json = "olcmevedeg.json"
-    private val s17json = "olcmevedeg2.json"
 
     private lateinit var binding: FragmentExpertQuestionsBinding
     private var correct = 0
@@ -78,8 +75,6 @@ class ExpertQuestionsFragment : Fragment() {
                 "Özel Eğitim ve Rehberlik - 2" -> getAllQuestions(s13json)
                 "Öğrenme ve Öğretme Süreçleri - 1" -> getAllQuestions(s14json)
                 "Öğrenme ve Öğretme Süreçleri - 2" -> getAllQuestions(s15json)
-                "Ölçme ve Değerlendirme - 1" -> getAllQuestions(s16json)
-                "Ölçme ve Değerlendirme - 2" -> getAllQuestions(s17json)
             }
         }
 
@@ -120,6 +115,7 @@ class ExpertQuestionsFragment : Fragment() {
                         correctString,
                     )
                 )
+                questionsItems.shuffle()
             }
         } catch (e: JSONException) {
             e.printStackTrace()
@@ -159,7 +155,7 @@ class ExpertQuestionsFragment : Fragment() {
 
         binding.tvAnswerA.apply { this.setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
+            if (SystemClock.elapsedRealtime() - mLastClickTime < 5400) {
                 return@OnClickListener
             }
 
@@ -168,26 +164,33 @@ class ExpertQuestionsFragment : Fragment() {
             this.isEnabled = false
 
             //do actual work
-            if (!questionsItems[currentQuestions].answerA.equals(questionsItems[currentQuestions].correctAnswer)) {
-                wrong++
-                this.setBackgroundColor(resources.getColor(R.color.red))
-                this.setTextColor(resources.getColor(R.color.white))
-                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
-            } else {
+            if (questionsItems[currentQuestions].answerA.equals(questionsItems[currentQuestions].correctAnswer)) {
                 correct++
                 this.setBackgroundColor(resources.getColor(R.color.green))
                 this.setTextColor(resources.getColor(R.color.white))
+            } else {
+                wrong++
+                this.setBackgroundColor(resources.getColor(R.color.red))
+                this.setTextColor(resources.getColor(R.color.white))
+                Toast.makeText(context, "Doğru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_LONG).show()
+
             }
 
             if (currentQuestions < questionsItems.size - 1) {
-                val handler = Handler(Looper.myLooper()!!)
-                val runnable = Runnable {
-                    currentQuestions++
-                    setQuestionScreen(currentQuestions)
-                    this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                    this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
-                }
-                handler.postDelayed(runnable, 5000)
+                object: CountDownTimer(5400,1000) {
+                    override fun onTick(millisUntilFinished: Long) {
+                        binding.tvTimer.text = "${millisUntilFinished / 1000}"
+                    }
+
+                    override fun onFinish() {
+                        binding.tvTimer.text = "5"
+                        currentQuestions++
+                        setQuestionScreen(currentQuestions)
+                        this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                        this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
+
+                    }
+                }.start()
             } else {
                 val action= ExpertQuestionsFragmentDirections
                     .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
@@ -199,86 +202,98 @@ class ExpertQuestionsFragment : Fragment() {
     private fun clickB() {
         binding.tvAnswerB.apply {
             this.setOnClickListener(View.OnClickListener {
-            // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
-                return@OnClickListener
-            }
+                // mis-clicking prevention, using threshold of 1 second
+                if (SystemClock.elapsedRealtime() - mLastClickTime < 5400) {
+                    return@OnClickListener
+                }
 
-            //store time of button click
-            mLastClickTime = SystemClock.elapsedRealtime()
+                //store time of button click
+                mLastClickTime = SystemClock.elapsedRealtime()
                 this.isEnabled = false
 
-            //do actual work
-            if (questionsItems[currentQuestions].answerB.equals(questionsItems[currentQuestions].correctAnswer)) {
-                correct++
-                this.setBackgroundColor(resources.getColor(R.color.green))
-                this.setTextColor(resources.getColor(R.color.white))
-            } else {
-                wrong++
-                this.setBackgroundColor(resources.getColor(R.color.red))
-                this.setTextColor(resources.getColor(R.color.white))
-                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
+                //do actual work
+                if (questionsItems[currentQuestions].answerB.equals(questionsItems[currentQuestions].correctAnswer)) {
+                    correct++
+                    this.setBackgroundColor(resources.getColor(R.color.green))
+                    this.setTextColor(resources.getColor(R.color.white))
+                } else {
+                    wrong++
+                    this.setBackgroundColor(resources.getColor(R.color.red))
+                    this.setTextColor(resources.getColor(R.color.white))
+                    Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_LONG).show()
 
-            }
-
-            if (currentQuestions < questionsItems.size - 1) {
-                val handler = Handler(Looper.myLooper()!!)
-                val runnable = Runnable {
-                    currentQuestions++
-                    setQuestionScreen(currentQuestions)
-                    this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                    this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
                 }
-                handler.postDelayed(runnable, 5000)
-            } else {
-                val action = ExpertQuestionsFragmentDirections
-                    .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
-                it.findNavController().navigate(action)
-            }
+
+                if (currentQuestions < questionsItems.size - 1) {
+                    object: CountDownTimer(5400,1000) {
+                        override fun onTick(millisUntilFinished: Long) {
+                            binding.tvTimer.text = "${millisUntilFinished / 1000}"
+                        }
+
+                        override fun onFinish() {
+                            binding.tvTimer.text = "5"
+                            currentQuestions++
+                            setQuestionScreen(currentQuestions)
+                            this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                            this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
+
+                        }
+                    }.start()
+                } else {
+                    val action = ExpertQuestionsFragmentDirections
+                        .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
+                    it.findNavController().navigate(action)
+                }
                 this.isEnabled = true
-        }) }
+            }) }
     }
     private fun clickC() {
         binding.tvAnswerC.apply {
-        this.setOnClickListener(View.OnClickListener {
-            // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
-                return@OnClickListener
-            }
-
-            //store time of button click
-            mLastClickTime = SystemClock.elapsedRealtime()
-            this.isEnabled = false
-
-            //do actual work
-            if (questionsItems[currentQuestions].answerC.equals(questionsItems[currentQuestions].correctAnswer)) {
-                correct++
-                this.setBackgroundColor(resources.getColor(R.color.green))
-                this.setTextColor(resources.getColor(R.color.white))
-            } else {
-                wrong++
-                this.setBackgroundColor(resources.getColor(R.color.red))
-                this.setTextColor(resources.getColor(R.color.white))
-                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
-
-            }
-
-            if (currentQuestions < questionsItems.size - 1) {
-                val handler = Handler(Looper.myLooper()!!)
-                val runnable = Runnable {
-                    currentQuestions++
-                    setQuestionScreen(currentQuestions)
-                    this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                    this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
+            this.setOnClickListener(View.OnClickListener {
+                // mis-clicking prevention, using threshold of 1 second
+                if (SystemClock.elapsedRealtime() - mLastClickTime < 5400) {
+                    return@OnClickListener
                 }
-                handler.postDelayed(runnable, 5000)
-            } else {
-                val action = ExpertQuestionsFragmentDirections
-                    .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
-                it.findNavController().navigate(action)
-            }
-            this.isEnabled = true
-        })
+
+                //store time of button click
+                mLastClickTime = SystemClock.elapsedRealtime()
+                this.isEnabled = false
+
+                //do actual work
+                if (questionsItems[currentQuestions].answerC.equals(questionsItems[currentQuestions].correctAnswer)) {
+                    correct++
+                    this.setBackgroundColor(resources.getColor(R.color.green))
+                    this.setTextColor(resources.getColor(R.color.white))
+                } else {
+                    wrong++
+                    this.setBackgroundColor(resources.getColor(R.color.red))
+                    this.setTextColor(resources.getColor(R.color.white))
+                    Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_LONG).show()
+
+                }
+
+                if (currentQuestions < questionsItems.size - 1) {
+                    object: CountDownTimer(5400,1000) {
+                        override fun onTick(millisUntilFinished: Long) {
+                            binding.tvTimer.text = "${millisUntilFinished / 1000}"
+                        }
+
+                        override fun onFinish() {
+                            binding.tvTimer.text = "5"
+                            currentQuestions++
+                            setQuestionScreen(currentQuestions)
+                            this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                            this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
+
+                        }
+                    }.start()
+                } else {
+                    val action = ExpertQuestionsFragmentDirections
+                        .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
+                    it.findNavController().navigate(action)
+                }
+                this.isEnabled = true
+            })
         }
 
     }
@@ -287,7 +302,7 @@ class ExpertQuestionsFragment : Fragment() {
         binding.tvAnswerD.apply{
             this.setOnClickListener(View.OnClickListener {
                 // mis-clicking prevention, using threshold of 1 second
-                if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
+                if (SystemClock.elapsedRealtime() - mLastClickTime < 5400) {
                     return@OnClickListener
                 }
 
@@ -303,20 +318,26 @@ class ExpertQuestionsFragment : Fragment() {
                 } else {
                     wrong++
                     this.setBackgroundColor(resources.getColor(R.color.red))
-                   this.setTextColor(resources.getColor(R.color.white))
-                    Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
+                    this.setTextColor(resources.getColor(R.color.white))
+                    Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_LONG).show()
 
                 }
 
                 if (currentQuestions < questionsItems.size - 1) {
-                    val handler = Handler(Looper.myLooper()!!)
-                    val runnable = Runnable {
-                        currentQuestions++
-                        setQuestionScreen(currentQuestions)
-                        this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                        this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
-                    }
-                    handler.postDelayed(runnable, 5000)
+                    object: CountDownTimer(5400,1000) {
+                        override fun onTick(millisUntilFinished: Long) {
+                            binding.tvTimer.text = "${millisUntilFinished / 1000}"
+                        }
+
+                        override fun onFinish() {
+                            binding.tvTimer.text = "5"
+                            currentQuestions++
+                            setQuestionScreen(currentQuestions)
+                            this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                            this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
+
+                        }
+                    }.start()
                 } else {
                     val action = ExpertQuestionsFragmentDirections
                         .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())
@@ -330,7 +351,7 @@ class ExpertQuestionsFragment : Fragment() {
 
         binding.tvAnswerE.apply { setOnClickListener(View.OnClickListener {
             // mis-clicking prevention, using threshold of 1 second
-            if (SystemClock.elapsedRealtime() - mLastClickTime < 5000) {
+            if (SystemClock.elapsedRealtime() - mLastClickTime < 5400) {
                 return@OnClickListener
             }
 
@@ -348,19 +369,25 @@ class ExpertQuestionsFragment : Fragment() {
                 wrong++
                 this.setBackgroundColor(resources.getColor(R.color.red))
                 this.setTextColor(resources.getColor(R.color.white))
-                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Dogru Cevap: ${questionsItems[currentQuestions].correctAnswer}", Toast.LENGTH_LONG).show()
 
             }
 
             if (currentQuestions < questionsItems.size - 1) {
-                val handler = Handler(Looper.myLooper()!!)
-                val runnable = Runnable {
-                    currentQuestions++
-                    setQuestionScreen(currentQuestions)
-                    this@apply.setBackgroundColor(resources.getColor(R.color.white))
-                    this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
-                }
-                handler.postDelayed(runnable, 5000)
+                object: CountDownTimer(5400,1000) {
+                    override fun onTick(millisUntilFinished: Long) {
+                        binding.tvTimer.text = "${millisUntilFinished / 1000}"
+                    }
+
+                    override fun onFinish() {
+                        binding.tvTimer.text = "5"
+                        currentQuestions++
+                        setQuestionScreen(currentQuestions)
+                        this@apply.setBackgroundColor(resources.getColor(R.color.white))
+                        this@apply.setTextColor(resources.getColor(R.color.text_secondery_color))
+
+                    }
+                }.start()
             } else {
                 val action = ExpertQuestionsFragmentDirections
                     .actionExpertQuestionFragmentToResultFragment(correct.toString(), wrong.toString())

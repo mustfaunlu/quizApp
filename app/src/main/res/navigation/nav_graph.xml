@@ -27,11 +27,6 @@
             app:destination="@id/subjectFragment" />
     </fragment>
     <fragment
-        android:id="@+id/headMasterFragment"
-        android:name="com.unludev.quizforteachers.HeadMasterFragment"
-        android:label="fragment_head_master"
-        tools:layout="@layout/fragment_head_master" />
-    <fragment
         android:id="@+id/resultFragment"
         android:name="com.unludev.quizforteachers.ResultFragment"
         android:label="fragment_result"
