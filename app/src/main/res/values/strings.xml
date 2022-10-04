@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">quizforteachers</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="q1">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printingand typesetting industry. Lorem Ipsum has been theindustry\'s standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambledit to make a type specimen book. It has survived not only five centuries,but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Uzman ve Başöğretmenlik Sınav Soruları</string>
+    <string name="entry_fragment_tvText">Uzman Öğretmenlik ve Başöğretmenlik Ortak Soruları</string>
+    <string name="result_fragment_appBarText">Quiz Sonuçları</string>
+    <string name="result_fragment_sonucSmileText">Sonuç Bilgileri</string>
+    <string name="result_fragment_correctText">Doğru</string>
+    <string name="result_fragment_wrongText">Yanlış</string>
+    <string name="result_fragment_returnHomeText">Ana Sayfaya Geri Dön</string>
 </resources>

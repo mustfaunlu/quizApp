@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
         <com.google.android.material.appbar.MaterialToolbar
-            app:title="Quiz Sonuçları "
+            app:title="@string/result_fragment_appBarText"
             app:titleCentered="true"
             app:titleTextColor="@color/text_color"
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="Sonuç Bilgileri"
+                android:text="@string/result_fragment_sonucSmileText"
                 android:textColor="@color/text_color"
                 android:textSize="17sp"
                 android:textStyle="bold" />
@@ -83,14 +83,13 @@
                     android:textColor="@color/text_color"
                     android:textStyle="bold"
                     android:textSize="17sp"
-                    android:text="Doğru"
+                    android:text="@string/result_fragment_correctText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:id="@+id/tv_result_correct"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="13sp"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -119,14 +118,13 @@
                     android:textColor="@color/text_color"
                     android:textStyle="bold"
                     android:textSize="17sp"
-                    android:text="Yanlış"
+                    android:text="@string/result_fragment_wrongText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:id="@+id/tv_result_wrong"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="13sp"
-                    android:text="0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -154,7 +152,7 @@
                 android:textColor="@color/text_color"
                 android:textStyle="bold"
                 android:textSize="17sp"
-                android:text="Ana Sayfaya Geri Dön"
+                android:text="@string/result_fragment_returnHomeText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>

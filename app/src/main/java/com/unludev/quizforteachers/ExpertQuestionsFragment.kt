@@ -1,7 +1,4 @@
 package com.unludev.quizforteachers
-
-
-
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
@@ -37,7 +34,8 @@ class ExpertQuestionsFragment : Fragment() {
     private val s13json = "ozelegtm2.json"
     private val s14json = "ogrsur.json"
     private val s15json = "ogrsur2.json"
-
+    private val s16json = "olcmevedeg.json"
+    private val s17json = "olcmevedeg2.json"
     private lateinit var binding: FragmentExpertQuestionsBinding
     private var correct = 0
     private var wrong = 0
@@ -75,6 +73,8 @@ class ExpertQuestionsFragment : Fragment() {
                 "Özel Eğitim ve Rehberlik - 2" -> getAllQuestions(s13json)
                 "Öğrenme ve Öğretme Süreçleri - 1" -> getAllQuestions(s14json)
                 "Öğrenme ve Öğretme Süreçleri - 2" -> getAllQuestions(s15json)
+                "Ölçme ve Değerlendirme - 1" -> getAllQuestions(s16json)
+                "Ölçme ve Değerlendirme - 2" -> getAllQuestions(s17json)
             }
         }
 

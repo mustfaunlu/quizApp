@@ -30,12 +30,10 @@
                     android:id="@+id/tv_expert_question"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="adsafdsafdsa"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:textAlignment="textStart"
                     android:padding="15dp"
-
                     />
 
                 <TextView
@@ -43,7 +41,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
-                    android:text=""
                     android:textAlignment="textStart"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
@@ -61,7 +58,6 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:padding="15dp"
-                        android:text=""
                         android:textColor="@color/text_secondery_color"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -89,7 +85,6 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp" />
-
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

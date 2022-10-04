@@ -42,7 +42,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:padding="25dp"
-                android:text="@string/q1"
+                android:text=""
                 android:textColor="@color/text_secondery_color"
                 android:textSize="20sp" />
 
