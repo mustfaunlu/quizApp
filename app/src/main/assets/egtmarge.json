@@ -15,11 +15,11 @@
       "question":"Ülkelerin bilim ve teknoloji politikalarının oluşturulmasında esas teşkil eden araştırma ve deneysel geliştirme göstergelerine standart oluşturulmasını amaçlayan kaynak hangisidir?",
       "questionHead":"",
       "answerA":"A) OECD",
-      "answerB":"B) FRASCATİ KLAVUZU",
+      "answerB":"B) FRASCATI KLAVUZU",
       "answerC":"C) BM",
       "answerD":"D) ILO",
       "answerE":"E) WHO",
-      "correctAnswer": "B) FRASCATİ KLAVUZU"
+      "correctAnswer": "B) FRASCATI KLAVUZU"
     },
     {
       "question":"AR-GE araştırma türleri ve bu araştırma türüne örnek hangi seçenekte yanlış verilmiştir?",
@@ -28,7 +28,7 @@
       "answerB":"B) UYGULAMALI ARAŞTIRMA: Tarımı desteklemek amacıyla göçün ekonomik ve sosyal nedenlerinin incelenmesi.",
       "answerC":"C) DENEYSEL GELİŞTİRME: Büyük şehirlere olan kırsal göçü engellemek için bir mali yardım programının geliştirilmesi ve test edilmesi",
       "answerD":"D) TEMEL ARAŞTIRMA: Ailenin geçmişte ve günümüzde farklı uygarlıklardaki rolünün incelenmesi",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi"
     },
     {
@@ -38,7 +38,7 @@
       "answerB":"B) Nitelikli ürün geliştirilmesine katkı sağlamaktır.",
       "answerC":"C) Nitelikli materyal geliştirilmesine katkı sağlamaktır.",
       "answerD":"D) Nitelikli insan geliştirilmesine katkı sağlamaktır.",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) Nitelikli dizayn geliştirilmesine katkı sağlamaktır.",
       "correctAnswer": "D) Nitelikli insan geliştirilmesine katkı sağlamaktır."
     },
     {
@@ -48,37 +48,37 @@
       "answerB":"B) Hazırlayacakları rehberlik planı doğrultusunda okullara rehberlik amaçlı hizmet vermek.",
       "answerC":"C) Görev alanına giren konularda düzenlenen hizmetiçi eğitimde eğitim görevlisi olarak yer almak",
       "answerD":"D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak.",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak."
     },
     {
       "question":"Aşagıdakilerden hangisi Araştırma, stratejik planlama ve kalite geliştirme ekibinin görevlerinden değildir?",
       "questionHead":"",
       "answerA":"A) İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasında ve uygulanması sürecini koordine etmek.",
-      "answerB":"B)  İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasını izlemek, değerlendirmek ve güncellemek",
-      "answerC":"C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek",
+      "answerB":"B) İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasını izlemek, değerlendirmek ve güncellemek",
+      "answerC":"C) Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek",
       "answerD":"D) İlde eğitimin kalitesinin artırılmasına yönelik projeler hazırlamak, yürütmek ve kamuoyuyla paylaşmak",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
-      "correctAnswer": "C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek"
+      "answerE":"E) ",
+      "correctAnswer": "C) Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek"
     },
     {
       "question":"Aşağıdaki şıklardan hangisi AR-GE biriminde görev alacak personelin nitelikleri arasında sayılmaz?",
       "questionHead":"",
-      "answerA":"A)  İyi seviyede Office Programlarını kullanabilmek.",
+      "answerA":"A) İyi seviyede Office Programlarını kullanabilmek.",
       "answerB":"B) En az 2 yıllık yükseköğretim mezunu olmak.",
-      "answerC":"C)  Seyahat etmesine il içi ve il dışı görevlendirmesine engel bir rahatsızlığı bulunmamak.",
-      "answerD":"D)  İyi seviyede bilgisayar programlarını kullanabilmek.",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerC":"C) Seyahat etmesine il içi ve il dışı görevlendirmesine engel bir rahatsızlığı bulunmamak.",
+      "answerD":"D) İyi seviyede bilgisayar programlarını kullanabilmek.",
+      "answerE":"E) ",
       "correctAnswer": "B) En az 2 yıllık yükseköğretim mezunu olmak."
     },
     {
-      "question":"AR-GE faaliyetleri geniş bir çalışma anlayışını kapsar. AR-GE çalışmalarını hangi bölüme ayırarak inceleyemeyiz?",
-      "questionHead":"",
+      "question":"AR-GE faaliyetleri geniş bir çalışma anlayışını kapsar. ",
+      "questionHead":"AR-GE çalışmalarını hangi bölüme ayırarak inceleyemeyiz?",
       "answerA":"A) Temel Araştırma",
       "answerB":"B) Bilimsel Araştırma",
       "answerC":"C) Uygulamalı Araştırma",
-      "answerD":"D)  Deneysel Araştırma",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerD":"D) Deneysel Araştırma",
+      "answerE":"E) Modern Araştırma",
       "correctAnswer": "B) Bilimsel Araştırma"
     },
     {
@@ -88,7 +88,7 @@
       "answerB":"B) TDK Etik Kılavuzu",
       "answerC":"C) Tübitak Kılavuzu",
       "answerD":"D) ESC Kılavuzları",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) SDK Kılavuzu",
       "correctAnswer": "A) Frascati Kılavuzu"
     },
     {
@@ -98,7 +98,7 @@
       "answerB":"B) Sistemlerin hatalardan arındırılması",
       "answerC":"C) Mevcut yazılımın uyarlanması",
       "answerD":"D) Akıllı sayaç fayda maliyet analiz projesi",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "D) Akıllı sayaç fayda maliyet analiz projesi"
     },{
       "question":"Türkiye'de kamu kurum ve kuruluşlarında AR-GE istatistiklerinin toplanmasını hangi kurum yapmaktadır?",
@@ -121,23 +121,13 @@
       "correctAnswer": "A) OECD"
     },
     {
-      "question":"AR-GE araştırma türleri ve bu araştırma türüne örnek hangi seçenekte yanlış verilmiştir?",
-      "questionHead":"",
-      "answerA":"A) TEMEL ARAŞTIRMA: Ekonomik koşullar ile sosyal gelişme arasındaki nedensel ilişkinin incelenmesi.",
-      "answerB":"B) UYGULAMALI ARAŞTIRMA: Tarımı desteklemek amacıyla göçün ekonomik ve sosyal nedenlerinin incelenmesi.",
-      "answerC":"C) DENEYSEL GELİŞTİRME: Büyük şehirlere olan kırsal göçü engellemek için bir mali yardım programının geliştirilmesi ve test edilmesi",
-      "answerD":"D) TEMEL ARAŞTIRMA: Ailenin geçmişte ve günümüzde farklı uygarlıklardaki rolünün incelenmesi",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
-      "correctAnswer": "E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi"
-    },
-    {
       "question":"Küresel ekonomide ülkelerin rekabet edebilirlikleri ile yeni hizmetler ve ürünlerin geliştirilmesine ne denir?",
       "questionHead":"",
       "answerA":"A) Arge Çalışmaları",
       "answerB":"B) Ekonomik Gelişme",
       "answerC":"C) Küresel Rekabet",
       "answerD":"D) Küresel Pazar",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "A) Arge Çalışmaları"
     },
     {
@@ -147,28 +137,8 @@
       "answerB":"B) Hazırlayacakları rehberlik planı doğrultusunda okullara rehberlik amaçlı hizmet vermek.",
       "answerC":"C) Görev alanına giren konularda düzenlenen hizmetiçi eğitimde eğitim görevlisi olarak yer almak",
       "answerD":"D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak.",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "D) Bakanlık merkez birimleri tarafından verilen her görevi yapmak."
-    },
-    {
-      "question":"Aşagıdakilerden hangisi Araştırma, stratejik planlama ve kalite geliştirme ekibinin görevlerinden değildir?",
-      "questionHead":"",
-      "answerA":"A) İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasında ve uygulanması sürecini koordine etmek.",
-      "answerB":"B)  İl Milli Eğitim Müdürlüğünün Stratejik Planının hazırlanmasını izlemek, değerlendirmek ve güncellemek",
-      "answerC":"C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek",
-      "answerD":"D) İlde eğitimin kalitesinin artırılmasına yönelik projeler hazırlamak, yürütmek ve kamuoyuyla paylaşmak",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
-      "correctAnswer": "C)  Milli Eğitim Müdürlüklerinin her türlü planlarının hazırlanmasına rehberlik etmek"
-    },
-    {
-      "question":"Aşağıdaki şıklardan hangisi AR-GE biriminde görev alacak personelin nitelikleri arasında sayılmaz?",
-      "questionHead":"",
-      "answerA":"A)  İyi seviyede Office Programlarını kullanabilmek.",
-      "answerB":"B) En az 2 yıllık yükseköğretim mezunu olmak.",
-      "answerC":"C)  Seyahat etmesine il içi ve il dışı görevlendirmesine engel bir rahatsızlığı bulunmamak.",
-      "answerD":"D)  İyi seviyede bilgisayar programlarını kullanabilmek.",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
-      "correctAnswer": "B) En az 2 yıllık yükseköğretim mezunu olmak"
     },
     {
       "question":"Ar-Ge Ekiplerinde görev alacak personelin aşağıdaki niteliklerden hangisi tercih nedeni değildir?",
@@ -181,32 +151,13 @@
       "correctAnswer": "D) Mühendislik bölümlerinden mezun olmak."
     },
     {
-      "question":"AR-GE faaliyetleri geniş bir çalışma anlayışını kapsar. AR-GE çalışmalarını hangi bölüme ayırarak inceleyemeyiz?",
-      "questionHead":"",
-      "answerA":"A) Temel Araştırma",
-      "answerB":"B) Bilimsel Araştırma",
-      "answerC":"C) Uygulamalı Araştırma",
-      "answerD":"D)  Deneysel Araştırma",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
-      "correctAnswer": "B) Bilimsel Araştırma"
-    },
-    {
-      "question":"OECD tarafından oluşturulan ve Tübitak tarafından desteklenen Bilim ve Teknoloji alanındaki yöntembilimsel kılavuz hangisidir?",
-      "questionHead":"",
-      "answerA":"A) Frascati Kılavuzu",
-      "answerB":"B) TDK Etik Kılavuzu",
-      "answerC":"C) Tübitak Kılavuzu",
-      "answerD":"D) ESC Kılavuzları",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
-      "correctAnswer": "A) Frascati Kılavuzu"
-    },{
       "question":"AR-GE biriminde görev alacak personelin niteliklerinden olamaz?",
       "questionHead":"",
       "answerA":"A) 2 yıllık üniversite mezunu olmak",
       "answerB":"B) Doktora mezunu olmak",
       "answerC":"C) 4 yıllık üniversite mezunu olmak",
       "answerD":"D) Yüksek Lisans mezunu olmak",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) Hicbiri",
       "correctAnswer": "A) 2 yıllık üniversite mezunu olmak"
     },
     {
@@ -216,7 +167,7 @@
       "answerB":"B) Korelasyon Araştırması",
       "answerC":"C) Örnek olay",
       "answerD":"D) Deneysel Olay",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) Hicbiri",
       "correctAnswer": "C) Örnek olay"
     },
     {
@@ -226,7 +177,7 @@
       "answerB":"B) Gözlemsel Araştırma",
       "answerC":"C) Uygulamalı Araştırma",
       "answerD":"D) Deneysel Araştırma",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) Bilimsel Araştırma",
       "correctAnswer": "A) Temel Araştırma"
     },
     {
@@ -236,7 +187,7 @@
       "answerB":"B) Liselerde her yıl yapılan yetenek sınavıdır.",
       "answerC":"C) Ortaokullarda 3 yılda bir yapılan Türkçe sınavıdır.",
       "answerD":"D) Lise düzeyinde bilimsel olimpiyatlardandır.",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) Ilkokul ogretmenlerini gelistirme sınavıdır.",
       "correctAnswer": "A) Öğrencilerin matematik ve fen alanlarında kazandıkları bilgi ve becerilerin değerlendirilmesine yönelik bir tarama araştırmasıdır."
     },
     {
@@ -305,7 +256,7 @@
       "answerB":"B) Ulusal kalite etiketi",
       "answerC":"C) E-twinning lisesi",
       "answerD":"D) E-twinning okul levhası",
-      "answerE":"E) ) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "C) E-twinning lisesi"
     },
     {
@@ -365,7 +316,7 @@
       "answerB":"B) Korelasyon Araştırması",
       "answerC":"C) Örnek olay",
       "answerD":"D) Deneysel Olay",
-      "answerE":"E) DENEYSEL GELİŞTİRME: Düşük gelirli çalışma gruplarında aile yapısının incelenmesi",
+      "answerE":"E) ",
       "correctAnswer": "C) Örnek olay"
     },
     {
@@ -375,7 +326,7 @@
       "answerB":"B) KA122-ADU",
       "answerC":"C) KA210-VET",
       "answerD":"D) KA211-EDU",
-      "answerE":"E) HEPSI",
+      "answerE":"E) KA222-GME",
       "correctAnswer": "B) KA122-ADU"
 
     },

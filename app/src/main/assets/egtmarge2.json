@@ -2,13 +2,13 @@
   "egtmarge2":[
     {
       "question":"Tweety’nin Silvester’ı gördüğünde verdiği bu iki tepki sırasıyla bilimsel yöntem basamaklarından hangileri ile ifade edilir?",
-      "answerA":"A) a- Problemin fark edilmesib- Verilerin toplanması ve Analizi",
-      "answerB":"B) a- Problemin fark edilmesib- Problemin tanımlanması",
-      "answerC":"C) a- Araştırma yönteminin geliştirilmesib- Verilerin toplanması ve analizi",
-      "answerD":"D) a- Karar verme ve yorumlamab- Problemin tanımlanması",
-      "answerE":"E) a- Problemin farkedilmesib- Karar verme ve yorumlama",
-      "questionHead":"Tweety’nin Silvester’ı gördüğünde verdiği bu iki tepki sırasıyla bilimsel yöntem basamaklarından hangileri ile ifade edilir?",
-      "correctAnswer": "B) a- Problemin fark edilmesib- Problemin tanımlanması"
+      "answerA":"A) a- Problemin fark edilmesi  b- Verilerin toplanması ve Analizi",
+      "answerB":"B) a- Problemin fark edilmesi  b- Problemin tanımlanması",
+      "answerC":"C) a- Araştırma yönteminin geliştirilmesi  b- Verilerin toplanması ve analizi",
+      "answerD":"D) a- Karar verme ve yorumlama b- Problemin tanımlanması",
+      "answerE":"E) a- Problemin farkedilmesi   b- Karar verme ve yorumlama",
+      "questionHead":"",
+      "correctAnswer": "B) a- Problemin fark edilmesi  b- Problemin tanımlanması"
     },
     {
       "question":"Bilimsel yöntem, bilimlerin ortaklaşa kullandıkları betimleme ve açıklama yollarını kapsayan bir yanı ile eylemsel diğer yanı ile düşünsel bir süreçtir.",
