@@ -1,4 +1,4 @@
-package com.unludev.quizforteachers
+package com.unludev.quizforteachers.ui.result
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

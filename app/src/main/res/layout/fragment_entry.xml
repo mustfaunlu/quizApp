@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EntryFragment"
+    tools:context=".ui.entry.EntryFragment"
     android:background="@color/background"
     android:gravity="center"
     android:orientation="vertical">
@@ -26,8 +26,7 @@
             app:strokeWidth="0dp"
             android:layout_margin="8dp"
             android:elevation="5dp"
-            style="?attr/materialButtonOutlinedStyle"
-            />
+            style="?attr/materialButtonOutlinedStyle" />
 
 
     </LinearLayout>

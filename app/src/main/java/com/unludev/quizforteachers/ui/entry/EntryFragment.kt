@@ -1,4 +1,4 @@
-package com.unludev.quizforteachers
+package com.unludev.quizforteachers.ui.entry
 
 import android.os.Bundle
 import android.view.LayoutInflater

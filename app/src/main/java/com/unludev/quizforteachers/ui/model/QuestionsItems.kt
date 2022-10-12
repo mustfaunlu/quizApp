@@ -1,4 +1,4 @@
-package com.unludev.quizforteachers
+package com.unludev.quizforteachers.ui.model
 
 data class QuestionsItems(
     val question: String?,

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/expertQuestionFragment"
-        android:name="com.unludev.quizforteachers.ExpertQuestionsFragment"
+        android:name="com.unludev.quizforteachers.ui.expert.ExpertQuestionsFragment"
         android:label="fragment_question"
         tools:layout="@layout/fragment_expert_questions" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/entryFragment"
-        android:name="com.unludev.quizforteachers.EntryFragment"
+        android:name="com.unludev.quizforteachers.ui.entry.EntryFragment"
         android:label="fragment_entry"
         tools:layout="@layout/fragment_entry" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.unludev.quizforteachers.ResultFragment"
+        android:name="com.unludev.quizforteachers.ui.result.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" >
         <argument
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/subjectFragment"
-        android:name="com.unludev.quizforteachers.SubjectFragment"
+        android:name="com.unludev.quizforteachers.ui.subject.SubjectFragment"
         android:label="fragment_subject"
         tools:layout="@layout/fragment_subject">
         <action

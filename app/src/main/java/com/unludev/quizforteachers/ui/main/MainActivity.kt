@@ -1,4 +1,4 @@
-package com.unludev.quizforteachers
+package com.unludev.quizforteachers.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

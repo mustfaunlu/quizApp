@@ -1,4 +1,4 @@
-package com.unludev.quizforteachers
+package com.unludev.quizforteachers.ui.subject
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.unludev.quizforteachers.SubjectAdapter
 import com.unludev.quizforteachers.databinding.FragmentSubjectBinding
 
 

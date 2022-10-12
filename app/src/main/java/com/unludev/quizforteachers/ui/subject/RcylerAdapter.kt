@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.unludev.quizforteachers.databinding.RvRowBinding
+import com.unludev.quizforteachers.ui.subject.SubjectFragmentDirections
 
 
 class SubjectAdapter(private val subjectList: ArrayList<String>): RecyclerView.Adapter<SubjectAdapter.SubjectVH>() {
