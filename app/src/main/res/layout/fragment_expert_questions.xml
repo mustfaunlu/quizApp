@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <import type="android.view.View" />
         <variable
             name="viewModel"
             type="com.unludev.quizforteachers.ui.expert.ExpertQuestionsViewModel" />
@@ -82,10 +83,10 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:padding="15dp"
-                    android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerA}"
-                    android:onClick="@{()-> viewModel.setOptions()}"/>
+                    android:onClick="@{()-> viewModel.clickA()}"
+                    />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -109,7 +110,7 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerB}"
-                    android:onClick="@{()-> viewModel.setOptions()}"
+                    android:onClick="@{()-> viewModel.clickB()}"
                     />
 
             </LinearLayout>
@@ -134,7 +135,7 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerC}"
-                    android:onClick="@{()-> viewModel.setOptions()}"
+                    android:onClick="@{()-> viewModel.clickC()}"
                     />
 
             </LinearLayout>
@@ -159,7 +160,7 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerD}"
-                    android:onClick="@{()-> viewModel.setOptions()}"/>
+                    android:onClick="@{()-> viewModel.clickD()}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -183,7 +184,8 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerE}"
-                    android:onClick="@{()-> viewModel.setOptions()}"/>
+                    android:onClick="@{()-> viewModel.clickE()}"
+                    android:background="@color/white" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

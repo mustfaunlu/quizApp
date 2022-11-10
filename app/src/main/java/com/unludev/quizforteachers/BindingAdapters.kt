@@ -30,3 +30,5 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<SubjectModel>?) {
     val adapter = recyclerView.adapter as SubjectListAdapter
     adapter.submitList(data)
 }
+
+
