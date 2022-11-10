@@ -40,74 +40,75 @@ class ExpertQuestionsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewModel.getExpertQuestions()
         viewModel.setColor.observe(viewLifecycleOwner) {
+            setBackgroundOptions(it)
+        }
+    }
 
-            when (it) {
-                "A" -> {
-                    binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.green))
-                    binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "1" -> {
-                    binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.red))
-                    binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "B" -> {
-                    binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.green))
-                    binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "2" -> {
-                    binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.red))
-                    binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "C" -> {
-                    binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.green))
-                    binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "3" -> {
-                    binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.red))
-                    binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "D" -> {
-                    binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.green))
-                    binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "4" -> {
-                    binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.red))
-                    binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "E" -> {
-                    binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.green))
-                    binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
+    fun setBackgroundOptions(it: String?) {
+        when (it) {
+            "A" -> {
+                binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.green))
+                binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "1" -> {
+                binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.red))
+                binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "B" -> {
+                binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.green))
+                binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "2" -> {
+                binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.red))
+                binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "C" -> {
+                binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.green))
+                binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "3" -> {
+                binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.red))
+                binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "D" -> {
+                binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.green))
+                binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "4" -> {
+                binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.red))
+                binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "E" -> {
+                binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.green))
+                binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
 
-                }
-                "5" -> {
-                    binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.red))
-                    binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
-                    binding.executePendingBindings()
-                }
-                "0" -> {
-                    binding.apply {
-                        tvAnswerA.setBackgroundColor(resources.getColor(R.color.white))
-                        tvAnswerA.setTextColor(resources.getColor(R.color.black))
-                        tvAnswerB.setBackgroundColor(resources.getColor(R.color.white))
-                        tvAnswerB.setTextColor(resources.getColor(R.color.black))
-                        tvAnswerC.setBackgroundColor(resources.getColor(R.color.white))
-                        tvAnswerC.setTextColor(resources.getColor(R.color.black))
-                        tvAnswerD.setBackgroundColor(resources.getColor(R.color.white))
-                        tvAnswerD.setTextColor(resources.getColor(R.color.black))
-                        tvAnswerE.setBackgroundColor(resources.getColor(R.color.white))
-                        tvAnswerE.setTextColor(resources.getColor(R.color.black))
-                    }
-
-
+            }
+            "5" -> {
+                binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.red))
+                binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
+                binding.executePendingBindings()
+            }
+            "0" -> {
+                binding.apply {
+                    tvAnswerA.setBackgroundColor(resources.getColor(R.color.white))
+                    tvAnswerA.setTextColor(resources.getColor(R.color.black))
+                    tvAnswerB.setBackgroundColor(resources.getColor(R.color.white))
+                    tvAnswerB.setTextColor(resources.getColor(R.color.black))
+                    tvAnswerC.setBackgroundColor(resources.getColor(R.color.white))
+                    tvAnswerC.setTextColor(resources.getColor(R.color.black))
+                    tvAnswerD.setBackgroundColor(resources.getColor(R.color.white))
+                    tvAnswerD.setTextColor(resources.getColor(R.color.black))
+                    tvAnswerE.setBackgroundColor(resources.getColor(R.color.white))
+                    tvAnswerE.setTextColor(resources.getColor(R.color.black))
                 }
             }
         }
