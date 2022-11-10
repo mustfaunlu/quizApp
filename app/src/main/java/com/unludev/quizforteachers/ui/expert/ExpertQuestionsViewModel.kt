@@ -20,6 +20,8 @@ class ExpertQuestionsViewModel : ViewModel() {
     private val _question = MutableLiveData<QuestionModel>()
     val question: LiveData<QuestionModel> = _question
 
+    var currentQuestion = 0
+
 
 
 
@@ -39,14 +41,11 @@ class ExpertQuestionsViewModel : ViewModel() {
 
 
 
-
-    fun setOptions(current: Int) {
-        println(current)
-        if (current < _questions.value?.size!! - 1) {
-            println(_questions.value?.size!! - 1)
-            current + 1
+    fun setOptions() {
+        if (currentQuestion < _questions.value?.size!! - 1) {
+            currentQuestion += 1
             getExpertQuestions()
-            println(current)
+            println(currentQuestion)
     }
 
 

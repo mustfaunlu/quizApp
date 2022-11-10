@@ -7,9 +7,6 @@
         <variable
             name="viewModel"
             type="com.unludev.quizforteachers.ui.expert.ExpertQuestionsViewModel" />
-        <variable
-            name="currentQuestion"
-            type="int" />
     </data>
 
 <ScrollView
@@ -44,7 +41,7 @@
                     android:textSize="15sp"
                     android:textAlignment="textStart"
                     android:padding="15dp"
-                    android:text="@{viewModel.questions[currentQuestion].question}"
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].question}"
                     />
 
                 <TextView
@@ -56,7 +53,7 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:textStyle="bold"
-                    android:text="@{viewModel.questions[currentQuestion].questionHead}"/>
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].questionHead}"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -87,8 +84,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[currentQuestion].answerA}"
-                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"/>
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerA}"
+                    android:onClick="@{()-> viewModel.setOptions()}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -111,8 +108,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[currentQuestion].answerB}"
-                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerB}"
+                    android:onClick="@{()-> viewModel.setOptions()}"
                     />
 
             </LinearLayout>
@@ -136,8 +133,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[currentQuestion].answerC}"
-                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerC}"
+                    android:onClick="@{()-> viewModel.setOptions()}"
                     />
 
             </LinearLayout>
@@ -161,8 +158,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[currentQuestion].answerD}"
-                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"/>
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerD}"
+                    android:onClick="@{()-> viewModel.setOptions()}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -185,8 +182,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[currentQuestion].answerE}"
-                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"/>
+                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerE}"
+                    android:onClick="@{()-> viewModel.setOptions()}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
