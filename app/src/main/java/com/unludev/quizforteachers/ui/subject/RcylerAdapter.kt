@@ -1,109 +1,54 @@
 package com.unludev.quizforteachers
 
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.navigation.findNavController
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.unludev.quizforteachers.data.model.SubjectModel
 import com.unludev.quizforteachers.databinding.RvRowBinding
-import com.unludev.quizforteachers.ui.subject.SubjectFragmentDirections
 
 
-class SubjectAdapter(private val subjectList: ArrayList<String>): RecyclerView.Adapter<SubjectAdapter.SubjectVH>() {
+class SubjectListAdapter(val clickListener: SubjectListener) :
+    ListAdapter<SubjectModel, SubjectListAdapter.SubjectViewHolder>(DiffCallback){
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SubjectVH {
+    @SuppressLint("SuspiciousIndentation")
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SubjectViewHolder {
      val binding = RvRowBinding.inflate(LayoutInflater.from(parent.context), parent,false)
-        return SubjectVH(binding)
+        return SubjectViewHolder(binding)
     }
 
-    override fun onBindViewHolder(holder: SubjectVH, position: Int) {
-        holder.bind(subjectList[position])
-//TODO(" when icindekileri bir enum yaz hem sayilara hem que lere")
-        holder.binding.root.setOnClickListener{
-            when(position) {
-                0  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Eğitimde Kapsayıcılık - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                1  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Eğitimde Kapsayıcılık - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                2  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                3  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                4  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Güvenli Okul ve Okul Güvenliği - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                5  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Güvenli Okul ve Okul Güvenliği - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                6  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Sosyal Etkileşim ve İletişim - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                7  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Sosyal Etkileşim ve İletişim - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                8  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Sosyal Etkileşim ve İletişim - 3")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                9  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Dijital Yetkinlik")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                10  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Çevre Eğitimi ve İklim Değişikliği")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                11  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Özel Eğitim ve Rehberlik - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                12  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Özel Eğitim ve Rehberlik - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                13  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Öğrenme ve Öğretme Süreçleri - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                14  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Öğrenme ve Öğretme Süreçleri - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                15  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Ölçme ve Değerlendirme - 1")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-                16  -> {val action =
-                    SubjectFragmentDirections
-                        .actionSubjectFragmentToExpertQuestionFragment("Ölçme ve Değerlendirme - 2")
-                    holder.binding.rvTv.findNavController().navigate(action)}
-            }
+    override fun onBindViewHolder(holder: SubjectViewHolder, position: Int) {
+        val subject = getItem(position)
+        holder.bind(clickListener,subject)
 
+    }
+    companion object DiffCallback : DiffUtil.ItemCallback<SubjectModel>() {
+
+        override fun areItemsTheSame(oldItem: SubjectModel, newItem: SubjectModel): Boolean {
+            return oldItem.id == newItem.id
+        }
+
+        override fun areContentsTheSame(oldItem: SubjectModel, newItem: SubjectModel): Boolean {
+            return oldItem == newItem
+        }
+
+    }
+
+
+    inner class SubjectViewHolder( val binding: RvRowBinding) : RecyclerView.ViewHolder(binding.root) {
+
+        fun bind(clickListener: SubjectListener, subject: SubjectModel) {
+            binding.subject= subject
+            binding.clickListener = clickListener
+            binding.executePendingBindings()
 
         }
     }
+}
 
-
-    override fun getItemCount(): Int {
-        return subjectList.size
-    }
-
-    inner class SubjectVH( val binding: RvRowBinding) : RecyclerView.ViewHolder(binding.root) {
-
-        fun bind(item: String) {
-            binding.rvTv.text = item
-        }
-    }
+class SubjectListener(val clickListener: (subject: SubjectModel) -> Unit) {
+    fun onClick(subject: SubjectModel) = clickListener(subject)
 }

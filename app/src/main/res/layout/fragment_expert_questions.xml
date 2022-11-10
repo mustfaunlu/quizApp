@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.unludev.quizforteachers.ui.expert.ExpertQuestionsViewModel" />
+        <variable
+            name="currentQuestion"
+            type="int" />
+    </data>
+
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
@@ -34,6 +44,7 @@
                     android:textSize="15sp"
                     android:textAlignment="textStart"
                     android:padding="15dp"
+                    android:text="@{viewModel.questions[currentQuestion].question}"
                     />
 
                 <TextView
@@ -44,23 +55,14 @@
                     android:textAlignment="textStart"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:text="@{viewModel.questions[currentQuestion].questionHead}"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_gravity="center"
                     android:gravity="center_vertical">
-                    <TextView
-                        android:id="@+id/tv_timer"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:padding="15dp"
-                        android:textColor="@color/text_secondery_color"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -84,7 +86,9 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:text="@{viewModel.questions[currentQuestion].answerA}"
+                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -106,7 +110,10 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:text="@{viewModel.questions[currentQuestion].answerB}"
+                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"
+                    />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -128,7 +135,10 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:text="@{viewModel.questions[currentQuestion].answerC}"
+                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"
+                    />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -150,7 +160,9 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:text="@{viewModel.questions[currentQuestion].answerD}"
+                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -172,13 +184,19 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:text="@{viewModel.questions[currentQuestion].answerE}"
+                    android:onClick="@{()-> viewModel.setOptions(currentQuestion)}"/>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
 
-
+<ImageView
+    android:id="@+id/status_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:questionApiStatus="@{viewModel.status}"/>
 
     </LinearLayout>
 
@@ -187,4 +205,4 @@
 </ScrollView>
 
 
-
+</layout>

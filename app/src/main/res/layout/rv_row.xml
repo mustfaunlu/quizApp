@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+        <data>
+                <variable
+                    name="subject"
+                    type="com.unludev.quizforteachers.data.model.SubjectModel" />
+                <variable
+                    name="clickListener"
+                    type="com.unludev.quizforteachers.SubjectListener" />
+        </data>
+        
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
         <com.google.android.material.card.MaterialCardView
             style="@style/TestCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp">
+            android:layout_margin="15dp"
+            android:onClick="@{() -> clickListener.onClick(subject)}">
                 <TextView
                     android:id="@+id/rv_tv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:text="@{subject.subjectName}"
+                    />
         </com.google.android.material.card.MaterialCardView>
 </LinearLayout>
+</layout>
