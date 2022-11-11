@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.activityViewModels
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.unludev.quizforteachers.R
@@ -18,10 +18,11 @@ class ExpertQuestionsFragment : Fragment() {
 
     private lateinit var binding: FragmentExpertQuestionsBinding
     private val args: ExpertQuestionsFragmentArgs by navArgs()
-    private val viewModel: ExpertQuestionsViewModel by activityViewModels {
+    private val viewModel: ExpertQuestionsViewModel by viewModels {
         ExpertQuestionViewModelFactory(args.que)
 
     }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -35,23 +36,21 @@ class ExpertQuestionsFragment : Fragment() {
         binding.lifecycleOwner = viewLifecycleOwner
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
-        getQuestions()
         return binding.root
     }
 
     @SuppressLint("ResourceAsColor")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        getQuestions()
         viewModel.setColor.observe(viewLifecycleOwner) {
                 setBackgroundOptions(it)
             }
         viewModel.isThereQuestion.observe(viewLifecycleOwner) {
-            if(it == false) onResult()
+            if(it == false){
+                onResult()
+            }
         }
-        viewModel.currentQuestion.observe(viewLifecycleOwner) {
-            getQuestions()
-        }
-
     }
 
     private fun getQuestions() {

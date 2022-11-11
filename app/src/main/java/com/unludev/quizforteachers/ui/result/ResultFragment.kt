@@ -38,7 +38,7 @@ class ResultFragment : Fragment() {
             val action = ResultFragmentDirections.actionResultFragmentToEntryFragment()
             findNavController().navigate(action)
         }
-
-
     }
+
+
 }
