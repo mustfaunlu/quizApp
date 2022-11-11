@@ -36,6 +36,5 @@ class SubjectFragmentViewModel: ViewModel() {
 
     fun onSubjectClicked(subject: SubjectModel) {
         _subject.value = subject
-
     }
 }

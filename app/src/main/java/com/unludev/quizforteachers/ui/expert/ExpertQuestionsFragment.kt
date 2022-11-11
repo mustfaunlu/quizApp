@@ -17,10 +17,11 @@ import com.unludev.quizforteachers.databinding.FragmentExpertQuestionsBinding
 class ExpertQuestionsFragment : Fragment() {
 
     private lateinit var binding: FragmentExpertQuestionsBinding
-    private val viewModel: ExpertQuestionsViewModel by activityViewModels()
-    val args: ExpertQuestionsFragmentArgs by navArgs()
+    private val args: ExpertQuestionsFragmentArgs by navArgs()
+    private val viewModel: ExpertQuestionsViewModel by activityViewModels {
+        ExpertQuestionViewModelFactory(args.que)
 
-
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -34,19 +35,32 @@ class ExpertQuestionsFragment : Fragment() {
         binding.lifecycleOwner = viewLifecycleOwner
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
+        getQuestions()
         return binding.root
     }
 
     @SuppressLint("ResourceAsColor")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.getExpertQuestions()
         viewModel.setColor.observe(viewLifecycleOwner) {
                 setBackgroundOptions(it)
             }
         viewModel.isThereQuestion.observe(viewLifecycleOwner) {
             if(it == false) onResult()
         }
+        viewModel.currentQuestion.observe(viewLifecycleOwner) {
+            getQuestions()
+        }
+
+    }
+
+    private fun getQuestions() {
+        when(args.que) {
+            "Eğitimde Kapsayıcılık - 1" -> viewModel.getExpertQuestions()
+            else -> viewModel.getExpertQuestions1()
+        }
+
+
     }
 
     private fun setBackgroundOptions(it: String?) {
@@ -124,5 +138,11 @@ class ExpertQuestionsFragment : Fragment() {
         val action = ExpertQuestionsFragmentDirections.actionExpertQuestionFragmentToResultFragment()
         findNavController().navigate(action)
     }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        viewModel.setDefaultCurrentQuestionIndex()
+    }
+
 }
 

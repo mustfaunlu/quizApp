@@ -8,6 +8,9 @@ interface QuestionsApiService {
         @GET("db2.json")
         suspend fun getQuestions(): List<QuestionModel>
 
+        @GET("db3.json")
+        suspend fun getQuestions1(): List<QuestionModel>
+
         @GET("db.json")
         suspend fun getSubjects(): List<SubjectModel>
 
