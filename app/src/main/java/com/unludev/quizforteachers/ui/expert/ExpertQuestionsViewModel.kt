@@ -26,6 +26,16 @@ class ExpertQuestionsViewModel : ViewModel() {
 
     var currentQuestion = 0
 
+    private val _correct = MutableLiveData<Int>()
+    val correct : LiveData<Int> get() = _correct
+
+    private val _wrong = MutableLiveData<Int>()
+    val wrong : LiveData<Int> get() = _wrong
+
+    private val _isThereQuestion = MutableLiveData<Boolean>(true)
+    val isThereQuestion : LiveData<Boolean> get() = _isThereQuestion
+
+
     init {
         getExpertQuestions()
     }
@@ -43,51 +53,64 @@ class ExpertQuestionsViewModel : ViewModel() {
     }
 
 
+
     fun clickA() {
         if ( _questions.value?.get(currentQuestion)?.answerA == _questions.value?.get(currentQuestion)?.correctAnswer) {
             _setColor.value = "A"
+            _correct.value = _correct.value?.plus(1)
         } else {
             _setColor.value = "1"
+            _wrong.value = _wrong.value?.plus(1)
         }
         setOptions()
     }
     fun clickB() {
         if ( _questions.value?.get(currentQuestion)?.answerB == _questions.value?.get(currentQuestion)?.correctAnswer) {
             _setColor.value = "B"
+            _correct.value = _correct.value?.plus(1)
         } else {
             _setColor.value = "2"
+            _wrong.value = _wrong.value?.plus(1)
         }
         setOptions()
     }
     fun clickC() {
         if ( _questions.value?.get(currentQuestion)?.answerC == _questions.value?.get(currentQuestion)?.correctAnswer) {
             _setColor.value = "C"
+            _correct.value = _correct.value?.plus(1)
         } else {
             _setColor.value = "3"
+            _wrong.value = _wrong.value?.plus(1)
         }
         setOptions()
     }
     fun clickD() {
         if ( _questions.value?.get(currentQuestion)?.answerD == _questions.value?.get(currentQuestion)?.correctAnswer) {
             _setColor.value = "D"
+            _correct.value = _correct.value?.plus(1)
         } else {
             _setColor.value = "4"
+            _wrong.value = _wrong.value?.plus(1)
         }
 
         setOptions()
     }
     fun clickE() {
+
         if ( _questions.value?.get(currentQuestion)?.answerE == _questions.value?.get(currentQuestion)?.correctAnswer) {
             _setColor.value = "E"
+            _correct.value = _correct.value?.plus(1)
         } else {
             _setColor.value = "5"
+            _wrong.value = _wrong.value?.plus(1)
         }
         setOptions()
+
     }
 
     private fun setOptions() {
         if (currentQuestion < _questions.value?.size!! - 1) {
-            object : CountDownTimer(5000,1000) {
+            object : CountDownTimer(1000,1000) {
                 override fun onTick(millisUntilFinished: Long) {
 
                 }
@@ -99,10 +122,10 @@ class ExpertQuestionsViewModel : ViewModel() {
                 }
 
             }.start()
-
         } else {
-
+            _isThereQuestion.value = false
         }
-
     }
+
+
 }

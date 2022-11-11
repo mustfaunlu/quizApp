@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.unludev.quizforteachers.R
 import com.unludev.quizforteachers.databinding.FragmentExpertQuestionsBinding
@@ -18,6 +19,7 @@ class ExpertQuestionsFragment : Fragment() {
     private lateinit var binding: FragmentExpertQuestionsBinding
     private val viewModel: ExpertQuestionsViewModel by activityViewModels()
     val args: ExpertQuestionsFragmentArgs by navArgs()
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,11 +42,14 @@ class ExpertQuestionsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewModel.getExpertQuestions()
         viewModel.setColor.observe(viewLifecycleOwner) {
-            setBackgroundOptions(it)
+                setBackgroundOptions(it)
+            }
+        viewModel.isThereQuestion.observe(viewLifecycleOwner) {
+            if(it == false) onResult()
         }
     }
 
-    fun setBackgroundOptions(it: String?) {
+    private fun setBackgroundOptions(it: String?) {
         when (it) {
             "A" -> {
                 binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.green))
@@ -109,9 +114,15 @@ class ExpertQuestionsFragment : Fragment() {
                     tvAnswerD.setTextColor(resources.getColor(R.color.black))
                     tvAnswerE.setBackgroundColor(resources.getColor(R.color.white))
                     tvAnswerE.setTextColor(resources.getColor(R.color.black))
+
                 }
             }
         }
+    }
+
+    private fun onResult() {
+        val action = ExpertQuestionsFragmentDirections.actionExpertQuestionFragmentToResultFragment()
+        findNavController().navigate(action)
     }
 }
 

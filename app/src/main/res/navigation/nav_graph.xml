@@ -31,16 +31,6 @@
         android:name="com.unludev.quizforteachers.ui.result.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" >
-        <argument
-            android:name="correct"
-            app:argType="string"
-            app:nullable="true"
-            android:defaultValue="correct default value" />
-        <argument
-            android:name="wrong"
-            app:argType="string"
-            app:nullable="true"
-            android:defaultValue="wrong default data" />
         <action
             android:id="@+id/action_resultFragment_to_entryFragment"
             app:destination="@id/entryFragment"

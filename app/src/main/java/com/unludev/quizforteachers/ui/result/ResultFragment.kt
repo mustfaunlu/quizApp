@@ -1,45 +1,44 @@
 package com.unludev.quizforteachers.ui.result
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.findNavController
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.unludev.quizforteachers.databinding.FragmentResultBinding
 
 
 class ResultFragment : Fragment() {
     private var _binding: FragmentResultBinding? = null
     private val binding get() = _binding!!
+    //val args: ResultFragmentArgs by navArgs()
+//    private val viewModel: ResultFragmentViewModel by viewModels {
+//        ResultViewModelFactory(args.wrong!!.toInt(), args.correct!!.toInt())
+//
+//    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentResultBinding.inflate(inflater, container, false)
         val view = binding.root
+
         return view
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        arguments?.let {
-            val correct = ResultFragmentArgs.fromBundle(it).correct
-            binding.tvResultCorrect.text = correct
-            val wrong = ResultFragmentArgs.fromBundle(it).wrong
-            binding.tvResultWrong.text = wrong
-        }
+           // binding.tvResultCorrect.text = viewModel.correct.toString()
+            //binding.tvResultWrong.text = viewModel.wrong.toString()
 
         binding.tvReturnHomepage.setOnClickListener {
-            val action =
-                ResultFragmentDirections
-                    .actionResultFragmentToEntryFragment()
-            view.findNavController().navigate(action)
+            val action = ResultFragmentDirections.actionResultFragmentToEntryFragment()
+            findNavController().navigate(action)
         }
 
 
     }
-
 }
