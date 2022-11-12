@@ -64,53 +64,53 @@ class ExpertQuestionsFragment : Fragment() {
 
     private fun setBackgroundOptions(it: String?) {
         when (it) {
-            "A" -> {
+            "trueOptionA" -> {
                 binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "1" -> {
+            "falseOptionA" -> {
                 binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.red))
                 binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "B" -> {
+            "trueOptionB" -> {
                 binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "2" -> {
+            "falseOptionB" -> {
                 binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.red))
                 binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "C" -> {
+            "trueOptionC" -> {
                 binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "3" -> {
+            "falseOptionC" -> {
                 binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.red))
                 binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "D" -> {
+            "trueOptionD" -> {
                 binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "4" -> {
+            "falseOptionD" -> {
                 binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.red))
                 binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "E" -> {
+            "trueOptionE" -> {
                 binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.green))
                 binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
 
             }
-            "5" -> {
+            "falseOptionE" -> {
                 binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.red))
                 binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
