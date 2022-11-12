@@ -67,95 +67,17 @@ class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
         }
     }
 
-
-
-
-    fun clickA() {
-        if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000){
-            return
-        }
-        doubleClickLastTime = SystemClock.elapsedRealtime()
-                if (_questions.value?.get(_currentQuestion.value!!)?.answerA == _questions.value?.get(
-                        _currentQuestion.value!!
-                    )?.correctAnswer
-                ) {
-                    _setColor.value = "A"
-                    _correct.value = _correct.value?.plus(1)
-                } else {
-                    _setColor.value = "1"
-                    _wrong.value = _wrong.value?.plus(1)
-                }
-                setOptions()
-    }
-
-    fun clickB() {
-        if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000){
+    fun setOptionsColor(option: String?, correctAnswer: String?, trueClickValue: String, falseClickValue: String) {
+        if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000) {
             return
         }
         doubleClickLastTime = SystemClock.elapsedRealtime()
 
-        if (_questions.value?.get(_currentQuestion.value!!)?.answerB == _questions.value?.get(
-                _currentQuestion.value!!
-            )?.correctAnswer
-        ) {
-            _setColor.value = "B"
+        if (option == correctAnswer) {
+            _setColor.value = trueClickValue
             _correct.value = _correct.value?.plus(1)
         } else {
-            _setColor.value = "2"
-            _wrong.value = _wrong.value?.plus(1)
-        }
-        setOptions()
-    }
-
-    fun clickC() {
-        if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000){
-            return
-        }
-        doubleClickLastTime = SystemClock.elapsedRealtime()
-        if (_questions.value?.get(_currentQuestion.value!!)?.answerC == _questions.value?.get(
-                _currentQuestion.value!!
-            )?.correctAnswer
-        ) {
-            _setColor.value = "C"
-            _correct.value = _correct.value?.plus(1)
-        } else {
-            _setColor.value = "3"
-            _wrong.value = _wrong.value?.plus(1)
-        }
-        setOptions()
-    }
-
-    fun clickD() {
-        if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000){
-            return
-        }
-        doubleClickLastTime = SystemClock.elapsedRealtime()
-        if (_questions.value?.get(_currentQuestion.value!!)?.answerD == _questions.value?.get(
-                _currentQuestion.value!!
-            )?.correctAnswer
-        ) {
-            _setColor.value = "D"
-            _correct.value = _correct.value?.plus(1)
-        } else {
-            _setColor.value = "4"
-            _wrong.value = _wrong.value?.plus(1)
-        }
-        setOptions()
-    }
-
-    fun clickE() {
-        if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000){
-            return
-        }
-        doubleClickLastTime = SystemClock.elapsedRealtime()
-        if (_questions.value?.get(_currentQuestion.value!!)?.answerE == _questions.value?.get(
-                _currentQuestion.value!!
-            )?.correctAnswer
-        ) {
-            _setColor.value = "E"
-            _correct.value = _correct.value?.plus(1)
-        } else {
-            _setColor.value = "5"
+            _setColor.value = falseClickValue
             _wrong.value = _wrong.value?.plus(1)
         }
         setOptions()

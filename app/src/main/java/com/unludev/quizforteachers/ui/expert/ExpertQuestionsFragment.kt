@@ -44,17 +44,17 @@ class ExpertQuestionsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         getQuestions()
         viewModel.setColor.observe(viewLifecycleOwner) {
-                setBackgroundOptions(it)
-            }
+            setBackgroundOptions(it)
+        }
         viewModel.isThereQuestion.observe(viewLifecycleOwner) {
-            if(it == false){
+            if (it == false) {
                 onResult()
             }
         }
     }
 
     private fun getQuestions() {
-        when(args.que) {
+        when (args.que) {
             "Eğitimde Kapsayıcılık - 1" -> viewModel.getExpertQuestions()
             else -> viewModel.getExpertQuestions1()
         }
@@ -134,7 +134,8 @@ class ExpertQuestionsFragment : Fragment() {
     }
 
     private fun onResult() {
-        val action = ExpertQuestionsFragmentDirections.actionExpertQuestionFragmentToResultFragment()
+        val action =
+            ExpertQuestionsFragmentDirections.actionExpertQuestionFragmentToResultFragment()
         findNavController().navigate(action)
     }
 
