@@ -24,6 +24,8 @@ class ResultFragment : Fragment() {
     ): View {
         _binding = FragmentResultBinding.inflate(inflater, container, false)
         val view = binding.root
+        binding.lifecycleOwner = viewLifecycleOwner
+        binding.lifecycleOwner = this
 
         return view
     }

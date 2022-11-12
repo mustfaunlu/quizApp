@@ -87,6 +87,7 @@
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerA}"
                     android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerA, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionA", "falseOptionA")}'
                     />
+                <!-- app:customColorSet="@{viewModel.setColor}" -->
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -112,6 +113,7 @@
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerB}"
                     android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerB, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionB", "falseOptionB")}'
                     />
+                <!-- app:customColorSet="@{viewModel.setColor}" -->
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -137,6 +139,7 @@
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerC}"
                     android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerC, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionC", "falseOptionC")}'
                     />
+                <!-- app:customColorSet="@{viewModel.setColor}" -->
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -157,10 +160,11 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:padding="15dp"
-                    android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerD}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerD, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionD", "falseOptionD")}'/>
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerD, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionD", "falseOptionD")}'
+                    />
+                <!-- app:customColorSet="@{viewModel.setColor}" -->
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -184,8 +188,9 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questions[viewModel.currentQuestion].answerE}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerE, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionE", "falseOptionE")}'
-                    android:background="@color/white" />
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerE, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionE", "falseOptionE")}' />
+                   <!-- app:customColorSet="@{viewModel.setColor}" -->
+
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

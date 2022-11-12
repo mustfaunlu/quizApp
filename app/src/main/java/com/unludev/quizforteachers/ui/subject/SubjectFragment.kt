@@ -22,6 +22,7 @@ class SubjectFragment : Fragment() {
         binding = FragmentSubjectBinding.inflate(layoutInflater, container, false)
         viewModel.getQSubjects()
         binding.lifecycleOwner = viewLifecycleOwner
+        binding.lifecycleOwner = this
         binding.viewModel = viewModel
         binding.recyclerView.adapter = SubjectListAdapter(SubjectListener { subject ->
             viewModel.onSubjectClicked(subject)

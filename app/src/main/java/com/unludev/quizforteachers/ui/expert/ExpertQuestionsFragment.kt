@@ -1,6 +1,5 @@
 package com.unludev.quizforteachers.ui.expert
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -39,10 +38,11 @@ class ExpertQuestionsFragment : Fragment() {
         return binding.root
     }
 
-    @SuppressLint("ResourceAsColor")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         getQuestions()
+
         viewModel.setColor.observe(viewLifecycleOwner) {
             setBackgroundOptions(it)
         }
@@ -115,7 +115,7 @@ class ExpertQuestionsFragment : Fragment() {
                 binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
                 binding.executePendingBindings()
             }
-            "0" -> {
+            "resetOptionsColors" -> {
                 binding.apply {
                     tvAnswerA.setBackgroundColor(resources.getColor(R.color.white))
                     tvAnswerA.setTextColor(resources.getColor(R.color.black))
@@ -127,7 +127,7 @@ class ExpertQuestionsFragment : Fragment() {
                     tvAnswerD.setTextColor(resources.getColor(R.color.black))
                     tvAnswerE.setBackgroundColor(resources.getColor(R.color.white))
                     tvAnswerE.setTextColor(resources.getColor(R.color.black))
-
+                    binding.executePendingBindings()
                 }
             }
         }

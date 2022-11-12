@@ -25,7 +25,6 @@ lateinit var binding: FragmentEntryBinding
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.btnExpert.setOnClickListener{
             val action =
                 EntryFragmentDirections

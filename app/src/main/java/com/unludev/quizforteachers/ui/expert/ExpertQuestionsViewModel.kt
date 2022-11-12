@@ -23,7 +23,7 @@ class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
     private val _question = MutableLiveData<QuestionModel>()
     val question: LiveData<QuestionModel> = _question
 
-    private val _setColor = MutableLiveData<String>("0")
+    private val _setColor = MutableLiveData<String>("resetOptionsColors")
     val setColor: LiveData<String> = _setColor
 
     private val _currentQuestion = MutableLiveData<Int>(0)
@@ -90,7 +90,7 @@ class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
                 }
 
                 override fun onFinish() {
-                    _setColor.value = "0"
+                    _setColor.value = "resetOptionsColors"
                     _currentQuestion.value = _currentQuestion.value!!.plus(1)
                 }
             }.start()
