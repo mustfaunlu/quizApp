@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 enum class QuestionApiStatus { LOADING, ERROR, DONE }
 
-class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
+class ExpertQuestionsViewModel(private val que: String) : ViewModel() {
 
     private val _status = MutableLiveData<QuestionApiStatus>()
     val status: LiveData<QuestionApiStatus> = _status
@@ -29,10 +29,10 @@ class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
     private val _currentQuestion = MutableLiveData<Int>(0)
     val currentQuestion: LiveData<Int> get() = _currentQuestion
 
-    private val _correct = MutableLiveData<Int>()
+    private val _correct = MutableLiveData<Int>(0)
     val correct: LiveData<Int> get() = _correct
 
-    private val _wrong = MutableLiveData<Int>()
+    private val _wrong = MutableLiveData<Int>(0)
     val wrong: LiveData<Int> get() = _wrong
 
     private val _isThereQuestion = MutableLiveData<Boolean>(true)
@@ -40,8 +40,15 @@ class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
 
     var doubleClickLastTime = 0L
 
+     fun fetchQuestionsByArguments() {
+        when (que) {
+            "Eğitimde Kapsayıcılık - 1" -> getExpertQuestions()
+            else -> getExpertQuestions1()
+        }
 
-    fun getExpertQuestions() {
+    }
+
+    private fun getExpertQuestions() {
         viewModelScope.launch {
             _status.value = QuestionApiStatus.LOADING
             try {
@@ -54,7 +61,7 @@ class ExpertQuestionsViewModel(private val quee: String) : ViewModel() {
         }
     }
 
-    fun getExpertQuestions1() {
+    private fun getExpertQuestions1() {
         viewModelScope.launch {
             _status.value = QuestionApiStatus.LOADING
             try {
