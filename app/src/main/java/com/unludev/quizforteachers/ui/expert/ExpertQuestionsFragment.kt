@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.unludev.quizforteachers.R
@@ -17,10 +17,14 @@ class ExpertQuestionsFragment : Fragment() {
 
     private lateinit var binding: FragmentExpertQuestionsBinding
     private val args: ExpertQuestionsFragmentArgs by navArgs()
-    private val viewModel: ExpertQuestionsViewModel by viewModels {
-        ExpertQuestionViewModelFactory(args.que)
-
+    private val viewModel: ExpertQuestionsViewModel by lazy {
+        val activity = requireNotNull(this.activity) {
+            "You can only access the viewModel after onActivityCreated()"
+        }
+        ViewModelProvider(this, ExpertQuestionViewModelFactory(args.que, activity.application))
+            .get(ExpertQuestionsViewModel::class.java)
     }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,7 +45,7 @@ class ExpertQuestionsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewModel.fetchQuestionsByArguments()
+        viewModel.fetchQuestionsByArguments() //burda degilde viewmodel initte calistirsam ne olur yarin ilk bunu dene
 
         viewModel.setColor.observe(viewLifecycleOwner) {
             setBackgroundOptions(it)

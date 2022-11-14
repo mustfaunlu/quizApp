@@ -1,27 +1,28 @@
 package com.unludev.quizforteachers.ui.expert
 
+import android.app.Application
 import android.os.CountDownTimer
 import android.os.SystemClock
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.unludev.quizforteachers.data.model.QuestionModel
+import androidx.lifecycle.*
+import com.unludev.quizforteachers.data.local.getDatabase
+import com.unludev.quizforteachers.data.model.NetworkQuestionModel
 import com.unludev.quizforteachers.data.remote.QuestionsApiUtils
+import com.unludev.quizforteachers.domain.DomainQuestionModel
+import com.unludev.quizforteachers.repository.QuestionsRepository
 import kotlinx.coroutines.launch
 
 enum class QuestionApiStatus { LOADING, ERROR, DONE }
 
-class ExpertQuestionsViewModel(private val que: String) : ViewModel() {
+class ExpertQuestionsViewModel(private val que: String, application: Application) : AndroidViewModel(application) {
 
     private val _status = MutableLiveData<QuestionApiStatus>()
     val status: LiveData<QuestionApiStatus> = _status
 
-    private val _questions = MutableLiveData<List<QuestionModel>>()
-    val questions: LiveData<List<QuestionModel>> = _questions
+    private val _questions = MutableLiveData<List<NetworkQuestionModel>>()
+    val questions: LiveData<List<NetworkQuestionModel>> = _questions
 
-    private val _question = MutableLiveData<QuestionModel>()
-    val question: LiveData<QuestionModel> = _question
+    private val _question = MutableLiveData<NetworkQuestionModel>()
+    val question: LiveData<NetworkQuestionModel> = _question
 
     private val _setColor = MutableLiveData<String>("resetOptionsColors")
     val setColor: LiveData<String> = _setColor
@@ -40,7 +41,15 @@ class ExpertQuestionsViewModel(private val que: String) : ViewModel() {
 
     var doubleClickLastTime = 0L
 
-     fun fetchQuestionsByArguments() {
+    private val questionsRepository: QuestionsRepository = QuestionsRepository(getDatabase(application))
+
+    val q: LiveData<List<DomainQuestionModel>> get() = questionsRepository.questions.asLiveData()
+
+    init {
+        //buraya fetchQuestionbyargumentti yaz fragmenttakini iptal et dene olacak mi
+    }
+
+     fun fetchQuestionsByArguments() { // bu logic repos tasinacak
         when (que) {
             "Eğitimde Kapsayıcılık - 1" -> getExpertQuestions()
             else -> getExpertQuestions1()
@@ -52,11 +61,10 @@ class ExpertQuestionsViewModel(private val que: String) : ViewModel() {
         viewModelScope.launch {
             _status.value = QuestionApiStatus.LOADING
             try {
-                _questions.value = QuestionsApiUtils.questionApiservice.getQuestions()
+                 questionsRepository.refreshQuestions()
                 _status.value = QuestionApiStatus.DONE
             } catch (e: Exception) {
                 _status.value = QuestionApiStatus.ERROR
-                _questions.value = listOf()
             }
         }
     }
