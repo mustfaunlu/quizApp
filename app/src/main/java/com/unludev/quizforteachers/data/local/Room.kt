@@ -11,6 +11,9 @@ interface QuestionDao {
 
     @Query("SELECT * FROM questions ")
     fun getQuestionsFromDatabase(): Flow<List<DatabaseQuestionModel>>
+
+    @Query("DELETE FROM questions")
+    fun deleteAll()
 }
 
 

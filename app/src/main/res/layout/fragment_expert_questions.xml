@@ -43,7 +43,7 @@
                     android:textSize="15sp"
                     android:textAlignment="textStart"
                     android:padding="15dp"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].question}"
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].question}"
                     />
 
                 <TextView
@@ -55,7 +55,7 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:textStyle="bold"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].questionHead}"/>
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].questionHead}"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -86,8 +86,8 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerA}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerA, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionA", "falseOptionA")}'
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].answerA}"
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerA, viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionA", "falseOptionA")}'
                     />
                 <!-- app:customColorSet="@{viewModel.setColor}" -->
 
@@ -113,8 +113,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerB}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerB, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionB", "falseOptionB")}'
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].answerB}"
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerB, viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionB", "falseOptionB")}'
                     />
                 <!-- app:customColorSet="@{viewModel.setColor}" -->
 
@@ -140,8 +140,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerC}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerC, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionC", "falseOptionC")}'
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].answerC}"
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerC, viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionC", "falseOptionC")}'
                     />
                 <!-- app:customColorSet="@{viewModel.setColor}" -->
 
@@ -166,8 +166,8 @@
                     android:gravity="center_vertical"
                     android:padding="15dp"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerD}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerD, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionD", "falseOptionD")}'
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].answerD}"
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerD, viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionD", "falseOptionD")}'
                     />
                 <!-- app:customColorSet="@{viewModel.setColor}" -->
 
@@ -193,8 +193,8 @@
                     android:padding="15dp"
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
-                    android:text="@{viewModel.questions[viewModel.currentQuestion].answerE}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questions[viewModel.currentQuestion].answerE, viewModel.questions[viewModel.currentQuestion].correctAnswer, "trueOptionE", "falseOptionE")}' />
+                    android:text="@{viewModel.questionsData[viewModel.currentQuestion].answerE}"
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerE, viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionE", "falseOptionE")}' />
                    <!-- app:customColorSet="@{viewModel.setColor}" -->
 
 

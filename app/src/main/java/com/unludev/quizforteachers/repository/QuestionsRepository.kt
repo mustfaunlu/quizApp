@@ -16,6 +16,7 @@ class QuestionsRepository(private val database: QuestionsDatabase) {
     suspend fun refreshQuestions() {
         withContext(Dispatchers.IO) {
             val questionFromNetwork = QuestionsApiUtils.questionApiservice.getQuestions() // her ekranda bu istek sorulari doner burayi hallet
+            database.questionDao.deleteAll()
             database.questionDao.insertAllQuestions(questionFromNetwork.asDatabaseModel())
         }
     }

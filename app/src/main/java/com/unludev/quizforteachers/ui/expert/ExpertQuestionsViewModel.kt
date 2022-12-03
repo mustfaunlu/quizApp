@@ -9,6 +9,7 @@ import com.unludev.quizforteachers.data.model.NetworkQuestionModel
 import com.unludev.quizforteachers.data.remote.QuestionsApiUtils
 import com.unludev.quizforteachers.domain.DomainQuestionModel
 import com.unludev.quizforteachers.repository.QuestionsRepository
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 enum class QuestionApiStatus { LOADING, ERROR, DONE }
@@ -41,15 +42,17 @@ class ExpertQuestionsViewModel(private val que: String, application: Application
 
     var doubleClickLastTime = 0L
 
-    private val questionsRepository: QuestionsRepository = QuestionsRepository(getDatabase(application))
+    private val questionsRepository: QuestionsRepository
 
-    val q: LiveData<List<DomainQuestionModel>> get() = questionsRepository.questions.asLiveData()
+    val questionsData: LiveData<List<DomainQuestionModel>>
 
     init {
-        //buraya fetchQuestionbyargumentti yaz fragmenttakini iptal et dene olacak mi
+        questionsRepository = QuestionsRepository(getDatabase(application))
+        questionsData = questionsRepository.questions.asLiveData()
+        fetchQuestionsByArguments()
     }
 
-     fun fetchQuestionsByArguments() { // bu logic repos tasinacak
+      private fun fetchQuestionsByArguments() {
         when (que) {
             "Eğitimde Kapsayıcılık - 1" -> getExpertQuestions()
             else -> getExpertQuestions1()
@@ -58,13 +61,13 @@ class ExpertQuestionsViewModel(private val que: String, application: Application
     }
 
     private fun getExpertQuestions() {
-        viewModelScope.launch {
-            _status.value = QuestionApiStatus.LOADING
+        viewModelScope.launch(Dispatchers.IO) {
+            //_status.value = QuestionApiStatus.LOADING // live dataya deger ui threadde atanmali
             try {
                  questionsRepository.refreshQuestions()
-                _status.value = QuestionApiStatus.DONE
+              //  _status.value = QuestionApiStatus.DONE
             } catch (e: Exception) {
-                _status.value = QuestionApiStatus.ERROR
+               // _status.value = QuestionApiStatus.ERROR
             }
         }
     }
@@ -99,7 +102,7 @@ class ExpertQuestionsViewModel(private val que: String, application: Application
     }
 
     private fun setOptions() {
-        if (_currentQuestion.value!! < _questions.value?.size!! - 1) {
+        if (_currentQuestion.value!! < questionsData.value?.size!! - 1) {
             object : CountDownTimer(3000, 1000) {
                 override fun onTick(millisUntilFinished: Long) {
                 }
