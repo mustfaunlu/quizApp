@@ -26,7 +26,7 @@ class SubjectFragment : Fragment() {
         binding.viewModel = viewModel
         binding.recyclerView.adapter = SubjectListAdapter(SubjectListener { subject ->
             viewModel.onSubjectClicked(subject)
-            val action = SubjectFragmentDirections.actionSubjectFragmentToExpertQuestionFragment(subject.subjectName)
+            val action = SubjectFragmentDirections.actionSubjectFragmentToExpertQuestionFragment(subject.id)
             findNavController().navigate(action)
         })
         return binding.root

@@ -114,7 +114,7 @@
                     android:textColor="@color/text_secondery_color"
                     android:textSize="15sp"
                     android:text="@{viewModel.questionsData[viewModel.currentQuestion].answerB}"
-                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerB, viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionB", "falseOptionB")}'
+                    android:onClick='@{()-> viewModel.setOptionsColor(viewModel.questionsData[viewModel.currentQuestion].answerB,viewModel.questionsData[viewModel.currentQuestion].correctAnswer, "trueOptionB", "falseOptionB")}'
                     />
                 <!-- app:customColorSet="@{viewModel.setColor}" -->
 

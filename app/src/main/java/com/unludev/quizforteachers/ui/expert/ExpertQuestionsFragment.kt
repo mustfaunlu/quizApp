@@ -21,7 +21,7 @@ class ExpertQuestionsFragment : Fragment() {
         val activity = requireNotNull(this.activity) {
             "You can only access the viewModel after onActivityCreated()"
         }
-        ViewModelProvider(this, ExpertQuestionViewModelFactory(args.que, activity.application))
+        ViewModelProvider(this, ExpertQuestionViewModelFactory(args.topic, activity.application))
             .get(ExpertQuestionsViewModel::class.java)
     }
 
@@ -45,8 +45,6 @@ class ExpertQuestionsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //viewModel.fetchQuestionsByArguments() //burda degilde viewmodel initte calistirsam ne olur yarin ilk bunu dene
-
         viewModel.setColor.observe(viewLifecycleOwner) {
             setBackgroundOptions(it)
         }
@@ -56,7 +54,6 @@ class ExpertQuestionsFragment : Fragment() {
             }
         }
     }
-
 
     private fun setBackgroundOptions(it: String?) {
         when (it) {

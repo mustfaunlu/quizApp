@@ -32,22 +32,33 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<SubjectModel>?) {
     adapter.submitList(data)
 }
 
+//bunu yazinca hepsi ayni anda degisiyor drawable icinde selector olustulcak
 //@BindingAdapter("customColorSet")
-//fun optionColorSet(tv: TextView, str: String?) {
-//    when (str) {
-//        "trueOption" -> {
-//            tv.setBackgroundColor(tv.resources.getColor(R.color.green))
-//            tv.setTextColor(tv.resources.getColor(R.color.white))
+//fun TextView.setBackgroundOptions(setColor: String?) {
+//
+//
+//    val buton = this.findViewById<TextView>(this.id)
+//
+//    buton.setOnClickListener {
+//        when(setColor) {
+//        "true" -> {
+//            buton.setBackgroundColor(buton.resources.getColor(R.color.green))
+//            buton.setTextColor(buton.resources.getColor(R.color.white))
 //        }
-//        "falseOption" -> {
-//            tv.setBackgroundColor(tv.resources.getColor(R.color.red))
-//            tv.setTextColor(tv.resources.getColor(R.color.white))
+//        "false" -> {
+//            buton.setBackgroundColor(buton.resources.getColor(R.color.red))
+//            buton.setTextColor(buton.resources.getColor(R.color.white))
 //        }
-//        "resetOptions" -> {
-//            tv.setBackgroundColor(tv.resources.getColor(R.color.white))
-//            tv.setTextColor(tv.resources.getColor(R.color.black))
+//        "resetOptionsColors" -> {
+//            buton.setBackgroundColor(buton.resources.getColor(R.color.white))
+//            buton.setTextColor(buton.resources.getColor(R.color.black))
 //        }
-//    }
-//}
+//    } }
+
+
+
+
+
+
 
 

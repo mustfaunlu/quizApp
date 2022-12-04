@@ -6,7 +6,6 @@ import android.os.SystemClock
 import androidx.lifecycle.*
 import com.unludev.quizforteachers.data.local.getDatabase
 import com.unludev.quizforteachers.data.model.NetworkQuestionModel
-import com.unludev.quizforteachers.data.remote.QuestionsApiUtils
 import com.unludev.quizforteachers.domain.DomainQuestionModel
 import com.unludev.quizforteachers.repository.QuestionsRepository
 import kotlinx.coroutines.Dispatchers
@@ -14,33 +13,30 @@ import kotlinx.coroutines.launch
 
 enum class QuestionApiStatus { LOADING, ERROR, DONE }
 
-class ExpertQuestionsViewModel(private val que: String, application: Application) : AndroidViewModel(application) {
+class ExpertQuestionsViewModel(topic: Int, application: Application) : AndroidViewModel(application) {
 
     private val _status = MutableLiveData<QuestionApiStatus>()
     val status: LiveData<QuestionApiStatus> = _status
 
-    private val _questions = MutableLiveData<List<NetworkQuestionModel>>()
-    val questions: LiveData<List<NetworkQuestionModel>> = _questions
-
     private val _question = MutableLiveData<NetworkQuestionModel>()
     val question: LiveData<NetworkQuestionModel> = _question
 
-    private val _setColor = MutableLiveData<String>("resetOptionsColors")
+    private val _setColor = MutableLiveData("resetOptionsColors")
     val setColor: LiveData<String> = _setColor
 
-    private val _currentQuestion = MutableLiveData<Int>(0)
+    private val _currentQuestion = MutableLiveData(0)
     val currentQuestion: LiveData<Int> get() = _currentQuestion
 
-    private val _correct = MutableLiveData<Int>(0)
+    private val _correct = MutableLiveData(0)
     val correct: LiveData<Int> get() = _correct
 
-    private val _wrong = MutableLiveData<Int>(0)
+    private val _wrong = MutableLiveData(0)
     val wrong: LiveData<Int> get() = _wrong
 
-    private val _isThereQuestion = MutableLiveData<Boolean>(true)
+    private val _isThereQuestion = MutableLiveData(true)
     val isThereQuestion: LiveData<Boolean> get() = _isThereQuestion
 
-    var doubleClickLastTime = 0L
+    private var doubleClickLastTime = 0L
 
     private val questionsRepository: QuestionsRepository
 
@@ -49,38 +45,18 @@ class ExpertQuestionsViewModel(private val que: String, application: Application
     init {
         questionsRepository = QuestionsRepository(getDatabase(application))
         questionsData = questionsRepository.questions.asLiveData()
-        fetchQuestionsByArguments()
+        loadQuestions(topic)
     }
 
-      private fun fetchQuestionsByArguments() {
-        when (que) {
-            "Eğitimde Kapsayıcılık - 1" -> getExpertQuestions()
-            else -> getExpertQuestions1()
-        }
 
-    }
-
-    private fun getExpertQuestions() {
+    private fun loadQuestions(topic: Int) {
         viewModelScope.launch(Dispatchers.IO) {
             //_status.value = QuestionApiStatus.LOADING // live dataya deger ui threadde atanmali
             try {
-                 questionsRepository.refreshQuestions()
+                 questionsRepository.refreshQuestions(topic)
               //  _status.value = QuestionApiStatus.DONE
             } catch (e: Exception) {
                // _status.value = QuestionApiStatus.ERROR
-            }
-        }
-    }
-
-    private fun getExpertQuestions1() {
-        viewModelScope.launch {
-            _status.value = QuestionApiStatus.LOADING
-            try {
-                _questions.value = QuestionsApiUtils.questionApiservice.getQuestions1()
-                _status.value = QuestionApiStatus.DONE
-            } catch (e: Exception) {
-                _status.value = QuestionApiStatus.ERROR
-                _questions.value = listOf()
             }
         }
     }

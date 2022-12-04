@@ -14,8 +14,8 @@
             android:id="@+id/action_expertQuestionFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
         <argument
-            android:name="que"
-            app:argType="string" />
+            android:name="topic"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/entryFragment"
