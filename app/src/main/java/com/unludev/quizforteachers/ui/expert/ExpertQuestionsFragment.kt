@@ -55,60 +55,14 @@ class ExpertQuestionsFragment : Fragment() {
         }
     }
 
-    private fun setBackgroundOptions(it: String?) {
-        when (it) {
-            "trueOptionA" -> {
-                binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.green))
-                binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "falseOptionA" -> {
-                binding.tvAnswerA.setBackgroundColor(resources.getColor(R.color.red))
-                binding.tvAnswerA.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "trueOptionB" -> {
-                binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.green))
-                binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "falseOptionB" -> {
-                binding.tvAnswerB.setBackgroundColor(resources.getColor(R.color.red))
-                binding.tvAnswerB.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "trueOptionC" -> {
-                binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.green))
-                binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "falseOptionC" -> {
-                binding.tvAnswerC.setBackgroundColor(resources.getColor(R.color.red))
-                binding.tvAnswerC.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "trueOptionD" -> {
-                binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.green))
-                binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "falseOptionD" -> {
-                binding.tvAnswerD.setBackgroundColor(resources.getColor(R.color.red))
-                binding.tvAnswerD.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "trueOptionE" -> {
-                binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.green))
-                binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-
-            }
-            "falseOptionE" -> {
-                binding.tvAnswerE.setBackgroundColor(resources.getColor(R.color.red))
-                binding.tvAnswerE.setTextColor(resources.getColor(R.color.white))
-                binding.executePendingBindings()
-            }
-            "resetOptionsColors" -> {
+    private fun setBackgroundOptions(color: String?) {
+        val textView = when (color) {
+            "trueOptionA", "falseOptionA" -> binding.tvAnswerA
+            "trueOptionB", "falseOptionB" -> binding.tvAnswerB
+            "trueOptionC", "falseOptionC" -> binding.tvAnswerC
+            "trueOptionD", "falseOptionD" -> binding.tvAnswerD
+            "trueOptionE", "falseOptionE" -> binding.tvAnswerE
+            else -> {
                 binding.apply {
                     tvAnswerA.setBackgroundColor(resources.getColor(R.color.white))
                     tvAnswerA.setTextColor(resources.getColor(R.color.black))
@@ -122,13 +76,25 @@ class ExpertQuestionsFragment : Fragment() {
                     tvAnswerE.setTextColor(resources.getColor(R.color.black))
                     binding.executePendingBindings()
                 }
+                return
             }
         }
+        if (color.startsWith("true")) {
+            textView.setBackgroundColor(resources.getColor(R.color.green))
+        } else {
+            textView.setBackgroundColor(resources.getColor(R.color.red))
+        }
+        textView.setTextColor(resources.getColor(R.color.white))
+        binding.executePendingBindings()
+
     }
 
     private fun onResult() {
         val action =
-            ExpertQuestionsFragmentDirections.actionExpertQuestionFragmentToResultFragment(viewModel.correct.value!!,viewModel.wrong.value!!)
+            ExpertQuestionsFragmentDirections.actionExpertQuestionFragmentToResultFragment(
+                viewModel.correct.value!!,
+                viewModel.wrong.value!!
+            )
         findNavController().navigate(action)
     }
 

@@ -176,14 +176,14 @@
 
         <com.google.android.material.card.MaterialCardView
             style="@style/TestCard"
+            app:strokeWidth="1dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:strokeWidth="1dp">
+                android:layout_gravity="center">
 
                 <TextView
                     android:id="@+id/tv_answer_e"
