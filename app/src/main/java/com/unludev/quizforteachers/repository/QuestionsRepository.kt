@@ -14,16 +14,16 @@ import kotlinx.coroutines.withContext
 
 class QuestionsRepository(private val database: QuestionsDatabase) {
     val questions: Flow<List<DomainQuestionModel>> = database.questionDao.getQuestionsFromDatabase().map { it.asDomainModel() }
-     suspend fun refreshQuestions(topic: Int) {
+     suspend fun refreshQuestions(topicID: Int) {
         withContext(Dispatchers.IO) {
             database.questionDao.deleteAll()
-            val questionFromNetwork = fetchQuestionsByArguments(topic)
+            val questionFromNetwork = fetchQuestionsByArguments(topicID)
             database.questionDao.insertAllQuestions(questionFromNetwork.asDatabaseModel())
         }
     }
 
-     private suspend fun fetchQuestionsByArguments(topic: Int): List<NetworkQuestionModel> {
-        return when (topic) {
+     private suspend fun fetchQuestionsByArguments(topicID: Int): List<NetworkQuestionModel> {
+        return when (topicID) {
             1 -> QuestionsApiUtils.questionApiservice.getSubj1Questions()
             2 -> QuestionsApiUtils.questionApiservice.getSubj2Questions()
             3 -> QuestionsApiUtils.questionApiservice.getSubj3Questions()
