@@ -10,10 +10,12 @@ import com.unludev.quizforteachers.domain.DomainQuestionModel
 import com.unludev.quizforteachers.repository.QuestionsRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 enum class QuestionApiStatus { LOADING, ERROR, DONE }
 
-class ExpertQuestionsViewModel(topic: Int, application: Application) : AndroidViewModel(application) {
+class ExpertQuestionsViewModel(topic: Int, application: Application) :
+    AndroidViewModel(application) {
 
     private val _status = MutableLiveData<QuestionApiStatus>()
     val status: LiveData<QuestionApiStatus> = _status
@@ -51,17 +53,22 @@ class ExpertQuestionsViewModel(topic: Int, application: Application) : AndroidVi
 
     private fun loadQuestions(topic: Int) {
         viewModelScope.launch(Dispatchers.IO) {
-            //_status.value = QuestionApiStatus.LOADING // live dataya deger ui threadde atanmali
+            withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.LOADING }
             try {
-                 questionsRepository.refreshQuestions(topic)
-              //  _status.value = QuestionApiStatus.DONE
+                questionsRepository.refreshQuestions(topic)
+                withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.DONE }
             } catch (e: Exception) {
-               // _status.value = QuestionApiStatus.ERROR
+                withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.ERROR }
             }
         }
     }
 
-    fun setOptionsColor(option: String?, correctAnswer: String?, trueClickValue: String, falseClickValue: String) {
+    fun setOptionsColor(
+        option: String?,
+        correctAnswer: String?,
+        trueClickValue: String,
+        falseClickValue: String
+    ) {
         if (SystemClock.elapsedRealtime() - doubleClickLastTime < 3000) {
             return
         }
