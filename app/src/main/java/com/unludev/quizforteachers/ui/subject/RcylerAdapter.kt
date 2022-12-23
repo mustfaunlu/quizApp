@@ -42,6 +42,7 @@ class SubjectListAdapter(val clickListener: SubjectListener) :
 
         fun bind(clickListener: SubjectListener, subject: DomainSubjectModel) {
             binding.subject= subject
+            binding.rvTv.text = subject.subjectName
             binding.clickListener = clickListener
             binding.executePendingBindings()
 
