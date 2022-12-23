@@ -1,45 +1,51 @@
 package com.unludev.quizforteachers.repository
 
 
-import com.unludev.quizforteachers.data.local.QuestionsDatabase
+import com.unludev.quizforteachers.data.local.QuestionDao
 import com.unludev.quizforteachers.data.local.asDomainModel
 import com.unludev.quizforteachers.data.model.NetworkQuestionModel
 import com.unludev.quizforteachers.data.model.asDatabaseModel
-import com.unludev.quizforteachers.data.remote.QuestionsApiUtils
+import com.unludev.quizforteachers.data.remote.QuestionsApiService
 import com.unludev.quizforteachers.domain.DomainQuestionModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class QuestionsRepository(private val database: QuestionsDatabase) {
-    val questions: Flow<List<DomainQuestionModel>> = database.questionDao.getQuestionsFromDatabase().map { it.asDomainModel() }
+@Singleton
+class QuestionsRepository @Inject constructor(
+    private val service: QuestionsApiService,
+    private val questionDao: QuestionDao
+    ) {
+    val questions: Flow<List<DomainQuestionModel>> = questionDao.getQuestionsFromDatabase().map { it.asDomainModel() }
      suspend fun refreshQuestions(topicID: Int) {
         withContext(Dispatchers.IO) {
-            database.questionDao.deleteAll()
+            questionDao.deleteAll()
             val questionFromNetwork = fetchQuestionsByArguments(topicID)
-            database.questionDao.insertAllQuestions(questionFromNetwork.asDatabaseModel())
+            questionDao.insertAllQuestions(questionFromNetwork.asDatabaseModel())
         }
     }
 
      private suspend fun fetchQuestionsByArguments(topicID: Int): List<NetworkQuestionModel> {
         return when (topicID) {
-            1 -> QuestionsApiUtils.questionApiservice.getSubj1Questions()
-            2 -> QuestionsApiUtils.questionApiservice.getSubj2Questions()
-            3 -> QuestionsApiUtils.questionApiservice.getSubj3Questions()
-            4 -> QuestionsApiUtils.questionApiservice.getSubj4Questions()
-            5 -> QuestionsApiUtils.questionApiservice.getSubj5Questions()
-            6 -> QuestionsApiUtils.questionApiservice.getSubj6Questions()
-            7 -> QuestionsApiUtils.questionApiservice.getSubj7Questions()
-            8 -> QuestionsApiUtils.questionApiservice.getSubj8Questions()
-            9 -> QuestionsApiUtils.questionApiservice.getSubj9Questions()
-            10 -> QuestionsApiUtils.questionApiservice.getSubj10Questions()
-            11 -> QuestionsApiUtils.questionApiservice.getSubj11Questions()
-            12 -> QuestionsApiUtils.questionApiservice.getSubj12Questions()
-            13 -> QuestionsApiUtils.questionApiservice.getSubj13Questions()
-            14 -> QuestionsApiUtils.questionApiservice.getSubj14Questions()
-            15 -> QuestionsApiUtils.questionApiservice.getSubj15Questions()
-            else -> QuestionsApiUtils.questionApiservice.getSubj15Questions()
+            1 -> service.getSubj1Questions()
+            2 -> service.getSubj2Questions()
+            3 -> service.getSubj3Questions()
+            4 -> service.getSubj4Questions()
+            5 -> service.getSubj5Questions()
+            6 -> service.getSubj6Questions()
+            7 -> service.getSubj7Questions()
+            8 -> service.getSubj8Questions()
+            9 -> service.getSubj9Questions()
+            10 ->service.getSubj10Questions()
+            11 -> service.getSubj11Questions()
+            12 -> service.getSubj12Questions()
+            13 -> service.getSubj13Questions()
+            14 -> service.getSubj14Questions()
+            15 -> service.getSubj15Questions()
+            else -> service.getSubj15Questions()
         }
 
     }

@@ -1,40 +1,44 @@
 package com.unludev.quizforteachers.ui.subject
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.unludev.quizforteachers.data.model.SubjectModel
-import com.unludev.quizforteachers.data.remote.QuestionsApiUtils
+import android.util.Log
+import androidx.lifecycle.*
+import com.unludev.quizforteachers.domain.DomainSubjectModel
+import com.unludev.quizforteachers.repository.SubjectRepository
 import com.unludev.quizforteachers.ui.expert.QuestionApiStatus
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import javax.inject.Inject
 
-class SubjectFragmentViewModel: ViewModel() {
-
+@HiltViewModel
+class SubjectFragmentViewModel @Inject constructor(private val subjectRepository: SubjectRepository): ViewModel() {
     private val _status = MutableLiveData<QuestionApiStatus>()
     val status: LiveData<QuestionApiStatus> = _status
 
-    private val _subjects = MutableLiveData<List<SubjectModel>>()
-    val subjects: LiveData<List<SubjectModel>> = _subjects
+    private val _subject = MutableLiveData<DomainSubjectModel>()
+    val subject: LiveData<DomainSubjectModel> = _subject
 
-    private val _subject = MutableLiveData<SubjectModel>()
-    val subject: LiveData<SubjectModel> = _subject
+    val subjectData: LiveData<List<DomainSubjectModel>> = subjectRepository.subjects.asLiveData()
 
-    fun getQSubjects() {
-        viewModelScope.launch{
-            _status.value = QuestionApiStatus.LOADING
+     init {
+         loadSubjects()
+         Log.d("subjects", subject.toString())
+     }
+
+    private fun loadSubjects() {
+        viewModelScope.launch(Dispatchers.IO) {
+            withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.LOADING }
             try {
-                _subjects.value = QuestionsApiUtils.questionApiservice.getSubjects()
-                _status.value = QuestionApiStatus.DONE
+                subjectRepository.refreshSubjects()
+                withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.DONE }
             } catch (e: Exception) {
-                _status.value = QuestionApiStatus.ERROR
-                println(e.message)
-                _subjects.value = listOf()
+                withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.ERROR }
             }
         }
     }
 
-    fun onSubjectClicked(subject: SubjectModel) {
+    fun onSubjectClicked(subject: DomainSubjectModel) {
         _subject.value = subject
     }
 }

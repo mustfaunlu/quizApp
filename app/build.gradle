@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'androidx.navigation.safeargs.kotlin'
     id 'kotlin-kapt'
+    id 'com.google.dagger.hilt.android'
 }
 
 android {
@@ -65,7 +66,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
 
     // Moshi
-    implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'
+    implementation 'com.squareup.moshi:moshi-kotlin:1.14.0'
 
     //Room
     implementation "androidx.room:room-runtime:$room_version"
@@ -89,6 +90,7 @@ dependencies {
     //hilt
     implementation 'com.google.dagger:hilt-android:2.44.2'
     kapt 'com.google.dagger:hilt-compiler:2.44.2'
+    annotationProcessor 'com.google.dagger:hilt-compiler:2.44.2'
     // For instrumentation tests
     androidTestImplementation  'com.google.dagger:hilt-android-testing:2.44.2'
     kaptAndroidTest 'com.google.dagger:hilt-compiler:2.44.2'

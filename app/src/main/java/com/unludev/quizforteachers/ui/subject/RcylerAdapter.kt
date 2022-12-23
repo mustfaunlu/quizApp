@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.unludev.quizforteachers.data.model.SubjectModel
 import com.unludev.quizforteachers.databinding.RvRowBinding
+import com.unludev.quizforteachers.domain.DomainSubjectModel
 
 
 class SubjectListAdapter(val clickListener: SubjectListener) :
-    ListAdapter<SubjectModel, SubjectListAdapter.SubjectViewHolder>(DiffCallback){
+    ListAdapter<DomainSubjectModel, SubjectListAdapter.SubjectViewHolder>(DiffCallback){
 
     @SuppressLint("SuspiciousIndentation")
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SubjectViewHolder {
@@ -25,13 +25,13 @@ class SubjectListAdapter(val clickListener: SubjectListener) :
         holder.bind(clickListener,subject)
 
     }
-    companion object DiffCallback : DiffUtil.ItemCallback<SubjectModel>() {
+    companion object DiffCallback : DiffUtil.ItemCallback<DomainSubjectModel>() {
 
-        override fun areItemsTheSame(oldItem: SubjectModel, newItem: SubjectModel): Boolean {
+        override fun areItemsTheSame(oldItem: DomainSubjectModel, newItem: DomainSubjectModel): Boolean {
             return oldItem.id == newItem.id
         }
 
-        override fun areContentsTheSame(oldItem: SubjectModel, newItem: SubjectModel): Boolean {
+        override fun areContentsTheSame(oldItem: DomainSubjectModel, newItem: DomainSubjectModel): Boolean {
             return oldItem == newItem
         }
 
@@ -40,7 +40,7 @@ class SubjectListAdapter(val clickListener: SubjectListener) :
 
     inner class SubjectViewHolder( val binding: RvRowBinding) : RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(clickListener: SubjectListener, subject: SubjectModel) {
+        fun bind(clickListener: SubjectListener, subject: DomainSubjectModel) {
             binding.subject= subject
             binding.clickListener = clickListener
             binding.executePendingBindings()
@@ -49,6 +49,6 @@ class SubjectListAdapter(val clickListener: SubjectListener) :
     }
 }
 
-class SubjectListener(val clickListener: (subject: SubjectModel) -> Unit) {
-    fun onClick(subject: SubjectModel) = clickListener(subject)
+class SubjectListener(val clickListener: (subject: DomainSubjectModel) -> Unit) {
+    fun onClick(subject: DomainSubjectModel) = clickListener(subject)
 }

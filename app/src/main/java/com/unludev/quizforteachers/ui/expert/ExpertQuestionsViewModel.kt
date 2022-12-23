@@ -1,21 +1,24 @@
 package com.unludev.quizforteachers.ui.expert
 
-import android.app.Application
 import android.os.CountDownTimer
 import android.os.SystemClock
 import androidx.lifecycle.*
-import com.unludev.quizforteachers.data.local.getDatabase
 import com.unludev.quizforteachers.data.model.NetworkQuestionModel
 import com.unludev.quizforteachers.domain.DomainQuestionModel
 import com.unludev.quizforteachers.repository.QuestionsRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import javax.inject.Inject
 
 enum class QuestionApiStatus { LOADING, ERROR, DONE }
 
-class ExpertQuestionsViewModel(topic: Int, application: Application) :
-    AndroidViewModel(application) {
+@HiltViewModel
+class ExpertQuestionsViewModel @Inject constructor(
+     state: SavedStateHandle,
+    private var questionsRepository: QuestionsRepository
+    ) : ViewModel(){
 
     private val _status = MutableLiveData<QuestionApiStatus>()
     val status: LiveData<QuestionApiStatus> = _status
@@ -40,14 +43,11 @@ class ExpertQuestionsViewModel(topic: Int, application: Application) :
 
     private var doubleClickLastTime = 0L
 
-    private val questionsRepository: QuestionsRepository
-
-    val questionsData: LiveData<List<DomainQuestionModel>>
+    val questionsData: LiveData<List<DomainQuestionModel>> = questionsRepository.questions.asLiveData()
 
     init {
-        questionsRepository = QuestionsRepository(getDatabase(application))
-        questionsData = questionsRepository.questions.asLiveData()
-        loadQuestions(topic)
+        val topic: Int? = state["topic"]
+        loadQuestions(topic!!)
     }
 
 

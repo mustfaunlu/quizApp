@@ -6,4 +6,22 @@
     <string name="result_fragment_correctText">Doğru</string>
     <string name="result_fragment_wrongText">Yanlış</string>
     <string name="result_fragment_returnHomeText">Ana Sayfaya Geri Dön</string>
+
+    <string-array name="subject_names">
+        <item>Eğitimde Kapsayıcılık - 1</item>
+        <item>Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 1</item>
+        <item>Eğitim Araştırmaları ve Ar-Ge Çalışmaları - 2</item>
+        <item>Güvenli Okul ve Okul Güvenliği - 1</item>
+        <item>Güvenli Okul ve Okul Güvenliği - 2</item>
+        <item>Sosyal Etkileşim ve İletişim - 1</item>
+        <item>Sosyal Etkileşim ve İletişim - 2</item>
+        <item>Sosyal Etkileşim ve İletişim - 3</item>
+        <item>Dijital Yetkinlik</item>
+        <item>Özel Eğitim ve Rehberlik - 1</item>
+        <item>Özel Eğitim ve Rehberlik - 2</item>
+        <item>Öğrenme ve Öğretme Süreçleri - 1</item>
+        <item>Öğrenme ve Öğretme Süreçleri - 2</item>
+        <item>Ölçme ve Değerlendirme - 1</item>
+        <item>Ölçme ve Değerlendirme - 2</item>
+    </string-array>
 </resources>

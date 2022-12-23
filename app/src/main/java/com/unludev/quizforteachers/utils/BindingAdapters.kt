@@ -1,10 +1,11 @@
 package com.unludev.quizforteachers
 
+import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.unludev.quizforteachers.data.model.SubjectModel
+import com.unludev.quizforteachers.domain.DomainSubjectModel
 import com.unludev.quizforteachers.ui.expert.QuestionApiStatus
 
 
@@ -27,8 +28,9 @@ fun bindStatus(statusImgView: ImageView, status: QuestionApiStatus?) {
 }
 
 @BindingAdapter("listData")
-fun bindRecyclerView(recyclerView: RecyclerView, data: List<SubjectModel>?) {
+fun bindRecyclerView(recyclerView: RecyclerView, data: List<DomainSubjectModel>?) {
     val adapter = recyclerView.adapter as SubjectListAdapter
+    Log.d("data", data.toString())
     adapter.submitList(data)
 }
 

@@ -6,24 +6,21 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.unludev.quizforteachers.R
 import com.unludev.quizforteachers.databinding.FragmentExpertQuestionsBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ExpertQuestionsFragment : Fragment() {
 
     private lateinit var binding: FragmentExpertQuestionsBinding
     private val args: ExpertQuestionsFragmentArgs by navArgs()
-    private val viewModel: ExpertQuestionsViewModel by lazy {
-        val activity = requireNotNull(this.activity) {
-            "You can only access the viewModel after onActivityCreated()"
-        }
-        ViewModelProvider(this, ExpertQuestionViewModelFactory(args.topic, activity.application))
-            .get(ExpertQuestionsViewModel::class.java)
-    }
+
+    private val viewModel: ExpertQuestionsViewModel by viewModels()
+
 
 
     override fun onCreateView(
