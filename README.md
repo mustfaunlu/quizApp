@@ -17,6 +17,7 @@
   - [Repository](https://developer.android.com/topic/architecture/data-layer) - Located in data layer that contains application data and business logic.
 
 
+- [Android Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency Injection Library
 - [Retrofit](https://square.github.io/retrofit/) A type-safe HTTP client for Android and Java
 - [Room](https://developer.android.com/jetpack/androidx/releases/room) The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
 
