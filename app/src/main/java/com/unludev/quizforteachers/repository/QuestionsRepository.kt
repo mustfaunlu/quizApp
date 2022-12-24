@@ -18,38 +18,40 @@ import javax.inject.Singleton
 class QuestionsRepository @Inject constructor(
     private val service: QuestionsApiService,
     private val questionDao: QuestionDao
-    ) {
-    val questions: Flow<List<DomainQuestionModel>> = questionDao.getQuestionsFromDatabase().map { it.asDomainModel() }
-     suspend fun refreshQuestions(topicID: Int) {
+) {
+
+    val questions: Flow<List<DomainQuestionModel>> =
+        questionDao.getQuestionsFromDatabase().map { it.asDomainModel() }
+
+    suspend fun fetchAndStoreQuestionsForTopic(topicID: Int) {
         withContext(Dispatchers.IO) {
             questionDao.deleteAll()
-            val questionFromNetwork = fetchQuestionsByArguments(topicID)
+            val questionFromNetwork = fetchQuestionsByTopic(topicID)
             questionDao.insertAllQuestions(questionFromNetwork.asDatabaseModel())
         }
     }
 
-     private suspend fun fetchQuestionsByArguments(topicID: Int): List<NetworkQuestionModel> {
-        return when (topicID) {
-            1 -> service.getSubj1Questions()
-            2 -> service.getSubj2Questions()
-            3 -> service.getSubj3Questions()
-            4 -> service.getSubj4Questions()
-            5 -> service.getSubj5Questions()
-            6 -> service.getSubj6Questions()
-            7 -> service.getSubj7Questions()
-            8 -> service.getSubj8Questions()
-            9 -> service.getSubj9Questions()
-            10 ->service.getSubj10Questions()
-            11 -> service.getSubj11Questions()
-            12 -> service.getSubj12Questions()
-            13 -> service.getSubj13Questions()
-            14 -> service.getSubj14Questions()
-            15 -> service.getSubj15Questions()
-            else -> service.getSubj15Questions()
-        }
+    private val topicApiCallMap = mapOf(
+        1 to service::getSubj1Questions,
+        2 to service::getSubj2Questions,
+        3 to service::getSubj3Questions,
+        4 to service::getSubj4Questions,
+        5 to service::getSubj5Questions,
+        6 to service::getSubj6Questions,
+        7 to service::getSubj7Questions,
+        8 to service::getSubj8Questions,
+        9 to service::getSubj9Questions,
+        10 to service::getSubj10Questions,
+        11 to service::getSubj11Questions,
+        12 to service::getSubj12Questions,
+        13 to service::getSubj13Questions,
+        14 to service::getSubj14Questions,
+        15 to service::getSubj15Questions,
+    )
 
+    private suspend fun fetchQuestionsByTopic(topicID: Int): List<NetworkQuestionModel> {
+        val apiCall = topicApiCallMap[topicID] ?: return emptyList()
+        return apiCall()
     }
 }
-
-
 

@@ -19,10 +19,12 @@ class SubjectRepository @Inject constructor(
 ){
     val subjects: Flow<List<DomainSubjectModel>> = subjectsDao.getSubjectsFromDatabase().map { it.asDomainModel() }
     suspend fun refreshSubjects() {
-        withContext(Dispatchers.IO) {
-            val subjectFromNetwork = service.getSubjects()
-            subjectsDao.insertAllSubjects(subjectFromNetwork.asDatabaseModel())
-        }
+
+            withContext(Dispatchers.IO) {
+                val subjectFromNetwork = service.getSubjects()
+                subjectsDao.deleteAllSubjects()
+                subjectsDao.insertAllSubjects(subjectFromNetwork.asDatabaseModel())
+            }
     }
 
 }

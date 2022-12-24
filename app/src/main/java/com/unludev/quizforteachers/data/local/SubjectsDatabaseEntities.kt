@@ -7,7 +7,7 @@ import com.unludev.quizforteachers.domain.DomainSubjectModel
 
 @Entity(tableName = "subjects")
 data class DatabaseSubjectModel(
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = false)
     val id: Int?,
 
     @ColumnInfo(name = "subjectName")

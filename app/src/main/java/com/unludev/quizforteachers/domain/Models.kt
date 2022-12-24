@@ -16,10 +16,3 @@ data class DomainSubjectModel(
     val id: Int?,
     val subjectName: String?,
 )
-
-/**
- * her girdiginde recyclervier cogaliyor
- *
- *
- *
- */

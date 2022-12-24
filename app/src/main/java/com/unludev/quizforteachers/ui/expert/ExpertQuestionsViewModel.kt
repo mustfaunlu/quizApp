@@ -55,7 +55,7 @@ class ExpertQuestionsViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.LOADING }
             try {
-                questionsRepository.refreshQuestions(topic)
+                questionsRepository.fetchAndStoreQuestionsForTopic(topic)
                 withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.DONE }
             } catch (e: Exception) {
                 withContext(Dispatchers.Main) { _status.value = QuestionApiStatus.ERROR }
