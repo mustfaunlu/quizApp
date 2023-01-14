@@ -17,7 +17,7 @@ interface QuestionDao {
 
 
 
-@Database(entities = arrayOf(DatabaseQuestionModel::class), version = 1, exportSchema = false)
+@Database(entities = [DatabaseQuestionModel::class], version = 1, exportSchema = false)
 abstract class QuestionsDatabase : RoomDatabase() {
     abstract val questionDao: QuestionDao
 }

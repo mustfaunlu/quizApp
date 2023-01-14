@@ -8,7 +8,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
 import com.unludev.quizforteachers.R
 import com.unludev.quizforteachers.databinding.FragmentExpertQuestionsBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -17,12 +16,8 @@ import dagger.hilt.android.AndroidEntryPoint
 class ExpertQuestionsFragment : Fragment() {
 
     private lateinit var binding: FragmentExpertQuestionsBinding
-    private val args: ExpertQuestionsFragmentArgs by navArgs()
 
     private val viewModel: ExpertQuestionsViewModel by viewModels()
-
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -60,6 +55,7 @@ class ExpertQuestionsFragment : Fragment() {
             "trueOptionD", "falseOptionD" -> binding.tvAnswerD
             "trueOptionE", "falseOptionE" -> binding.tvAnswerE
             else -> {
+                //TODO() you'll modify deprecated getColor() function
                 binding.apply {
                     tvAnswerA.setBackgroundColor(resources.getColor(R.color.white))
                     tvAnswerA.setTextColor(resources.getColor(R.color.black))

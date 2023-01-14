@@ -61,7 +61,8 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_gravity="center"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    tools:ignore="UselessLeaf">
                 </LinearLayout>
 
 
@@ -206,7 +207,8 @@
     android:id="@+id/status_image"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:questionApiStatus="@{viewModel.status}"/>
+    app:questionApiStatus="@{viewModel.status}"
+    android:contentDescription="@string/status_image_for_internet_connection_issues" />
 
     </LinearLayout>
 

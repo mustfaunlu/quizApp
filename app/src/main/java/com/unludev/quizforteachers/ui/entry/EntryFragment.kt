@@ -18,9 +18,8 @@ lateinit var binding: FragmentEntryBinding
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentEntryBinding.inflate(layoutInflater, container, false)
-        val view = binding.root
 
-        return view
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

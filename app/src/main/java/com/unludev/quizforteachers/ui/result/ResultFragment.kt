@@ -33,10 +33,10 @@ class ResultFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
-            binding.tvResultCorrect.text = args.correct.toString()
-            binding.tvResultWrong.text = args.wrong.toString()
+            with(binding){
+                tvResultCorrect.text = args.correct.toString()
+                tvResultWrong.text = args.wrong.toString()
+            }
 
         binding.tvReturnHomepage.setOnClickListener {
             val action = ResultFragmentDirections.actionResultFragmentToEntryFragment()

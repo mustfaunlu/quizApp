@@ -6,6 +6,7 @@
     <string name="result_fragment_correctText">Doğru</string>
     <string name="result_fragment_wrongText">Yanlış</string>
     <string name="result_fragment_returnHomeText">Ana Sayfaya Geri Dön</string>
+    <string name="status_image_for_internet_connection_issues">status image for internet connection issues</string>
 
     <string-array name="subject_names">
         <item>Eğitimde Kapsayıcılık - 1</item>

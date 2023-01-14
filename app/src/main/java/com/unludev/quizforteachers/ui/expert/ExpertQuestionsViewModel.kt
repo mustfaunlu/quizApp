@@ -16,18 +16,18 @@ enum class QuestionApiStatus { LOADING, ERROR, DONE }
 
 @HiltViewModel
 class ExpertQuestionsViewModel @Inject constructor(
-     state: SavedStateHandle,
+    state: SavedStateHandle,
     private var questionsRepository: QuestionsRepository
-    ) : ViewModel(){
+) : ViewModel() {
 
     private val _status = MutableLiveData<QuestionApiStatus>()
-    val status: LiveData<QuestionApiStatus> = _status
+    val status: LiveData<QuestionApiStatus> get() = _status
 
     private val _question = MutableLiveData<NetworkQuestionModel>()
-    val question: LiveData<NetworkQuestionModel> = _question
+    val question: LiveData<NetworkQuestionModel> get() = _question
 
     private val _setColor = MutableLiveData("resetOptionsColors")
-    val setColor: LiveData<String> = _setColor
+    val setColor: LiveData<String> get() = _setColor
 
     private val _currentQuestion = MutableLiveData(0)
     val currentQuestion: LiveData<Int> get() = _currentQuestion
@@ -43,7 +43,8 @@ class ExpertQuestionsViewModel @Inject constructor(
 
     private var doubleClickLastTime = 0L
 
-    val questionsData: LiveData<List<DomainQuestionModel>> = questionsRepository.questions.asLiveData()
+    val questionsData: LiveData<List<DomainQuestionModel>> =
+        questionsRepository.questions.asLiveData()
 
     init {
         val topic: Int? = state["topic"]

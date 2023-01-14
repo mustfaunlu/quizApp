@@ -15,7 +15,7 @@ interface SubjectsDao {
     fun deleteAllSubjects()
 }
 
-@Database(entities = arrayOf(DatabaseSubjectModel::class), version = 1, exportSchema = false)
+@Database(entities = [DatabaseSubjectModel::class], version = 1, exportSchema = false)
 abstract class SubjectDatabase : RoomDatabase() {
     abstract val subjectsDao: SubjectsDao
 }
